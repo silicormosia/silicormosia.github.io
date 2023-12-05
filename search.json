@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This website is generated using Quarto. Should you find any issue, please report it to the GitHub Repository!"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to Yujie’s Website",
+    "section": "",
+    "text": "Yujie is Research Scientist working on plant ecophysiology, vegetation optimality, and land surface modeling."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Welcome to Yujie’s Website",
+    "section": "Education",
+    "text": "Education\n\nPhD in Biology | University of Utah, USA | 2015 - 2019\nMS in Biology | University of Science and Technology of China, China | 2011 - 2013\nBS in Biology | University of Science and Technology of China, China | 2007 - 2011"
+  },
+  {
+    "objectID": "index.html#professional-experience",
+    "href": "index.html#professional-experience",
+    "title": "Welcome to Yujie’s Website",
+    "section": "Professional Experience",
+    "text": "Professional Experience\n\n2022-present: Research Scientist, Caltech\n2020-2022: Postdoctoral Fellow, Caltech"
+  }
+]
