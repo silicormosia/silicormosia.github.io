@@ -5,26 +5,31 @@ execute:
   freeze: auto
 
 website:
-  title: "Emerald"
-  favicon: image/chip_tree.svg
+  title: "Ormosia"
+  favicon: images/chip_tree.svg
+  google-analytics: "G-YNE42XN5HT"
   navbar:
     left:
       - href: index.qmd
         text: Home
+      - people.qmd
       - blogs.qmd
       - publications.qmd
       - about.qmd
     right:
-      - icon: github
-        href: https://github.com/silicormosia
       - icon: google
         href: https://scholar.google.com/citations?user=jl95bUAAAAAJ&hl=en
       - icon: twitter
         href: https://twitter.com/wyujie666
-  google-analytics: "G-YNE42XN5HT"
+      - icon: github
+        menu:
+          - text: Source Code
+            url: https://github.com/silicormosia/silicormosia.github.io
+          - text: Report an Issue
+            url: https://github.com/silicormosia/silicormosia.github.io/issues
 
 format:
   html:
-    theme: cosmo
+    theme: lumen
     css: styles.css
-    toc: true
+    toc: false

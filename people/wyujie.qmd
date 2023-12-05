@@ -1,0 +1,46 @@
+---
+title: "WANG, Yujie"
+image: wyujie.jpg
+subtitle: "Research Scientist"
+started: "2020"
+sortby: 1
+about:
+  id: hero-heading
+  template: solana
+  image-shape: round
+  links:
+    - text: "{{< ai google-scholar >}} Google Scholar"
+      href: https://scholar.google.com/citations?user=jl95bUAAAAAJ&hl=en
+    - icon: github
+      text: GitHub
+      href: https://github.com/Yujie-W/
+    - icon: mortarboard
+      text: ResearchID
+      href: https://www.webofscience.com/wos/author/record/2464162
+    - text: "{{< iconify fa6-brands orcid >}} OrcidID"
+      href: https://orcid.org/0000-0002-3729-2743
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/wyujie666
+---
+
+### WANG, Yujie
+Research Scientist, Caltech \
+1200 E California Blvd. MC 131-24 \
+Pasadena, CA 91125, USA \
+Office: Linde 231 <a href="https://lindecenter.caltech.edu/about/contact-us"> {{< fa map >}} </a> \
+{{< fa phone >}} 626-395-2021 \
+{{< fa envelope >}} <a href="mailto:wyujie@caltech.edu">wyujie@caltech.edu</a>
+
+Yujie is Research Scientist working on plant ecophysiology, vegetation optimality, and land surface modeling.
+
+## Education
+
+- [PhD in Biology]{.fw-bold} | University of Utah, USA | 2015 -  2019
+- [MS in Biology]{.fw-bold} | University of Science and Technology of China, China | 2011 -  2013
+- [BS in Biology]{.fw-bold} | University of Science and Technology of China, China | 2007 -  2011
+
+## Professional Experience
+
+- [2022-present:]{.fw-bold} Research Scientist, Caltech
+- [2020-2022:]{.fw-bold} Postdoctoral Fellow, Caltech
