@@ -1,0 +1,15 @@
+---
+title: "People"
+listing:
+  - id: current-members
+    contents: people
+    type: grid
+    image-height: 300px
+    grid-item-align: center
+    sort: sortby
+    fields: [image, title, subtitle]
+page-layout: full
+---
+
+:::{#current-members}
+:::
