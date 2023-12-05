@@ -1,0 +1,5 @@
+---
+title: "About"
+---
+
+This website is generated using Quarto. Should you find any issue, please report it to the [GitHub Repository](https://github.com/Yujie-W/Yujie-W.github.io)!

@@ -1,0 +1,16 @@
+---
+title: "Welcome to Yujie's Website"
+---
+
+Yujie is Research Scientist working on plant ecophysiology, vegetation optimality, and land surface modeling.
+
+## Education
+
+- [PhD in Biology]{.fw-bold} | University of Utah, USA | 2015 -  2019
+- [MS in Biology]{.fw-bold} | University of Science and Technology of China, China | 2011 -  2013
+- [BS in Biology]{.fw-bold} | University of Science and Technology of China, China | 2007 -  2011
+
+## Professional Experience
+
+- [2022-present:]{.fw-bold} Research Scientist, Caltech
+- [2020-2022:]{.fw-bold} Postdoctoral Fellow, Caltech
