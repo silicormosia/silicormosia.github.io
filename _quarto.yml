@@ -5,7 +5,7 @@ execute:
   freeze: auto
 
 website:
-  title: "Emerald"
+  title: "Ormosia"
   favicon: images/chip_tree.svg
   google-analytics: "G-YNE42XN5HT"
   navbar:
