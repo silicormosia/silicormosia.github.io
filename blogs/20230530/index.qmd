@@ -1,7 +1,7 @@
 ---
 title: "Corner flowers"
 image: flower.jpg
-description: "I see the flowers everyday when I drop off my kids!"
+description: "I see the flowers everyday when I drop off my kids"
 author: "Yujie Wang"
 date: "5/30/2023"
 categories:
