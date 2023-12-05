@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/silicormosia/silicormosia.github.io/about.html</loc>
-    <lastmod>2023-12-05T17:09:33.200Z</lastmod>
+    <loc>https://github.com/silicormosia/silicormosia.github.io/publications.html</loc>
+    <lastmod>2023-12-05T17:24:14.450Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/silicormosia/silicormosia.github.io/index.html</loc>
-    <lastmod>2023-12-05T17:09:32.688Z</lastmod>
+    <lastmod>2023-12-05T17:24:13.602Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/silicormosia/silicormosia.github.io/blogs/20230530/index.html</loc>
+    <lastmod>2023-12-05T17:24:12.926Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/silicormosia/silicormosia.github.io/blogs/20230418/index.html</loc>
+    <lastmod>2023-12-05T17:24:12.338Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/silicormosia/silicormosia.github.io/blogs.html</loc>
+    <lastmod>2023-12-05T17:24:13.322Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/silicormosia/silicormosia.github.io/about.html</loc>
+    <lastmod>2023-12-05T17:24:13.842Z</lastmod>
   </url>
 </urlset>

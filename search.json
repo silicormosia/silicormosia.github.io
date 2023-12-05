@@ -1,10 +1,87 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
     "section": "",
-    "text": "This website is generated using Quarto. Should you find any issue, please report it to the GitHub Repository!"
+    "text": "N. Holtzman, , J. D. Wood, C. Frankenberg, and A. G. Konings (2023). Constraining plant hydraulics with microwave radiometry in a land surface model: Impacts of temporal resolution. Water Resources Research 59(11): e2023WR035481. BIBTEX DOI PDF SI\nY. Wang, and Y. Yin (2023). Agriculture in silico: Perspectives on radiative transfer optimization using vegetation modeling. Crop and Environment 2(4): 175-183. BIBTEX DOI PDF CODE\nR. K. Braghiere, Y. Wang, A. Gagné-Landmann, P. G. Brodrick, A. A. Bloom, A. J. Norton, S. Ma, P. Levine, M. Longo, K. Deck, P. Gentine, J. R. Worden, C. Frankenberg, and T. Schneider (2023). The importance of hyperspectral soil albedo information for improving Earth system model projections. AGU Advances 4(4): e2023AV000910. BIBTEX DOI PDF CODE\nX. Liang, D. Wang, Q. Ye, J. Zhang, M. Liu, H. Liu, K. Yu, Y. Wang, E. Hou, B. Zhong, L. Xu, T. Lv, S. Peng, H. Lu, P. Sicard, A. Anav, and D. S. Ellsworth (2023). Stomatal responses of terrestrial plants to global change. Nature Communications 14(1): 2188. BIBTEX DOI PDF\nY. Wang, R. K. Braghiere, M. Longo, A. J. Norton, P. Köhler, R. Doughty, Y. Yin, A. A. Bloom, and C. Frankenberg (2023). Modeling global vegetation gross primary productivity, transpiration and hyperspectral canopy radiative transfer simultaneously using a next generation land surface model—CliMA Land. Journal of Advances in Modeling Earth Systems 15(3): e2021MS002964. BIBTEX DOI PDF SI CODE\n\n\n\n\n\nY. Wang, and C. Frankenberg (2022). Technical note: Common ambiguities in plant hydraulics. Biogeosciences 19(19): 4705-4714. BIBTEX DOI PDF CODE\nY. Wang, P. Köhler, R. K. Braghiere, M. Longo, R. Doughty, A. A. Bloom, and C. Frankenberg (2022). GriddingMachine, a database and software for Earth system modeling at global and regional scales. Scientific Data 9: 258. BIBTEX DOI PDF CODE\nR. Doughty, T. Kurosu, N. Parazoo, P. Köhler, Y. Wang, Y. Sun, and C. Frankenberg (2022). Global GOSAT, OCO-2 and OCO-3 solar induced chlorophyll fluorescence datasets. Earth System Science Data 14(4): 1513-1529. BIBTEX DOI PDF\nY. Wang, and C. Frankenberg (2022). On the impact of canopy model complexity on simulated carbon, water, and solar-induced chlorophyll fluorescence fluxes. Biogeosciences 19(1): 29-45. BIBTEX DOI PDF CODE\n\n\n\n\n\nY. Wang, P. Köhler, L. He, R. K. Braghiere, R. Doughty, J. Wood, and C. Frankenberg (2021). Testing stomatal models at the stand level in deciduous angiosperm and evergreen gymnosperm forests using CliMA Land (v0.1). Geoscientific Model Development 14(11): 6741-6763. BIBTEX DOI PDF SI CODE\nA. G. Konings, S. S. Saatchi, C. Frankenberg, M. Keller, V. Leshyk, W. R. L. Anderegg, V. Humphrey, A. M. Matheny, A. Trugman, L. Sack, E. Agee, M. L. Barnes, O. Binks, K. Cawse-Nicholson, B. O. Christoffersen, D. Entekhabi, P. Gentine, N. M. Holtzman, G. G. Katul, Y. Liu, M. Longo, J. Martinez-Vilalta, N. McDowell, P. Meir, M. Mencuccini, A. Mrad, K. A. Novick, R. S. Oliveira, P. Siqueira, S. C. Steele-Dunne, D. R. Thompson, Y. Wang, R. Wehr, J. D. Wood, X. Xu, and P. A. Zuidema (2021). Detecting forest response to droughts with global observations of vegetation water content. Global Change Biology 27(23): 6005-6024. BIBTEX DOI PDF SI\nP. Köhler, W. W. Fischer, G. R. Rossman, J. P. Grotzinger, R. Doughty, Y. Wang, Y. Yin, and C. Frankenberg (2021). Mineral luminescence observed from space. Geophysical Research Letters 48(19): e2021GL095227. BIBTEX DOI PDF\nR. K. Braghiere, Y. Wang, R. Doughty, D. Souza, T. Magney, J. Widlowski, M. Longo, A. Bloom, J. Worden, P. Gentine, and C. Frankenberg (2021). Accounting for canopy structure improves hyperspectral radiative transfer and sun-induced chlorophyll fluorescence representations in a new generation Earth System model. Remote Sensing of Environment 261: 112497. BIBTEX DOI PDF SI CODE\nA. Potkay, A. T. Trugman, Y. Wang, M. D. Venturas, W. R. L. Anderegg, C. Mattos, and Y. Fan (2021). Coupled whole-tree optimality and xylem-hydraulics explain dynamic biomass partitioning. New Phytologist 230(6): 2226-2245. BIBTEX DOI PDF SI\nY. Wang, W. R. L. Anderegg, M. D. Venturas, A. T. Trugman, K. Yu, and C. Frankenberg (2021). Optimization theory explains nighttime stomatal responses. New Phytologist 230(4): 1550-1561. BIBTEX DOI PDF SI CODE\n\n\n\n\n\nY. Wang, J. S. Sperry, W. R. L. Anderegg, M. D. Venturas, and A. T. Trugman (2020). Tansley Review: A theoretical and empirical assessment of stomatal optimization modeling. New Phytologist 227(2): 311–325. BIBTEX DOI PDF SI CODE\n\n\n\n\n\nJ. S. Sperry, M. D. Venturas, H. N. Todd, A. T. Trugman, W. R. L. Anderegg, Y. Wang, and X. Tai (2019). The impact of rising CO₂ and acclimation on theresponse of US forests to global warming. Proceedings of the National Academy of Sciences of the United States of America 116(51): 25734–25744. BIBTEX DOI PDF SI\nA. T. Trugman, L. D. L. Anderegg, J. S. Sperry, Y. Wang, M. D. Venturas, and W. R. L. Anderegg (2019). Leveraging plant hydraulics to yield predictive and dynamic plant leaf allocation in vegetation models with climate change. Global Change Biology 25: 4008–4021. BIBTEX DOI PDF SI\nY. Wang, J. S. Sperry, M. D. Venturas, A. T. Trugman, D. D. Love, and W. R. L. Anderegg (2019). The stomatal response to rising CO₂ concentration and drought is predicted by a hydraulic trait-based optimization model. Tree Physiology 39(8): 1416–1427. BIBTEX DOI PDF SI CODE\nK. Yu, G. R. Goldsmith, Y. Wang, and W. R. L. Anderegg (2019). Phylogenetic and biogeographic controls of plant nighttime stomatal conductance. New Phytologist 222(4): 1778–1788. BIBTEX DOI PDF SI\nG. Du, F. Feng, Y. Wang, and M. T. Tyree (2019). Do nano-particles cause recalcitrant vulnerability curves in Robinia? Testing with a four-cuvette Cochard rotor and with water extraction curves. Tree Physiology 39(1): 156–165. BIBTEX DOI PDF\n\n\n\n\n\nD. M. Love, M. D. Venturas, J. S. Sperry, P. D. Brooks, J. L. Pettit, Y. Wang, and W. R. L. Anderegg (2018). Dependence of aspen stands on a subsurface water subsidy: Implications for climate change impacts. Water Resource Research 55(3): 1833–1848. BIBTEX DOI PDF SI\nM. D. Venturas, J. S. Sperry, D. M. Love, E. H. Frehner, M. G. Allred, Y. Wang, and W. R. L. Anderegg (2018). A stomatal control model based on optimization of carbon gain versus hydraulic risk predicts aspen sapling responses to drought. New Phytologist. 220(3): 836–850. BIBTEX DOI PDF SI CODE\n\n\n\n\n\nJ. S. Sperry, M. D. Venturas, W. R. L. Anderegg, M. Mencuccini, D. S. Mackay, Y. Wang, and D. M. Love (2017). Predicting stomatal responses to the environment from the optimization of photosynthetic gain and hydraulic cost. Plant Cell & Environment 40(6): 816–830. BIBTEX DOI PDF SI CODE\n\n\n\n\n\nJ. S. Sperry, Y. Wang, B. T. Wolfe, D. S. Mackay, W. R. L. Anderegg, N. G. McDowell, and W. T. Pockman (2016). Pragmatic hydraulic theory predicts stomatal responses to climatic water deficits. New Phytologist. 212(3): 577–589. BIBTEX DOI PDF SI CODE\n\n\n\n\n\nY. Wang, J. Liu, and M. T. Tyree (2015). Stem hydraulic conductivity depends on the pressure at which it is measured and how this dependence can be used to assess the tempo of bubble pressurization in recently cavitated vessels. Plant Physiology 169(4): 2597–2607. BIBTEX DOI PDF SI CODE\nY. Wang, R. Pan, and M. T. Tyree (2015). Studies on the tempo of bubble formation in recently cavitated vessels: A model to predict the pressure of air bubbles. Plant Physiology 168(2): 521–531. BIBTEX DOI PDF SI CODE\n\n\n\n\n\nY. Wang, R. Burlett, F. Feng, and M. T. Tyree (2014). Improved precision of hydraulic conductance measurements using a Cochard rotor in two different centrifuges. Journal of Plant Hydraulics 1: e-0007. BIBTEX DOI PDF CODE\n\n\n\n\n\nJ. Liu, P. Fu, Y. Wang, and K. Cao (2012). Different drought-adaptation strategies as characterized by hydraulic and water-relations traits of evergreen and deciduous figs in a tropical karst forest. Plant Science Journal 30(5): 484-493. BIBTEX DOI PDF"
+  },
+  {
+    "objectID": "publications.html#section",
+    "href": "publications.html#section",
+    "title": "Publications",
+    "section": "",
+    "text": "N. Holtzman, , J. D. Wood, C. Frankenberg, and A. G. Konings (2023). Constraining plant hydraulics with microwave radiometry in a land surface model: Impacts of temporal resolution. Water Resources Research 59(11): e2023WR035481. BIBTEX DOI PDF SI\nY. Wang, and Y. Yin (2023). Agriculture in silico: Perspectives on radiative transfer optimization using vegetation modeling. Crop and Environment 2(4): 175-183. BIBTEX DOI PDF CODE\nR. K. Braghiere, Y. Wang, A. Gagné-Landmann, P. G. Brodrick, A. A. Bloom, A. J. Norton, S. Ma, P. Levine, M. Longo, K. Deck, P. Gentine, J. R. Worden, C. Frankenberg, and T. Schneider (2023). The importance of hyperspectral soil albedo information for improving Earth system model projections. AGU Advances 4(4): e2023AV000910. BIBTEX DOI PDF CODE\nX. Liang, D. Wang, Q. Ye, J. Zhang, M. Liu, H. Liu, K. Yu, Y. Wang, E. Hou, B. Zhong, L. Xu, T. Lv, S. Peng, H. Lu, P. Sicard, A. Anav, and D. S. Ellsworth (2023). Stomatal responses of terrestrial plants to global change. Nature Communications 14(1): 2188. BIBTEX DOI PDF\nY. Wang, R. K. Braghiere, M. Longo, A. J. Norton, P. Köhler, R. Doughty, Y. Yin, A. A. Bloom, and C. Frankenberg (2023). Modeling global vegetation gross primary productivity, transpiration and hyperspectral canopy radiative transfer simultaneously using a next generation land surface model—CliMA Land. Journal of Advances in Modeling Earth Systems 15(3): e2021MS002964. BIBTEX DOI PDF SI CODE"
+  },
+  {
+    "objectID": "publications.html#section-1",
+    "href": "publications.html#section-1",
+    "title": "Publications",
+    "section": "",
+    "text": "Y. Wang, and C. Frankenberg (2022). Technical note: Common ambiguities in plant hydraulics. Biogeosciences 19(19): 4705-4714. BIBTEX DOI PDF CODE\nY. Wang, P. Köhler, R. K. Braghiere, M. Longo, R. Doughty, A. A. Bloom, and C. Frankenberg (2022). GriddingMachine, a database and software for Earth system modeling at global and regional scales. Scientific Data 9: 258. BIBTEX DOI PDF CODE\nR. Doughty, T. Kurosu, N. Parazoo, P. Köhler, Y. Wang, Y. Sun, and C. Frankenberg (2022). Global GOSAT, OCO-2 and OCO-3 solar induced chlorophyll fluorescence datasets. Earth System Science Data 14(4): 1513-1529. BIBTEX DOI PDF\nY. Wang, and C. Frankenberg (2022). On the impact of canopy model complexity on simulated carbon, water, and solar-induced chlorophyll fluorescence fluxes. Biogeosciences 19(1): 29-45. BIBTEX DOI PDF CODE"
+  },
+  {
+    "objectID": "publications.html#section-2",
+    "href": "publications.html#section-2",
+    "title": "Publications",
+    "section": "",
+    "text": "Y. Wang, P. Köhler, L. He, R. K. Braghiere, R. Doughty, J. Wood, and C. Frankenberg (2021). Testing stomatal models at the stand level in deciduous angiosperm and evergreen gymnosperm forests using CliMA Land (v0.1). Geoscientific Model Development 14(11): 6741-6763. BIBTEX DOI PDF SI CODE\nA. G. Konings, S. S. Saatchi, C. Frankenberg, M. Keller, V. Leshyk, W. R. L. Anderegg, V. Humphrey, A. M. Matheny, A. Trugman, L. Sack, E. Agee, M. L. Barnes, O. Binks, K. Cawse-Nicholson, B. O. Christoffersen, D. Entekhabi, P. Gentine, N. M. Holtzman, G. G. Katul, Y. Liu, M. Longo, J. Martinez-Vilalta, N. McDowell, P. Meir, M. Mencuccini, A. Mrad, K. A. Novick, R. S. Oliveira, P. Siqueira, S. C. Steele-Dunne, D. R. Thompson, Y. Wang, R. Wehr, J. D. Wood, X. Xu, and P. A. Zuidema (2021). Detecting forest response to droughts with global observations of vegetation water content. Global Change Biology 27(23): 6005-6024. BIBTEX DOI PDF SI\nP. Köhler, W. W. Fischer, G. R. Rossman, J. P. Grotzinger, R. Doughty, Y. Wang, Y. Yin, and C. Frankenberg (2021). Mineral luminescence observed from space. Geophysical Research Letters 48(19): e2021GL095227. BIBTEX DOI PDF\nR. K. Braghiere, Y. Wang, R. Doughty, D. Souza, T. Magney, J. Widlowski, M. Longo, A. Bloom, J. Worden, P. Gentine, and C. Frankenberg (2021). Accounting for canopy structure improves hyperspectral radiative transfer and sun-induced chlorophyll fluorescence representations in a new generation Earth System model. Remote Sensing of Environment 261: 112497. BIBTEX DOI PDF SI CODE\nA. Potkay, A. T. Trugman, Y. Wang, M. D. Venturas, W. R. L. Anderegg, C. Mattos, and Y. Fan (2021). Coupled whole-tree optimality and xylem-hydraulics explain dynamic biomass partitioning. New Phytologist 230(6): 2226-2245. BIBTEX DOI PDF SI\nY. Wang, W. R. L. Anderegg, M. D. Venturas, A. T. Trugman, K. Yu, and C. Frankenberg (2021). Optimization theory explains nighttime stomatal responses. New Phytologist 230(4): 1550-1561. BIBTEX DOI PDF SI CODE"
+  },
+  {
+    "objectID": "publications.html#section-3",
+    "href": "publications.html#section-3",
+    "title": "Publications",
+    "section": "",
+    "text": "Y. Wang, J. S. Sperry, W. R. L. Anderegg, M. D. Venturas, and A. T. Trugman (2020). Tansley Review: A theoretical and empirical assessment of stomatal optimization modeling. New Phytologist 227(2): 311–325. BIBTEX DOI PDF SI CODE"
+  },
+  {
+    "objectID": "publications.html#section-4",
+    "href": "publications.html#section-4",
+    "title": "Publications",
+    "section": "",
+    "text": "J. S. Sperry, M. D. Venturas, H. N. Todd, A. T. Trugman, W. R. L. Anderegg, Y. Wang, and X. Tai (2019). The impact of rising CO₂ and acclimation on theresponse of US forests to global warming. Proceedings of the National Academy of Sciences of the United States of America 116(51): 25734–25744. BIBTEX DOI PDF SI\nA. T. Trugman, L. D. L. Anderegg, J. S. Sperry, Y. Wang, M. D. Venturas, and W. R. L. Anderegg (2019). Leveraging plant hydraulics to yield predictive and dynamic plant leaf allocation in vegetation models with climate change. Global Change Biology 25: 4008–4021. BIBTEX DOI PDF SI\nY. Wang, J. S. Sperry, M. D. Venturas, A. T. Trugman, D. D. Love, and W. R. L. Anderegg (2019). The stomatal response to rising CO₂ concentration and drought is predicted by a hydraulic trait-based optimization model. Tree Physiology 39(8): 1416–1427. BIBTEX DOI PDF SI CODE\nK. Yu, G. R. Goldsmith, Y. Wang, and W. R. L. Anderegg (2019). Phylogenetic and biogeographic controls of plant nighttime stomatal conductance. New Phytologist 222(4): 1778–1788. BIBTEX DOI PDF SI\nG. Du, F. Feng, Y. Wang, and M. T. Tyree (2019). Do nano-particles cause recalcitrant vulnerability curves in Robinia? Testing with a four-cuvette Cochard rotor and with water extraction curves. Tree Physiology 39(1): 156–165. BIBTEX DOI PDF"
+  },
+  {
+    "objectID": "publications.html#section-5",
+    "href": "publications.html#section-5",
+    "title": "Publications",
+    "section": "",
+    "text": "D. M. Love, M. D. Venturas, J. S. Sperry, P. D. Brooks, J. L. Pettit, Y. Wang, and W. R. L. Anderegg (2018). Dependence of aspen stands on a subsurface water subsidy: Implications for climate change impacts. Water Resource Research 55(3): 1833–1848. BIBTEX DOI PDF SI\nM. D. Venturas, J. S. Sperry, D. M. Love, E. H. Frehner, M. G. Allred, Y. Wang, and W. R. L. Anderegg (2018). A stomatal control model based on optimization of carbon gain versus hydraulic risk predicts aspen sapling responses to drought. New Phytologist. 220(3): 836–850. BIBTEX DOI PDF SI CODE"
+  },
+  {
+    "objectID": "publications.html#section-6",
+    "href": "publications.html#section-6",
+    "title": "Publications",
+    "section": "",
+    "text": "J. S. Sperry, M. D. Venturas, W. R. L. Anderegg, M. Mencuccini, D. S. Mackay, Y. Wang, and D. M. Love (2017). Predicting stomatal responses to the environment from the optimization of photosynthetic gain and hydraulic cost. Plant Cell & Environment 40(6): 816–830. BIBTEX DOI PDF SI CODE"
+  },
+  {
+    "objectID": "publications.html#section-7",
+    "href": "publications.html#section-7",
+    "title": "Publications",
+    "section": "",
+    "text": "J. S. Sperry, Y. Wang, B. T. Wolfe, D. S. Mackay, W. R. L. Anderegg, N. G. McDowell, and W. T. Pockman (2016). Pragmatic hydraulic theory predicts stomatal responses to climatic water deficits. New Phytologist. 212(3): 577–589. BIBTEX DOI PDF SI CODE"
+  },
+  {
+    "objectID": "publications.html#section-8",
+    "href": "publications.html#section-8",
+    "title": "Publications",
+    "section": "",
+    "text": "Y. Wang, J. Liu, and M. T. Tyree (2015). Stem hydraulic conductivity depends on the pressure at which it is measured and how this dependence can be used to assess the tempo of bubble pressurization in recently cavitated vessels. Plant Physiology 169(4): 2597–2607. BIBTEX DOI PDF SI CODE\nY. Wang, R. Pan, and M. T. Tyree (2015). Studies on the tempo of bubble formation in recently cavitated vessels: A model to predict the pressure of air bubbles. Plant Physiology 168(2): 521–531. BIBTEX DOI PDF SI CODE"
+  },
+  {
+    "objectID": "publications.html#section-9",
+    "href": "publications.html#section-9",
+    "title": "Publications",
+    "section": "",
+    "text": "Y. Wang, R. Burlett, F. Feng, and M. T. Tyree (2014). Improved precision of hydraulic conductance measurements using a Cochard rotor in two different centrifuges. Journal of Plant Hydraulics 1: e-0007. BIBTEX DOI PDF CODE"
+  },
+  {
+    "objectID": "publications.html#earlier",
+    "href": "publications.html#earlier",
+    "title": "Publications",
+    "section": "",
+    "text": "J. Liu, P. Fu, Y. Wang, and K. Cao (2012). Different drought-adaptation strategies as characterized by hydraulic and water-relations traits of evergreen and deciduous figs in a tropical karst forest. Plant Science Journal 30(5): 484-493. BIBTEX DOI PDF"
   },
   {
     "objectID": "index.html",
@@ -26,5 +103,33 @@
     "title": "Welcome to Yujie’s Website",
     "section": "Professional Experience",
     "text": "Professional Experience\n\n2022-present: Research Scientist, Caltech\n2020-2022: Postdoctoral Fellow, Caltech"
+  },
+  {
+    "objectID": "blogs/20230530/index.html",
+    "href": "blogs/20230530/index.html",
+    "title": "Corner flowers",
+    "section": "",
+    "text": "I can see the flowers every day\nBinded to a red “STOP ALL WAY”\nSeems to be a unforgettable price to pay\nBut by a wrong jogger off the walkway\n\nSome cry for the bedtime story\nSome lose their amatory\nSome dig the albums for memory\nYet, some claim innocense as victory\n\nFew prunes the trees in December\nBut we all need visuals to remember\nWhile 35 is a default number\nOnly slow traffic would encumber\n\nThe dusts, the stones, and the rocks\nThe grass, the shrubs, and the hemlocks\nThe flies, the parrots, and the peacocks\nThe xings, the streets, and the blocks\n\nPeople barely count to three not to say seven\nFor all STOPs besides Allen\nRules that remembered and then forgortten\nRules that blur lower world and heaven"
+  },
+  {
+    "objectID": "blogs/20230418/index.html",
+    "href": "blogs/20230418/index.html",
+    "title": "Two-legged crow",
+    "section": "",
+    "text": "It is going to be the time to sow\nAlthough the garden is still covered with snow\nYet it does not hurt to pre-mesh the column and row\nAnd may in your greenhouse the seeds grow\n\nWe will need the water and the air\nThe fertilization need rises in pair\nWe can imagine the uncoupled nightmare\nBut at this moment nobody would care\n\nWe prepare the seeds\nWe are also ready to remove the weeds\nWe are waiting for the warm breeze\nYet, after months the liquid water is still freeze\n\nThe plants are stuck in the tight\nGrowing the shoots toward the bright\nDespite the soil there in sight\nThe environment is just not right\n\nDown the heaven falls a two-legged crow\nSo haughty to ask us to bow\n“Without me the soil water won’t flow\nWithout me the wind won’t blow”\n\n“All things are governed by the physical rules\nMass in kilograms and energy in joules\nRegardless the mountains, deserts, plains, or tules\nFor all the solid, liquid, or air molecules”\n\n“Welcome to my new land\nYou have access to silt, clay, loam, and sand\nIt is the mother of humankind\nIt is the time to let your plants expand”\n\n“But hold on, do not move your grown plants\nThat is not what the lord grants\nI do not care about your rants\nThey cannot be individuals, not to say the complicated mutants”\n\n“The nature of beauty is simplicity\nSimple means better scalarity\nSimple means more opacity and capacity\nSimple means readily parallelity”\n\nI am in such a rage\nI have to put the crow in a cage\nTo freedom and love that I engage\nBlessless that I try a new voyage\n\nThe dead seeks entropy increase\nThe live pursues maximal please\nIf the decision making right is to tease\nThat is when evolutions cease\n\nI abhor the dead rules and spat the two-legged crow\nBuild my own garden and manage the flow\nYet, I hear helpless scream inside the window\n“The lord will forbid you from air and punish you with endless snow”"
+  },
+  {
+    "objectID": "blogs.html",
+    "href": "blogs.html",
+    "title": "Blogs",
+    "section": "",
+    "text": "Corner flowers\n\n\n\n\n\n\n\nPoem\n\n\n\n\nI see the flowers everyday when I drop off my kids!\n\n\n\n\n\n\nMay 30, 2023\n\n\nYujie Wang\n\n\n\n\n\n\n  \n\n\n\n\nTwo-legged crow\n\n\n\n\n\n\n\nPoem\n\n\n\n\nI am really pissed off by the two legged crow who thinks she has three!\n\n\n\n\n\n\nApr 18, 2023\n\n\nYujie Wang\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This website is generated using Quarto. Should you find any issue, please report it to the GitHub Repository!"
   }
 ]
