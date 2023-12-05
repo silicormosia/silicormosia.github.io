@@ -84,39 +84,11 @@
     "text": "J. Liu, P. Fu, Y. Wang, and K. Cao (2012). Different drought-adaptation strategies as characterized by hydraulic and water-relations traits of evergreen and deciduous figs in a tropical karst forest. Plant Science Journal 30(5): 484-493. BIBTEX DOI PDF"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to Yujie’s Website",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Yujie is Research Scientist working on plant ecophysiology, vegetation optimality, and land surface modeling."
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Welcome to Yujie’s Website",
-    "section": "Education",
-    "text": "Education\n\nPhD in Biology | University of Utah, USA | 2015 - 2019\nMS in Biology | University of Science and Technology of China, China | 2011 - 2013\nBS in Biology | University of Science and Technology of China, China | 2007 - 2011"
-  },
-  {
-    "objectID": "index.html#professional-experience",
-    "href": "index.html#professional-experience",
-    "title": "Welcome to Yujie’s Website",
-    "section": "Professional Experience",
-    "text": "Professional Experience\n\n2022-present: Research Scientist, Caltech\n2020-2022: Postdoctoral Fellow, Caltech"
-  },
-  {
-    "objectID": "blogs/20230530/index.html",
-    "href": "blogs/20230530/index.html",
-    "title": "Corner flowers",
-    "section": "",
-    "text": "I can see the flowers every day\nBinded to a red “STOP ALL WAY”\nSeems to be a unforgettable price to pay\nBut by a wrong jogger off the walkway\n\nSome cry for the bedtime story\nSome lose their amatory\nSome dig the albums for memory\nYet, some claim innocense as victory\n\nFew prunes the trees in December\nBut we all need visuals to remember\nWhile 35 is a default number\nOnly slow traffic would encumber\n\nThe dusts, the stones, and the rocks\nThe grass, the shrubs, and the hemlocks\nThe flies, the parrots, and the peacocks\nThe xings, the streets, and the blocks\n\nPeople barely count to three not to say seven\nFor all STOPs besides Allen\nRules that remembered and then forgortten\nRules that blur lower world and heaven"
-  },
-  {
-    "objectID": "blogs/20230418/index.html",
-    "href": "blogs/20230418/index.html",
-    "title": "Two-legged crow",
-    "section": "",
-    "text": "It is going to be the time to sow\nAlthough the garden is still covered with snow\nYet it does not hurt to pre-mesh the column and row\nAnd may in your greenhouse the seeds grow\n\nWe will need the water and the air\nThe fertilization need rises in pair\nWe can imagine the uncoupled nightmare\nBut at this moment nobody would care\n\nWe prepare the seeds\nWe are also ready to remove the weeds\nWe are waiting for the warm breeze\nYet, after months the liquid water is still freeze\n\nThe plants are stuck in the tight\nGrowing the shoots toward the bright\nDespite the soil there in sight\nThe environment is just not right\n\nDown the heaven falls a two-legged crow\nSo haughty to ask us to bow\n“Without me the soil water won’t flow\nWithout me the wind won’t blow”\n\n“All things are governed by the physical rules\nMass in kilograms and energy in joules\nRegardless the mountains, deserts, plains, or tules\nFor all the solid, liquid, or air molecules”\n\n“Welcome to my new land\nYou have access to silt, clay, loam, and sand\nIt is the mother of humankind\nIt is the time to let your plants expand”\n\n“But hold on, do not move your grown plants\nThat is not what the lord grants\nI do not care about your rants\nThey cannot be individuals, not to say the complicated mutants”\n\n“The nature of beauty is simplicity\nSimple means better scalarity\nSimple means more opacity and capacity\nSimple means readily parallelity”\n\nI am in such a rage\nI have to put the crow in a cage\nTo freedom and love that I engage\nBlessless that I try a new voyage\n\nThe dead seeks entropy increase\nThe live pursues maximal please\nIf the decision making right is to tease\nThat is when evolutions cease\n\nI abhor the dead rules and spat the two-legged crow\nBuild my own garden and manage the flow\nYet, I hear helpless scream inside the window\n“The lord will forbid you from air and punish you with endless snow”"
+    "text": "This website is generated using Quarto. Should you find any issue, please report it to the GitHub Repository!"
   },
   {
     "objectID": "blogs.html",
@@ -126,10 +98,52 @@
     "text": "Corner flowers\n\n\n\n\n\n\n\nPoem\n\n\n\n\nI see the flowers everyday when I drop off my kids!\n\n\n\n\n\n\nMay 30, 2023\n\n\nYujie Wang\n\n\n\n\n\n\n  \n\n\n\n\nTwo-legged crow\n\n\n\n\n\n\n\nPoem\n\n\n\n\nI am really pissed off by the two legged crow who thinks she has three!\n\n\n\n\n\n\nApr 18, 2023\n\n\nYujie Wang\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "blogs/20230418/index.html",
+    "href": "blogs/20230418/index.html",
+    "title": "Two-legged crow",
     "section": "",
-    "text": "This website is generated using Quarto. Should you find any issue, please report it to the GitHub Repository!"
+    "text": "It is going to be the time to sow\nAlthough the garden is still covered with snow\nYet it does not hurt to pre-mesh the column and row\nAnd may in your greenhouse the seeds grow\n\nWe will need the water and the air\nThe fertilization need rises in pair\nWe can imagine the uncoupled nightmare\nBut at this moment nobody would care\n\nWe prepare the seeds\nWe are also ready to remove the weeds\nWe are waiting for the warm breeze\nYet, after months the liquid water is still freeze\n\nThe plants are stuck in the tight\nGrowing the shoots toward the bright\nDespite the soil there in sight\nThe environment is just not right\n\nDown the heaven falls a two-legged crow\nSo haughty to ask us to bow\n“Without me the soil water won’t flow\nWithout me the wind won’t blow”\n\n“All things are governed by the physical rules\nMass in kilograms and energy in joules\nRegardless the mountains, deserts, plains, or tules\nFor all the solid, liquid, or air molecules”\n\n“Welcome to my new land\nYou have access to silt, clay, loam, and sand\nIt is the mother of humankind\nIt is the time to let your plants expand”\n\n“But hold on, do not move your grown plants\nThat is not what the lord grants\nI do not care about your rants\nThey cannot be individuals, not to say the complicated mutants”\n\n“The nature of beauty is simplicity\nSimple means better scalarity\nSimple means more opacity and capacity\nSimple means readily parallelity”\n\nI am in such a rage\nI have to put the crow in a cage\nTo freedom and love that I engage\nBlessless that I try a new voyage\n\nThe dead seeks entropy increase\nThe live pursues maximal please\nIf the decision making right is to tease\nThat is when evolutions cease\n\nI abhor the dead rules and spat the two-legged crow\nBuild my own garden and manage the flow\nYet, I hear helpless scream inside the window\n“The lord will forbid you from air and punish you with endless snow”"
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
+    "section": "",
+    "text": "WANG, Yujie\n\n\nResearch Scientist\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blogs/20230530/index.html",
+    "href": "blogs/20230530/index.html",
+    "title": "Corner flowers",
+    "section": "",
+    "text": "I can see the flowers every day\nBinded to a red “STOP ALL WAY”\nSeems to be a unforgettable price to pay\nBut by a wrong jogger off the walkway\n\nSome cry for the bedtime story\nSome lose their amatory\nSome dig the albums for memory\nYet, some claim innocense as victory\n\nFew prunes the trees in December\nBut we all need visuals to remember\nWhile 35 is a default number\nOnly slow traffic would encumber\n\nThe dusts, the stones, and the rocks\nThe grass, the shrubs, and the hemlocks\nThe flies, the parrots, and the peacocks\nThe xings, the streets, and the blocks\n\nPeople barely count to three not to say seven\nFor all STOPs besides Allen\nRules that remembered and then forgortten\nRules that blur lower world and heaven"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to Yujie’s Website",
+    "section": "",
+    "text": "WANG, Yujie\nResearch Scientist, Caltech\n1200 E California Blvd. MC 131-24\nPasadena, CA 91125, USA\nOffice: Linde 231   \n +1 626-395-2021\n wyujie@caltech.edu"
+  },
+  {
+    "objectID": "people/wyujie.html",
+    "href": "people/wyujie.html",
+    "title": "WANG, Yujie",
+    "section": "",
+    "text": "Research Scientist, Caltech\n1200 E California Blvd. MC 131-24\nPasadena, CA 91125, USA\nOffice: Linde 231   \n 626-395-2021\n wyujie@caltech.edu\nYujie is Research Scientist working on plant ecophysiology, vegetation optimality, and land surface modeling."
+  },
+  {
+    "objectID": "people/wyujie.html#education",
+    "href": "people/wyujie.html#education",
+    "title": "WANG, Yujie",
+    "section": "Education",
+    "text": "Education\n\nPhD in Biology | University of Utah, USA | 2015 - 2019\nMS in Biology | University of Science and Technology of China, China | 2011 - 2013\nBS in Biology | University of Science and Technology of China, China | 2007 - 2011"
+  },
+  {
+    "objectID": "people/wyujie.html#professional-experience",
+    "href": "people/wyujie.html#professional-experience",
+    "title": "WANG, Yujie",
+    "section": "Professional Experience",
+    "text": "Professional Experience\n\n2022-present: Research Scientist, Caltech\n2020-2022: Postdoctoral Fellow, Caltech"
   }
 ]

@@ -5,5 +5,11 @@
       "/blogs/20230530/index.html",
       "/blogs/20230418/index.html"
     ]
+  },
+  {
+    "listing": "/people.html",
+    "items": [
+      "/people/wyujie.html"
+    ]
   }
 ]
