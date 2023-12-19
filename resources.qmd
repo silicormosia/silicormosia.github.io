@@ -1,0 +1,43 @@
+---
+title: "Resources"
+toc: true
+---
+
+## Data
+
+- **Y. Wang** (2023).
+  CliMA Land global simulations archive.
+  Zenodo.
+  [DOI](https://doi.org/10.5281/zenodo.7526232)
+
+- **Y. Wang** (2023).
+  CliMA Land code archive.
+  Zenodo.
+  [DOI](https://doi.org/10.5281/zenodo.7526252)
+
+- **Y. Wang** (2021).
+  Artifacts of GriddingMachine.jl (v0.2) for land modeling.
+  CaltechDATA.
+  [DOI](http://dx.doi.org/10.22002/D1.2129)
+
+- **Y. Wang** (2021).
+  Test CliMA Land model with flux tower and TROPOMI SIF datasets.
+  Zenodo.
+  [DOI](https://doi.org/10.5281/zenodo.4762775)
+
+## Posters
+
+- **Y. Wang**, J. S. Sperry, M. D. Venturas, A. T. Trugman, and W. R. L. Anderegg.
+  Modeling leaf investment within optimality theory.
+  AGU 2019 Fall Meeting.
+  [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/posters/2019-wang-agu.pdf)
+
+## Software
+
+- [CliMA Land](https://github.com/CliMA/Land)
+- [CliMA Land Global Simulation v0.1 (private)](https://github.com/Yujie-W/ClimaLand-0.1)
+- [Emerald](https://github.com/Yujie-W/Emerald)
+- [EmeraldVisualization](https://github.com/Yujie-W/EmeraldVisualization)
+- [GriddingMachine.jl](https://github.com/CliMA/GriddingMachine.jl)
+- [Ormosia (private)](https://github.com/Yujie-W/Ormosia)
+- [Published Code](https://github.com/Yujie-WANG/Published-Codes-Yujie-WANG)

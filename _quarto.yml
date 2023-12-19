@@ -15,6 +15,7 @@ website:
       - people.qmd
       - blogs.qmd
       - publications.qmd
+      - resources.qmd
       - about.qmd
     right:
       - icon: google
@@ -33,3 +34,6 @@ format:
     theme: lumen
     css: styles.css
     toc: false
+    grid:
+      body-width: 1200px
+      margin-width: 200px
