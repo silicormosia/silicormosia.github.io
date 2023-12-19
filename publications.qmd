@@ -9,7 +9,7 @@ toc: true
 
 ## 2023
 
-- N. Holtzman, \colorbox{lightgray}{Y. Wang}, J. D. Wood, C. Frankenberg, and A. G. Konings (2023).
+- N. Holtzman, Y. Wang, J. D. Wood, C. Frankenberg, and A. G. Konings (2023).
   Constraining plant hydraulics with microwave radiometry in a land surface model: Impacts of temporal resolution.
   Water Resources Research 59(11): e2023WR035481.
   [BIBTEX](https://github.com/silicormosia/silicormosia.github.io/raw/main/bibtex/holtzman2023constraining.bib)
