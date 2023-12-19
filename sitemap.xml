@@ -1,35 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/silicormosia/silicormosia.github.io/publications.html</loc>
-    <lastmod>2023-12-05T21:41:11.569Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/silicormosia/silicormosia.github.io/about.html</loc>
-    <lastmod>2023-12-05T21:41:10.737Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/silicormosia/silicormosia.github.io/blogs.html</loc>
-    <lastmod>2023-12-05T21:41:10.253Z</lastmod>
+    <loc>https://github.com/silicormosia/silicormosia.github.io/blogs/20230530/index.html</loc>
+    <lastmod>2023-12-19T21:29:23.645Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/silicormosia/silicormosia.github.io/blogs/20230418/index.html</loc>
-    <lastmod>2023-12-05T21:41:09.589Z</lastmod>
+    <lastmod>2023-12-19T21:29:23.093Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/silicormosia/silicormosia.github.io/blogs/20210930/index.html</loc>
+    <lastmod>2023-12-19T21:29:22.437Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/silicormosia/silicormosia.github.io/people.html</loc>
-    <lastmod>2023-12-05T21:41:08.957Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/silicormosia/silicormosia.github.io/blogs/20230530/index.html</loc>
-    <lastmod>2023-12-05T21:41:09.877Z</lastmod>
+    <lastmod>2023-12-19T21:29:21.453Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/silicormosia/silicormosia.github.io/index.html</loc>
-    <lastmod>2023-12-05T21:41:10.505Z</lastmod>
+    <lastmod>2023-12-19T21:29:20.853Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/silicormosia/silicormosia.github.io/about.html</loc>
+    <lastmod>2023-12-19T21:29:19.833Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/silicormosia/silicormosia.github.io/publications.html</loc>
+    <lastmod>2023-12-19T21:29:20.589Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/silicormosia/silicormosia.github.io/people/wyujie.html</loc>
-    <lastmod>2023-12-05T21:41:11.021Z</lastmod>
+    <lastmod>2023-12-19T21:29:21.165Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/silicormosia/silicormosia.github.io/blogs.html</loc>
+    <lastmod>2023-12-19T21:29:22.025Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/silicormosia/silicormosia.github.io/blogs/20230501/index.html</loc>
+    <lastmod>2023-12-19T21:29:22.797Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/silicormosia/silicormosia.github.io/blogs/20220817/index.html</loc>
+    <lastmod>2023-12-19T21:29:23.397Z</lastmod>
   </url>
 </urlset>

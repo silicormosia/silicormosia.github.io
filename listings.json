@@ -1,15 +1,18 @@
 [
   {
-    "listing": "/blogs.html",
-    "items": [
-      "/blogs/20230530/index.html",
-      "/blogs/20230418/index.html"
-    ]
-  },
-  {
     "listing": "/people.html",
     "items": [
       "/people/wyujie.html"
+    ]
+  },
+  {
+    "listing": "/blogs.html",
+    "items": [
+      "/blogs/20230530/index.html",
+      "/blogs/20230501/index.html",
+      "/blogs/20230418/index.html",
+      "/blogs/20220817/index.html",
+      "/blogs/20210930/index.html"
     ]
   }
 ]
