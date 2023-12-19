@@ -28,9 +28,126 @@ toc: true
 ## Posters
 
 - **Y. Wang**, J. S. Sperry, M. D. Venturas, A. T. Trugman, and W. R. L. Anderegg.
+  2019.
+  AGU Fall Meeting:
   Modeling leaf investment within optimality theory.
-  AGU 2019 Fall Meeting.
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/posters/2019-wang-agu.pdf)
+
+## Slides
+
+- **Y. Wang**, R. K. Braghiere, and C. Frankenberg.
+  2023.
+  Talk @ AGU Fall Meeting:
+  Moving toward hyperspectral canopy radiative transfer in Earth system modeling.
+  [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/talks/2023-wang-agu.pdf)
+
+- **Y. Wang**.
+  2023.
+  Faculty Job Talk @ University of Hong Kong:
+  Moving toward the next-generation land surface modeling.
+  [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/talks/2023-wang-hku.pdf)
+
+- **Y. Wang**.
+  2023.
+  Seminar @ Peking University:
+  Next generation land surface model and global carbon cycle.
+  [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/talks/2023-wang-china.pdf)
+
+- **Y. Wang**.
+  2023.
+  Seminar @ University of Science and Technology of China:
+  Next generation land surface model and global carbon cycle.
+  [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/talks/2023-wang-china.pdf)
+
+- **Y. Wang**, R. K. Braghiere, A. A. Bloom, and C. Frankenberg.
+  2023.
+  Talk @ EGU General Assembly:
+  Modeling global vegetation processes and hyperspectral canopy radiative transfer using CliMA Land.
+  [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/talks/2023-wang-egu.pdf)
+
+- **Y. Wang**.
+  2023.
+  Seminar @ JPL Carbon Club:
+  Modeling global vegetation processes using a next-generation land surface model—CliMA Land.
+  [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/talks/2023-wang-jpl.pdf)
+
+- **Y. Wang**.
+  2023.
+  Faculty Job Talk @ University of Central Florida:
+  Modeling vegetation processes from organ to global scale.
+  [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/talks/2023-wang-ucf.pdf)
+
+- **Y. Wang**.
+  2022.
+  Seminar @ 2nd Model Hierarchy Workshop:
+  GriddingMachine.jl: A database and software for Earth system modeling.
+  [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/talks/2022-wang-hierarchy.pdf)
+
+- **Y. Wang**.
+  2022.
+  Talk @ RUBISCO SFA:
+  Modeling canopy fluxes and optical properties using CliMA Land.
+  [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/talks/2022-wang-rubisco.pdf)
+
+- **Y. Wang**.
+  2022.
+  Talk @ GeoCarb Science Meeting:
+  Modeling canopy fluxes and optical properties using CliMA Land.
+  [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/talks/2022-wang-geocarb.pdf)
+
+- **Y. Wang**.
+  2020.
+  Seminar @ JPL Carbon Club:
+  Modeling optimal leaf area and photosynthetic capacity from plant traits and climate.
+  [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/talks/2020-wang-jpl.pdf)
+
+- **Y. Wang**.
+  2020.
+  Seminar @ Huazhong Agriculture University:
+  Plant hydraulics and stomatal control.
+  [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/talks/2020-wang-hzau.pdf)
+
+- **Y. Wang**.
+  2019.
+  PhD Defense @ University of Utah:
+  Carbon gain and risk in modeling leaf gas exchange.
+  [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/talks/2019-wang-utah.pdf)
+
+- **Y. Wang**.
+  2019.
+  Postdoc Job Talk @ California Institute of Technology:
+  Improve leaf gas exchange modeling with gain vs. risk optimization.
+  [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/talks/2019-wang-caltech.pdf)
+
+- **Y. Wang**.
+  2019.
+  TGIF Seminar @ University of Utah:
+  How to stack chloroplasts in palisade mesophyll?
+  [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/talks/2019-wang-tgif.zip)
+
+- **Y. Wang**.
+  2018.
+  Seminar @ Institute of Applied Ecology:
+  Modeling the stomatal control from plant physiological traits.
+  [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/talks/2018-wang-iae.pdf)
+
+- **Y. Wang**.
+  2018.
+  Seminar @ Guangxi University:
+  Modeling the stomatal control from plant physiological traits.
+  [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/talks/2018-wang-gxu.pdf)
+
+- **Y. Wang**.
+  2018.
+  TGIF Seminar @ University of Utah:
+  Evolutionary drivers of stomatal size and density.
+  [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/talks/2018-wang-tgif.pdf)
+
+- **Y. Wang**.
+  2017.
+  TGIF Seminar @ University of Utah:
+  Modelling the trade-off between water usage and photosynthesis in trees.
+  [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/talks/2017-wang-tgif.pdf)
 
 ## Software
 
