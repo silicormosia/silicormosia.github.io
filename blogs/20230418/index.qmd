@@ -1,7 +1,7 @@
 ---
 title: "Two-legged crow"
 image: crow.jpg
-description: "I am really pissed off by the two legged crow who thinks she has three!"
+description: "I am really pissed off by the two legged crow who thinks she has three"
 author: "Yujie Wang"
 date: "4/18/2023"
 categories:
