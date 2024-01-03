@@ -24,23 +24,36 @@ about:
       href: https://twitter.com/wyujie666
 ---
 
-### WANG, Yujie
 Research Scientist, Caltech \
 1200 E California Blvd. MC 131-24 \
 Pasadena, CA 91125, USA \
-Office: Linde 231 <a href="https://lindecenter.caltech.edu/about/contact-us"> {{< fa map >}} </a> \
+Office: Linde 231 [{{< fa map >}}](https://lindecenter.caltech.edu/about/contact-us) \
 {{< fa phone >}} 626-395-2021 \
-{{< fa envelope >}} <a href="mailto:wyujie@caltech.edu">wyujie@caltech.edu</a>
+{{< fa envelope >}} [wyujie@caltech.edu](mailto:wyujie@caltech.edu)
 
 Yujie is Research Scientist working on plant ecophysiology, vegetation optimality, and land surface modeling.
-
-## Education
-
-- [PhD in Biology]{.fw-bold} | University of Utah, USA | 2015 -  2019
-- [MS in Biology]{.fw-bold} | University of Science and Technology of China, China | 2011 -  2013
-- [BS in Biology]{.fw-bold} | University of Science and Technology of China, China | 2007 -  2011
 
 ## Professional Experience
 
 - [2022-present:]{.fw-bold} Research Scientist, Caltech
 - [2020-2022:]{.fw-bold} Postdoctoral Fellow, Caltech
+
+## Education
+
+- [PhD in Biology]{.fw-bold} | University of Utah, USA | 2015 - 2019
+- [MS in Biology]{.fw-bold} | University of Science and Technology of China, China | 2011 - 2013
+- [BS in Biology]{.fw-bold} | University of Science and Technology of China, China | 2007 - 2011
+
+## Thesis & Dissertation
+- PhD. 2020.
+  Carbon gain and risk in leaf gas exchange.
+  University of Utah.
+  Advised by Dr. John S. Sperry.
+- PhD Candidate. 2017.
+  Research Proposal.
+  University of Utah.
+  Advised by Dr. John S. Sperry.
+- Master. 2013.
+  Theory and model of centrifuge method in vulnerbility curve.
+  University of Science and Technology of China.
+  Advised by Dr. Kunfang Cao and Dr. Melvin T. Tyree.
