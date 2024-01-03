@@ -1,0 +1,29 @@
+---
+title: "Agriculture in silico"
+image: paper.png
+description: "Agriculture in silico: Use of vegetation modeling for crop yield advances"
+author: "Yujie Wang"
+date: "1/3/2024"
+categories:
+  - Paper
+---
+
+There are many ways to improve crop yield, and the approaches can be categorized to
+
+- trait enhancement (e.g., breeding)
+- water use (e.g., irrigation, fertilization, and mulching), and
+- light use (e.g., density control and vertical farming).
+
+However, these efforts are all very time consuming to find an optimized solution. Thus, there is increasing demand for a uniform tool to evaluate these approaches. One solution is to combine the agricultural practices with vegetation modeling to help explore the possible combinations of approaches to advance the crop yield. Here, we reviewed the trials and practices that aim to improve crop yield through light use at different stages.
+
+![Fig. 1 Strategies that can be used to improve crop yield through canopy radiation optimization.](strategies.jpg)
+
+For example, one can
+
+- optimize chlorophyll content to improve the light condition in the lower canopy,
+- implement chlorophyll d and f to increase the near infrared light absorption,
+- optimize crop density and space to improve light condition in the lower canopy,
+- mix crop to maximize light absorption in the lower canopy, and
+- optimize the supplemental light spectra and power.
+
+We used [CliMA Land](https://github.com/CliMA/Land) to quantitatively evaluate the potentials of the proposed approaches, and thus that of vegetation modeling. This work has recently been published in the Crop and Environment ([doi:10.1016/j.crope.2023.07.003](https://doi.org/10.1016/j.crope.2023.07.003)). We believe that future efforts in advancing vegetation modeling and bridging it to agriculture will better guide real-world agricultural practices.
