@@ -1,0 +1,54 @@
+---
+title: "GriddingMachine Tutorial 1"
+image: ../../images/griddingmachine.svg
+description: "How to install different versions of GriddingMachine.jl?"
+author: "Yujie Wang"
+date: "1/12/2024"
+categories:
+  - Tutorial
+---
+
+[GriddingMachine.jl](https://github.com/CliMA/GriddingMachine.jl) is a software and database designed to share global scale datasets for Earth system modeling. GriddingMachine is a registered package and currently with a stable version v0.2. It is not recommended to use version v0.1.
+
+GriddingMachine has the following modules:
+
+- Blender: to regrid the gridded datasets to different resolutions (not stable in v0.2)
+- Collector: to distribute the globally gridded datasets
+- Fetcher: to download ungridded datasets from the websites (not stable in v0.2)
+- Indexer: to read downloaded datasets
+- Partitioner: to sort the ungridded datasets (not stable in v0.2)
+- Requestor: to request gridded data for a given site without downloading the data
+
+I will write tutorials in the future to explain in detail how to use each module, but now I will focus on how to install the package.
+
+
+## Install Registered Versions
+As Julia is already registered, users can simply install the registered versions through Julia REPL. First type "**]**" to enter the **pkg** environment, and you will see the following changes
+```
+julia> ]
+pkg>
+```
+Then you can type "**add GriddingMachine**" to install it
+```
+pkg> add GriddingMachine
+```
+
+
+## Install Specific Branches or Version
+By default, the **pkg** environment will install the latested version that is compatible with other packages. If you want to install other versions, you need to specify them. If you are familiar with the "Project.toml" file to manage the dependency packages, you can add a line in the **[compat]** field, such as
+```
+GriddingMachine = "=0.2.8"
+```
+This will constrain the version to exactly v0.2.8. See [https://pkgdocs.julialang.org/v1/compatibility/](https://pkgdocs.julialang.org/v1/compatibility/) for more details about how to best utilize "Project.toml" file to manage the Julia environment.
+
+Alternatively, users can install the specific versions when install the package through REPL:
+```
+pkg> add GriddingMachine#v0.2.8
+```
+This command will use install GriddingMachine v0.2.8 branch as a static dependency. This is different from changing the "Project.toml" file.
+
+Similarly, if you want to install a specific branch, such as the **main** branch and my development branch **wyujie**, you can do that by adding "**#branchname**" when installing GriddingMachine through the **pkg** environment:
+```
+pkg> add GriddingMachine#branchname
+```
+Note that you can use "Project.toml" and the specific branch at the same time. However, as the target version is not yet registered, you will need to include "Manifest.toml" file as well to make your project environment a **static** one.
