@@ -31,7 +31,7 @@ Office: Linde 231 [{{< fa map >}}](https://lindecenter.caltech.edu/about/contact
 {{< fa phone >}} 626-395-2021 \
 {{< fa envelope >}} [wyujie@caltech.edu](mailto:wyujie@caltech.edu)
 
-Yujie is Research Scientist working on plant ecophysiology, vegetation optimality, and land surface modeling.
+Yujie is a Research Scientist at Caltech working on vegetation and land surface modeling, particularly in how plants respond and acclimate to the changing climate. While at the Climate Modeling Alliance (CliMA), he leads the development of a next-generation land surface model (CliMA Land) from scratch. Yujie's research aims are to improve the Earth system models’ predictive skills in tracking global carbon, water, and energy fluxes using the increasing number of remote sensing data.
 
 ## Professional Experience
 
