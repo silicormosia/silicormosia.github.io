@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Yujie Wang">
+<meta name="dcterms.date" content="2024-01-19">
+<meta name="description" content="How to use the Collector module of GriddingMachine.jl?">
 
-<title>Ormosia - People</title>
+<title>Ormosia - GriddingMachine Tutorial 2</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +26,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./images/chip_tree.svg" rel="icon" type="image/svg+xml">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/chip_tree.svg" rel="icon" type="image/svg+xml">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -62,35 +63,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-current-members .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-current-members'] = new List('listing-current-members', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-YNE42XN5HT"></script>
 
 <script type="text/javascript">
@@ -101,20 +73,18 @@ gtag('js', new Date());
 gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 </script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Ormosia</span>
     </a>
   </div>
@@ -125,31 +95,31 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
+    <a class="nav-link" href="../../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./people.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../../people.html" rel="" target="">
  <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html" rel="" target="">
+    <a class="nav-link" href="../../research.html" rel="" target="">
  <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blogs.html" rel="" target="">
+    <a class="nav-link" href="../../blogs.html" rel="" target="">
  <span class="menu-text">Blogs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html" rel="" target="">
+    <a class="nav-link" href="../../publications.html" rel="" target="">
  <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resources.html" rel="" target="">
+    <a class="nav-link" href="../../resources.html" rel="" target="">
  <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
+    <a class="nav-link" href="../../about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -189,57 +159,97 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">GriddingMachine Tutorial 2</h1>
+                  <div>
+        <div class="description">
+          How to use the Collector module of GriddingMachine.jl?
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Tutorial</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Yujie Wang </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">January 19, 2024</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">People</h1>
-</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
+<p>The Collector module within <a href="https://github.com/CliMA/GriddingMachine.jl">GriddingMachine.jl</a> is designed to download the datasets to local drive and manage the downloaded datasets.</p>
+<p>Each of the dataset in GriddingMachine is assigned a unique tag, such as <strong>VCMAX_2X_1Y_V1</strong>. Please see the <a href="https://github.com/CliMA/GriddingMachine.jl/issues/62">documentation</a> for all the supported datasets and their tags. The datasets in GriddingMachine are catergorized to different collections following a generic struct called <strong>GriddedCollection</strong>. The struct has the following fields</p>
+<ul>
+<li>LABEL: data type label, such as GPP and LAI</li>
+<li>SUPPORTED_COMBOS: a list of strings indicating supported combos, such as [“2X_1Y_V1”, “2X_1Y_V2”]</li>
+<li>DEFAULT_COMBO: default combo for this collection, one of the SUPPORTED_COMBOS</li>
+</ul>
+<p>Please find the supported data collections at <a href="https://github.com/CliMA/GriddingMachine.jl/tree/main/src/collector">the folder</a>. Note here that this struct is mostly meant for documentation purpose, and is currently hardcoded in the main code; the SUPPORTED_COMBOS field can be modified using the <strong>push!</strong> function. However, we do recommend users to add the COMBO labels to SUPPORTED_COMBOS when porting new data to GriddingMachine.</p>
+<section id="query-the-datasets" class="level2">
+<h2 class="anchored" data-anchor-id="query-the-datasets">Query the datasets</h2>
+<p>Function <strong>query_collection</strong> is designed to automatically download the dataset if not yet downloaded and then return to the user the path of the downloaded dataset. There are three methods for the <strong>query_collection</strong> function:</p>
+<ul>
+<li><code>query_collection(ds::GriddedCollection)</code> queries the default dataset within a collection;</li>
+<li><code>query_collection(ds::GriddedCollection, version::String)</code> queries one version from the supported datasets;</li>
+<li><code>query_collection(artname::String)</code> queries the dataset using the full tag of a dataset.</li>
+</ul>
+<p>It is recommended to use the last method for research as the combo tag may not be updated in the GriddedCollection struct or the default dataset may change over time:</p>
+<pre><code>julia&gt; using GriddingMachine.Collector: query_collection
+julia&gt; dsfile = query_collection("VCMAX_2X_1Y_V1")</code></pre>
+</section>
+<section id="clean-the-downloaded-datasets" class="level2">
+<h2 class="anchored" data-anchor-id="clean-the-downloaded-datasets">Clean the downloaded datasets</h2>
+<p>Function <strong>clean_collections!</strong> is designed to clean the downloaded datasets, and there are three methods to use it:</p>
+<ul>
+<li><code>clean_collections!(selection::String="old")</code> to clean only the outdated (default) or all datasets (set selection to “all”);</li>
+<li><code>clean_collections!(selection::Vector{String})</code> to clean the datasets using their tags;</li>
+<li><code>clean_collections!(selection::GriddedCollection)</code> to clean all the datasets within a collection.</li>
+</ul>
+<p>Typically, it is only recommended to clean only the outdated datasets</p>
+<pre><code>julia&gt; using GriddingMachine.Collector: clean_collections!
+julia&gt; clean_collections!();</code></pre>
+</section>
+<section id="sycn-the-database" class="level2">
+<h2 class="anchored" data-anchor-id="sycn-the-database">Sycn the database</h2>
+<p>Sometimes, users may want to download all the datasets, for example, when building a server for the Requester module. In this case, we provide a function <strong>sync_collections!</strong>, which supoorts two methods:</p>
+<ul>
+<li><code>sync_collections!()</code> to download all the datasets within all collections;</li>
+<li><code>sync_collections!(gc::GriddedCollection)</code> to download specified collection.</li>
+</ul>
+<p>And it is simple to perform the synchronization (<strong>Note: do not try this code unless you really want to download all the data!</strong>):</p>
+<pre><code>julia&gt; using GriddingMachine.Collector: sync_collections!
+julia&gt; sync_collections!();</code></pre>
 
-</header>
 
-<div id="listing-current-members" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1705689399786" data-listing-reading-time-sort="2">
-<a href="./people/wyujie.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-center">
-<p class="card-img-top">
-<img src="./people/wyujie.jpg" class="thumbnail-image card-img" style="height: 300px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-WANG, Yujie
-</h5>
-<div class="card-subtitle listing-subtitle">
-Research Scientist
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-
-
-
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
