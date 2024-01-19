@@ -13,6 +13,7 @@ website:
       - href: index.qmd
         text: Home
       - people.qmd
+      - research.qmd
       - blogs.qmd
       - publications.qmd
       - resources.qmd
@@ -20,18 +21,22 @@ website:
     right:
       - icon: google
         href: https://scholar.google.com/citations?user=jl95bUAAAAAJ&hl=en
+        target: blank
       - icon: twitter
         href: https://twitter.com/wyujie666
+        target: blank
       - icon: github
         menu:
           - text: Source Code
             url: https://github.com/silicormosia/silicormosia.github.io
+            target: blank
           - text: Report an Issue
             url: https://github.com/silicormosia/silicormosia.github.io/issues
+            target: blank
 
 format:
   html:
-    theme: lumen
+    theme: sketchy
     css: styles.css
     toc: false
     grid:

@@ -1,0 +1,24 @@
+---
+title: "Research"
+toc: true
+---
+
+```{dot}
+//| label: fig-stream
+//| fig-cap: "Research streams aiming to find nature-based solutions against global climate change. The research centered on observations including plant physiology (methods and physiology), ecology (form and function), and data mining (remote sensing and meta analysis); whereas the research centered on modeling include optimality theory (organ and plant levels), vegetation modeling (plant and ecosystem levels), and Earth system modeling (regional and global scales)."
+//| file: diagrams/stream.dot
+```
+
+## Plant Physiology
+
+## Ecology
+
+## Data Mining
+
+## Optimality Theory
+
+## Vegetation Model
+
+## Earth System Model
+
+## Nature-based Climate Solutions

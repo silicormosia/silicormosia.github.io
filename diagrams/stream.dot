@@ -1,0 +1,33 @@
+digraph stream {
+    layout=dot
+
+    /* define the boxes */
+    L1 [label="Plant Physiology",style=filled,color=lightgray]
+    L2 [label="Ecology",style=filled,color=lightgray]
+    L3 [label="Data Mining",style=filled,color=lightgray]
+    T1 [label="Processes & Modules",style=filled,color=white]
+    T2 [label="SPAC Model",style=filled,color=white]
+    T3 [label="Earth System Model",style=filled,color=white]
+    A2 [label="Nature-based Climate Solutions",style=filled,color=gray,shape=box]
+
+    /* subgraph for L1, L2, L3*/
+    subgraph cluster0 {
+        node [style=filled]
+        L1 -> L2 -> L3
+        label="Observations"
+    }
+
+    /* subgraph for T1, T2, T3*/
+    subgraph cluster1 {
+        node [style=filled]
+        style=filled
+        color=lightgray
+        label="Modeling"
+        T1 -> T2 -> T3
+    }
+
+    /* connect the boxes */
+    L1 -> T1
+    L2 -> T2
+    {L3,T3} -> A2
+}
