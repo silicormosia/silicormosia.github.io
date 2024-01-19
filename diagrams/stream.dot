@@ -5,8 +5,8 @@ digraph stream {
     L1 [label="Plant Physiology",style=filled,color=lightgray]
     L2 [label="Ecology",style=filled,color=lightgray]
     L3 [label="Data Mining",style=filled,color=lightgray]
-    T1 [label="Optimality Theory",style=filled,color=white]
-    T2 [label="Vegetation Model",style=filled,color=white]
+    T1 [label="Processes & Modules",style=filled,color=white]
+    T2 [label="SPAC Model",style=filled,color=white]
     T3 [label="Earth System Model",style=filled,color=white]
     A2 [label="Nature-based Climate Solutions",style=filled,color=gray,shape=box]
 
@@ -27,7 +27,7 @@ digraph stream {
     }
 
     /* connect the boxes */
-    L1 -> T2
-    L2 -> T3
+    L1 -> T1
+    L2 -> T2
     {L3,T3} -> A2
 }

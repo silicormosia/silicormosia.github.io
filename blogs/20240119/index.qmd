@@ -1,0 +1,60 @@
+---
+title: "GriddingMachine Tutorial 2"
+image: ../../images/griddingmachine.svg
+description: "How to use the Collector module of GriddingMachine.jl?"
+author: "Yujie Wang"
+date: "1/19/2024"
+categories:
+  - Tutorial
+---
+
+The Collector module within [GriddingMachine.jl](https://github.com/CliMA/GriddingMachine.jl) is designed to download the datasets to local drive and manage the downloaded datasets.
+
+Each of the dataset in GriddingMachine is assigned a unique tag, such as **VCMAX_2X_1Y_V1**. Please see the [documentation](https://github.com/CliMA/GriddingMachine.jl/issues/62) for all the supported datasets and their tags. The datasets in GriddingMachine are catergorized to different collections following a generic struct called **GriddedCollection**. The struct has the following fields
+
+- LABEL: data type label, such as GPP and LAI
+- SUPPORTED_COMBOS: a list of strings indicating supported combos, such as ["2X_1Y_V1", "2X_1Y_V2"]
+- DEFAULT_COMBO: default combo for this collection, one of the SUPPORTED_COMBOS
+
+Please find the supported data collections at [the folder](https://github.com/CliMA/GriddingMachine.jl/tree/main/src/collector). Note here that this struct is mostly meant for documentation purpose, and is currently hardcoded in the main code; the SUPPORTED_COMBOS field can be modified using the **push!** function. However, we do recommend users to add the COMBO labels to SUPPORTED_COMBOS when porting new data to GriddingMachine.
+
+
+## Query the datasets
+Function **query_collection** is designed to automatically download the dataset if not yet downloaded and then return to the user the path of the downloaded dataset. There are three methods for the **query_collection** function:
+
+- `query_collection(ds::GriddedCollection)` queries the default dataset within a collection;
+- `query_collection(ds::GriddedCollection, version::String)` queries one version from the supported datasets;
+- `query_collection(artname::String)` queries the dataset using the full tag of a dataset.
+
+It is recommended to use the last method for research as the combo tag may not be updated in the GriddedCollection struct or the default dataset may change over time:
+```
+julia> using GriddingMachine.Collector: query_collection
+julia> dsfile = query_collection("VCMAX_2X_1Y_V1")
+```
+
+
+## Clean the downloaded datasets
+Function **clean_collections!** is designed to clean the downloaded datasets, and there are three methods to use it:
+
+- `clean_collections!(selection::String="old")` to clean only the outdated (default) or all datasets (set selection to "all");
+- `clean_collections!(selection::Vector{String})` to clean the datasets using their tags;
+- `clean_collections!(selection::GriddedCollection)` to clean all the datasets within a collection.
+
+Typically, it is only recommended to clean only the outdated datasets
+```
+julia> using GriddingMachine.Collector: clean_collections!
+julia> clean_collections!();
+```
+
+
+## Sycn the database
+Sometimes, users may want to download all the datasets, for example, when building a server for the Requester module. In this case, we provide a function **sync_collections!**, which supoorts two methods:
+
+- `sync_collections!()` to download all the datasets within all collections;
+- `sync_collections!(gc::GriddedCollection)` to download specified collection.
+
+And it is simple to perform the synchronization (**Note: do not try this code unless you really want to download all the data!**):
+```
+julia> using GriddingMachine.Collector: sync_collections!
+julia> sync_collections!();
+```
