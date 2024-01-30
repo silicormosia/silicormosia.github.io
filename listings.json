@@ -1,7 +1,14 @@
 [
   {
+    "listing": "/people.html",
+    "items": [
+      "/people/wyujie.html"
+    ]
+  },
+  {
     "listing": "/blogs.html",
     "items": [
+      "/blogs/20240130/index.html",
       "/blogs/20240119/index.html",
       "/blogs/20240112/index.html",
       "/blogs/20240103/index.html",
@@ -10,12 +17,6 @@
       "/blogs/20230418/index.html",
       "/blogs/20220817/index.html",
       "/blogs/20210930/index.html"
-    ]
-  },
-  {
-    "listing": "/people.html",
-    "items": [
-      "/people/wyujie.html"
     ]
   }
 ]

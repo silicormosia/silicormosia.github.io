@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -23,7 +23,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -49,7 +69,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -58,6 +84,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -77,13 +104,13 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Ormosia</span>
     </a>
@@ -95,66 +122,66 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html" rel="" target="">
- <span class="menu-text">Home</span></a>
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../people.html" rel="" target="">
- <span class="menu-text">People</span></a>
+    <a class="nav-link" href="../../people.html"> 
+<span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../research.html" rel="" target="">
- <span class="menu-text">Research</span></a>
+    <a class="nav-link" href="../../research.html"> 
+<span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../blogs.html" rel="" target="">
- <span class="menu-text">Blogs</span></a>
+    <a class="nav-link" href="../../blogs.html"> 
+<span class="menu-text">Blogs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../publications.html" rel="" target="">
- <span class="menu-text">Publications</span></a>
+    <a class="nav-link" href="../../publications.html"> 
+<span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../resources.html" rel="" target="">
- <span class="menu-text">Resources</span></a>
+    <a class="nav-link" href="../../resources.html"> 
+<span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html" rel="" target="">
- <span class="menu-text">About</span></a>
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://scholar.google.com/citations?user=jl95bUAAAAAJ&amp;hl=en" rel="" target="blank"><i class="bi bi-google" role="img">
+    <a class="nav-link" href="https://scholar.google.com/citations?user=jl95bUAAAAAJ&amp;hl=en" target="blank"> <i class="bi bi-google" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/wyujie666" rel="" target="blank"><i class="bi bi-twitter" role="img">
+    <a class="nav-link" href="https://twitter.com/wyujie666" target="blank"> <i class="bi bi-twitter" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-bi-github" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-bi-github" role="button" data-bs-toggle="dropdown" aria-expanded="false">
       <i class="bi bi-github" role="img">
 </i> 
  <span class="menu-text"></span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-bi-github">    
         <li>
-    <a class="dropdown-item" href="https://github.com/silicormosia/silicormosia.github.io" rel="" target="blank">
+    <a class="dropdown-item" href="https://github.com/silicormosia/silicormosia.github.io" target="blank">
  <span class="dropdown-text">Source Code</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://github.com/silicormosia/silicormosia.github.io/issues" rel="" target="blank">
+    <a class="dropdown-item" href="https://github.com/silicormosia/silicormosia.github.io/issues" target="blank">
  <span class="dropdown-text">Report an Issue</span></a>
   </li>  
     </ul>
   </li>
 </ul>
-            <div class="quarto-navbar-tools">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -205,16 +232,20 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
+
 
 
 
 
 <p>A fundamental tradeoff during model design is the model complexity: more complex models are supposed to be more accurate but computational expensive. Given that the models with different complexities have different assumptions (or simplifications), it is not recommended to mix and use these models.</p>
-<p>Here we summarize the commonly used canopy model complexity from one layer to multiple layers, and from big leaf to two leaves and leaf angular distributions. We refer the readers to <a href="https://doi.org/10.5194/bg-19-29-2022">Wang and Frankenberg (2022)</a> for more details about how canopy model complexity impacts simulated carbon/water/energy fluxes and solar-induced chlorophyll fluorescence. Please contact Yujie Wang through <a href="https://github.com/silicormosia/silicormosia.github.io/issues">Github Issues</a> if you find mistakes in this table or you want to add a new item to the list.</p>
-<section id="complexity" class="level2">
+<p>Here we summarize the commonly used canopy model complexity from one layer to multiple layers, and from big leaf to two leaves and leaf angular distributions. We refer the readers to <span class="citation" data-cites="wang2022impact">Wang and Frankenberg (<a href="#ref-wang2022impact" role="doc-biblioref">2022</a>)</span> for more details about how canopy model complexity impacts simulated carbon/water/energy fluxes and solar-induced chlorophyll fluorescence. Please contact Yujie Wang through <a href="https://github.com/silicormosia/silicormosia.github.io/issues">Github Issues</a> if you find mistakes in this table or you want to add a new item to the list.</p>
+<div class="no-row-height column-margin column-container"><div id="ref-wang2022impact" class="csl-entry" role="listitem">
+Wang, Y., and C. Frankenberg. 2022. <span>“On the Impact of Canopy Model Complexity on Simulated Carbon, Water, and Solar-Induced Chlorophyll Fluorescence Fluxes.”</span> <em>Biogeosciences</em> 19 (1): 29–45. <a href="https://doi.org/10.5194/bg-19-29-2022">https://doi.org/10.5194/bg-19-29-2022</a>.
+</div></div><section id="complexity" class="level2">
 <h2 class="anchored" data-anchor-id="complexity">Complexity</h2>
 <ul>
 <li>1C-1BL
@@ -255,7 +286,7 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 </ul></li>
 </ul>
 </section>
-<section id="models" class="level2">
+<section id="models" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="models">Models</h2>
 <table class="table">
 <thead>
@@ -272,35 +303,35 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 <td style="text-align: left;">CliMA Land</td>
 <td style="text-align: left;">0.1 Default</td>
 <td style="text-align: left;">KC-IJL</td>
-<td style="text-align: left;"><a href="https://doi.org/10.5194/gmd-14-6741-2021">Wang et al.&nbsp;(2021)</a></td>
+<td style="text-align: left;"><span class="citation" data-cites="wang2021testing">Wang et al. (<a href="#ref-wang2021testing" role="doc-biblioref">2021</a>)</span></td>
 <td style="text-align: left;"></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"></td>
 <td style="text-align: left;">0.1 1X</td>
 <td style="text-align: left;">1C-1L</td>
-<td style="text-align: left;"><a href="https://doi.org/10.5194/gmd-14-6741-2021">Wang et al.&nbsp;(2021)</a></td>
+<td style="text-align: left;"><span class="citation" data-cites="wang2021testing">Wang et al. (<a href="#ref-wang2021testing" role="doc-biblioref">2021</a>)</span></td>
 <td style="text-align: left;"></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"></td>
 <td style="text-align: left;">0.1 2X</td>
 <td style="text-align: left;">1C-2L</td>
-<td style="text-align: left;"><a href="https://doi.org/10.5194/gmd-14-6741-2021">Wang et al.&nbsp;(2021)</a></td>
+<td style="text-align: left;"><span class="citation" data-cites="wang2021testing">Wang et al. (<a href="#ref-wang2021testing" role="doc-biblioref">2021</a>)</span></td>
 <td style="text-align: left;"></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"></td>
 <td style="text-align: left;">0.1 KX</td>
 <td style="text-align: left;">KC-1L</td>
-<td style="text-align: left;"><a href="https://doi.org/10.5194/gmd-14-6741-2021">Wang et al.&nbsp;(2021)</a></td>
+<td style="text-align: left;"><span class="citation" data-cites="wang2021testing">Wang et al. (<a href="#ref-wang2021testing" role="doc-biblioref">2021</a>)</span></td>
 <td style="text-align: left;"></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"></td>
 <td style="text-align: left;">0.1 2KX</td>
 <td style="text-align: left;">KC-2L</td>
-<td style="text-align: left;"><a href="https://doi.org/10.5194/gmd-14-6741-2021">Wang et al.&nbsp;(2021)</a></td>
+<td style="text-align: left;"><span class="citation" data-cites="wang2021testing">Wang et al. (<a href="#ref-wang2021testing" role="doc-biblioref">2021</a>)</span></td>
 <td style="text-align: left;"></td>
 </tr>
 <tr class="even">
@@ -412,6 +443,9 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 </table>
 
 
+<div class="no-row-height column-margin column-container"><div id="ref-wang2021testing" class="csl-entry" role="listitem">
+Wang, Y., P. Köhler, L. He, R. Doughty, R. K. Braghiere, J. D. Wood, and C. Frankenberg. 2021. <span>“Testing Stomatal Models at the Stand Level in Deciduous Angiosperm and Evergreen Gymnosperm Forests Using CliMA Land (V0.1).”</span> <em>Geoscientific Model Development</em> 14 (11): 6741–63. <a href="https://doi.org/10.5194/gmd-14-6741-2021">https://doi.org/10.5194/gmd-14-6741-2021</a>.
+</div></div>
 </section>
 
 </main> <!-- /main -->
@@ -494,10 +528,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -507,8 +540,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -521,6 +563,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -564,6 +725,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -589,6 +751,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -649,6 +837,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 
