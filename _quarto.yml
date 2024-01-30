@@ -41,4 +41,4 @@ format:
     toc: false
     grid:
       body-width: 1200px
-      margin-width: 200px
+      margin-width: 500px
