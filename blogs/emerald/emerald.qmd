@@ -6,22 +6,67 @@ author: "Yujie Wang"
 date: "2/8/2024"
 categories:
   - LSM
+toc: true
 ---
 
 This blog tracks the performance of the CliMA Land global simulations in terms its spatial patterns in the following aspects:
 
-- Gross primary productivity
-- Vegetation transpiration
-- Normalized differential vegetation index
-- Enhanced vegetation index
-- Near infrared reflection of vegetation
-- Solar induced chlorophyll fluorescence at 683, 740, 757, and 771 nm
+- Gross primary productivity (GPP)
+- Vegetation transpiration (T)
+- Normalized differential vegetation index (NDVI)
+- Enhanced vegetation index (EVI)
+- Near infrared reflection of vegetation (NIRv)
+- Solar induced chlorophyll fluorescence (SIF) at 683, 740, 757, and 771 nm
+
+Per release, the major improvements are:
+
+- a11-gm3-wd1: GPP and SIF errors decrease (scale Vcmax to 60% of the dataset)
+- a10-gm2-wd1: GPP error decreases (new photosynthesis model and adding boundary layer conductance) slightly while SIF error increase slightly (due to adding UV radiation)
+- a9-gm2-wd1: GPP and SIF errors decrease slightly (due to adding Kd temperature dependency)
+- a8-gm2-wd1: GPP error increases slightly while reflectance and SIF errors decreased (due to adding CI seasonality)
+- a7-gm1-wd1: GPP error decreases while SIF errors increased slightly (due to adding a smoothing algorithm for J calculation)
+- a6-gm1-wd1: simulation used for the Wang et al. (2023) JAMES paper
+
+The RMSE per variable per simulation are
+
+| **Version** | **GPP** | **T** | **NDVI** | **EVI** | **NIRv** | **SIF 683** | **SIF 740** | **SIF 757** | **SIF 771** |
+|:------------|:--------|:------|:---------|:--------|:---------|:------------|:------------|:------------|:------------|
+| a11-gm3-wd1 | 1.368   | NA    | 0.135    | 0.160   | 0.257    | 0.051       | 0.154       | 0.095       | 0.063       |
+| a10-gm2-wd1 | 2.616   | NA    | 0.135    | 0.160   | 0.257    | 0.071       | 0.224       | 0.139       | 0.076       |
+| a9-gm2-wd1  | 2.751   | NA    | 0.134    | 0.161   | 0.257    | 0.068       | 0.220       | 0.136       | 0.075       |
+| a8-gm2-wd1  | 2.783   | NA    | 0.134    | 0.161   | 0.257    | 0.070       | 0.231       | 0.144       | 0.079       |
+| a7-gm1-wd1  | 2.561   | NA    | 0.139    | 0.173   | 0.259    | 0.074       | 0.261       | 0.167       | 0.091       |
+| a6-gm1-wd1  | 3.371   | NA    | 0.139    | 0.173   | 0.259    | 0.073       | 0.257       | 0.163       | 0.088       |
 
 
 ## a11-gm3-wd1
 ![Spatial patterns of selected parameters.](a11_gm3_wd1_2019_1X_1Y_spatial.png)
 
 ![Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).](a11_gm3_wd1_2019_1X_1Y_hex.png)
+
+
+## a10-gm2-wd1
+![Spatial patterns of selected parameters.](a10_gm2_wd1_2019_1X_1Y_spatial.png)
+
+![Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).](a10_gm2_wd1_2019_1X_1Y_hex.png)
+
+
+## a9-gm2-wd1
+![Spatial patterns of selected parameters.](a9_gm2_wd1_2019_1X_1Y_spatial.png)
+
+![Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).](a9_gm2_wd1_2019_1X_1Y_hex.png)
+
+
+## a8-gm2-wd1
+![Spatial patterns of selected parameters.](a8_gm2_wd1_2019_1X_1Y_spatial.png)
+
+![Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).](a8_gm2_wd1_2019_1X_1Y_hex.png)
+
+
+## a7-gm1-wd1
+![Spatial patterns of selected parameters.](a7_gm1_wd1_2019_1X_1Y_spatial.png)
+
+![Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).](a7_gm1_wd1_2019_1X_1Y_hex.png)
 
 
 ## a6-gm1-wd1
