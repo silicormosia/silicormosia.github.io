@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Yujie Wang">
-<meta name="dcterms.date" content="2024-01-03">
-<meta name="description" content="Agriculture in silico: Use of vegetation modeling for crop yield advances">
+<meta name="dcterms.date" content="2024-01-12">
+<meta name="description" content="How to install different versions of GriddingMachine.jl?">
 
-<title>Ormosia - Agriculture in silico</title>
+<title>Ormosia - GriddingMachine Tutorial 1</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -26,23 +26,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../images/chip_tree.svg" rel="icon" type="image/svg+xml">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../images/chip_tree.svg" rel="icon" type="image/svg+xml">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -81,7 +81,7 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 </script>
 
 
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -91,7 +91,7 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Ormosia</span>
     </a>
   </div>
@@ -102,31 +102,31 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link" href="../../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../people.html"> 
+    <a class="nav-link" href="../../../people.html"> 
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../research.html"> 
+    <a class="nav-link" href="../../../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../blogs.html"> 
+    <a class="nav-link" href="../../../blogs.html"> 
 <span class="menu-text">Blogs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../publications.html"> 
+    <a class="nav-link" href="../../../publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../resources.html"> 
+    <a class="nav-link" href="../../../resources.html"> 
 <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
+    <a class="nav-link" href="../../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -169,14 +169,14 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Agriculture in silico</h1>
+      <h1 class="title">GriddingMachine Tutorial 1</h1>
                   <div>
         <div class="description">
-          Agriculture in silico: Use of vegetation modeling for crop yield advances
+          How to install different versions of GriddingMachine.jl?
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">Paper</div>
+                <div class="quarto-category">Tutorial</div>
               </div>
                   </div>
   </div>
@@ -194,7 +194,7 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">January 3, 2024</p>
+        <p class="date">January 12, 2024</p>
       </div>
     </div>
     
@@ -213,30 +213,39 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 
 
 
-<p>There are many ways to improve crop yield, and the approaches can be categorized to</p>
+<p><a href="https://github.com/CliMA/GriddingMachine.jl">GriddingMachine.jl</a> is a software and database designed to share global scale datasets for Earth system modeling. GriddingMachine is a registered package and currently with a stable version v0.2. It is not recommended to use version v0.1.</p>
+<p>GriddingMachine has the following modules:</p>
 <ul>
-<li>trait enhancement (e.g., breeding)</li>
-<li>water use (e.g., irrigation, fertilization, and mulching), and</li>
-<li>light use (e.g., density control and vertical farming).</li>
+<li>Blender: to regrid the gridded datasets to different resolutions (not stable in v0.2)</li>
+<li>Collector: to distribute the globally gridded datasets</li>
+<li>Fetcher: to download ungridded datasets from the websites (not stable in v0.2)</li>
+<li>Indexer: to read downloaded datasets</li>
+<li>Partitioner: to sort the ungridded datasets (not stable in v0.2)</li>
+<li>Requestor: to request gridded data for a given site without downloading the data</li>
 </ul>
-<p>However, these efforts are all very time consuming to find an optimized solution. Thus, there is increasing demand for a uniform tool to evaluate these approaches. One solution is to combine the agricultural practices with vegetation modeling to help explore the possible combinations of approaches to advance the crop yield. Here, we reviewed the trials and practices that aim to improve crop yield through light use at different stages.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="strategies.jpg" class="img-fluid figure-img"></p>
-<figcaption>Fig. 1 Strategies that can be used to improve crop yield through canopy radiation optimization.</figcaption>
-</figure>
-</div>
-<p>For example, one can</p>
-<ul>
-<li>optimize chlorophyll content to improve the light condition in the lower canopy,</li>
-<li>implement chlorophyll d and f to increase the near infrared light absorption,</li>
-<li>optimize crop density and space to improve light condition in the lower canopy,</li>
-<li>mix crop to maximize light absorption in the lower canopy, and</li>
-<li>optimize the supplemental light spectra and power.</li>
-</ul>
-<p>We used <a href="https://github.com/CliMA/Land">CliMA Land</a> to quantitatively evaluate the potentials of the proposed approaches, and thus that of vegetation modeling. This work has recently been published in the Crop and Environment (<a href="https://doi.org/10.1016/j.crope.2023.07.003">doi:10.1016/j.crope.2023.07.003</a>). We believe that future efforts in advancing vegetation modeling and bridging it to agriculture will better guide real-world agricultural practices.</p>
+<p>I will write tutorials in the future to explain in detail how to use each module, but now I will focus on how to install the package.</p>
+<section id="install-registered-versions" class="level2">
+<h2 class="anchored" data-anchor-id="install-registered-versions">Install Registered Versions</h2>
+<p>As Julia is already registered, users can simply install the registered versions through Julia REPL. First type “<strong>]</strong>” to enter the <strong>pkg</strong> environment, and you will see the following changes</p>
+<pre><code>julia&gt; ]
+pkg&gt;</code></pre>
+<p>Then you can type “<strong>add GriddingMachine</strong>” to install it</p>
+<pre><code>pkg&gt; add GriddingMachine</code></pre>
+</section>
+<section id="install-specific-branches-or-version" class="level2">
+<h2 class="anchored" data-anchor-id="install-specific-branches-or-version">Install Specific Branches or Version</h2>
+<p>By default, the <strong>pkg</strong> environment will install the latested version that is compatible with other packages. If you want to install other versions, you need to specify them. If you are familiar with the “Project.toml” file to manage the dependency packages, you can add a line in the <strong>[compat]</strong> field, such as</p>
+<pre><code>GriddingMachine = "=0.2.8"</code></pre>
+<p>This will constrain the version to exactly v0.2.8. See <a href="https://pkgdocs.julialang.org/v1/compatibility/">https://pkgdocs.julialang.org/v1/compatibility/</a> for more details about how to best utilize “Project.toml” file to manage the Julia environment.</p>
+<p>Alternatively, users can install the specific versions when install the package through REPL:</p>
+<pre><code>pkg&gt; add GriddingMachine#v0.2.8</code></pre>
+<p>This command will use install GriddingMachine v0.2.8 branch as a static dependency. This is different from changing the “Project.toml” file.</p>
+<p>Similarly, if you want to install a specific branch, such as the <strong>main</strong> branch and my development branch <strong>wyujie</strong>, you can do that by adding “<strong>#branchname</strong>” when installing GriddingMachine through the <strong>pkg</strong> environment:</p>
+<pre><code>pkg&gt; add GriddingMachine#branchname</code></pre>
+<p>Note that you can use “Project.toml” and the specific branch at the same time. However, as the target version is not yet registered, you will need to include “Manifest.toml” file as well to make your project environment a <strong>static</strong> one.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

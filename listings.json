@@ -1,22 +1,24 @@
 [
   {
-    "listing": "/people.html",
+    "listing": "/blogs.html",
     "items": [
-      "/people/wyujie.html"
+      "/blogs/emerald/emerald.html",
+      "/blogs/papers/logs.html",
+      "/blogs/tutorials/20240130/index.html",
+      "/blogs/tutorials/20240119/index.html",
+      "/blogs/tutorials/20240112/index.html",
+      "/blogs/papers/20240103/index.html",
+      "/blogs/peotry/20230530/index.html",
+      "/blogs/papers/20230501/index.html",
+      "/blogs/peotry/20230418/index.html",
+      "/blogs/papers/20220817/index.html",
+      "/blogs/papers/20210930/index.html"
     ]
   },
   {
-    "listing": "/blogs.html",
+    "listing": "/people.html",
     "items": [
-      "/blogs/20240130/index.html",
-      "/blogs/20240119/index.html",
-      "/blogs/20240112/index.html",
-      "/blogs/20240103/index.html",
-      "/blogs/20230530/index.html",
-      "/blogs/20230501/index.html",
-      "/blogs/20230418/index.html",
-      "/blogs/20220817/index.html",
-      "/blogs/20210930/index.html"
+      "/people/wyujie.html"
     ]
   }
 ]

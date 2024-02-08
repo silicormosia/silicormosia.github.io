@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Yujie Wang">
-<meta name="dcterms.date" content="2024-01-30">
-<meta name="description" content="How to use the Indexer module of GriddingMachine.jl?">
+<meta name="dcterms.date" content="2023-04-18">
+<meta name="description" content="I am really pissed off by the two legged crow who thinks she has three">
 
-<title>Ormosia - GriddingMachine Tutorial 3</title>
+<title>Ormosia - Two-legged crow</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -26,23 +26,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../images/chip_tree.svg" rel="icon" type="image/svg+xml">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../images/chip_tree.svg" rel="icon" type="image/svg+xml">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -81,7 +81,7 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 </script>
 
 
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -91,7 +91,7 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Ormosia</span>
     </a>
   </div>
@@ -102,31 +102,31 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link" href="../../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../people.html"> 
+    <a class="nav-link" href="../../../people.html"> 
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../research.html"> 
+    <a class="nav-link" href="../../../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../blogs.html"> 
+    <a class="nav-link" href="../../../blogs.html"> 
 <span class="menu-text">Blogs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../publications.html"> 
+    <a class="nav-link" href="../../../publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../resources.html"> 
+    <a class="nav-link" href="../../../resources.html"> 
 <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
+    <a class="nav-link" href="../../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -169,14 +169,14 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">GriddingMachine Tutorial 3</h1>
+      <h1 class="title">Two-legged crow</h1>
                   <div>
         <div class="description">
-          How to use the Indexer module of GriddingMachine.jl?
+          I am really pissed off by the two legged crow who thinks she has three
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">Tutorial</div>
+                <div class="quarto-category">Poem</div>
               </div>
                   </div>
   </div>
@@ -194,7 +194,7 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">January 30, 2024</p>
+        <p class="date">April 18, 2023</p>
       </div>
     </div>
     
@@ -213,45 +213,68 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 
 
 
-<p>The indexer module of the <a href="https://github.com/CliMA/GriddingMachine.jl">GriddingMachine.jl</a> is designed to read the entire or partial data from GriddingMachine datasets, which are as netcdf files.</p>
-<p>By default, each dataset contains a data and std field, meaning the actual data and the standard deviation, respectively. The primary function provided will read the data and std at the same time, and return the two as a tuple, even if the std may be filled with NaNs. There are only three functions in the Indexer module at the moment, but each function could support multiple methods supported by Julia’s multiple dispatch feature. I will cover the functions in the tutorial below.</p>
-<section id="lat_ind-and-lon_ind" class="level2">
-<h2 class="anchored" data-anchor-id="lat_ind-and-lon_ind">lat_ind and lon_ind</h2>
-<p>All data points in each GriddingMachine dataset represent the mean or sum of the entire grid (not the value on an edge). Therefore, when we read the data using latitude and longitude, by default, the Indexer will first determine where the target site is located and then return the data and std of that particular grid. So, <code>lat_ind</code> and <code>lon_ind</code> are designed to compute the indices of the grid in latitudinal and longitudinal directions (with latitude from 90S to 90N, and longitude from 180W to 180E). For example, one can use the following command to get the latitudinal index:</p>
-<pre><code>julia&gt; ilat = lat_ind(32.58; res = 0.25)</code></pre>
-<p>here the 32.58 is the latitude and option res is the spatial resolution (0.25 degree) in the latitudinal direction. Similarly, the longitude index can be computed from</p>
-<pre><code>julia&gt; ilon = lon_ind(115.33, res = 1/12)</code></pre>
-<p>here 115.33 is the longitude and 1/12 is the spatial resolution (1/12 degree) in the longitudinal direction.</p>
-<p>Please note here that the <code>lat_ind</code> and <code>lon_ind</code> functions are meant to be used by the <code>read_LUT</code> function below, but users can import these functions for research purposes (simple functions to write, but will save you some time to round up the numbers).</p>
-</section>
-<section id="read_lut" class="level2">
-<h2 class="anchored" data-anchor-id="read_lut">read_LUT</h2>
-<p>The <code>read_LUT</code> function means read look-up table, which is a latitude-longitude(-time) table rather than indexed by plant function type. This function supports several methods:</p>
-<ul>
-<li><code>read_LUT(fn::String, FT::DataType = Float32)</code> to read the entire dataset (2D or 3D dataset)</li>
-<li><code>read_LUT(fn::String, cyc::Int, FT::DataType = Float32)</code> to read a slice of data in time for a 3D dataset</li>
-<li><code>read_LUT(fn::String, lat::Number, lon::Number, FT::DataType = Float32; interpolation::Bool = false)</code> to read the data at a site (2D dataset) or in a column (3D dataset)</li>
-<li><code>read_LUT(fn::String, lat::Number, lon::Number, cyc::Int, FT::DataType = Float32; interpolation::Bool = false)</code> to read the data at a site and time for a 3D dataset</li>
-</ul>
-<p>Here,</p>
-<ul>
-<li><code>fn</code> is the file name of the dataset, which can be obtained using the <code>Collector.query_collection</code> function</li>
-<li><code>FT</code> is the output floating number type</li>
-<li><code>cyc</code> is the index in time</li>
-<li><code>lat</code> is the latitude</li>
-<li><code>lon</code> is the longitude</li>
-<li><code>interpolation</code> is an optional bool (default is false) to determine whether to interpolate the data based on the latitude and longitude</li>
-</ul>
-<p>For example,</p>
-<pre><code>using GriddingMachine.Collector: query_collection, vcmax_collection
-using GriddingMachine.Indexer: read_LUT
-julia&gt; ds,ds_std = read_LUT(query_collection(vcmax_collection()));
-julia&gt; mean_site, std_site = read_LUT(query_collection(vcmax_collection()), 32.33, 118.03);</code></pre>
-<p>Because the methods are pretty straightforward given the input variable names, I will not go through each method. You may go to the <a href="https://github.com/CliMA/GriddingMachine.jl/blob/main/test/runtests.jl">CI tests</a> for more examples.</p>
-<p>Note here because these functions are all set to be private functions, users need to import these functions before using them (I designed it this way to avoid repeated function names with other modules). This design logic applies to most of the modules I wrote, such as CliMA Land (PRO version; also known as Emerald in my private development repo).</p>
+<p>It is going to be the time to sow<br>
+Although the garden is still covered with snow<br>
+Yet it does not hurt to pre-mesh the column and row<br>
+And may in your greenhouse the seeds grow<br>
+</p>
+<p>We will need the water and the air<br>
+The fertilization need rises in pair<br>
+We can imagine the uncoupled nightmare<br>
+But at this moment nobody would care<br>
+</p>
+<p>We prepare the seeds<br>
+We are also ready to remove the weeds<br>
+We are waiting for the warm breeze<br>
+Yet, after months the liquid water is still freeze<br>
+</p>
+<p>The plants are stuck in the tight<br>
+Growing the shoots toward the bright<br>
+Despite the soil there in sight<br>
+The environment is just not right<br>
+</p>
+<p>Down the heaven falls a two-legged crow<br>
+So haughty to ask us to bow<br>
+“Without me the soil water won’t flow<br>
+Without me the wind won’t blow”<br>
+</p>
+<p>“All things are governed by the physical rules<br>
+Mass in kilograms and energy in joules<br>
+Regardless the mountains, deserts, plains, or tules<br>
+For all the solid, liquid, or air molecules”<br>
+</p>
+<p>“Welcome to my new land<br>
+You have access to silt, clay, loam, and sand<br>
+It is the mother of humankind<br>
+It is the time to let your plants expand”<br>
+</p>
+<p>“But hold on, do not move your grown plants<br>
+That is not what the lord grants<br>
+I do not care about your rants<br>
+They cannot be individuals, not to say the complicated mutants”<br>
+</p>
+<p>“The nature of beauty is simplicity<br>
+Simple means better scalarity<br>
+Simple means more opacity and capacity<br>
+Simple means readily parallelity”<br>
+</p>
+<p>I am in such a rage<br>
+I have to put the crow in a cage<br>
+To freedom and love that I engage<br>
+Blessless that I try a new voyage<br>
+</p>
+<p>The dead seeks entropy increase<br>
+The live pursues maximal please<br>
+If the decision making right is to tease<br>
+That is when evolutions cease<br>
+</p>
+<p>I abhor the dead rules and spat the two-legged crow<br>
+Build my own garden and manage the flow<br>
+Yet, I hear helpless scream inside the window<br>
+“The lord will forbid you from air and punish you with endless snow”<br>
+</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

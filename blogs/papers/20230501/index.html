@@ -6,11 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Yujie Wang">
-<meta name="dcterms.date" content="2021-09-30">
-<meta name="description" content="Comparisons of vegetation canopy model complexities">
+<meta name="author" content="Yujie Wang and Renato Braghiere">
+<meta name="dcterms.date" content="2023-05-01">
+<meta name="description" content="CliMA Land: A next-generation land surface model that bridges vegetation processes and remote sensing">
 
-<title>Ormosia - Canopy Model Complexity</title>
+<title>Ormosia - CliMA Land</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,46 +23,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../images/chip_tree.svg" rel="icon" type="image/svg+xml">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../images/chip_tree.svg" rel="icon" type="image/svg+xml">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -101,17 +81,17 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 </script>
 
 
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Ormosia</span>
     </a>
   </div>
@@ -122,31 +102,31 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link" href="../../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../people.html"> 
+    <a class="nav-link" href="../../../people.html"> 
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../research.html"> 
+    <a class="nav-link" href="../../../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../blogs.html"> 
+    <a class="nav-link" href="../../../blogs.html"> 
 <span class="menu-text">Blogs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../publications.html"> 
+    <a class="nav-link" href="../../../publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../resources.html"> 
+    <a class="nav-link" href="../../../resources.html"> 
 <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
+    <a class="nav-link" href="../../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -189,14 +169,13 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Canopy Model Complexity</h1>
+      <h1 class="title">CliMA Land</h1>
                   <div>
         <div class="description">
-          Comparisons of vegetation canopy model complexities
+          CliMA Land: A next-generation land surface model that bridges vegetation processes and remote sensing
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">LSM</div>
                 <div class="quarto-category">Paper</div>
               </div>
                   </div>
@@ -208,23 +187,17 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>Yujie Wang </p>
+               <p>Yujie Wang and Renato Braghiere </p>
             </div>
     </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">September 30, 2021</p>
+        <p class="date">May 1, 2023</p>
       </div>
     </div>
     
-      <div>
-      <div class="quarto-title-meta-heading">Modified</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date-modified">December 5, 2023</p>
-      </div>
-    </div>
       
     </div>
     
@@ -232,221 +205,34 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    </div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
-<p>A fundamental tradeoff during model design is the model complexity: more complex models are supposed to be more accurate but computational expensive. Given that the models with different complexities have different assumptions (or simplifications), it is not recommended to mix and use these models.</p>
-<p>Here we summarize the commonly used canopy model complexity from one layer to multiple layers, and from big leaf to two leaves and leaf angular distributions. We refer the readers to <span class="citation" data-cites="wang2022impact">Wang and Frankenberg (<a href="#ref-wang2022impact" role="doc-biblioref">2022</a>)</span> for more details about how canopy model complexity impacts simulated carbon/water/energy fluxes and solar-induced chlorophyll fluorescence. Please contact Yujie Wang through <a href="https://github.com/silicormosia/silicormosia.github.io/issues">Github Issues</a> if you find mistakes in this table or you want to add a new item to the list.</p>
-<div class="no-row-height column-margin column-container"><div id="ref-wang2022impact" class="csl-entry" role="listitem">
-Wang, Y., and C. Frankenberg. 2022. <span>“On the Impact of Canopy Model Complexity on Simulated Carbon, Water, and Solar-Induced Chlorophyll Fluorescence Fluxes.”</span> <em>Biogeosciences</em> 19 (1): 29–45. <a href="https://doi.org/10.5194/bg-19-29-2022">https://doi.org/10.5194/bg-19-29-2022</a>.
-</div></div><section id="complexity" class="level2">
-<h2 class="anchored" data-anchor-id="complexity">Complexity</h2>
-<ul>
-<li>1C-1BL
-<ul>
-<li>One canopy layer</li>
-<li>One single big leaf without sunlit and shaded fractions</li>
-</ul></li>
-<li>1C-1L
-<ul>
-<li>One canopy layer</li>
-<li>One leaf without sunlit or shaded fractions (not big leaf!)</li>
-</ul></li>
-<li>1C-2BL
-<ul>
-<li>One canopy layer</li>
-<li>Two big leaves are categorized as sunlit and shaded fractions</li>
-</ul></li>
-<li>1C-2L
-<ul>
-<li>One canopy layer</li>
-<li>Two leaves for sunlit and shaded fractions (not big leaves!)</li>
-</ul></li>
-<li>KC-1L
-<ul>
-<li>Multilple canopy layer</li>
-<li>One leaf without sunlit or shaded fractions for each layer (not big leaf!)</li>
-</ul></li>
-<li>KC-2L Multilple layer scheme with sunlit and shaded fractions
-<ul>
-<li>Multilple canopy layer</li>
-<li>Two leaves for sunlit and shaded fractions per layer (not big leaves!)</li>
-</ul></li>
-<li>KC-IJL
-<ul>
-<li>Multiple canopy layers</li>
-<li>Sunlit and shaded fractions per layer</li>
-<li>Leaf angular distribution for sunlit fractionmat (NetCDF),</li>
-</ul></li>
-</ul>
-</section>
-<section id="models" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="models">Models</h2>
-<table class="table">
-<thead>
-<tr class="header">
-<th style="text-align: left;"><strong>Model</strong></th>
-<th style="text-align: left;"><strong>Verion &amp; Option</strong></th>
-<th style="text-align: left;"><strong>Complexity</strong></th>
-<th style="text-align: left;"><strong>Reference</strong></th>
-<th style="text-align: left;"><strong>Documentation</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">CliMA Land</td>
-<td style="text-align: left;">0.1 Default</td>
-<td style="text-align: left;">KC-IJL</td>
-<td style="text-align: left;"><span class="citation" data-cites="wang2021testing">Wang et al. (<a href="#ref-wang2021testing" role="doc-biblioref">2021</a>)</span></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">0.1 1X</td>
-<td style="text-align: left;">1C-1L</td>
-<td style="text-align: left;"><span class="citation" data-cites="wang2021testing">Wang et al. (<a href="#ref-wang2021testing" role="doc-biblioref">2021</a>)</span></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">0.1 2X</td>
-<td style="text-align: left;">1C-2L</td>
-<td style="text-align: left;"><span class="citation" data-cites="wang2021testing">Wang et al. (<a href="#ref-wang2021testing" role="doc-biblioref">2021</a>)</span></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">0.1 KX</td>
-<td style="text-align: left;">KC-1L</td>
-<td style="text-align: left;"><span class="citation" data-cites="wang2021testing">Wang et al. (<a href="#ref-wang2021testing" role="doc-biblioref">2021</a>)</span></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">0.1 2KX</td>
-<td style="text-align: left;">KC-2L</td>
-<td style="text-align: left;"><span class="citation" data-cites="wang2021testing">Wang et al. (<a href="#ref-wang2021testing" role="doc-biblioref">2021</a>)</span></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">CLM</td>
-<td style="text-align: left;">4.0</td>
-<td style="text-align: left;">1C-2L</td>
-<td style="text-align: left;"><a href="https://doi.org/10.1029/2010JG001593">Bonan et al.&nbsp;(2011)</a></td>
-<td style="text-align: left;">CLM 4.0 Tech Notes</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">4.5</td>
-<td style="text-align: left;">1C-2L</td>
-<td style="text-align: left;"><a href="https://doi.org/10.1029/2018MS001583">Lawrence et al.&nbsp;(2019)</a></td>
-<td style="text-align: left;">CLM 4.5 Tech Notes</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">5.0</td>
-<td style="text-align: left;">1C-2L</td>
-<td style="text-align: left;"><a href="https://doi.org/10.1029/2018MS001583">Lawrence et al.&nbsp;(2019)</a></td>
-<td style="text-align: left;">CLM 5.0 Tech Notes</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">ml</td>
-<td style="text-align: left;">KC-2L</td>
-<td style="text-align: left;"><a href="https://doi.org/10.5194/gmd-11-1467-2018">Bonan et al.&nbsp;(2018)</a></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">ISBA</td>
-<td style="text-align: left;">A-gs</td>
-<td style="text-align: left;">KC-2L</td>
-<td style="text-align: left;"><a href="https://doi.org/10.1002/jgrg.20070">Carrer et al.&nbsp;(2013)</a></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">MEB</td>
-<td style="text-align: left;">KC-2L</td>
-<td style="text-align: left;"><a href="https://doi.org/10.5194/gmd-10-843-2017">Boone et al.&nbsp;(2017)</a></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">JULES</td>
-<td style="text-align: left;">6.1 can_rad_mod 1</td>
-<td style="text-align: left;">1C-1BL</td>
-<td style="text-align: left;">Jogireddy et al.&nbsp;(2006)</td>
-<td style="text-align: left;">JULES 6.1 User Guide</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">6.1 can_rad_mod 4</td>
-<td style="text-align: left;">KC-IJL</td>
-<td style="text-align: left;"><a href="https://doi.org/10.5194/gmd-4-701-2011">Clark et al.&nbsp;(2011)</a></td>
-<td style="text-align: left;">JULES 6.1 User Guide</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">6.1 can_rad_mod 5</td>
-<td style="text-align: left;">KC-2L</td>
-<td style="text-align: left;"><a href="https://doi.org/10.5194/gmd-4-701-2011">Clark et al.&nbsp;(2011)</a></td>
-<td style="text-align: left;">JULES 6.1 User Guide</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">6.1 can_rad_mod 6</td>
-<td style="text-align: left;">KC-2L</td>
-<td style="text-align: left;"><a href="https://doi.org/10.5194/gmd-4-701-2011">Clark et al.&nbsp;(2011)</a></td>
-<td style="text-align: left;">JULES 6.1 User Guide</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">ORCHIDEE</td>
-<td style="text-align: left;">CAN v1</td>
-<td style="text-align: left;">KC-1L</td>
-<td style="text-align: left;"><a href="https://doi.org/10.5194/gmd-9-223-2016">Ryder et al.&nbsp;(2016)</a></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">SCOPE</td>
-<td style="text-align: left;">1.7</td>
-<td style="text-align: left;">KC-IJL</td>
-<td style="text-align: left;"><a href="https://doi.org/10.5194/bg-6-3109-2009">van der Tol et al.&nbsp;(2009)</a></td>
-<td style="text-align: left;">SCOPE Documentation</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">2.0 lite off</td>
-<td style="text-align: left;">KC-IJL</td>
-<td style="text-align: left;"><a href="https://doi.org/10.5194/gmd-14-4697-2021">Yang et al.&nbsp;(2021)</a></td>
-<td style="text-align: left;">SCOPE Documentation</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">2.0 lite on</td>
-<td style="text-align: left;">KC-2L</td>
-<td style="text-align: left;"><a href="https://doi.org/10.5194/gmd-14-4697-2021">Yang et al.&nbsp;(2021)</a></td>
-<td style="text-align: left;">SCOPE Documentation</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-</tr>
-</tbody>
-</table>
+<p>Climate model predictions of future land carbon sink strength show significant discrepancies. To enhance predictive accuracy and reduce inter-model disagreements, it is crucial to improve the representation of vegetation processes and calibrate the models using more observational data. However, the limitations of computational resources in the past have hindered the integration of new theories and advances into traditional climate models, which often rely on statistical models to parameterize vegetation processes instead of mechanistic and physiological models (such as stomatal control models). Additionally, the preference for faster models has limited the incorporation of complex features (e.g., canopy model complexity), restricting the predictive skills of climate models.</p>
+<p>The use of simple vegetation parameterization schemes in traditional climate and land surface models has also limited the types of data that could be used for model calibration. For example, existing climate models do not use complex canopy radiative transfer models, thus being limited to use data such as carbon, water, and energy fluxes for calibration, often from flux towers. Despite the high temporal resolution provided by flux towers, the towers’ sparsity in space and time is a major limitation. Remote sensing data from space (such as MODIS, TROPOMI, and OCO 2/3), which provide global coverage, or field data (such as PhotoSpec), which provide high spectral and temporal resolution, cannot be directly harnessed by the traditional models.</p>
+<p>In CliMA, we are developing a next-generation climate model that learns from data. In pursuit of this goal, the land model component of CliMA seeks to equip the model with improved representations of vegetation processes and the capacity to directly harness remote sensing data, beyond just carbon, water, and energy fluxes. Thanks to the concerted efforts of the land team, we have successfully developed a first version of the next-generation land surface model—CliMA Land.</p>
+<p>CliMA Land is a cutting-edge, highly modular model, entirely written in Julia, with all of its submodules available as standalone packages for use in research from leaf level to regional and global scales (Fig. 1 biophysics module of CliMA Land). The biophysics component of CliMA Land boasts an impressive array of features, including support for two canopy radiative transfer schemes (broadband and hyperspectral), a sophisticated plant hydraulic model (offering both steady and non-steady state options), and nine stomatal models (including both empirical and optimality-based models). Further details, code, examples, and documentation can be found at <a href="https://github.com/CliMA/Land">https://github.com/CliMA/Land</a>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="land.modules.jpg" class="img-fluid figure-img"></p>
+<figcaption>Fig. 1 Diagram of CliMA Land biophysics module hierarchy.</figcaption>
+</figure>
+</div>
+<p>We are thrilled to announce that we have successfully run a global simulation using CliMA Land for the first time. The model showed very high predictive skills with regard to simulated quantities such as gross primary productivity, solar-induced chlorophyll fluorescence, and canopy reflectance properties (as shown in Fig. 2). Although the model has not yet been calibrated based on field- or space-based data, it demonstrated impressive spatial and temporal predictions (mean R<sup>2</sup> = 0.78 for nine simulated flux and remote sensing quantities). This work has recently been published in the Journal of Advances in Modeling Earth Systems (<a href="https://doi.org/10.1029/2021MS002964">doi:10.1029/2021MS002964</a>).</p>
+<p>We continue to work on improving the model’s predictive skills through development, configuration, and calibration efforts. Furthermore, we are dedicated to keeping the model open-source and user-friendly, and thus warmly welcome contributions and suggestions from the community.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="global.png" class="img-fluid figure-img"></p>
+<figcaption>Fig. 2 Overview of CliMA Land simulations (before model calibration).</figcaption>
+</figure>
+</div>
 
 
-<div class="no-row-height column-margin column-container"><div id="ref-wang2021testing" class="csl-entry" role="listitem">
-Wang, Y., P. Köhler, L. He, R. Doughty, R. K. Braghiere, J. D. Wood, and C. Frankenberg. 2021. <span>“Testing Stomatal Models at the Stand Level in Deciduous Angiosperm and Evergreen Gymnosperm Forests Using CliMA Land (V0.1).”</span> <em>Geoscientific Model Development</em> 14 (11): 6741–63. <a href="https://doi.org/10.5194/gmd-14-6741-2021">https://doi.org/10.5194/gmd-14-6741-2021</a>.
-</div></div>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
