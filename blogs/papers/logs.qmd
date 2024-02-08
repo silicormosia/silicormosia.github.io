@@ -1,0 +1,20 @@
+---
+title: "Logs of Reviews and Reviewing"
+image: ../../images/chip_tree.svg
+description: "Logs for the number of reviews we recieve and make. We try to balance the two!"
+author: "Yujie Wang"
+date: "1/31/2024"
+categories:
+  - Paper
+---
+
+It should be a responsibility to perform peer reviews if you receive them. Starting from 2024, I am logging the reviews I have received from the submission from me as first or corresponding author. Also, I am logging the number of reviews we have performed to show that we do not have a liability for peer reviews.
+
+## 2024
+| **Person**  | **Journal**                                   | **Number of Reviews Received** | **Number of Reviews Made** |
+|:------------|:----------------------------------------------|:-------------------------------|:---------------------------|
+| Yujie Wang  | Earth System Science Data                     |                                | 1                          |
+| Yujie Wang  | Biogeosciences                                |                                | 1                          |
+| Yujie Wang  | Journal of Advances in Modeling Earth Systems | 3                              |                            |
+| Yujie Wang  | Journal of Advances in Modeling Earth Systems | 2                              |                            |
+| **Summary** |                                               |                                |                            |

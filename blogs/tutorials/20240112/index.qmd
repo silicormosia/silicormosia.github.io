@@ -1,6 +1,6 @@
 ---
 title: "GriddingMachine Tutorial 1"
-image: ../../images/griddingmachine.svg
+image: ../../../images/griddingmachine.svg
 description: "How to install different versions of GriddingMachine.jl?"
 author: "Yujie Wang"
 date: "1/12/2024"

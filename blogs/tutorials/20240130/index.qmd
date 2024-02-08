@@ -1,6 +1,6 @@
 ---
 title: "GriddingMachine Tutorial 3"
-image: ../../images/griddingmachine.svg
+image: ../../../images/griddingmachine.svg
 description: "How to use the Indexer module of GriddingMachine.jl?"
 author: "Yujie Wang"
 date: "1/30/2024"
