@@ -1,6 +1,6 @@
 ---
 title: "GriddingMachine Tutorial 2"
-image: ../../images/griddingmachine.svg
+image: ../../../images/griddingmachine.svg
 description: "How to use the Collector module of GriddingMachine.jl?"
 author: "Yujie Wang"
 date: "1/19/2024"

@@ -1,6 +1,6 @@
 ---
 title: "Logs of Reviews and Reviewing"
-image: ../images/chip_tree.svg
+image: ../../images/chip_tree.svg
 description: "Logs for the number of reviews we recieve and make. We try to balance the two!"
 author: "Yujie Wang"
 date: "1/31/2024"
