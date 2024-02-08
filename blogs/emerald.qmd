@@ -1,0 +1,30 @@
+---
+title: "CliMA Land Benchmarks"
+image: ../images/chip_tree.svg
+description: "Performance of CliMA Land global simulations: spatial patterns of annual means"
+author: "Yujie Wang"
+date: "2/8/2024"
+categories:
+  - LSM
+---
+
+This blog tracks the performance of the CliMA Land global simulations in terms its spatial patterns in the following aspects:
+
+- Gross primary productivity
+- Vegetation transpiration
+- Normalized differential vegetation index
+- Enhanced vegetation index
+- Near infrared reflection of vegetation
+- Solar induced chlorophyll fluorescence at 683, 740, 757, and 771 nm
+
+
+## a11-gm3-wd1
+![Spatial patterns of selected parameters.](emerald/a11_gm3_wd1_2019_1X_1Y_spatial.png)
+
+![Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).](emerald/a11_gm3_wd1_2019_1X_1Y_hex.png)
+
+
+## a6-gm1-wd1
+![Spatial patterns of selected parameters.](emerald/a6_gm1_wd1_2019_1X_1Y_spatial.png)
+
+![Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).](emerald/a6_gm1_wd1_2019_1X_1Y_hex.png)
