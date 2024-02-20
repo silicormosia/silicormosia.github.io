@@ -1,5 +1,11 @@
 [
   {
+    "listing": "/people.html",
+    "items": [
+      "/people/wyujie.html"
+    ]
+  },
+  {
     "listing": "/blogs.html",
     "items": [
       "/blogs/emerald/emerald.html",
@@ -13,12 +19,6 @@
       "/blogs/peotry/20230418/index.html",
       "/blogs/papers/20220817/index.html",
       "/blogs/papers/20210930/index.html"
-    ]
-  },
-  {
-    "listing": "/people.html",
-    "items": [
-      "/people/wyujie.html"
     ]
   }
 ]

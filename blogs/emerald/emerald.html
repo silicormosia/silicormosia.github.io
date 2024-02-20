@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.549">
+<meta name="generator" content="quarto-1.4.550">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -84,7 +84,7 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -205,7 +205,34 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#model-versions" id="toc-model-versions" class="nav-link active" data-scroll-target="#model-versions">Model Versions</a></li>
+  <li><a href="#weather-drivers" id="toc-weather-drivers" class="nav-link" data-scroll-target="#weather-drivers">Weather Drivers</a></li>
+  <li><a href="#griddingmachine-selections" id="toc-griddingmachine-selections" class="nav-link" data-scroll-target="#griddingmachine-selections">GriddingMachine Selections</a>
+  <ul class="collapse">
+  <li><a href="#gm3" id="toc-gm3" class="nav-link" data-scroll-target="#gm3">GM3</a></li>
+  <li><a href="#gm2" id="toc-gm2" class="nav-link" data-scroll-target="#gm2">GM2</a></li>
+  <li><a href="#gm1" id="toc-gm1" class="nav-link" data-scroll-target="#gm1">GM1</a></li>
+  </ul></li>
+  <li><a href="#a11-gm3-wd1" id="toc-a11-gm3-wd1" class="nav-link" data-scroll-target="#a11-gm3-wd1">a11-gm3-wd1</a></li>
+  <li><a href="#a11-gm2-wd1" id="toc-a11-gm2-wd1" class="nav-link" data-scroll-target="#a11-gm2-wd1">a11-gm2-wd1</a></li>
+  <li><a href="#a10-gm2-wd1" id="toc-a10-gm2-wd1" class="nav-link" data-scroll-target="#a10-gm2-wd1">a10-gm2-wd1</a></li>
+  <li><a href="#a9-gm2-wd1" id="toc-a9-gm2-wd1" class="nav-link" data-scroll-target="#a9-gm2-wd1">a9-gm2-wd1</a></li>
+  <li><a href="#a8-gm2-wd1" id="toc-a8-gm2-wd1" class="nav-link" data-scroll-target="#a8-gm2-wd1">a8-gm2-wd1</a></li>
+  <li><a href="#a7-gm1-wd1" id="toc-a7-gm1-wd1" class="nav-link" data-scroll-target="#a7-gm1-wd1">a7-gm1-wd1</a></li>
+  <li><a href="#a6-gm1-wd1" id="toc-a6-gm1-wd1" class="nav-link" data-scroll-target="#a6-gm1-wd1">a6-gm1-wd1</a></li>
+  <li><a href="#a5-gm1-wd1" id="toc-a5-gm1-wd1" class="nav-link" data-scroll-target="#a5-gm1-wd1">a5-gm1-wd1</a></li>
+  <li><a href="#a4-gm1-wd1" id="toc-a4-gm1-wd1" class="nav-link" data-scroll-target="#a4-gm1-wd1">a4-gm1-wd1</a></li>
+  <li><a href="#a3-gm1-wd1" id="toc-a3-gm1-wd1" class="nav-link" data-scroll-target="#a3-gm1-wd1">a3-gm1-wd1</a></li>
+  <li><a href="#a2-gm1-wd1" id="toc-a2-gm1-wd1" class="nav-link" data-scroll-target="#a2-gm1-wd1">a2-gm1-wd1</a></li>
+  <li><a href="#a1-gm1-wd1" id="toc-a1-gm1-wd1" class="nav-link" data-scroll-target="#a1-gm1-wd1">a1-gm1-wd1</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -215,13 +242,547 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 
 <p>This blog tracks the performance of the CliMA Land global simulations in terms its spatial patterns in the following aspects:</p>
 <ul>
-<li>Gross primary productivity</li>
-<li>Vegetation transpiration</li>
-<li>Normalized differential vegetation index</li>
-<li>Enhanced vegetation index</li>
-<li>Near infrared reflection of vegetation</li>
-<li>Solar induced chlorophyll fluorescence at 683, 740, 757, and 771 nm</li>
+<li>Gross primary productivity (GPP)</li>
+<li>Vegetation transpiration (T)</li>
+<li>Normalized differential vegetation index (NDVI)</li>
+<li>Enhanced vegetation index (EVI)</li>
+<li>Near infrared reflection of vegetation (NIRv)</li>
+<li>Solar induced chlorophyll fluorescence (SIF) at 683, 740, 757, and 771 nm</li>
 </ul>
+<p>Per release, the major improvements are:</p>
+<ul>
+<li>a11-gm3-wd1: GPP and SIF errors decreased (scale Vcmax to 60% of the dataset)</li>
+<li>a11-gm2-wd1: GPP and SIF errors decreased (carotenoid contribution to PPAR removed)</li>
+<li>a10-gm2-wd1: GPP error decreased (new photosynthesis model and adding boundary layer conductance) slightly while SIF errors increased slightly (due to adding UV radiation)</li>
+<li>a9-gm2-wd1: GPP and SIF errors decreased slightly (due to adding Kd temperature dependency)</li>
+<li>a8-gm2-wd1: GPP error increased slightly while reflectance and SIF errors decreased (due to adding CI seasonality)</li>
+<li>a7-gm1-wd1: GPP error decreased while SIF errors increased slightly (due to adding a smoothing algorithm for J calculation)</li>
+<li>a6-gm1-wd1: GPP error increased while SIF errors decreased slightly (fixed a typo of the coefficient 1.6, was 1 before)</li>
+<li>a5-gm1-wd1: GPP and SIF errors increased (fixed the SIF yield scaling bug)</li>
+<li>a4-gm1-wd1: GPP error increased slightly (included FR contribution to PPAR, namely 700-750 nm)</li>
+<li>a3-gm1-wd1: GPP error increased slightly (add Vcmax profiles)</li>
+<li>a2-gm1-wd1: GPP and SIF errors changed a little bit (SIF wavelengths more accurate, have Vcmax25 TD based on moving average T)</li>
+<li>a1-gm1-wd1: very first global simulation</li>
+</ul>
+<p>The RMSE per variable per simulation are</p>
+<table class="table">
+<colgroup>
+<col style="width: 11%">
+<col style="width: 8%">
+<col style="width: 6%">
+<col style="width: 9%">
+<col style="width: 8%">
+<col style="width: 9%">
+<col style="width: 11%">
+<col style="width: 11%">
+<col style="width: 11%">
+<col style="width: 11%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Version</strong></th>
+<th style="text-align: left;"><strong>GPP</strong></th>
+<th style="text-align: left;"><strong>T</strong></th>
+<th style="text-align: left;"><strong>NDVI</strong></th>
+<th style="text-align: left;"><strong>EVI</strong></th>
+<th style="text-align: left;"><strong>NIRv</strong></th>
+<th style="text-align: left;"><strong>SIF 683</strong></th>
+<th style="text-align: left;"><strong>SIF 740</strong></th>
+<th style="text-align: left;"><strong>SIF 757</strong></th>
+<th style="text-align: left;"><strong>SIF 771</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">a11-gm3-wd1</td>
+<td style="text-align: left;">1.368</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">0.135</td>
+<td style="text-align: left;">0.160</td>
+<td style="text-align: left;">0.257</td>
+<td style="text-align: left;">0.051</td>
+<td style="text-align: left;">0.154</td>
+<td style="text-align: left;">0.095</td>
+<td style="text-align: left;">0.063</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">a11-gm2-wd1</td>
+<td style="text-align: left;">2.276</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">0.135</td>
+<td style="text-align: left;">0.160</td>
+<td style="text-align: left;">0.257</td>
+<td style="text-align: left;">0.057</td>
+<td style="text-align: left;">0.178</td>
+<td style="text-align: left;">0.110</td>
+<td style="text-align: left;">0.066</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">a10-gm2-wd1</td>
+<td style="text-align: left;">2.616</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">0.135</td>
+<td style="text-align: left;">0.160</td>
+<td style="text-align: left;">0.257</td>
+<td style="text-align: left;">0.071</td>
+<td style="text-align: left;">0.224</td>
+<td style="text-align: left;">0.139</td>
+<td style="text-align: left;">0.076</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">a9-gm2-wd1</td>
+<td style="text-align: left;">2.751</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">0.134</td>
+<td style="text-align: left;">0.161</td>
+<td style="text-align: left;">0.257</td>
+<td style="text-align: left;">0.068</td>
+<td style="text-align: left;">0.220</td>
+<td style="text-align: left;">0.136</td>
+<td style="text-align: left;">0.075</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">a8-gm2-wd1</td>
+<td style="text-align: left;">2.783</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">0.134</td>
+<td style="text-align: left;">0.161</td>
+<td style="text-align: left;">0.257</td>
+<td style="text-align: left;">0.070</td>
+<td style="text-align: left;">0.231</td>
+<td style="text-align: left;">0.144</td>
+<td style="text-align: left;">0.079</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">a7-gm1-wd1</td>
+<td style="text-align: left;">2.561</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">0.139</td>
+<td style="text-align: left;">0.173</td>
+<td style="text-align: left;">0.259</td>
+<td style="text-align: left;">0.074</td>
+<td style="text-align: left;">0.261</td>
+<td style="text-align: left;">0.167</td>
+<td style="text-align: left;">0.091</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">a6-gm1-wd1</td>
+<td style="text-align: left;">3.371</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">0.139</td>
+<td style="text-align: left;">0.173</td>
+<td style="text-align: left;">0.259</td>
+<td style="text-align: left;">0.073</td>
+<td style="text-align: left;">0.257</td>
+<td style="text-align: left;">0.163</td>
+<td style="text-align: left;">0.088</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">a5-gm1-wd1</td>
+<td style="text-align: left;">2.619</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">0.138</td>
+<td style="text-align: left;">0.174</td>
+<td style="text-align: left;">0.259</td>
+<td style="text-align: left;">0.074</td>
+<td style="text-align: left;">0.260</td>
+<td style="text-align: left;">0.166</td>
+<td style="text-align: left;">0.090</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">a4-gm1-wd1</td>
+<td style="text-align: left;">2.567</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">0.138</td>
+<td style="text-align: left;">0.174</td>
+<td style="text-align: left;">0.258</td>
+<td style="text-align: left;">0.057</td>
+<td style="text-align: left;">0.185</td>
+<td style="text-align: left;">0.117</td>
+<td style="text-align: left;">0.068</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">a3-gm1-wd1</td>
+<td style="text-align: left;">2.382</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">0.138</td>
+<td style="text-align: left;">0.174</td>
+<td style="text-align: left;">0.258</td>
+<td style="text-align: left;">0.057</td>
+<td style="text-align: left;">0.185</td>
+<td style="text-align: left;">0.117</td>
+<td style="text-align: left;">0.068</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">a2-gm1-wd1</td>
+<td style="text-align: left;">2.368</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">0.138</td>
+<td style="text-align: left;">0.174</td>
+<td style="text-align: left;">0.258</td>
+<td style="text-align: left;">0.057</td>
+<td style="text-align: left;">0.185</td>
+<td style="text-align: left;">0.117</td>
+<td style="text-align: left;">0.068</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">a1-gm1-wd1</td>
+<td style="text-align: left;">2.374</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">0.138</td>
+<td style="text-align: left;">0.174</td>
+<td style="text-align: left;">0.258</td>
+<td style="text-align: left;">0.047</td>
+<td style="text-align: left;">0.185</td>
+<td style="text-align: left;">0.131</td>
+<td style="text-align: left;">0.065</td>
+</tr>
+</tbody>
+</table>
+<section id="model-versions" class="level2">
+<h2 class="anchored" data-anchor-id="model-versions">Model Versions</h2>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Version Tag</th>
+<th style="text-align: left;">Linear Change History</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">A11</td>
+<td style="text-align: left;">Not counting Car absorption in PPAR+SIF</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Add new SIF spectrum option (V7)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">A10</td>
+<td style="text-align: left;">Extend spectra down to 300 nm</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Balance FR and VIS PAR in photosyntheis</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Bug fix: account for wind in Gb</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Remove f_PSII option</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Add option to prescribe leaf refl+trans</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Add option to use broadband soil albedo</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Set f_PPAR to 1 in broadband RT mode</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">A9</td>
+<td style="text-align: left;">Add option for a TD Kd and maxPSII</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Add function to prescribe Kf</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">A8</td>
+<td style="text-align: left;">Fix a bug in sunlit APAR</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">A7</td>
+<td style="text-align: left;">Add quadratic colimitation to C3 J (0.7)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Add option to prescribe f_PSII</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Add option to set SIF excitation WL</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">A6</td>
+<td style="text-align: left;">Fix a bug in Medlyn model (coeff 1.6)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Note</td>
+<td style="text-align: left;">History in ClimaLand-0.1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">A5</td>
+<td style="text-align: left;">Fix SIF yield scaling bug</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Add ePAR scenario</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Add prescibed CI option</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">A4</td>
+<td style="text-align: left;">Extend PAR definition to 400-750 nm</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">A3</td>
+<td style="text-align: left;">Add vertical Vcmax profile</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">A2</td>
+<td style="text-align: left;">Use minimum beta instead of mean beta</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Use moving average optimal T from CLM5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">A1</td>
+<td style="text-align: left;">Version used for initial run</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="weather-drivers" class="level2">
+<h2 class="anchored" data-anchor-id="weather-drivers">Weather Drivers</h2>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Version Tag</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">WD1</td>
+<td style="text-align: left;">ERA5 Single Levels</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="griddingmachine-selections" class="level2">
+<h2 class="anchored" data-anchor-id="griddingmachine-selections">GriddingMachine Selections</h2>
+<section id="gm3" class="level3">
+<h3 class="anchored" data-anchor-id="gm3">GM3</h3>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Variable</th>
+<th style="text-align: left;">GriddingMachine Tag</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">s_cc</td>
+<td style="text-align: left;">SC_2X_1Y_V1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">s_α</td>
+<td style="text-align: left;">SOIL_VGA_12X_1Y_V1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">s_n</td>
+<td style="text-align: left;">SOIL_VGN_12X_1Y_V1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">s_Θr</td>
+<td style="text-align: left;">SOIL_SWCR_12X_1Y_V1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">s_Θs</td>
+<td style="text-align: left;">SOIL_SWCS_12X_1Y_V1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">p_ch</td>
+<td style="text-align: left;">CH_20X_1Y_V1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">p_chl</td>
+<td style="text-align: left;">CHL_2X_7D_V1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">p_ci</td>
+<td style="text-align: left;">CI_2X_1M_V3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">p_lai</td>
+<td style="text-align: left;">LAI_MODIS_2X_8D_YYYY_V1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">p_sla</td>
+<td style="text-align: left;">SLA_2X_1Y_V1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">p_vcm</td>
+<td style="text-align: left;"><strong>VCMAX_2X_1Y_V2 (60%)</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">t_ele</td>
+<td style="text-align: left;">ELEV_4X_1Y_V1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">t_lm</td>
+<td style="text-align: left;">LM_4X_1Y_V1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">t_pft</td>
+<td style="text-align: left;">PFT_2X_1Y_V1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="gm2" class="level3">
+<h3 class="anchored" data-anchor-id="gm2">GM2</h3>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Variable</th>
+<th style="text-align: left;">GriddingMachine Tag</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">s_cc</td>
+<td style="text-align: left;">SC_2X_1Y_V1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">s_α</td>
+<td style="text-align: left;">SOIL_VGA_12X_1Y_V1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">s_n</td>
+<td style="text-align: left;">SOIL_VGN_12X_1Y_V1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">s_Θr</td>
+<td style="text-align: left;">SOIL_SWCR_12X_1Y_V1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">s_Θs</td>
+<td style="text-align: left;">SOIL_SWCS_12X_1Y_V1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">p_ch</td>
+<td style="text-align: left;">CH_20X_1Y_V1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">p_chl</td>
+<td style="text-align: left;">CHL_2X_7D_V1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">p_ci</td>
+<td style="text-align: left;"><strong>CI_2X_1M_V3</strong></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">p_lai</td>
+<td style="text-align: left;">LAI_MODIS_2X_8D_YYYY_V1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">p_sla</td>
+<td style="text-align: left;">SLA_2X_1Y_V1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">p_vcm</td>
+<td style="text-align: left;">VCMAX_2X_1Y_V2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">t_ele</td>
+<td style="text-align: left;">ELEV_4X_1Y_V1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">t_lm</td>
+<td style="text-align: left;">LM_4X_1Y_V1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">t_pft</td>
+<td style="text-align: left;">PFT_2X_1Y_V1</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="gm1" class="level3">
+<h3 class="anchored" data-anchor-id="gm1">GM1</h3>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Variable</th>
+<th style="text-align: left;">GriddingMachine Tag</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">s_cc</td>
+<td style="text-align: left;">SC_2X_1Y_V1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">s_α</td>
+<td style="text-align: left;">SOIL_VGA_12X_1Y_V1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">s_n</td>
+<td style="text-align: left;">SOIL_VGN_12X_1Y_V1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">s_Θr</td>
+<td style="text-align: left;">SOIL_SWCR_12X_1Y_V1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">s_Θs</td>
+<td style="text-align: left;">SOIL_SWCS_12X_1Y_V1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">p_ch</td>
+<td style="text-align: left;">CH_20X_1Y_V1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">p_chl</td>
+<td style="text-align: left;">CHL_2X_7D_V1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">p_ci</td>
+<td style="text-align: left;">CI_2X_1Y_V1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">p_lai</td>
+<td style="text-align: left;">LAI_MODIS_2X_8D_YYYY_V1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">p_sla</td>
+<td style="text-align: left;">SLA_2X_1Y_V1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">p_vcm</td>
+<td style="text-align: left;">VCMAX_2X_1Y_V2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">t_ele</td>
+<td style="text-align: left;">ELEV_4X_1Y_V1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">t_lm</td>
+<td style="text-align: left;">LM_4X_1Y_V1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">t_pft</td>
+<td style="text-align: left;">PFT_2X_1Y_V1</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
 <section id="a11-gm3-wd1" class="level2">
 <h2 class="anchored" data-anchor-id="a11-gm3-wd1">a11-gm3-wd1</h2>
 <div class="quarto-figure quarto-figure-center">
@@ -237,6 +798,81 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 </figure>
 </div>
 </section>
+<section id="a11-gm2-wd1" class="level2">
+<h2 class="anchored" data-anchor-id="a11-gm2-wd1">a11-gm2-wd1</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="a11_gm2_wd1_2019_1X_1Y_spatial.png" class="img-fluid figure-img"></p>
+<figcaption>Spatial patterns of selected parameters.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="a11_gm2_wd1_2019_1X_1Y_hex.png" class="img-fluid figure-img"></p>
+<figcaption>Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).</figcaption>
+</figure>
+</div>
+</section>
+<section id="a10-gm2-wd1" class="level2">
+<h2 class="anchored" data-anchor-id="a10-gm2-wd1">a10-gm2-wd1</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="a10_gm2_wd1_2019_1X_1Y_spatial.png" class="img-fluid figure-img"></p>
+<figcaption>Spatial patterns of selected parameters.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="a10_gm2_wd1_2019_1X_1Y_hex.png" class="img-fluid figure-img"></p>
+<figcaption>Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).</figcaption>
+</figure>
+</div>
+</section>
+<section id="a9-gm2-wd1" class="level2">
+<h2 class="anchored" data-anchor-id="a9-gm2-wd1">a9-gm2-wd1</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="a9_gm2_wd1_2019_1X_1Y_spatial.png" class="img-fluid figure-img"></p>
+<figcaption>Spatial patterns of selected parameters.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="a9_gm2_wd1_2019_1X_1Y_hex.png" class="img-fluid figure-img"></p>
+<figcaption>Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).</figcaption>
+</figure>
+</div>
+</section>
+<section id="a8-gm2-wd1" class="level2">
+<h2 class="anchored" data-anchor-id="a8-gm2-wd1">a8-gm2-wd1</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="a8_gm2_wd1_2019_1X_1Y_spatial.png" class="img-fluid figure-img"></p>
+<figcaption>Spatial patterns of selected parameters.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="a8_gm2_wd1_2019_1X_1Y_hex.png" class="img-fluid figure-img"></p>
+<figcaption>Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).</figcaption>
+</figure>
+</div>
+</section>
+<section id="a7-gm1-wd1" class="level2">
+<h2 class="anchored" data-anchor-id="a7-gm1-wd1">a7-gm1-wd1</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="a7_gm1_wd1_2019_1X_1Y_spatial.png" class="img-fluid figure-img"></p>
+<figcaption>Spatial patterns of selected parameters.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="a7_gm1_wd1_2019_1X_1Y_hex.png" class="img-fluid figure-img"></p>
+<figcaption>Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).</figcaption>
+</figure>
+</div>
+</section>
 <section id="a6-gm1-wd1" class="level2">
 <h2 class="anchored" data-anchor-id="a6-gm1-wd1">a6-gm1-wd1</h2>
 <div class="quarto-figure quarto-figure-center">
@@ -248,6 +884,81 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="a6_gm1_wd1_2019_1X_1Y_hex.png" class="img-fluid figure-img"></p>
+<figcaption>Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).</figcaption>
+</figure>
+</div>
+</section>
+<section id="a5-gm1-wd1" class="level2">
+<h2 class="anchored" data-anchor-id="a5-gm1-wd1">a5-gm1-wd1</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="a5_gm1_wd1_2019_1X_1Y_spatial.png" class="img-fluid figure-img"></p>
+<figcaption>Spatial patterns of selected parameters.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="a5_gm1_wd1_2019_1X_1Y_hex.png" class="img-fluid figure-img"></p>
+<figcaption>Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).</figcaption>
+</figure>
+</div>
+</section>
+<section id="a4-gm1-wd1" class="level2">
+<h2 class="anchored" data-anchor-id="a4-gm1-wd1">a4-gm1-wd1</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="a4_gm1_wd1_2019_1X_1Y_spatial.png" class="img-fluid figure-img"></p>
+<figcaption>Spatial patterns of selected parameters.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="a4_gm1_wd1_2019_1X_1Y_hex.png" class="img-fluid figure-img"></p>
+<figcaption>Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).</figcaption>
+</figure>
+</div>
+</section>
+<section id="a3-gm1-wd1" class="level2">
+<h2 class="anchored" data-anchor-id="a3-gm1-wd1">a3-gm1-wd1</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="a3_gm1_wd1_2019_1X_1Y_spatial.png" class="img-fluid figure-img"></p>
+<figcaption>Spatial patterns of selected parameters.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="a3_gm1_wd1_2019_1X_1Y_hex.png" class="img-fluid figure-img"></p>
+<figcaption>Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).</figcaption>
+</figure>
+</div>
+</section>
+<section id="a2-gm1-wd1" class="level2">
+<h2 class="anchored" data-anchor-id="a2-gm1-wd1">a2-gm1-wd1</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="a2_gm1_wd1_2019_1X_1Y_spatial.png" class="img-fluid figure-img"></p>
+<figcaption>Spatial patterns of selected parameters.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="a2_gm1_wd1_2019_1X_1Y_hex.png" class="img-fluid figure-img"></p>
+<figcaption>Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).</figcaption>
+</figure>
+</div>
+</section>
+<section id="a1-gm1-wd1" class="level2">
+<h2 class="anchored" data-anchor-id="a1-gm1-wd1">a1-gm1-wd1</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="a1_gm1_wd1_2019_1X_1Y_spatial.png" class="img-fluid figure-img"></p>
+<figcaption>Spatial patterns of selected parameters.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="a1_gm1_wd1_2019_1X_1Y_hex.png" class="img-fluid figure-img"></p>
 <figcaption>Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).</figcaption>
 </figure>
 </div>
