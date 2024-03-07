@@ -4,6 +4,7 @@ image: ../../images/chip_tree.svg
 description: "Performance of CliMA Land global simulations: spatial patterns of annual means"
 author: "Yujie Wang"
 date: "2/8/2024"
+date-modified: "3/7/2024"
 categories:
   - LSM
 toc: true
@@ -20,6 +21,7 @@ This blog tracks the performance of the CliMA Land global simulations in terms i
 
 Per release, the major improvements are:
 
+- a12-gm3-wd1: GPP and VIs error increased (more grids now!) and SIF errors is not impacted on average
 - a11-gm3-wd1: GPP and SIF errors decreased (scale Vcmax to 60% of the dataset)
 - a11-gm2-wd1: GPP and SIF errors decreased (carotenoid contribution to PPAR removed)
 - a10-gm2-wd1: GPP error decreased (new photosynthesis model and adding boundary layer conductance) slightly while SIF errors increased slightly (due to adding UV radiation)
@@ -37,6 +39,7 @@ The RMSE per variable per simulation are
 
 | **Version** | **GPP** | **T** | **NDVI** | **EVI** | **NIRv** | **SIF 683** | **SIF 740** | **SIF 757** | **SIF 771** |
 |:------------|:--------|:------|:---------|:--------|:---------|:------------|:------------|:------------|:------------|
+| a12-gm3-wd1 | 1.764   | NA    | 0.173    | 0.151   | 0.493    | 0.044       | 0.141       | 0.097       | 0.079       |
 | a11-gm3-wd1 | 1.368   | NA    | 0.135    | 0.160   | 0.257    | 0.051       | 0.154       | 0.095       | 0.063       |
 | a11-gm2-wd1 | 2.276   | NA    | 0.135    | 0.160   | 0.257    | 0.057       | 0.178       | 0.110       | 0.066       |
 | a10-gm2-wd1 | 2.616   | NA    | 0.135    | 0.160   | 0.257    | 0.071       | 0.224       | 0.139       | 0.076       |
@@ -54,6 +57,7 @@ The RMSE per variable per simulation are
 ## Model Versions
 | Version Tag | Linear Change History                    |
 |:------------|:-----------------------------------------|
+| A12         | Fix a bug in f_sunlit (RT impacted)      |
 | A11         | Not counting Car absorption in PPAR+SIF  |
 |             | Add new SIF spectrum option (V7)         |
 | A10         | Extend spectra down to 300 nm            |
@@ -147,73 +151,79 @@ The RMSE per variable per simulation are
 | t_pft    | PFT_2X_1Y_V1            |
 
 
-## a11-gm3-wd1
-![Spatial patterns of selected parameters.](a11_gm3_wd1_2019_1X_1Y_spatial.png)
+## a12-gm3-wd1
+![Spatial patterns of selected parameters.](figures/a12_gm3_wd1_2019_1X_1Y_spatial.png)
 
-![Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).](a11_gm3_wd1_2019_1X_1Y_hex.png)
+![Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).](figures/a12_gm3_wd1_2019_1X_1Y_hex.png)
+
+
+## a11-gm3-wd1
+![Spatial patterns of selected parameters.](figures/a11_gm3_wd1_2019_1X_1Y_spatial.png)
+
+![Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).](figures/a11_gm3_wd1_2019_1X_1Y_hex.png)
 
 
 ## a11-gm2-wd1
-![Spatial patterns of selected parameters.](a11_gm2_wd1_2019_1X_1Y_spatial.png)
+![Spatial patterns of selected parameters.](figures/a11_gm2_wd1_2019_1X_1Y_spatial.png)
 
-![Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).](a11_gm2_wd1_2019_1X_1Y_hex.png)
+![Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).](figures/a11_gm2_wd1_2019_1X_1Y_hex.png)
 
 
 ## a10-gm2-wd1
-![Spatial patterns of selected parameters.](a10_gm2_wd1_2019_1X_1Y_spatial.png)
+![Spatial patterns of selected parameters.](figures/a10_gm2_wd1_2019_1X_1Y_spatial.png)
 
-![Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).](a10_gm2_wd1_2019_1X_1Y_hex.png)
+![Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).](figures/a10_gm2_wd1_2019_1X_1Y_hex.png)
 
 
 ## a9-gm2-wd1
-![Spatial patterns of selected parameters.](a9_gm2_wd1_2019_1X_1Y_spatial.png)
+![Spatial patterns of selected parameters.](figures/a9_gm2_wd1_2019_1X_1Y_spatial.png)
 
-![Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).](a9_gm2_wd1_2019_1X_1Y_hex.png)
+![Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).](figures/a9_gm2_wd1_2019_1X_1Y_hex.png)
 
 
 ## a8-gm2-wd1
-![Spatial patterns of selected parameters.](a8_gm2_wd1_2019_1X_1Y_spatial.png)
+![Spatial patterns of selected parameters.](figures/a8_gm2_wd1_2019_1X_1Y_spatial.png)
 
-![Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).](a8_gm2_wd1_2019_1X_1Y_hex.png)
+![Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).](figures/a8_gm2_wd1_2019_1X_1Y_hex.png)
 
 
 ## a7-gm1-wd1
-![Spatial patterns of selected parameters.](a7_gm1_wd1_2019_1X_1Y_spatial.png)
+![Spatial patterns of selected parameters.](figures/a7_gm1_wd1_2019_1X_1Y_spatial.png)
 
-![Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).](a7_gm1_wd1_2019_1X_1Y_hex.png)
+![Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).](figures/a7_gm1_wd1_2019_1X_1Y_hex.png)
 
 
 ## a6-gm1-wd1
-![Spatial patterns of selected parameters.](a6_gm1_wd1_2019_1X_1Y_spatial.png)
+![Spatial patterns of selected parameters.](figures/a6_gm1_wd1_2019_1X_1Y_spatial.png)
 
-![Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).](a6_gm1_wd1_2019_1X_1Y_hex.png)
+![Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).](figures/a6_gm1_wd1_2019_1X_1Y_hex.png)
 
 
 ## a5-gm1-wd1
-![Spatial patterns of selected parameters.](a5_gm1_wd1_2019_1X_1Y_spatial.png)
+![Spatial patterns of selected parameters.](figures/a5_gm1_wd1_2019_1X_1Y_spatial.png)
 
-![Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).](a5_gm1_wd1_2019_1X_1Y_hex.png)
+![Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).](figures/a5_gm1_wd1_2019_1X_1Y_hex.png)
 
 
 ## a4-gm1-wd1
-![Spatial patterns of selected parameters.](a4_gm1_wd1_2019_1X_1Y_spatial.png)
+![Spatial patterns of selected parameters.](figures/a4_gm1_wd1_2019_1X_1Y_spatial.png)
 
-![Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).](a4_gm1_wd1_2019_1X_1Y_hex.png)
+![Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).](figures/a4_gm1_wd1_2019_1X_1Y_hex.png)
 
 
 ## a3-gm1-wd1
-![Spatial patterns of selected parameters.](a3_gm1_wd1_2019_1X_1Y_spatial.png)
+![Spatial patterns of selected parameters.](figures/a3_gm1_wd1_2019_1X_1Y_spatial.png)
 
-![Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).](a3_gm1_wd1_2019_1X_1Y_hex.png)
+![Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).](figures/a3_gm1_wd1_2019_1X_1Y_hex.png)
 
 
 ## a2-gm1-wd1
-![Spatial patterns of selected parameters.](a2_gm1_wd1_2019_1X_1Y_spatial.png)
+![Spatial patterns of selected parameters.](figures/a2_gm1_wd1_2019_1X_1Y_spatial.png)
 
-![Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).](a2_gm1_wd1_2019_1X_1Y_hex.png)
+![Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).](figures/a2_gm1_wd1_2019_1X_1Y_hex.png)
 
 
 ## a1-gm1-wd1
-![Spatial patterns of selected parameters.](a1_gm1_wd1_2019_1X_1Y_spatial.png)
+![Spatial patterns of selected parameters.](figures/a1_gm1_wd1_2019_1X_1Y_spatial.png)
 
-![Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).](a1_gm1_wd1_2019_1X_1Y_hex.png)
+![Comparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).](figures/a1_gm1_wd1_2019_1X_1Y_hex.png)
