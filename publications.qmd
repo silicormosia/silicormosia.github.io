@@ -6,9 +6,14 @@ toc: true
 ## Journal Papers
 
 ### In Press
+
 - K. Liu, Y. Wang, T. Magney, and C. Frankenberg.
   Non-steady-state stomatal conductance modeling and its implications: From leaf to ecosystem.
   Biogeosciences.
+
+- Y. Yao, V. Humphrey, Y. Wang, Y. Yin, A. Konings, N. Holtzman, J. Wood, Y. Bar-On, and C. Frankenberg.
+  Investigating diurnal and seasonal cycles of vegetation optical depth retrieved from GNSS signals.
+  Geophysical Research Letters.
 
 ### 2023
 
@@ -32,7 +37,7 @@ toc: true
   The importance of hyperspectral soil albedo information for improving Earth system model projections.
   AGU Advances 4(4): e2023AV000910.
   [BIBTEX](https://github.com/silicormosia/silicormosia.github.io/raw/main/bibtex/braghiere2023importance.bib)
-  [DOI](https://doi.org/10.1029/2021AV000538)
+  [DOI](https://doi.org/10.1029/2023AV000910)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/braghiere2023importance.pdf)
   [CODE](https://github.com/Yujie-WANG/Published-Codes-Yujie-WANG)
 
@@ -190,16 +195,16 @@ toc: true
   [DOI](https://doi.org/10.1093/treephys/tpy051)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/du2019do.pdf)
 
-
-### 2018
-
-- D. M. Love, M. D. Venturas, J. S. Sperry, P. D. Brooks, J. L. Pettit, Y. Wang, and W. R. L. Anderegg (2018).
+- D. M. Love, M. D. Venturas, J. S. Sperry, P. D. Brooks, J. L. Pettit, Y. Wang, and W. R. L. Anderegg (2019).
   Dependence of aspen stands on a subsurface water subsidy: Implications for climate change impacts.
   Water Resource Research 55(3): 1833–1848.
   [BIBTEX](https://github.com/silicormosia/silicormosia.github.io/raw/main/bibtex/love2019dependence.bib)
   [DOI](https://doi.org/10.1029/2018WR023468)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/love2019dependence.pdf)
   [SI](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/love2019dependence-si.zip)
+
+
+### 2018
 
 - M. D. Venturas, J. S. Sperry, D. M. Love, E. H. Frehner, M. G. Allred, Y. Wang, and W. R. L. Anderegg (2018).
   A stomatal control model based on optimization of carbon gain versus hydraulic risk predicts aspen sapling responses to drought.
