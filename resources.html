@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.550">
+<meta name="generator" content="quarto-1.4.551">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -225,8 +225,8 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 <li><p>Y. Wang, R. K. Braghiere, A. A. Bloom, and C. Frankenberg (2023). Talk @ EGU General Assembly: Modeling global vegetation processes and hyperspectral canopy radiative transfer using CliMA Land. <a href="https://github.com/silicormosia/silicormosia.github.io/raw/main/talks/2023-wang-egu.pdf">PDF</a></p></li>
 <li><p>Y. Wang (2023). Seminar @ JPL Carbon Club: Modeling global vegetation processes using a next-generation land surface model—CliMA Land. <a href="https://github.com/silicormosia/silicormosia.github.io/raw/main/talks/2023-wang-jpl.pdf">PDF</a></p></li>
 <li><p>Y. Wang (2023). Faculty Job Talk @ University of Central Florida: Modeling vegetation processes from organ to global scale. <a href="https://github.com/silicormosia/silicormosia.github.io/raw/main/talks/2023-wang-ucf.pdf">PDF</a></p></li>
-<li><p>Y. Wang (2022). Seminar @ 2nd Model Hierarchy Workshop: GriddingMachine.jl: A database and software for Earth system modeling. <a href="https://github.com/silicormosia/silicormosia.github.io/raw/main/talks/2022-wang-hierarchy.pdf">PDF</a></p></li>
-<li><p>Y. Wang (2022). Talk @ RUBISCO SFA: Modeling canopy fluxes and optical properties using CliMA Land. <a href="https://github.com/silicormosia/silicormosia.github.io/raw/main/talks/2022-wang-rubisco.pdf">PDF</a></p></li>
+<li><p>Y. Wang (2022). Seminar @ 2nd Model Hierarchy Workshop: Modeling canopy fluxes and optical properties using CliMA Land. <a href="https://github.com/silicormosia/silicormosia.github.io/raw/main/talks/2022-wang-hierarchy.pdf">PDF</a></p></li>
+<li><p>Y. Wang (2022). Talk @ RUBISCO SFA: GriddingMachine.jl: A database and software for Earth system modeling. <a href="https://github.com/silicormosia/silicormosia.github.io/raw/main/talks/2022-wang-rubisco.pdf">PDF</a></p></li>
 <li><p>Y. Wang (2022). Talk @ GeoCarb Science Meeting: Modeling canopy fluxes and optical properties using CliMA Land. <a href="https://github.com/silicormosia/silicormosia.github.io/raw/main/talks/2022-wang-geocarb.pdf">PDF</a></p></li>
 <li><p>Y. Wang (2020). Seminar @ JPL Carbon Club: Modeling optimal leaf area and photosynthetic capacity from plant traits and climate. <a href="https://github.com/silicormosia/silicormosia.github.io/raw/main/talks/2020-wang-jpl.pdf">PDF</a></p></li>
 <li><p>Y. Wang (2020). Seminar @ Huazhong Agriculture University: Plant hydraulics and stomatal control. <a href="https://github.com/silicormosia/silicormosia.github.io/raw/main/talks/2020-wang-hzau.pdf">PDF</a></p></li>
@@ -334,6 +334,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/silicormosia\.github\.io\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -368,7 +386,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
