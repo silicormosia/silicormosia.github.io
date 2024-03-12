@@ -71,12 +71,12 @@ toc: true
 
 - Y. Wang (2022).
   Seminar @ 2nd Model Hierarchy Workshop:
-  GriddingMachine.jl: A database and software for Earth system modeling.
+  Modeling canopy fluxes and optical properties using CliMA Land.
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/talks/2022-wang-hierarchy.pdf)
 
 - Y. Wang (2022).
   Talk @ RUBISCO SFA:
-  Modeling canopy fluxes and optical properties using CliMA Land.
+  GriddingMachine.jl: A database and software for Earth system modeling.
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/talks/2022-wang-rubisco.pdf)
 
 - Y. Wang (2022).
