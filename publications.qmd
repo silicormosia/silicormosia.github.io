@@ -15,6 +15,10 @@ toc: true
   Investigating diurnal and seasonal cycles of vegetation optical depth retrieved from GNSS signals.
   Geophysical Research Letters.
 
+- Y. Wang, and C. Frankenberg.
+  Towards more accurate modeling of canopy radiative transfer and leaf electron transport in land surface modeling.
+  Journal of Advances in Modeling Earth Systems.
+
 ### 2023
 
 - N. Holtzman, Y. Wang, J. D. Wood, C. Frankenberg, and A. G. Konings (2023).
