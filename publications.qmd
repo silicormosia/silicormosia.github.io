@@ -7,17 +7,27 @@ toc: true
 
 ### In Press
 
-- K. Liu, Y. Wang, T. Magney, and C. Frankenberg.
-  Non-steady-state stomatal conductance modeling and its implications: From leaf to ecosystem.
-  Biogeosciences.
-
-- Y. Yao, V. Humphrey, Y. Wang, Y. Yin, A. Konings, N. Holtzman, J. Wood, Y. Bar-On, and C. Frankenberg.
-  Investigating diurnal and seasonal cycles of vegetation optical depth retrieved from GNSS signals.
-  Geophysical Research Letters.
-
 - Y. Wang, and C. Frankenberg.
   Towards more accurate modeling of canopy radiative transfer and leaf electron transport in land surface modeling.
   Journal of Advances in Modeling Earth Systems.
+
+### 2024
+
+- K. Liu, Y. Wang, T. Magney, and C. Frankenberg （2024）.
+  Non-steady-state stomatal conductance modeling and its implications: from leaf to ecosystem.
+  Biogeosciences 21(6): 1501--1516.
+  [BIBTEX](https://github.com/silicormosia/silicormosia.github.io/raw/main/bibtex/liu2024non.bib)
+  [DOI](https://doi.org/10.5194/bg-21-1501-2024)
+  [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/liu2024non.pdf)
+  [SI](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/liu2024non-si.pdf)
+
+- Y. Yao, V. Humphrey, A. G. Konings, Y. Wang, Y. Yin, N. Holtzman, J. D. Wood, Y. Bar-On, and C. Frankenberg (2024).
+  Investigating diurnal and seasonal cycles of vegetation optical depth retrieved from GNSS signals in a broadleaf forest.
+  Geophysical Research Letters 51(6): e2023GL107121.
+  [BIBTEX](https://github.com/silicormosia/silicormosia.github.io/raw/main/bibtex/yao2024investigating.bib)
+  [DOI](https://doi.org/10.1029/2023GL107121)
+  [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/yao2024investigating.pdf)
+  [SI](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/yao2024investigating-si.pdf)
 
 ### 2023
 

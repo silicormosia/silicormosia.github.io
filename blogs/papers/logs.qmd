@@ -4,6 +4,7 @@ image: ../../images/chip_tree.svg
 description: "Logs for the number of reviews we recieve and make. We try to balance the two!"
 author: "Yujie Wang"
 date: "1/31/2024"
+date-modified: "3/21/2024"
 categories:
   - Paper
 ---
@@ -17,4 +18,6 @@ It should be a responsibility to perform peer reviews if you receive them. Start
 | Yujie Wang  | Biogeosciences                                |                                | 1                          |
 | Yujie Wang  | Journal of Advances in Modeling Earth Systems | 3                              |                            |
 | Yujie Wang  | Journal of Advances in Modeling Earth Systems | 2                              |                            |
+| Yujie Wang  | Journal of Advances in Modeling Earth Systems | 1                              |                            |
+| Yujie Wang  | Earth System Science Data                     |                                | 1                          |
 | **Summary** |                                               |                                |                            |
