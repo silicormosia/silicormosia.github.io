@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Yujie Wang">
-<meta name="dcterms.date" content="2024-01-03">
-<meta name="description" content="Agriculture in silico: Use of vegetation modeling for crop yield advances">
+<meta name="dcterms.date" content="2024-03-22">
+<meta name="description" content="Modeling stomatal conductance at non-steady state in CliMA Land">
 
-<title>Ormosia - Agriculture in silico</title>
+<title>Ormosia - Non-steady state modeling</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -172,14 +172,15 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Agriculture in silico</h1>
+      <h1 class="title">Non-steady state modeling</h1>
                   <div>
         <div class="description">
-          Agriculture in silico: Use of vegetation modeling for crop yield advances
+          Modeling stomatal conductance at non-steady state in CliMA Land
         </div>
       </div>
                           <div class="quarto-categories">
                 <div class="quarto-category">Paper</div>
+                <div class="quarto-category">LSM</div>
               </div>
                   </div>
   </div>
@@ -197,7 +198,7 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">January 3, 2024</p>
+        <p class="date">March 22, 2024</p>
       </div>
     </div>
     
@@ -216,28 +217,24 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 
 
 
-<p>There are many ways to improve crop yield, and the approaches can be categorized to</p>
-<ul>
-<li>trait enhancement (e.g., breeding)</li>
-<li>water use (e.g., irrigation, fertilization, and mulching), and</li>
-<li>light use (e.g., density control and vertical farming).</li>
-</ul>
-<p>However, these efforts are all very time consuming to find an optimized solution. Thus, there is increasing demand for a uniform tool to evaluate these approaches. One solution is to combine the agricultural practices with vegetation modeling to help explore the possible combinations of approaches to advance the crop yield. Here, we reviewed the trials and practices that aim to improve crop yield through light use at different stages.</p>
+<p>Modeling stomatal conductance (gs) is a key challenge in vegetation models and land surface models, and various approaches have been developed including statistics- and optimality-based models. The stomatal model is typically used along with the canopy radiative model, which provides the former with necessary inputs like photosynthetically active radiation (PAR) and temperature (T) to compute photosynthesis and then gs. In model world practice, gs is typically computed at a steady state, meaning that model parameters (such as photosynthetic rate [A], transpiration rate (E), gs, PAR, and T) agree numerically. This assumption is fine for most models as their canopy models are simple enough and the computation resource required to derive the steady state is low.</p>
+<p>However, finding a similar steady state for complicated canopy models as in <a href="https://github.com/CliMA/Land">CliMA Land</a> is overwhelming. For example, any change in gs would lead to changes in A and E, and thus leaf latend heat flux, leaf temperature, longwave radiation, hydraulic profiles, etc.</p>
+<p>Moreover, the steady-state assumption could break the mass and energy conservation. If leaf water content and heat capacity are considered, but the final water and heat flux are all at steady state, then how do we account for the changes in water mass and total energy?</p>
+<p>Most importantly, the soil-plant-air continuum in nature will NEVER be at a steady state, say the sun is moving all the time, wind is randomly changing leaf positions, soil water contents are changing, and plant physiology is responding. For all these reasons, we’d better model the land surface processes prognostically.</p>
+<p>In the recent research led by Ke Liu (<a href="https://doi.org/10.5194/bg-21-1501-2024">Liu et al., 2024; Biogeosciences</a>), we evaluated the impacts of modeling gs at non-steady state using <a href="https://github.com/CliMA/Land">CliMA Land</a>. We found that, as stomata open “slowly” (compared to immediately at steady state), gs would be lower than steady state models in the morning time in an ideal environment without cloud. Comparatively, as stomata close “slowly”, gs would be higher than the steady-state assumption in the afternoon in the ideal environment. In this case, these differences could cancel out, but it still suggested that modelers had messed up the timing. Notably, the natural environment is never ideal following a sine or cosine function, and plants are experiencing random fluctuations in radiation, dry air, etc. These resulted in elevated differences between steady-state and non-steady-state modeling (Fig. 1).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="strategies.jpg" class="img-fluid figure-img"></p>
-<figcaption>Fig. 1 Strategies that can be used to improve crop yield through canopy radiation optimization.</figcaption>
+<p><img src="bias.png" class="img-fluid figure-img"></p>
+<figcaption>Fig. 1 Difference between modeled carbon and water fluxes under steady and non-steady states.</figcaption>
 </figure>
 </div>
-<p>For example, one can</p>
+<p>There are many benefits for models to take the non-steady state approach, particularly that it is more realistic! There are also more implications from the study, please check out the <a href="https://doi.org/10.5194/bg-21-1501-2024">paper</a> for more details. Yet, there are still a lot of problems to resolve in the future, such as</p>
 <ul>
-<li>optimize chlorophyll content to improve the light condition in the lower canopy,</li>
-<li>implement chlorophyll d and f to increase the near infrared light absorption,</li>
-<li>optimize crop density and space to improve light condition in the lower canopy,</li>
-<li>mix crop to maximize light absorption in the lower canopy, and</li>
-<li>optimize the supplemental light spectra and power.</li>
+<li>How to best represent the prognostic gs (other formulations)?</li>
+<li>Do plants have different time constants when opening and closing the stomata?</li>
+<li>Do sunlit and shaded leaves have different time constants?</li>
 </ul>
-<p>We used <a href="https://github.com/CliMA/Land">CliMA Land</a> to quantitatively evaluate the potentials of the proposed approaches, and thus that of vegetation modeling. This work has recently been published in the Crop and Environment (<a href="https://doi.org/10.1016/j.crope.2023.07.003">doi:10.1016/j.crope.2023.07.003</a>). We believe that future efforts in advancing vegetation modeling and bridging it to agriculture will better guide real-world agricultural practices.</p>
+<p>I am keen to see follow-up studies that address these problems. Together, we can make the vegetation and land surface models more realistic.</p>
 
 
 
