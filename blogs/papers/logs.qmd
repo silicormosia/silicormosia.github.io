@@ -6,7 +6,7 @@ author: "Yujie Wang"
 date: "1/31/2024"
 date-modified: "3/21/2024"
 categories:
-  - Paper
+  - Logs
 ---
 
 It should be a responsibility to perform peer reviews if you receive them. Starting from 2024, I am logging the reviews I have received from the submission from me as first or corresponding author. Also, I am logging the number of reviews we have performed to show that we do not have a liability for peer reviews.

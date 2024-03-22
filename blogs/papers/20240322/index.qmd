@@ -5,7 +5,8 @@ description: "Modeling stomatal conductance at non-steady state in CliMA Land"
 author: "Yujie Wang"
 date: "3/22/2024"
 categories:
- - Paper
+  - Paper
+  - LSM
 ---
 
 Modeling stomatal conductance (gs) is a key challenge in vegetation models and land surface models, and various approaches have been developed including statistics- and optimality-based models. The stomatal model is typically used along with the canopy radiative model, which provides the former with necessary inputs like photosynthetically active radiation (PAR) and temperature (T) to compute photosynthesis and then gs. In model world practice, gs is typically computed at a steady state, meaning that model parameters (such as photosynthetic rate [A], transpiration rate (E), gs, PAR, and T) agree numerically. This assumption is fine for most models as their canopy models are simple enough and the computation resource required to derive the steady state is low.

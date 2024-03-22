@@ -36,7 +36,9 @@ website:
 
 format:
   html:
-    theme: sketchy
+    theme:
+      light: minty
+      dark: darkly
     css: styles.css
     toc: false
     grid:
