@@ -7,7 +7,7 @@ toc: false
 
 <!-- Logo -->
 ::: {.column width="20%"}
-![](images/chip_tree.svg)
+![](images/chip_tree_art.jpg)
 :::
 
 <!-- empty column to create gap -->

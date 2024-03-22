@@ -1,6 +1,6 @@
 ---
 title: "CliMA Land Benchmarks"
-image: ../../images/chip_tree.svg
+image: ../../images/chip_tree_green.jpg
 description: "Performance of CliMA Land global simulations: spatial patterns of annual means"
 author: "Yujie Wang"
 date: "2/8/2024"
