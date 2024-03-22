@@ -5,15 +5,20 @@ toc: true
 
 ## Data
 
-- Y. Wang (2023).
+- Y. Wang and R. Braghiere (2024).
+  Global scale leaf broadband optical properties derived from hyperspectral modeling
+  Zenodo.
+  [DOI](https://doi.org/10.5281/zenodo.7570314)
+
+- CliMA Land Team (2024).
   CliMA Land global simulations archive.
   Zenodo.
   [DOI](https://doi.org/10.5281/zenodo.7526232)
 
-- Y. Wang (2023).
+- CliMA Land Team (2024).
   CliMA Land code archive.
   Zenodo.
-  [DOI](https://doi.org/10.5281/zenodo.7526252)
+  [DOI](https://doi.org/10.5281/zenodo.7526251)
 
 - Y. Wang (2021).
   Artifacts of GriddingMachine.jl (v0.2) for land modeling.
@@ -23,7 +28,7 @@ toc: true
 - Y. Wang (2021).
   Test CliMA Land model with flux tower and TROPOMI SIF datasets.
   Zenodo.
-  [DOI](https://doi.org/10.5281/zenodo.4762775)
+  [DOI](https://doi.org/10.5281/zenodo.4762774)
 
 ## Posters
 
@@ -131,10 +136,9 @@ toc: true
 
 ## Software
 
-- [CliMA Land](https://github.com/CliMA/Land)
+- [CliMA Land v0.1](https://github.com/silicormosia/clima-land-v0.1)
 - [CliMA Land Global Simulation v0.1 (private)](https://github.com/Yujie-W/ClimaLand-0.1)
 - [Emerald](https://github.com/Yujie-W/Emerald)
-- [EmeraldVisualization](https://github.com/Yujie-W/EmeraldVisualization)
 - [GriddingMachine.jl](https://github.com/CliMA/GriddingMachine.jl)
 - [Ormosia (private)](https://github.com/Yujie-W/Ormosia)
 - [Published Code](https://github.com/Yujie-WANG/Published-Codes-Yujie-WANG)
