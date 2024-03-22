@@ -6,6 +6,7 @@ author: "Yujie Wang and Renato Braghiere"
 date: "5/1/2023"
 categories:
   - Paper
+  - LSM
 ---
 
 Climate model predictions of future land carbon sink strength show significant discrepancies. To enhance predictive accuracy and reduce inter-model disagreements, it is crucial to improve the representation of vegetation processes and calibrate the models using more observational data. However, the limitations of computational resources in the past have hindered the integration of new theories and advances into traditional climate models, which often rely on statistical models to parameterize vegetation processes instead of mechanistic and physiological models (such as stomatal control models). Additionally, the preference for faster models has limited the incorporation of complex features (e.g., canopy model complexity), restricting the predictive skills of climate models.

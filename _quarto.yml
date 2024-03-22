@@ -6,7 +6,7 @@ execute:
 
 website:
   title: "Ormosia"
-  favicon: images/chip_tree.svg
+  favicon: images/chip_tree_transparent.jpg
   google-analytics: "G-YNE42XN5HT"
   navbar:
     left:
@@ -36,7 +36,9 @@ website:
 
 format:
   html:
-    theme: sketchy
+    theme:
+      light: minty
+      dark: darkly
     css: styles.css
     toc: false
     grid:

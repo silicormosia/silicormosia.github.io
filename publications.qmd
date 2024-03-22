@@ -13,7 +13,7 @@ toc: true
 
 ### 2024
 
-- K. Liu, Y. Wang, T. Magney, and C. Frankenberg （2024）.
+- K. Liu, Y. Wang, T. Magney, and C. Frankenberg (2024).
   Non-steady-state stomatal conductance modeling and its implications: from leaf to ecosystem.
   Biogeosciences 21(6): 1501--1516.
   [BIBTEX](https://github.com/silicormosia/silicormosia.github.io/raw/main/bibtex/liu2024non.bib)
