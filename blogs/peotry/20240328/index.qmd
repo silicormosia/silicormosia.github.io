@@ -1,0 +1,14 @@
+---
+title: "道（其一）"
+image: night.jpg
+description: "临渊羡鱼，转而结网"
+author: "王玉杰"
+date: "3/28/2024"
+categories:
+  - Poem
+---
+
+日落云翳海潮平\
+蹉跎红尘弗留行\
+金身不佑凡世人\
+苦修经上有吾名
