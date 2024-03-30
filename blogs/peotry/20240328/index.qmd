@@ -1,14 +1,22 @@
 ---
-title: "道（其一）"
+title: "道"
 image: night.jpg
-description: "临渊羡鱼，转而结网"
+description: "飞熊临渊叹渔樵，何人解吾直中道。"
 author: "王玉杰"
 date: "3/28/2024"
+date-modified: "3/30/2024"
 categories:
   - Poem
 ---
 
+## 其一
 日落云翳海潮平\
 蹉跎红尘弗留行\
 金身不佑凡世人\
 苦修经上有吾名
+
+## 其二
+云掩红日莎草长\
+溪水沉沙掠浮光\
+一日阅尽沧桑事\
+驻足斜倚陌上桑
