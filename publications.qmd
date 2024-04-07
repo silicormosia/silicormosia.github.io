@@ -7,11 +7,16 @@ toc: true
 
 ### In Press
 
-- Y. Wang, and C. Frankenberg.
-  Towards more accurate modeling of canopy radiative transfer and leaf electron transport in land surface modeling.
-  Journal of Advances in Modeling Earth Systems.
-
 ### 2024
+
+- Y. Wang, and C. Frankenberg (2024).
+  Towards more accurate modeling of canopy radiative transfer and leaf electron transport in land surface modeling.
+  Journal of Advances in Modeling Earth Systems 16(4): e2023MS003992.
+  [BIBTEX](https://github.com/silicormosia/silicormosia.github.io/raw/main/bibtex/wang2024toward.bib)
+  [DOI](https://doi.org/10.1029/2023ms003992)
+  [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/wang2024toward.pdf)
+  [SI](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/wang2024toward-si.pdf)
+  [CODE](https://github.com/Yujie-WANG/Published-Codes-Yujie-WANG)
 
 - K. Liu, Y. Wang, T. Magney, and C. Frankenberg (2024).
   Non-steady-state stomatal conductance modeling and its implications: from leaf to ecosystem.
