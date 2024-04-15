@@ -4,7 +4,7 @@ image: ../../images/chip_tree_green.jpg
 description: "Performance of CliMA Land global simulations: spatial patterns of annual means"
 author: "Yujie Wang"
 date: "2/8/2024"
-date-modified: "3/7/2024"
+date-modified: "4/15/2024"
 categories:
   - Logs
   - LSM
@@ -22,6 +22,7 @@ This blog tracks the performance of the CliMA Land global simulations in terms i
 
 Per release, the major improvements are:
 
+- a13-gm3-wd1: add C4 support and fix a bug in PFT fractions
 - a12-gm3-wd1: GPP and VIs error increased (more grids now!) and SIF errors is not impacted on average
 - a11-gm3-wd1: GPP and SIF errors decreased (scale Vcmax to 60% of the dataset)
 - a11-gm2-wd1: GPP and SIF errors decreased (carotenoid contribution to PPAR removed)
@@ -40,6 +41,7 @@ The RMSE per variable per simulation are
 
 | **Version** | **GPP** | **T** | **NDVI** | **EVI** | **NIRv** | **SIF 683** | **SIF 740** | **SIF 757** | **SIF 771** |
 |:------------|:--------|:------|:---------|:--------|:---------|:------------|:------------|:------------|:------------|
+| a13-gm3-wd1 | 2.284   | NA    | 0.173    | 0.151   | 0.498    | 0.042       | 0.134       | 0.096       | 0.079       |
 | a12-gm3-wd1 | 1.764   | NA    | 0.173    | 0.151   | 0.493    | 0.044       | 0.141       | 0.097       | 0.079       |
 | a11-gm3-wd1 | 1.368   | NA    | 0.135    | 0.160   | 0.257    | 0.051       | 0.154       | 0.095       | 0.063       |
 | a11-gm2-wd1 | 2.276   | NA    | 0.135    | 0.160   | 0.257    | 0.057       | 0.178       | 0.110       | 0.066       |
@@ -58,6 +60,8 @@ The RMSE per variable per simulation are
 ## Model Versions
 | Version Tag | Linear Change History                    |
 |:------------|:-----------------------------------------|
+| A13         | Fix a bug in PFT fractions               |
+|             | Add C4 photosynthesis support            |
 | A12         | Fix a bug in f_sunlit (RT impacted)      |
 | A11         | Not counting Car absorption in PPAR+SIF  |
 |             | Add new SIF spectrum option (V7)         |
