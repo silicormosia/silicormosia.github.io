@@ -16,40 +16,41 @@ It should be a responsibility to perform free peer reviews if you receive them f
 | **Year** | **Person**  | **Journal**                                      | **Reviews Received** | **Reviews Made** |
 |:---------|:------------|:-------------------------------------------------|:---------------------|:-----------------|
 | 2024     | Yujie Wang  | Biogeosciences                                   |                      | 1                |
-| 2024     | Yujie Wang  | Earth System Science Data                        |                      | 1                |
-| 2024     | Yujie Wang  | Journal of Advances in Modeling Earth Systems    | 1                    |                  |
-| 2024     | Yujie Wang  | Journal of Advances in Modeling Earth Systems    | 2                    |                  |
-| 2024     | Yujie Wang  | Journal of Advances in Modeling Earth Systems    | 3                    |                  |
-| 2024     | Yujie Wang  | Journal of Geophysical Research - Biogeosciences |                      | 1                |
-| 2024     | Yujie Wang  | Remote Sensing of Environment                    |                      | 1                |
-|          |             | **Summary**                                      |                      |                  |
+|          | Yujie Wang  | Earth System Science Data                        |                      | 1                |
+|          | Yujie Wang  | Global Change Biology                            | 3                    |                  |
+|          | Yujie Wang  | Journal of Advances in Modeling Earth Systems    | 1                    |                  |
+|          | Yujie Wang  | Journal of Advances in Modeling Earth Systems    | 2                    |                  |
+|          | Yujie Wang  | Journal of Advances in Modeling Earth Systems    | 3                    |                  |
+|          | Yujie Wang  | Journal of Geophysical Research - Biogeosciences |                      | 1                |
+|          | Yujie Wang  | Remote Sensing of Environment                    |                      | 1                |
+|          |             | **Summary**                                      | **9**                | **4**            |
 
 ## 2017-2023
 
 | **Year** | **Person**  | **Journal**                                      | **Reviews Received** | **Reviews Made** |
 |:---------|:------------|:-------------------------------------------------|:---------------------|:-----------------|
 | 2023     | Yujie Wang  | AoB Plants                                       |                      | 1                |
-| 2023     | Yujie Wang  | Earth System Science Data                        |                      | 1                |
-| 2023     | Yujie Wang  | Geoscientific Model Development                  |                      | 1                |
-| 2023     | Yujie Wang  | Journal of Geophysical Research - Biogeosciences |                      | 1                |
-| 2023     | Yujie Wang  | Tree Physiology                                  |                      | 1                |
+|          | Yujie Wang  | Earth System Science Data                        |                      | 1                |
+|          | Yujie Wang  | Geoscientific Model Development                  |                      | 1                |
+|          | Yujie Wang  | Journal of Geophysical Research - Biogeosciences |                      | 1                |
+|          | Yujie Wang  | Tree Physiology                                  |                      | 1                |
 | 2022     | Yujie Wang  | Agricultural and Forest Meteorology              |                      | 1                |
-| 2022     | Yujie Wang  | Global Change Biology                            |                      | 1                |
-| 2022     | Yujie Wang  | Journal of Geophysical Research - Biogeosciences |                      | 1                |
-| 2022     | Yujie Wang  | New Phytologist                                  |                      | 2                |
-| 2022     | Yujie Wang  | Plant Physiology                                 |                      | 1                |
-| 2022     | Yujie Wang  | Water Resources Research                         |                      | 1                |
+|          | Yujie Wang  | Global Change Biology                            |                      | 1                |
+|          | Yujie Wang  | Journal of Geophysical Research - Biogeosciences |                      | 1                |
+|          | Yujie Wang  | New Phytologist                                  |                      | 2                |
+|          | Yujie Wang  | Plant Physiology                                 |                      | 1                |
+|          | Yujie Wang  | Water Resources Research                         |                      | 1                |
 | 2021     | Yujie Wang  | Annals of Forest Science                         |                      | 1                |
-| 2021     | Yujie Wang  | Ecohydrology                                     |                      | 1                |
-| 2021     | Yujie Wang  | Frontiers in Plant Science                       |                      | 1                |
-| 2021     | Yujie Wang  | Global Change Biology                            |                      | 2                |
-| 2021     | Yujie Wang  | Journal of Ecology                               |                      | 1                |
-| 2021     | Yujie Wang  | New Phytologist                                  |                      | 6                |
-| 2021     | Yujie Wang  | Tree Physiology                                  |                      | 2                |
+|          | Yujie Wang  | Ecohydrology                                     |                      | 1                |
+|          | Yujie Wang  | Frontiers in Plant Science                       |                      | 1                |
+|          | Yujie Wang  | Global Change Biology                            |                      | 2                |
+|          | Yujie Wang  | Journal of Ecology                               |                      | 1                |
+|          | Yujie Wang  | New Phytologist                                  |                      | 6                |
+|          | Yujie Wang  | Tree Physiology                                  |                      | 2                |
 | 2020     | Yujie Wang  | Biochemical Society Transactions                 |                      | 1                |
-| 2020     | Yujie Wang  | Global Change Biology                            |                      | 1                |
-| 2020     | Yujie Wang  | New Phytologist                                  |                      | 2                |
-| 2020     | Yujie Wang  | Plants                                           |                      | 2                |
+|          | Yujie Wang  | Global Change Biology                            |                      | 1                |
+|          | Yujie Wang  | New Phytologist                                  |                      | 2                |
+|          | Yujie Wang  | Plants                                           |                      | 2                |
 | 2019     | Yujie Wang  | Plant, Cell & Environment                        |                      | 1                |
 | 2018     | Yujie Wang  | New Phytologist                                  |                      | 1                |
 | 2017     | Yujie Wang  | Forest Ecology and Management                    |                      | 1                |

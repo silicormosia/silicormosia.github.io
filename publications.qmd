@@ -10,7 +10,7 @@ toc: true
 ### 2024
 
 - Y. Wang, and C. Frankenberg (2024).
-  Towards more accurate modeling of canopy radiative transfer and leaf electron transport in land surface modeling.
+  Toward more accurate modeling of canopy radiative transfer and leaf electron transport in land surface modeling.
   Journal of Advances in Modeling Earth Systems 16(4): e2023MS003992.
   [BIBTEX](https://github.com/silicormosia/silicormosia.github.io/raw/main/bibtex/wang2024toward.bib)
   [DOI](https://doi.org/10.1029/2023ms003992)
