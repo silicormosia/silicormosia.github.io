@@ -27,8 +27,8 @@ where
 
 - $J_\text{PSII}$: maximum photons that go to photosystem II,
 - $\text{PAR}$: Incoming PAR in photons;
-- $f_\text{APAR}$: Fraction of PAR absorbed by the leaf ($APAR = PAR \cdot f_\text{APAR}$);
-- $f_\text{PPAR}$: Fraction of APAR absorbed by chlorophyll (and some carotenoid; $PPAR = APAR \cdot f_\text{PPAR}$);
+- $f_\text{APAR}$: Fraction of PAR absorbed by the leaf ($\text{APAR} = \text{PAR} \cdot f_\text{APAR}$);
+- $f_\text{PPAR}$: Fraction of APAR absorbed by chlorophyll (and some carotenoid; $\text{PPAR} = \text{APAR} \cdot f_\text{PPAR}$);
 - $\frac{1}{2}$: Fraction of PPAR that goes to photosystem II;
 - $K_\text{pmax}$: Maximum rate constant for photochemical quenching;
 - $K_\text{d}$: Rate constant for heat dissipation;

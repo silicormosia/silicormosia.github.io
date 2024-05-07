@@ -1,6 +1,6 @@
 ---
 title: "道"
-image: night.jpg
+image: "../figure/night.jpg"
 description: "飞熊临渊叹渔樵，何人解吾直中道。"
 author: "王玉杰"
 date: "3/28/2024"
