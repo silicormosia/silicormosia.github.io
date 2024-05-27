@@ -8,6 +8,14 @@ toc: true
 ### In Press
 
 ### 2024
+- Y. Wang, R. K. Braghiere, Y. Yin, Y. Yao, D. Hao, and C. Frankenberg (2024).
+  Beyond the visible: Accounting for ultraviolet and far‐red radiation in vegetation productivity and surface energy budgets
+  Global Change Biology 30(5): e17346.
+  [BIBTEX](https://github.com/silicormosia/silicormosia.github.io/raw/main/bibtex/wang2024beyond.bib)
+  [DOI](https://doi.org/10.1111/gcb.17346)
+  [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/wang2024beyond.pdf)
+  [SI](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/wang2024beyond-si.pdf)
+  [CODE](https://github.com/Yujie-WANG/Published-Codes-Yujie-WANG)
 
 - Y. Wang, and C. Frankenberg (2024).
   Toward more accurate modeling of canopy radiative transfer and leaf electron transport in land surface modeling.
