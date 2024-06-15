@@ -22,8 +22,10 @@ It should be a responsibility to perform free peer reviews if you receive them f
 |          | Yujie Wang  | Journal of Advances in Modeling Earth Systems    | 2                    |                  |
 |          | Yujie Wang  | Journal of Advances in Modeling Earth Systems    | 3                    |                  |
 |          | Yujie Wang  | Journal of Geophysical Research - Biogeosciences |                      | 1                |
+|          | Yujie Wang  | Nature Plants                                    |                      | 1                |
 |          | Yujie Wang  | Remote Sensing of Environment                    |                      | 1                |
-|          |             | **Summary**                                      | **9**                | **4**            |
+|          | Yujie Wang  | Scientific Data                                  |                      | 1                |
+|          |             | **Summary**                                      | **9**                | **6**            |
 
 ## 2017-2023
 
@@ -69,6 +71,7 @@ It should be a responsibility to perform free peer reviews if you receive them f
 1. Global Change Biology
 1. Journal of Ecology
 1. Journal of Geophysical Research - Biogeosciences
+1. Nature Plants
 1. New Phytologist
 1. Plant, Cell & Environment
 1. Plant Physiology

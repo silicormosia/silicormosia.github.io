@@ -1,5 +1,5 @@
 ---
-title: "经纬岛"
+title: "经纬岛 第一章"
 image: "../figure/night.jpg"
 description: "打算写成一个长篇叙事诗，不知道写不写的好。。。"
 author: "王玉杰"
