@@ -6,11 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Yujie Wang">
-<meta name="dcterms.date" content="2024-01-31">
-<meta name="description" content="Logs for the number of reviews we recieve and make. We try to balance the two!">
+<meta name="author" content="王玉杰">
+<meta name="dcterms.date" content="2024-05-21">
+<meta name="description" content="刚开始开发CliMA Land时我也是踌躇满志的，结果过了这些年依旧没能将我的模型和大气模型耦合。再加上找工作也一直不顺利，心态居然都崩习惯了。。。">
 
-<title>Ormosia - Logs of Reviews and Reviewing</title>
+<title>Ormosia - 经纬岛 第一章</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -26,25 +26,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../images/cpu-fill.svg" rel="icon" type="image/svg+xml">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../images/cpu-fill.svg" rel="icon" type="image/svg+xml">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -83,7 +83,7 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 </script>
 
 
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -93,7 +93,7 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Ormosia</span>
     </a>
   </div>
@@ -104,31 +104,31 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link" href="../../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../people.html"> 
+    <a class="nav-link" href="../../../people.html"> 
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../research.html"> 
+    <a class="nav-link" href="../../../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../blogs.html"> 
+    <a class="nav-link" href="../../../blogs.html"> 
 <span class="menu-text">Blogs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../publications.html"> 
+    <a class="nav-link" href="../../../publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../resources.html"> 
+    <a class="nav-link" href="../../../resources.html"> 
 <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
+    <a class="nav-link" href="../../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -172,14 +172,15 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Logs of Reviews and Reviewing</h1>
+      <h1 class="title">经纬岛 第一章</h1>
                   <div>
         <div class="description">
-          Logs for the number of reviews we recieve and make. We try to balance the two!
+          刚开始开发CliMA Land时我也是踌躇满志的，结果过了这些年依旧没能将我的模型和大气模型耦合。再加上找工作也一直不顺利，心态居然都崩习惯了。。。
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">Logs</div>
+                <div class="quarto-category">Poem</div>
+                <div class="quarto-category">经纬岛</div>
               </div>
                   </div>
   </div>
@@ -190,23 +191,17 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>Yujie Wang </p>
+               <p>王玉杰 </p>
             </div>
     </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">January 31, 2024</p>
+        <p class="date">May 21, 2024</p>
       </div>
     </div>
     
-      <div>
-      <div class="quarto-title-meta-heading">Modified</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date-modified">April 25, 2024</p>
-      </div>
-    </div>
       
     </div>
     
@@ -222,330 +217,49 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 
 
 
-<p>It should be a responsibility to perform free peer reviews if you receive them for free. Starting from 2024, I am logging the reviews I have received from the submission from me as first or corresponding author. Also, I am logging the number of reviews we have performed to show that we do not have a liability for peer reviews.</p>
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section">2024</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 8%">
-<col style="width: 11%">
-<col style="width: 44%">
-<col style="width: 19%">
-<col style="width: 15%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;"><strong>Year</strong></th>
-<th style="text-align: left;"><strong>Person</strong></th>
-<th style="text-align: left;"><strong>Journal</strong></th>
-<th style="text-align: left;"><strong>Reviews Received</strong></th>
-<th style="text-align: left;"><strong>Reviews Made</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">2024</td>
-<td style="text-align: left;">Yujie Wang</td>
-<td style="text-align: left;">Biogeosciences</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Yujie Wang</td>
-<td style="text-align: left;">Earth System Science Data</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Yujie Wang</td>
-<td style="text-align: left;">Global Change Biology</td>
-<td style="text-align: left;">3</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Yujie Wang</td>
-<td style="text-align: left;">Journal of Advances in Modeling Earth Systems</td>
-<td style="text-align: left;">1</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Yujie Wang</td>
-<td style="text-align: left;">Journal of Advances in Modeling Earth Systems</td>
-<td style="text-align: left;">2</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Yujie Wang</td>
-<td style="text-align: left;">Journal of Advances in Modeling Earth Systems</td>
-<td style="text-align: left;">3</td>
-<td style="text-align: left;"></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Yujie Wang</td>
-<td style="text-align: left;">Journal of Geophysical Research - Biogeosciences</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Yujie Wang</td>
-<td style="text-align: left;">Nature Plants</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Yujie Wang</td>
-<td style="text-align: left;">Remote Sensing of Environment</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Yujie Wang</td>
-<td style="text-align: left;">Scientific Data</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;"><strong>Summary</strong></td>
-<td style="text-align: left;"><strong>9</strong></td>
-<td style="text-align: left;"><strong>6</strong></td>
-</tr>
-</tbody>
-</table>
+<section id="第一章五" class="level2">
+<h2 class="anchored" data-anchor-id="第一章五">第一章（五）</h2>
+<p>我靠着干瘪或半霉的果蔬预防坏血病<br>
+向着龙神祈雨艰难维持生命<br>
+因为资源都已倾斜给船长、大副与水手<br>
+而我们捡食剩饭残羹时他们甚至也眉头微皱<br>
+</p>
+<p>有人偷偷将种子埋进煤渣与灰土<br>
+有人趁着凌晨采集朝露<br>
+有人用冷玻璃将蒸汽收集<br>
+有人用酒桶把雨水装起<br>
+</p>
+<p>直到船尾的作物开始欣欣向荣<br>
+我们奴隶般的身体却也渐渐浮肿<br>
+但我们眼中却充满希冀<br>
+即便是枯黄的芽叶也是那么旖旎<br>
+</p>
+<p>然而我们却收到船长的布告<br>
+他对着那无尽的海面与汹涌的波涛<br>
+“即日起，我将船上的私有物品收回<br>
+包括：花盆、种子、酒桶以及煤灰”</p>
 </section>
-<section id="section-1" class="level2">
-<h2 class="anchored" data-anchor-id="section-1">2017-2023</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 8%">
-<col style="width: 11%">
-<col style="width: 44%">
-<col style="width: 19%">
-<col style="width: 15%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;"><strong>Year</strong></th>
-<th style="text-align: left;"><strong>Person</strong></th>
-<th style="text-align: left;"><strong>Journal</strong></th>
-<th style="text-align: left;"><strong>Reviews Received</strong></th>
-<th style="text-align: left;"><strong>Reviews Made</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">2023</td>
-<td style="text-align: left;">Yujie Wang</td>
-<td style="text-align: left;">AoB Plants</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Yujie Wang</td>
-<td style="text-align: left;">Earth System Science Data</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Yujie Wang</td>
-<td style="text-align: left;">Geoscientific Model Development</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Yujie Wang</td>
-<td style="text-align: left;">Journal of Geophysical Research - Biogeosciences</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Yujie Wang</td>
-<td style="text-align: left;">Tree Physiology</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2022</td>
-<td style="text-align: left;">Yujie Wang</td>
-<td style="text-align: left;">Agricultural and Forest Meteorology</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Yujie Wang</td>
-<td style="text-align: left;">Global Change Biology</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Yujie Wang</td>
-<td style="text-align: left;">Journal of Geophysical Research - Biogeosciences</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Yujie Wang</td>
-<td style="text-align: left;">New Phytologist</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">2</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Yujie Wang</td>
-<td style="text-align: left;">Plant Physiology</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Yujie Wang</td>
-<td style="text-align: left;">Water Resources Research</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2021</td>
-<td style="text-align: left;">Yujie Wang</td>
-<td style="text-align: left;">Annals of Forest Science</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Yujie Wang</td>
-<td style="text-align: left;">Ecohydrology</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Yujie Wang</td>
-<td style="text-align: left;">Frontiers in Plant Science</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Yujie Wang</td>
-<td style="text-align: left;">Global Change Biology</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">2</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Yujie Wang</td>
-<td style="text-align: left;">Journal of Ecology</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Yujie Wang</td>
-<td style="text-align: left;">New Phytologist</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">6</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Yujie Wang</td>
-<td style="text-align: left;">Tree Physiology</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">2</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2020</td>
-<td style="text-align: left;">Yujie Wang</td>
-<td style="text-align: left;">Biochemical Society Transactions</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Yujie Wang</td>
-<td style="text-align: left;">Global Change Biology</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Yujie Wang</td>
-<td style="text-align: left;">New Phytologist</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">2</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"></td>
-<td style="text-align: left;">Yujie Wang</td>
-<td style="text-align: left;">Plants</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">2</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2019</td>
-<td style="text-align: left;">Yujie Wang</td>
-<td style="text-align: left;">Plant, Cell &amp; Environment</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2018</td>
-<td style="text-align: left;">Yujie Wang</td>
-<td style="text-align: left;">New Phytologist</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">1</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">2017</td>
-<td style="text-align: left;">Yujie Wang</td>
-<td style="text-align: left;">Forest Ecology and Management</td>
-<td style="text-align: left;"></td>
-<td style="text-align: left;">1</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="journal-lists" class="level2">
-<h2 class="anchored" data-anchor-id="journal-lists">Journal Lists</h2>
-<ol type="1">
-<li>Agricultural and Forest Meteorology</li>
-<li>Annals of Forest Science</li>
-<li>AoB Plants</li>
-<li>Biochemical Society Transactions</li>
-<li>Biogeosciences</li>
-<li>Earth System Science Data</li>
-<li>Ecohydrology</li>
-<li>Forest Ecology and Management</li>
-<li>Frontiers in Plant Science</li>
-<li>Geoscientific Model Development</li>
-<li>Global Change Biology</li>
-<li>Journal of Ecology</li>
-<li>Journal of Geophysical Research - Biogeosciences</li>
-<li>Nature Plants</li>
-<li>New Phytologist</li>
-<li>Plant, Cell &amp; Environment</li>
-<li>Plant Physiology</li>
-<li>Plants</li>
-<li>Remote Sensing of Environment</li>
-<li>Tree Physiology</li>
-<li>Water Resources Research</li>
-</ol>
+<section id="第一章六" class="level2">
+<h2 class="anchored" data-anchor-id="第一章六">第一章（六）</h2>
+<p>船长的船保证了远航<br>
+船长的船为你们挡着风浪<br>
+船长的船让你们落脚与下榻<br>
+因此哪怕你奉献生命也要将这恩情报答<br>
+</p>
+<p>“以后就由D大副负责作物种植<br>
+你们要安心在她手下做事”<br>
+不妨将所有种子与土壤一起搅拌<br>
+这种熵增的设计绝对会高产<br>
+</p>
+<p>农夫的脏手并不适用于科学<br>
+下里巴人何德能言鹈鴂<br>
+工人的呼吸会把水汽污染<br>
+流觞曲水哪里容得大蒜<br>
+</p>
+<p>红日依旧起于扶桑、落于归墟<br>
+海风依旧裹着轻言絮语<br>
+但我再也听不清、只恨那船头的嘈杂<br>
+夸那红袖的舞姿、羡那都市的繁华</p>
 
 
 </section>
