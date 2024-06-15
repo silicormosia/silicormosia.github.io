@@ -4,7 +4,7 @@ image: ../../images/chip_tree_art.jpg
 description: "Logs for the number of reviews we recieve and make. We try to balance the two!"
 author: "Yujie Wang"
 date: "1/31/2024"
-date-modified: "4/25/2024"
+date-modified: "6/15/2024"
 categories:
   - Logs
 ---
@@ -77,5 +77,6 @@ It should be a responsibility to perform free peer reviews if you receive them f
 1. Plant Physiology
 1. Plants
 1. Remote Sensing of Environment
+1. Scientific Data
 1. Tree Physiology
 1. Water Resources Research
