@@ -13,14 +13,12 @@ toc: true
   Earth System Dynamics 15(3): 763-778.
   [DOI](https://doi.org/10.5194/esd-15-763-2024)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/yao2024impacts.pdf)
-  [SI](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/yao2024impacts-si.pdf)
 
 - Y. Wang, R. K. Braghiere, Y. Yin, Y. Yao, D. Hao, and C. Frankenberg (2024).
   Beyond the visible: Accounting for ultraviolet and far‐red radiation in vegetation productivity and surface energy budgets.
   Global Change Biology 30(5): e17346.
   [DOI](https://doi.org/10.1111/gcb.17346)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/wang2024beyond.pdf)
-  [SI](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/wang2024beyond-si.pdf)
   [CODE](https://github.com/Yujie-WANG/Published-Codes-Yujie-WANG)
 
 - Y. Wang, and C. Frankenberg (2024).
@@ -28,7 +26,6 @@ toc: true
   Journal of Advances in Modeling Earth Systems 16(4): e2023MS003992.
   [DOI](https://doi.org/10.1029/2023ms003992)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/wang2024toward.pdf)
-  [SI](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/wang2024toward-si.pdf)
   [CODE](https://github.com/Yujie-WANG/Published-Codes-Yujie-WANG)
 
 - K. Liu, Y. Wang, T. Magney, and C. Frankenberg (2024).
@@ -36,14 +33,12 @@ toc: true
   Biogeosciences 21(6): 1501--1516.
   [DOI](https://doi.org/10.5194/bg-21-1501-2024)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/liu2024non.pdf)
-  [SI](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/liu2024non-si.pdf)
 
 - Y. Yao, V. Humphrey, A. G. Konings, Y. Wang, Y. Yin, N. Holtzman, J. D. Wood, Y. Bar-On, and C. Frankenberg (2024).
   Investigating diurnal and seasonal cycles of vegetation optical depth retrieved from GNSS signals in a broadleaf forest.
   Geophysical Research Letters 51(6): e2023GL107121.
   [DOI](https://doi.org/10.1029/2023GL107121)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/yao2024investigating.pdf)
-  [SI](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/yao2024investigating-si.pdf)
 
 ### 2023
 
@@ -52,7 +47,6 @@ toc: true
   Water Resources Research 59(11): e2023WR035481.
   [DOI](https://doi.org/10.1029/2023WR035481)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/holtzman2023constraining.pdf)
-  [SI](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/holtzman2023constraining-si.docx)
 
 - Y. Wang, and Y. Yin (2023).
   Agriculture in silico: Perspectives on radiative transfer optimization using vegetation modeling.
@@ -79,7 +73,6 @@ toc: true
   Journal of Advances in Modeling Earth Systems 15(3): e2021MS002964.
   [DOI](http://dx.doi.org/10.1029/2021MS002964)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/wang2023modeling.pdf)
-  [SI](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/wang2023modeling-si.pdf)
   [CODE](https://github.com/Yujie-WANG/Published-Codes-Yujie-WANG)
 
 ### 2022
@@ -89,7 +82,6 @@ toc: true
   Biogeosciences 19(19): 4705-4714.
   [DOI](https://doi.org/10.5194/bg-19-4705-2022)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/wang2022common.pdf)
-  [SI](https://github.com/Yujie-WANG/Published-Codes-Yujie-WANG)
 
 - Y. Wang, P. Köhler, R. K. Braghiere, M. Longo, R. Doughty, A. A. Bloom, and C. Frankenberg (2022).
   GriddingMachine, a database and software for Earth system modeling at global and regional scales.
@@ -118,7 +110,6 @@ toc: true
   Geoscientific Model Development 14(11): 6741-6763.
   [DOI](https://doi.org/10.5194/gmd-14-6741-2021)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/wang2021testing.pdf)
-  [SI](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/wang2021testing-si.pdf)
   [CODE](https://github.com/Yujie-WANG/Published-Codes-Yujie-WANG)
 
 - A. G. Konings, S. S. Saatchi, C. Frankenberg, M. Keller, V. Leshyk, W. R. L. Anderegg, V. Humphrey, A. M. Matheny, A. Trugman, L. Sack, E. Agee, M. L. Barnes, O. Binks, K. Cawse-Nicholson, B. O. Christoffersen, D. Entekhabi, P. Gentine, N. M. Holtzman, G. G. Katul, Y. Liu, M. Longo, J. Martinez-Vilalta, N. McDowell, P. Meir, M. Mencuccini, A. Mrad, K. A. Novick, R. S. Oliveira, P. Siqueira, S. C. Steele-Dunne, D. R. Thompson, Y. Wang, R. Wehr, J. D. Wood, X. Xu, and P. A. Zuidema (2021).
@@ -126,7 +117,6 @@ toc: true
   Global Change Biology 27(23): 6005-6024.
   [DOI](https://doi.org/10.1111/gcb.15872)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/konings2021detecting.pdf)
-  [SI](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/konings2021detecting-si.pdf)
 
 - P. Köhler, W. W. Fischer, G. R. Rossman, J. P. Grotzinger, R. Doughty, Y. Wang, Y. Yin, and C. Frankenberg (2021).
   Mineral luminescence observed from space.
@@ -139,7 +129,6 @@ toc: true
   Remote Sensing of Environment 261: 112497.
   [DOI](https://doi.org/10.1016/j.rse.2021.112497)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/braghiere2021accounting.pdf)
-  [SI](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/braghiere2021accounting-si.pdf)
   [CODE](https://github.com/Yujie-WANG/Published-Codes-Yujie-WANG)
 
 - A. Potkay, A. T. Trugman, Y. Wang, M. D. Venturas, W. R. L. Anderegg, C. Mattos, and Y. Fan (2021).
@@ -147,14 +136,12 @@ toc: true
   New Phytologist 230(6): 2226-2245.
   [DOI](https://doi.org/10.1111/nph.17242)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/potkay2021coupled.pdf)
-  [SI](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/potkay2021coupled-si.pdf)
 
 - Y. Wang, W. R. L. Anderegg, M. D. Venturas, A. T. Trugman, K. Yu, and C. Frankenberg (2021).
   Optimization theory explains nighttime stomatal responses.
   New Phytologist 230(4): 1550-1561.
   [DOI](https://doi.org/10.1111/nph.17267)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/wang2021optimization.pdf)
-  [SI](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/wang2021optimization-si.pdf)
   [CODE](https://github.com/Yujie-WANG/Published-Codes-Yujie-WANG)
 
 ### 2020
@@ -164,7 +151,6 @@ toc: true
   New Phytologist 227(2): 311–325.
   [DOI](https://doi.org/10.1111/nph.16572)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/wang2020theoretical.pdf)
-  [SI](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/wang2020theoretical-si.pdf)
   [CODE](https://github.com/Yujie-WANG/Published-Codes-Yujie-WANG)
 
 ### 2019
@@ -174,21 +160,18 @@ toc: true
   Proceedings of the National Academy of Sciences of the United States of America 116(51): 25734–25744.
   [DOI](https://doi.org/10.1073/pnas.1913072116)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/sperry2019impact.pdf)
-  [SI](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/sperry2019impact-si.zip)
 
 - A. T. Trugman, L. D. L. Anderegg, J. S. Sperry, Y. Wang, M. D. Venturas, and W. R. L. Anderegg (2019).
   Leveraging plant hydraulics to yield predictive and dynamic plant leaf allocation in vegetation models with climate change.
   Global Change Biology 25: 4008–4021.
   [DOI](https://doi.org/10.1111/gcb.14814)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/trugman2019leveraging.pdf)
-  [SI](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/trugman2019leveraging-si.pdf)
 
 - Y. Wang, J. S. Sperry, M. D. Venturas, A. T. Trugman, D. D. Love, and W. R. L. Anderegg (2019).
   The stomatal response to rising CO₂ concentration and drought is predicted by a hydraulic trait-based optimization model.
   Tree Physiology 39(8): 1416–1427.
   [DOI](https://doi.org/10.1093/treephys/tpz038)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/wang2019stomatal.pdf)
-  [SI](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/wang2019stomatal-si.pdf)
   [CODE](https://github.com/Yujie-WANG/Published-Codes-Yujie-WANG)
 
 - K. Yu, G. R. Goldsmith, Y. Wang, and W. R. L. Anderegg (2019).
@@ -196,7 +179,6 @@ toc: true
   New Phytologist 222(4): 1778–1788.
   [DOI](https://doi.org/10.1111/nph.15755)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/yu2019phylogenetic.pdf)
-  [SI](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/yu2019phylogenetic-si.pdf)
 
 - G. Du, F. Feng, Y. Wang, and M. T. Tyree (2019).
   Do nano-particles cause recalcitrant vulnerability curves in Robinia? Testing with a four-cuvette Cochard rotor and with water extraction curves.
@@ -209,7 +191,6 @@ toc: true
   Water Resource Research 55(3): 1833–1848.
   [DOI](https://doi.org/10.1029/2018WR023468)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/love2019dependence.pdf)
-  [SI](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/love2019dependence-si.zip)
 
 
 ### 2018
@@ -219,7 +200,6 @@ toc: true
   New Phytologist. 220(3): 836–850.
   [DOI](https://doi.org/10.1111/nph.15333)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/venturas2018stomatal.pdf)
-  [SI](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/venturas2018stomatal-si.zip)
   [CODE](https://github.com/Yujie-WANG/Published-Codes-Yujie-WANG)
 
 ### 2017
@@ -229,7 +209,6 @@ toc: true
   Plant Cell & Environment 40(6): 816–830.
   [DOI](https://dx.doi.org/10.1111/pce.12852)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/sperry2017predicting.pdf)
-  [SI](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/sperry2017predicting-si.pdf)
   [CODE](https://github.com/Yujie-WANG/Published-Codes-Yujie-WANG)
 
 ### 2016
@@ -239,7 +218,6 @@ toc: true
   New Phytologist. 212(3): 577–589.
   [DOI](https://dx.doi.org/10.1111/nph.14059)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/sperry2016pragmatic.pdf)
-  [SI](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/sperry2016pragmatic-si.pdf)
   [CODE](https://github.com/Yujie-WANG/Published-Codes-Yujie-WANG)
 
 ### 2015
@@ -249,7 +227,6 @@ toc: true
   Plant Physiology 169(4): 2597–2607.
   [DOI](https://doi.org/10.1104/pp.15.00875)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/wang2015stem.pdf)
-  [SI](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/wang2015stem-si.pdf)
   [CODE](https://github.com/Yujie-WANG/Published-Codes-Yujie-WANG)
 
 - Y. Wang, R. Pan, and M. T. Tyree (2015).
@@ -257,7 +234,6 @@ toc: true
   Plant Physiology 168(2): 521–531.
   [DOI](https://doi.org/10.1104/pp.114.256602)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/wang2015studies.pdf)
-  [SI](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/wang2015studies-si.pdf)
   [CODE](https://github.com/Yujie-WANG/Published-Codes-Yujie-WANG)
 
 ### 2014
