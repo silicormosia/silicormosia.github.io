@@ -24,7 +24,9 @@ It should be a responsibility to perform free peer reviews if you receive them f
 |          | Yujie Wang  | Journal of Geophysical Research - Biogeosciences |                      | 1                |
 |          | Yujie Wang  | Nature Plants                                    |                      | 1                |
 |          | Yujie Wang  | Remote Sensing of Environment                    |                      | 1                |
-|          | Yujie Wang  | Scientific Data                                  |                      | 1                |
+| TBD      | Yujie Wang  | Scientific Data                                  |                      | 1                |
+| TBD      | Yujie Wang  | Agricultural and Forest Meteorology              |                      | 1                |
+| TBD      | Yujie Wang  | Remote Sensing of Environment                    |                      | 1                |
 |          |             | **Summary**                                      | **9**                | **6**            |
 
 ## 2017-2023

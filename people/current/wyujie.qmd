@@ -2,8 +2,8 @@
 title: "WANG, Yujie"
 image: wyujie.jpg
 subtitle: "Research Scientist"
-started: "2020"
-sortby: 1
+started: "2010"
+sortby: 2
 about:
   id: hero-heading
   template: solana
@@ -23,6 +23,23 @@ about:
       text: Twitter
       href: https://twitter.com/wyujie666
 ---
+
+<!-- Notes about the
+title :
+    LAST_NAME, First_name
+subtitle :
+    Position
+started :
+    Time joining the team
+sortby:
+    1 : PI
+    2 : Staff
+    3 : Postdoc
+    4 : PhD Student
+    5 : Master Student
+    6 : Undergraduate Student
+    7 : Misc
+-->
 
 Research Scientist, Caltech \
 1200 E California Blvd. MC 131-24 \
