@@ -3,6 +3,8 @@ title: "Publications"
 toc: true
 ---
 
+For the code I wrote for the 1st-authored and some co-authorred publications, please refer to [this GitHub repository](https://github.com/Yujie-WANG/Published-Codes-Yujie-WANG)
+
 ## Journal Papers
 
 ### In Press
@@ -19,14 +21,12 @@ toc: true
   Global Change Biology 30(5): e17346.
   [DOI](https://doi.org/10.1111/gcb.17346)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/wang2024beyond.pdf)
-  [CODE](https://github.com/Yujie-WANG/Published-Codes-Yujie-WANG)
 
 - Y. Wang, and C. Frankenberg (2024).
   Toward more accurate modeling of canopy radiative transfer and leaf electron transport in land surface modeling.
   Journal of Advances in Modeling Earth Systems 16(4): e2023MS003992.
   [DOI](https://doi.org/10.1029/2023ms003992)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/wang2024toward.pdf)
-  [CODE](https://github.com/Yujie-WANG/Published-Codes-Yujie-WANG)
 
 - K. Liu, Y. Wang, T. Magney, and C. Frankenberg (2024).
   Non-steady-state stomatal conductance modeling and its implications: from leaf to ecosystem.
@@ -53,27 +53,23 @@ toc: true
   Crop and Environment 2(4): 175-183.
   [DOI](https://doi.org/10.1016/j.crope.2023.07.003)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/wang2023agriculture.pdf)
-  [CODE](https://github.com/Yujie-WANG/Published-Codes-Yujie-WANG)
 
 - R. K. Braghiere, Y. Wang, A. Gagné-Landmann, P. G. Brodrick, A. A. Bloom, A. J. Norton, S. Ma, P. Levine, M. Longo, K. Deck, P. Gentine, J. R. Worden, C. Frankenberg, and T. Schneider (2023).
   The importance of hyperspectral soil albedo information for improving Earth system model projections.
   AGU Advances 4(4): e2023AV000910.
   [DOI](https://doi.org/10.1029/2023AV000910)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/braghiere2023importance.pdf)
-  [CODE](https://github.com/Yujie-WANG/Published-Codes-Yujie-WANG)
 
 - X. Liang, D. Wang, Q. Ye, J. Zhang, M. Liu, H. Liu, K. Yu, Y. Wang, E. Hou, B. Zhong, L. Xu, T. Lv, S. Peng, H. Lu, P. Sicard, A. Anav, and D. S. Ellsworth (2023).
   Stomatal responses of terrestrial plants to global change.
   Nature Communications 14(1): 2188.
   [DOI](https://doi.org/10.1038/s41467-023-37934-7)
-  [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/liang2023stomatal.pdf)
 
 - Y. Wang, R. K. Braghiere, M. Longo, A. J. Norton, P. Köhler, R. Doughty, Y. Yin, A. A. Bloom, and C. Frankenberg (2023).
   Modeling global vegetation gross primary productivity, transpiration and hyperspectral canopy radiative transfer simultaneously using a next generation land surface model—CliMA Land.
   Journal of Advances in Modeling Earth Systems 15(3): e2021MS002964.
   [DOI](http://dx.doi.org/10.1029/2021MS002964)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/wang2023modeling.pdf)
-  [CODE](https://github.com/Yujie-WANG/Published-Codes-Yujie-WANG)
 
 ### 2022
 
@@ -88,7 +84,6 @@ toc: true
   Scientific Data 9: 258.
   [DOI](https://doi.org/10.1038/s41597-022-01346-x)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/wang2022griddingmachine.pdf)
-  [CODE](https://github.com/Yujie-WANG/Published-Codes-Yujie-WANG)
 
 - R. Doughty, T. Kurosu, N. Parazoo, P. Köhler, Y. Wang, Y. Sun, and C. Frankenberg (2022).
   Global GOSAT, OCO-2 and OCO-3 solar induced chlorophyll fluorescence datasets.
@@ -101,7 +96,6 @@ toc: true
   Biogeosciences 19(1): 29-45.
   [DOI](https://doi.org/10.5194/bg-19-29-2022)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/wang2022impact.pdf)
-  [CODE](https://github.com/Yujie-WANG/Published-Codes-Yujie-WANG)
 
 ### 2021
 
@@ -110,7 +104,6 @@ toc: true
   Geoscientific Model Development 14(11): 6741-6763.
   [DOI](https://doi.org/10.5194/gmd-14-6741-2021)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/wang2021testing.pdf)
-  [CODE](https://github.com/Yujie-WANG/Published-Codes-Yujie-WANG)
 
 - A. G. Konings, S. S. Saatchi, C. Frankenberg, M. Keller, V. Leshyk, W. R. L. Anderegg, V. Humphrey, A. M. Matheny, A. Trugman, L. Sack, E. Agee, M. L. Barnes, O. Binks, K. Cawse-Nicholson, B. O. Christoffersen, D. Entekhabi, P. Gentine, N. M. Holtzman, G. G. Katul, Y. Liu, M. Longo, J. Martinez-Vilalta, N. McDowell, P. Meir, M. Mencuccini, A. Mrad, K. A. Novick, R. S. Oliveira, P. Siqueira, S. C. Steele-Dunne, D. R. Thompson, Y. Wang, R. Wehr, J. D. Wood, X. Xu, and P. A. Zuidema (2021).
   Detecting forest response to droughts with global observations of vegetation water content.
@@ -129,7 +122,6 @@ toc: true
   Remote Sensing of Environment 261: 112497.
   [DOI](https://doi.org/10.1016/j.rse.2021.112497)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/braghiere2021accounting.pdf)
-  [CODE](https://github.com/Yujie-WANG/Published-Codes-Yujie-WANG)
 
 - A. Potkay, A. T. Trugman, Y. Wang, M. D. Venturas, W. R. L. Anderegg, C. Mattos, and Y. Fan (2021).
   Coupled whole-tree optimality and xylem-hydraulics explain dynamic biomass partitioning.
@@ -142,7 +134,6 @@ toc: true
   New Phytologist 230(4): 1550-1561.
   [DOI](https://doi.org/10.1111/nph.17267)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/wang2021optimization.pdf)
-  [CODE](https://github.com/Yujie-WANG/Published-Codes-Yujie-WANG)
 
 ### 2020
 
@@ -151,7 +142,6 @@ toc: true
   New Phytologist 227(2): 311–325.
   [DOI](https://doi.org/10.1111/nph.16572)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/wang2020theoretical.pdf)
-  [CODE](https://github.com/Yujie-WANG/Published-Codes-Yujie-WANG)
 
 ### 2019
 
@@ -172,7 +162,6 @@ toc: true
   Tree Physiology 39(8): 1416–1427.
   [DOI](https://doi.org/10.1093/treephys/tpz038)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/wang2019stomatal.pdf)
-  [CODE](https://github.com/Yujie-WANG/Published-Codes-Yujie-WANG)
 
 - K. Yu, G. R. Goldsmith, Y. Wang, and W. R. L. Anderegg (2019).
   Phylogenetic and biogeographic controls of plant nighttime stomatal conductance.
@@ -200,7 +189,6 @@ toc: true
   New Phytologist. 220(3): 836–850.
   [DOI](https://doi.org/10.1111/nph.15333)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/venturas2018stomatal.pdf)
-  [CODE](https://github.com/Yujie-WANG/Published-Codes-Yujie-WANG)
 
 ### 2017
 
@@ -209,7 +197,6 @@ toc: true
   Plant Cell & Environment 40(6): 816–830.
   [DOI](https://dx.doi.org/10.1111/pce.12852)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/sperry2017predicting.pdf)
-  [CODE](https://github.com/Yujie-WANG/Published-Codes-Yujie-WANG)
 
 ### 2016
 
@@ -218,7 +205,6 @@ toc: true
   New Phytologist. 212(3): 577–589.
   [DOI](https://dx.doi.org/10.1111/nph.14059)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/sperry2016pragmatic.pdf)
-  [CODE](https://github.com/Yujie-WANG/Published-Codes-Yujie-WANG)
 
 ### 2015
 
@@ -227,14 +213,12 @@ toc: true
   Plant Physiology 169(4): 2597–2607.
   [DOI](https://doi.org/10.1104/pp.15.00875)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/wang2015stem.pdf)
-  [CODE](https://github.com/Yujie-WANG/Published-Codes-Yujie-WANG)
 
 - Y. Wang, R. Pan, and M. T. Tyree (2015).
   Studies on the tempo of bubble formation in recently cavitated vessels: A model to predict the pressure of air bubbles.
   Plant Physiology 168(2): 521–531.
   [DOI](https://doi.org/10.1104/pp.114.256602)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/wang2015studies.pdf)
-  [CODE](https://github.com/Yujie-WANG/Published-Codes-Yujie-WANG)
 
 ### 2014
 
@@ -243,7 +227,6 @@ toc: true
   Journal of Plant Hydraulics 1: e-0007.
   [DOI](http://dx.doi.org/10.20870/jph.2014.e007)
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/wang2014improved.pdf)
-  [CODE](https://github.com/Yujie-WANG/Published-Codes-Yujie-WANG)
 
 ### Earlier
 

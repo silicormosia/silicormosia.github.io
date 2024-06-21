@@ -3,6 +3,8 @@ title: "Resources"
 toc: true
 ---
 
+For the code I wrote for the 1st-authored and some co-authorred publications, please refer to [this GitHub repository](https://github.com/Yujie-WANG/Published-Codes-Yujie-WANG)
+
 ## Data
 
 - Y. Wang and R. Braghiere (2024).
@@ -38,6 +40,11 @@ toc: true
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/posters/2019-wang-agu.pdf)
 
 ## Slides
+
+- Y. Wang (2024).
+  Talk @ GRC Multiscale Plant Vascular Biology:
+  (Modeling) Hydraulics from rhizosphere to landscape.
+  [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/talks/2024-wang-grc.pdf)
 
 - Y. Wang, R. K. Braghiere, and C. Frankenberg (2023).
   Talk @ AGU Fall Meeting:
