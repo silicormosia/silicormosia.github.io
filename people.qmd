@@ -2,14 +2,33 @@
 title: "People"
 listing:
   - id: current-members
-    contents: people
+    contents: people/current
     type: grid
     image-height: 300px
     grid-item-align: center
-    sort: sortby
+    sort: [sortby, title]
     fields: [image, title, subtitle]
 page-layout: full
 ---
 
+<!--
+## Current Members
+-->
 :::{#current-members}
 :::
+
+<!--
+  - id: alumni
+    contents: people/alumni
+    type: table
+    sort: [started desc, title]
+    sort-ui: [title, subtitle, started]
+    fields: [title, subtitle, started]
+    field-display-names:
+      title: "Name"
+      subtitle: "Former Role"
+      started: "Started"
+## Alumni
+:::{#alumni}
+:::
+-->
