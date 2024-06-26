@@ -21,6 +21,7 @@ This blog tracks the performance of the CliMA Land global simulations in terms i
 - Solar induced chlorophyll fluorescence (SIF) at 683, 740, 757, and 771 nm
 
 Per release, the major improvements are:
+
 - a14_gm2_wd1: GPP error slightly increased (back to GM2 with no Vcmax scaling)
 - a14_gm3_wd1: GPP error decreased
 - a14_gm4_wd1: GPP error decreased
@@ -44,7 +45,7 @@ The RMSE per variable per simulation are
 
 | **Version** | **GPP** | **T** | **NDVI** | **EVI** | **NIRv** | **SIF 683** | **SIF 740** | **SIF 757** | **SIF 771** |
 |:------------|:--------|:------|:---------|:--------|:---------|:------------|:------------|:------------|:------------|
-| a14_gm2_wd1 | 0.178   | NA    | 0.173    | 0.151   | 0.498    | 0.043       | 0.134       | 0.095       | 0.077       |
+| a14_gm2_wd1 | 1.785   | NA    | 0.173    | 0.151   | 0.498    | 0.043       | 0.134       | 0.095       | 0.077       |
 | a14_gm3_wd1 | 1.731   | NA    | 0.173    | 0.151   | 0.498    | 0.041       | 0.132       | 0.095       | 0.079       |
 | a14_gm4_wd1 | 1.849   | NA    | 0.173    | 0.151   | 0.498    | 0.039       | 0.131       | 0.096       | 0.081       |
 | a13_gm4_wd1 | 1.980   | NA    | 0.173    | 0.151   | 0.498    | 0.040       | 0.132       | 0.097       | 0.080       |
