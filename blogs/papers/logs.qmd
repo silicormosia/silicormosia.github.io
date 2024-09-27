@@ -15,19 +15,21 @@ It should be a responsibility to perform free peer reviews if you receive them f
 
 | **Year** | **Person**  | **Journal**                                      | **Reviews Received** | **Reviews Made** |
 |:---------|:------------|:-------------------------------------------------|:---------------------|:-----------------|
-| 2024     | Yujie Wang  | Biogeosciences                                   |                      | 1                |
+| 2024     | Yujie Wang  | Agricultural and Forest Meteorology              |                      | 1                |
+|          | Yujie Wang  | Biogeosciences                                   |                      | 1                |
 |          | Yujie Wang  | Earth System Science Data                        |                      | 1                |
+|          | Yujie Wang  | Geophysical Research Letters                     |                      | 2                |
 |          | Yujie Wang  | Global Change Biology                            | 3                    |                  |
 |          | Yujie Wang  | Journal of Advances in Modeling Earth Systems    | 1                    |                  |
 |          | Yujie Wang  | Journal of Advances in Modeling Earth Systems    | 2                    |                  |
 |          | Yujie Wang  | Journal of Advances in Modeling Earth Systems    | 3                    |                  |
+|          | Yujie Wang  | Journal of Advances in Modeling Earth Systems    |                      | 1                |
 |          | Yujie Wang  | Journal of Geophysical Research - Biogeosciences |                      | 1                |
-|          | Yujie Wang  | Nature Plants                                    |                      | 1                |
-|          | Yujie Wang  | Remote Sensing of Environment                    |                      | 1                |
-| TBD      | Yujie Wang  | Scientific Data                                  |                      | 1                |
-| TBD      | Yujie Wang  | Agricultural and Forest Meteorology              |                      | 1                |
-| TBD      | Yujie Wang  | Remote Sensing of Environment                    |                      | 1                |
-|          |             | **Summary**                                      | **9**                | **6**            |
+|          | Yujie Wang  | Nature Plants                                    |                      | 2                |
+|          | Yujie Wang  | Remote Sensing of Environment                    |                      | 4                |
+|          | Yujie Wang  | Scientific Data                                  |                      | 3                |
+|          | Yujie Wang  | Tree Physiology                                  |                      | 1                |
+|          |             | **Summary**                                      |                      |                  |
 
 ## 2017-2023
 
@@ -69,8 +71,10 @@ It should be a responsibility to perform free peer reviews if you receive them f
 1. Ecohydrology
 1. Forest Ecology and Management
 1. Frontiers in Plant Science
+1. Geophysical Research Letters
 1. Geoscientific Model Development
 1. Global Change Biology
+1. Journal of Advances in Modeling Earth Systems
 1. Journal of Ecology
 1. Journal of Geophysical Research - Biogeosciences
 1. Nature Plants
