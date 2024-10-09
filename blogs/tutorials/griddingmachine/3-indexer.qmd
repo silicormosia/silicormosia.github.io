@@ -8,7 +8,7 @@ categories:
   - Tutorial
 ---
 
-The indexer module of the [GriddingMachine.jl](https://github.com/CliMA/GriddingMachine.jl) is designed to read the entire or partial data from GriddingMachine datasets, which are as netcdf files.
+The Indexer module of the [GriddingMachine.jl](https://github.com/CliMA/GriddingMachine.jl) is designed to read the entire or partial data from GriddingMachine datasets, which are as netcdf files.
 
 By default, each dataset contains a data and std field, meaning the actual data and the standard deviation, respectively. The primary function provided will read the data and std at the same time, and return the two as a tuple, even if the std may be filled with NaNs. There are only three functions in the Indexer module at the moment, but each function could support multiple methods supported by Julia’s multiple dispatch feature. I will cover the functions in the tutorial below.
 

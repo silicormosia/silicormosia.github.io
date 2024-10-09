@@ -30,11 +30,11 @@ Each dataset is labeled with a unique tag that describes
 One can simply look up the available dataset tags (and suggest new datasets) through [our Github repository](https://github.com/CliMA/GriddingMachine.jl/issues/62).
 
 With the unique tag, one can query the data directly via function query_collection, for example
-```
+```julia
 query_collection("LAI_MODIS_2X_8D_2020")
 ```
 for the global leaf area index of the year 2020, and the dataset will be downloaded automatically. Alternatively, one can query data only for a site using the latitude and longitude without downloading the dataset, for example,
-```
+```julia
 request_LUT("LAI_MODIS_2X_8D_2020_V1", 34.1478, -118.1445)
 ```
 for the leaf area index of the year 2020 at Pasadena, CA, USA. See our published work [(Wang et al., 2022)](https://doi.org/10.1038/s41597-022-01346-x) and [online documentation](https://github.com/CliMA/GriddingMachine.jl) for more information about how to use GriddingMachine. It supports Julia, Matlab, Octave, Python, and R.

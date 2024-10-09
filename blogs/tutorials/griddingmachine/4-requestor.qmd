@@ -1,0 +1,68 @@
+---
+title: "GriddingMachine Tutorial 4"
+image: ../../../images/griddingmachine.jpg
+description: "How to use the Requestor module of GriddingMachine.jl?"
+author: "Yujie Wang"
+date: "10/9/2024"
+categories:
+  - Tutorial
+---
+
+The Requestor module of the [GriddingMachine.jl](https://github.com/CliMA/GriddingMachine.jl) is designed to request data directly from the server so that users do not need to download the data, which could be time consuming.
+
+Currently, the Requestor module has two key functions that are meant to query data for different purposes:
+
+- `request_LUT` to request data from a particular artifact
+- `request_GMDICT` to request a dictionary of data that is used for site level simulations
+
+For example, one can use `request_LUT` to query the leaf area index data; or he/she can use `request_GMDICT` to get all the associated model input parameters including leaf area index and chlorophyll content etc. Note that these two functions are meant to use directly with Julia code. One can also add support to other languages, such as Python and Matlab/Octave, as did in [(Wang et al., 2022)](https://doi.org/10.1038/s41597-022-01346-x).
+
+
+## request_LUT
+
+The `request_LUT` function takes the following parameters (may up to changes in future versions):
+
+- `artname` Artifact full name such as `LAI_MODIS_2X_8D_2017_V1`
+- `lat` Latitude
+- `lon` Longitude
+- `cyc` Cycle index, default is 0 (read entire time series)
+- `include_std` Optional. If true, include the standard deviation
+- `interpolation` Optional. If true, interpolate the data linearly
+- `port` Optional. Port number for the GriddingMachine server
+- `server` Optional. Server address such as `http://tropo.gps.caltech.edu`
+- `user` Optional. User name (non-registered users need to wait for 2 seconds before the server processes the request)
+
+Some examples are
+
+```julia
+request_LUT("LAI_MODIS_2X_8D_2017_V1", 30.5, 115.5);
+request_LUT("LAI_MODIS_2X_8D_2017_V1", 30.5, 115.5; interpolation=true);
+request_LUT("LAI_MODIS_2X_8D_2017_V1", 30.5, 115.5, 8);
+request_LUT("LAI_MODIS_2X_8D_2017_V1", 30.5, 115.5, 8; interpolation=true);
+```
+
+
+## request_GMDICT
+
+The `request_GMDICT` function can be imagined as a series of `request_LUT` functions, taking the following parameters (may subject to changes in future versions):
+
+- `gmversion` Emerald version such as `gm2`. See [Emerald Documentation](../../emerald/emerald.html) for more details
+- `year` Year
+- `lat` Latitude
+- `lon` Longitude
+- `port` Optional. Port number for the GriddingMachine server
+- `server` Optional. Server address such as `https://tropo.gps.caltech.edu`
+- `user` Optional. User name (non-registered users need to wait for 5 seconds before the server processes the request)
+
+An example is
+```julia
+gmdict = request_GMDICT("gm2", 2019, 30.5, 115.5);
+```
+
+
+## Web Interfaces
+
+Given that there are many artifacts for users to choose from, we also provide two web interface for users to request the data mannually (not fancy though):
+
+- [Web Interface for request_LUT](http://tropo.gps.caltech.edu:5055/gm_artifact_form)
+- [Web Interface for request_GMDICT](http://tropo.gps.caltech.edu:5055/gm_dict_form)
