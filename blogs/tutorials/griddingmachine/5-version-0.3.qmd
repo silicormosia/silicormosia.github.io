@@ -1,0 +1,31 @@
+---
+title: "GriddingMachine Tutorial 5"
+image: ../../../images/griddingmachine.jpg
+description: "Update to version 0.3.0"
+author: "Yujie Wang"
+date: "10/29/2024"
+categories:
+  - Tutorial
+---
+
+The packaging and distribution of GriddingMachine artifacts were following the template of standard Julia artifacts. Though the use of unique artifact name tag and SHA hash values allows for the delivery of packages readily as a product, these facts make the database not as convenient as I expect it to be:
+
+- The Artifact.toml file must be updated regularly through GriddingMachine versioning, even though the core code of GriddingMachine does not change. It does not make sense this way.
+- There is not yet a mature pipeline to pre-process the data to feed into GriddingMachine database. Although I tried to so do last year with the help of Emily Gu through the SURF program, it has not been completed as I was not very motivated.
+- The API of the modules are not as convenient.
+
+To avoid the problems, I decided to redesign the GriddingMachine package, and made the following major changes:
+
+- Create a separate repository to process the data to meet the requirements of GriddingMachine (not yet mature, will write a tutorial when it is done).
+- Use a standalone Atifacts.yaml file generated from GriddingMachineDatasets to host the database. Then what GriddingMachine does is to update the database file regularly and query data using the database (no code or version change required).
+- Remove the collection structure method (not necessary) as one can directly use the GriddingMachine TAG.
+- Download and unpack the data to a local folder `/homedir/GriddingMachine` instead of in `/homedir/.julia/artifacts` so users can manage the database manually.
+
+Per the user side, the major changes are:
+
+- `query_collection` function removed from Collector
+- `download_artifact!` function served as the the new `query_collection` (one can simply use an alias such as `query_collection = Collector.download_artifact!` so that the existing code still works)
+- `read_LUT` method now accepts TAG name directly (only accept file path in v0.2), and thus one can directly do `read_LUT(tag, 32.33, 118.03)`. Of course `read_LUT(download_artifact!(tag), 32.33, 118.03)` still works.
+- `read_LUT` does not accept FT now, and users should do the conversion at the user end
+
+These updates do break current code, but the changes to code should be minimum. So be prepared for code changes if you decide to upgrade GriddingMachine to version 0.3.
