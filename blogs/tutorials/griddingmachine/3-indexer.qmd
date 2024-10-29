@@ -1,7 +1,7 @@
 ---
 title: "GriddingMachine Tutorial 3"
 image: ../../../images/griddingmachine.jpg
-description: "How to use the Indexer module of GriddingMachine.jl?"
+description: "How to use the Indexer module of GriddingMachine.jl (v0.2)?"
 author: "Yujie Wang"
 date: "1/30/2024"
 categories:
@@ -27,7 +27,42 @@ here 115.33 is the longitude and 1/12 is the spatial resolution (1/12 degree) in
 Please note here that the `lat_ind` and `lon_ind` functions are meant to be used by the `read_LUT` function below, but users can import these functions for research purposes (simple functions to write, but will save you some time to round up the numbers).
 
 
-## read_LUT
+## read_LUT (v0.3)
+Version 0.3 differed from v0.2 in the following
+
+- FT control removed
+- fn can be file path or GriddingMachine tag (only accepts file path in v0.2)
+
+The `read_LUT` function means read look-up table, which is a latitude-longitude(-time) table rather than indexed by plant function type. This function supports several methods:
+
+- `read_LUT(fn::String)` to read the entire dataset (2D or 3D dataset)
+- `read_LUT(fn::String, cyc::Int)` to read a slice of data in time for a 3D dataset
+- `read_LUT(fn::String, lat::Number, lon::Number; interpolation::Bool = false)` to read the data at a site (2D dataset) or in a column (3D dataset)
+- `read_LUT(fn::String, lat::Number, lon::Number, cyc::Int; interpolation::Bool = false)` to read the data at a site and time for a 3D dataset
+
+Here,
+
+- `fn` is the file name of the dataset or GriddingMachine tag
+- `cyc` is the index in time
+- `lat` is the latitude
+- `lon` is the longitude
+- `interpolation` is an optional bool (default is false) to determine whether to interpolate the data based on the latitude and longitude
+
+For example,
+```
+using GriddingMachine.Collector: download_artifact!
+using GriddingMachine.Indexer: read_LUT
+julia> ds, ds_std = read_LUT(download_artifact!("VCMAX_2X_1Y_V2"));
+julia> ds, ds_std = read_LUT("VCMAX_2X_1Y_V2");
+julia> mean_site, std_site = read_LUT(download_artifact!("VCMAX_2X_1Y_V2"), 32.33, 118.03);
+julia> mean_site, std_site = read_LUT("VCMAX_2X_1Y_V2", 32.33, 118.03);
+```
+Because the methods are pretty straightforward given the input variable names, I will not go through each method. You may go to the [CI tests](https://github.com/CliMA/GriddingMachine.jl/blob/main/test/runtests.jl) for more examples.
+
+Note here because these functions are all set to be private functions, users need to import these functions before using them (I designed it this way to avoid repeated function names with other modules). This design logic applies to most of the modules I wrote, such as CliMA Land and Emerald.
+
+
+## read_LUT (v0.2)
 The `read_LUT` function means read look-up table, which is a latitude-longitude(-time) table rather than indexed by plant function type. This function supports several methods:
 
 - `read_LUT(fn::String, FT::DataType = Float32)` to read the entire dataset (2D or 3D dataset)
@@ -37,12 +72,7 @@ The `read_LUT` function means read look-up table, which is a latitude-longitude(
 
 Here,
 
-- `fn` is the file name of the dataset, which can be obtained using the `Collector.query_collection` function
 - `FT` is the output floating number type
-- `cyc` is the index in time
-- `lat` is the latitude
-- `lon` is the longitude
-- `interpolation` is an optional bool (default is false) to determine whether to interpolate the data based on the latitude and longitude
 
 For example,
 ```
@@ -51,6 +81,3 @@ using GriddingMachine.Indexer: read_LUT
 julia> ds,ds_std = read_LUT(query_collection(vcmax_collection()));
 julia> mean_site, std_site = read_LUT(query_collection(vcmax_collection()), 32.33, 118.03);
 ```
-Because the methods are pretty straightforward given the input variable names, I will not go through each method. You may go to the [CI tests](https://github.com/CliMA/GriddingMachine.jl/blob/main/test/runtests.jl) for more examples.
-
-Note here because these functions are all set to be private functions, users need to import these functions before using them (I designed it this way to avoid repeated function names with other modules). This design logic applies to most of the modules I wrote, such as CliMA Land (PRO version; also known as Emerald in my private development repo).

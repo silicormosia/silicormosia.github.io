@@ -4,11 +4,12 @@ image: ../../../images/griddingmachine.jpg
 description: "How to install different versions of GriddingMachine.jl?"
 author: "Yujie Wang"
 date: "1/12/2024"
+date-modified: "10/29/2024"
 categories:
   - Tutorial
 ---
 
-[GriddingMachine.jl](https://github.com/CliMA/GriddingMachine.jl) is a software and database designed to share global scale datasets for Earth system modeling. GriddingMachine is a registered package and currently with a stable version v0.2. It is not recommended to use version v0.1.
+[GriddingMachine.jl](https://github.com/CliMA/GriddingMachine.jl) is a software and database designed to share global scale datasets for Earth system modeling. GriddingMachine is a registered package and currently with a stable version v0.3. It is not recommended to use version v0.1.
 
 GriddingMachine has the following modules:
 

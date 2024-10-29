@@ -1,7 +1,7 @@
 ---
 title: "GriddingMachine Tutorial 2"
 image: ../../../images/griddingmachine.jpg
-description: "How to use the Collector module of GriddingMachine.jl?"
+description: "How to use the Collector module of GriddingMachine.jl (v0.2)?"
 author: "Yujie Wang"
 date: "1/19/2024"
 categories:
@@ -19,7 +19,7 @@ Each of the dataset in GriddingMachine is assigned a unique tag, such as **VCMAX
 Please find the supported data collections at [the folder](https://github.com/CliMA/GriddingMachine.jl/tree/main/src/collector). Note here that this struct is mostly meant for documentation purpose, and is currently hardcoded in the main code; the SUPPORTED_COMBOS field can be modified using the **push!** function. However, we do recommend users to add the COMBO labels to SUPPORTED_COMBOS when porting new data to GriddingMachine.
 
 
-## Query the datasets
+## Query the datasets (v0.2)
 Function **query_collection** is designed to automatically download the dataset if not yet downloaded and then return to the user the path of the downloaded dataset. There are three methods for the **query_collection** function:
 
 - `query_collection(ds::GriddedCollection)` queries the default dataset within a collection;
@@ -33,7 +33,7 @@ julia> dsfile = query_collection("VCMAX_2X_1Y_V1")
 ```
 
 
-## Clean the downloaded datasets
+## Clean the downloaded datasets (v0.2)
 Function **clean_collections!** is designed to clean the downloaded datasets, and there are three methods to use it:
 
 - `clean_collections!(selection::String="old")` to clean only the outdated (default) or all datasets (set selection to "all");
@@ -47,7 +47,7 @@ julia> clean_collections!();
 ```
 
 
-## Sycn the database
+## Sync the database (v0.2)
 Sometimes, users may want to download all the datasets, for example, when building a server for the Requester module. In this case, we provide a function **sync_collections!**, which supoorts two methods:
 
 - `sync_collections!()` to download all the datasets within all collections;

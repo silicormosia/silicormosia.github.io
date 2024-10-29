@@ -1,0 +1,50 @@
+---
+title: "GriddingMachine Tutorial 6"
+image: ../../../images/griddingmachine.jpg
+description: "How to use the Collector module of GriddingMachine.jl (v0.3)?"
+author: "Yujie Wang"
+date: "10/29/2024"
+categories:
+  - Tutorial
+---
+
+The Collector module within [GriddingMachine.jl](https://github.com/CliMA/GriddingMachine.jl) is designed to download the datasets to local drive and manage the downloaded datasets.
+
+Each of the dataset in GriddingMachine is assigned a unique tag, such as **VCMAX_2X_1Y_V1**. Please see the [documentation](https://github.com/CliMA/GriddingMachine.jl/issues/62) for all the supported datasets and their tags.
+
+
+## Query the datasets (v0.3)
+Function **download_artifact!** is designed to automatically download the dataset if not yet downloaded and then return to the user the path of the downloaded dataset:
+
+- `download_artifact!(artname::String)` queries the dataset using the full tag of a dataset.
+
+For example:
+```
+julia> using GriddingMachine.Collector: download_artifact!
+julia> dsfile = download_artifact!("VCMAX_2X_1Y_V1")
+```
+
+
+## Clean the database (v0.3)
+Function **clean_database!** is designed to clean the downloaded datasets, and there are three methods to use it:
+
+- `clean_database!(selection::String="old")` to clean only the outdated (default) or all datasets (set selection to "all");
+- `clean_database!(selection::Vector{String})` to clean the datasets using their tags;
+
+Typically, it is only recommended to clean only the outdated datasets
+```
+julia> using GriddingMachine.Collector: clean_database!
+julia> clean_database!();
+```
+
+
+## Sync the database (v0.3)
+Sometimes, users may want to download all the datasets, for example, when building a server for the Requester module. In this case, we provide a function **sync_collections!**, which supoorts two methods:
+
+- `sync_database!()` to download all the datasets within all collections;
+
+And it is simple to perform the synchronization (**Note: do not try this code unless you really want to download all the data!**):
+```
+julia> using GriddingMachine.Collector: sync_database!
+julia> sync_database!();
+```
