@@ -2,15 +2,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.555">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Yujie Wang">
-<meta name="dcterms.date" content="2024-01-19">
-<meta name="description" content="How to use the Collector module of GriddingMachine.jl?">
+<meta name="dcterms.date" content="2024-10-29">
+<meta name="description" content="How to use the Collector module of GriddingMachine.jl (v0.3)?">
 
-<title>Ormosia - GriddingMachine Tutorial 2</title>
+<title>GriddingMachine Tutorial 6 – Ormosia</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -98,7 +98,7 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -144,7 +144,7 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-bi-github" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-bi-github" role="link" data-bs-toggle="dropdown" aria-expanded="false">
       <i class="bi bi-github" role="img">
 </i> 
  <span class="menu-text"></span>
@@ -162,7 +162,7 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
   </li>
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
@@ -172,10 +172,10 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">GriddingMachine Tutorial 2</h1>
+      <h1 class="title">GriddingMachine Tutorial 6</h1>
                   <div>
         <div class="description">
-          How to use the Collector module of GriddingMachine.jl?
+          How to use the Collector module of GriddingMachine.jl (v0.3)?
         </div>
       </div>
                           <div class="quarto-categories">
@@ -197,7 +197,7 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">January 19, 2024</p>
+        <p class="date">October 29, 2024</p>
       </div>
     </div>
     
@@ -217,47 +217,37 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 
 
 <p>The Collector module within <a href="https://github.com/CliMA/GriddingMachine.jl">GriddingMachine.jl</a> is designed to download the datasets to local drive and manage the downloaded datasets.</p>
-<p>Each of the dataset in GriddingMachine is assigned a unique tag, such as <strong>VCMAX_2X_1Y_V1</strong>. Please see the <a href="https://github.com/CliMA/GriddingMachine.jl/issues/62">documentation</a> for all the supported datasets and their tags. The datasets in GriddingMachine are catergorized to different collections following a generic struct called <strong>GriddedCollection</strong>. The struct has the following fields</p>
+<p>Each of the dataset in GriddingMachine is assigned a unique tag, such as <strong>VCMAX_2X_1Y_V1</strong>. Please see the <a href="https://github.com/CliMA/GriddingMachine.jl/issues/62">documentation</a> for all the supported datasets and their tags.</p>
+<section id="query-the-datasets-v0.3" class="level2">
+<h2 class="anchored" data-anchor-id="query-the-datasets-v0.3">Query the datasets (v0.3)</h2>
+<p>Function <strong>download_artifact!</strong> is designed to automatically download the dataset if not yet downloaded and then return to the user the path of the downloaded dataset:</p>
 <ul>
-<li>LABEL: data type label, such as GPP and LAI</li>
-<li>SUPPORTED_COMBOS: a list of strings indicating supported combos, such as [“2X_1Y_V1”, “2X_1Y_V2”]</li>
-<li>DEFAULT_COMBO: default combo for this collection, one of the SUPPORTED_COMBOS</li>
+<li><code>download_artifact!(artname::String)</code> queries the dataset using the full tag of a dataset.</li>
 </ul>
-<p>Please find the supported data collections at <a href="https://github.com/CliMA/GriddingMachine.jl/tree/main/src/collector">the folder</a>. Note here that this struct is mostly meant for documentation purpose, and is currently hardcoded in the main code; the SUPPORTED_COMBOS field can be modified using the <strong>push!</strong> function. However, we do recommend users to add the COMBO labels to SUPPORTED_COMBOS when porting new data to GriddingMachine.</p>
-<section id="query-the-datasets" class="level2">
-<h2 class="anchored" data-anchor-id="query-the-datasets">Query the datasets</h2>
-<p>Function <strong>query_collection</strong> is designed to automatically download the dataset if not yet downloaded and then return to the user the path of the downloaded dataset. There are three methods for the <strong>query_collection</strong> function:</p>
-<ul>
-<li><code>query_collection(ds::GriddedCollection)</code> queries the default dataset within a collection;</li>
-<li><code>query_collection(ds::GriddedCollection, version::String)</code> queries one version from the supported datasets;</li>
-<li><code>query_collection(artname::String)</code> queries the dataset using the full tag of a dataset.</li>
-</ul>
-<p>It is recommended to use the last method for research as the combo tag may not be updated in the GriddedCollection struct or the default dataset may change over time:</p>
-<pre><code>julia&gt; using GriddingMachine.Collector: query_collection
-julia&gt; dsfile = query_collection("VCMAX_2X_1Y_V1")</code></pre>
+<p>For example:</p>
+<pre><code>julia&gt; using GriddingMachine.Collector: download_artifact!
+julia&gt; dsfile = download_artifact!("VCMAX_2X_1Y_V1")</code></pre>
 </section>
-<section id="clean-the-downloaded-datasets" class="level2">
-<h2 class="anchored" data-anchor-id="clean-the-downloaded-datasets">Clean the downloaded datasets</h2>
-<p>Function <strong>clean_collections!</strong> is designed to clean the downloaded datasets, and there are three methods to use it:</p>
+<section id="clean-the-database-v0.3" class="level2">
+<h2 class="anchored" data-anchor-id="clean-the-database-v0.3">Clean the database (v0.3)</h2>
+<p>Function <strong>clean_database!</strong> is designed to clean the downloaded datasets, and there are three methods to use it:</p>
 <ul>
-<li><code>clean_collections!(selection::String="old")</code> to clean only the outdated (default) or all datasets (set selection to “all”);</li>
-<li><code>clean_collections!(selection::Vector{String})</code> to clean the datasets using their tags;</li>
-<li><code>clean_collections!(selection::GriddedCollection)</code> to clean all the datasets within a collection.</li>
+<li><code>clean_database!(selection::String="old")</code> to clean only the outdated (default) or all datasets (set selection to “all”);</li>
+<li><code>clean_database!(selection::Vector{String})</code> to clean the datasets using their tags;</li>
 </ul>
 <p>Typically, it is only recommended to clean only the outdated datasets</p>
-<pre><code>julia&gt; using GriddingMachine.Collector: clean_collections!
-julia&gt; clean_collections!();</code></pre>
+<pre><code>julia&gt; using GriddingMachine.Collector: clean_database!
+julia&gt; clean_database!();</code></pre>
 </section>
-<section id="sycn-the-database" class="level2">
-<h2 class="anchored" data-anchor-id="sycn-the-database">Sycn the database</h2>
+<section id="sync-the-database-v0.3" class="level2">
+<h2 class="anchored" data-anchor-id="sync-the-database-v0.3">Sync the database (v0.3)</h2>
 <p>Sometimes, users may want to download all the datasets, for example, when building a server for the Requester module. In this case, we provide a function <strong>sync_collections!</strong>, which supoorts two methods:</p>
 <ul>
-<li><code>sync_collections!()</code> to download all the datasets within all collections;</li>
-<li><code>sync_collections!(gc::GriddedCollection)</code> to download specified collection.</li>
+<li><code>sync_database!()</code> to download all the datasets within all collections;</li>
 </ul>
 <p>And it is simple to perform the synchronization (<strong>Note: do not try this code unless you really want to download all the data!</strong>):</p>
-<pre><code>julia&gt; using GriddingMachine.Collector: sync_collections!
-julia&gt; sync_collections!();</code></pre>
+<pre><code>julia&gt; using GriddingMachine.Collector: sync_database!
+julia&gt; sync_database!();</code></pre>
 
 
 </section>
@@ -442,18 +432,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -485,7 +464,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp("https:\/\/silicormosia\.github\.io\/");
@@ -493,7 +494,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {

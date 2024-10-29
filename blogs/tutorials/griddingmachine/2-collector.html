@@ -6,11 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="王玉杰">
-<meta name="dcterms.date" content="2024-05-21">
-<meta name="description" content="刚开始开发CliMA Land时我也是踌躇满志的，结果过了这些年依旧没能将我的模型和大气模型耦合。再加上找工作也一直不顺利，心态居然都崩习惯了。。。">
+<meta name="author" content="Yujie Wang">
+<meta name="dcterms.date" content="2024-01-19">
+<meta name="description" content="How to use the Collector module of GriddingMachine.jl (v0.2)?">
 
-<title>经纬岛 第一章 – Ormosia</title>
+<title>GriddingMachine Tutorial 2 – Ormosia</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -172,15 +172,14 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">经纬岛 第一章</h1>
+      <h1 class="title">GriddingMachine Tutorial 2</h1>
                   <div>
         <div class="description">
-          刚开始开发CliMA Land时我也是踌躇满志的，结果过了这些年依旧没能将我的模型和大气模型耦合。再加上找工作也一直不顺利，心态居然都崩习惯了。。。
+          How to use the Collector module of GriddingMachine.jl (v0.2)?
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">Poem</div>
-                <div class="quarto-category">经纬岛</div>
+                <div class="quarto-category">Tutorial</div>
               </div>
                   </div>
   </div>
@@ -191,14 +190,14 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>王玉杰 </p>
+               <p>Yujie Wang </p>
             </div>
     </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">May 21, 2024</p>
+        <p class="date">January 19, 2024</p>
       </div>
     </div>
     
@@ -217,49 +216,48 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 
 
 
-<section id="第一章五" class="level2">
-<h2 class="anchored" data-anchor-id="第一章五">第一章（五）</h2>
-<p>我靠着干瘪或半霉的果蔬预防坏血病<br>
-向着龙神祈雨艰难维持生命<br>
-因为资源都已倾斜给船长、大副与水手<br>
-而我们捡食剩饭残羹时他们甚至也眉头微皱<br>
-</p>
-<p>有人偷偷将种子埋进煤渣与灰土<br>
-有人趁着凌晨采集朝露<br>
-有人用冷玻璃将蒸汽收集<br>
-有人用酒桶把雨水装起<br>
-</p>
-<p>直到船尾的作物开始欣欣向荣<br>
-我们奴隶般的身体却也渐渐浮肿<br>
-但我们眼中却充满希冀<br>
-即便是枯黄的芽叶也是那么旖旎<br>
-</p>
-<p>然而我们却收到船长的布告<br>
-他对着那无尽的海面与汹涌的波涛<br>
-“即日起，我将船上的私有物品收回<br>
-包括：花盆、种子、酒桶以及煤灰”</p>
+<p>The Collector module within <a href="https://github.com/CliMA/GriddingMachine.jl">GriddingMachine.jl</a> is designed to download the datasets to local drive and manage the downloaded datasets.</p>
+<p>Each of the dataset in GriddingMachine is assigned a unique tag, such as <strong>VCMAX_2X_1Y_V1</strong>. Please see the <a href="https://github.com/CliMA/GriddingMachine.jl/issues/62">documentation</a> for all the supported datasets and their tags. The datasets in GriddingMachine are catergorized to different collections following a generic struct called <strong>GriddedCollection</strong>. The struct has the following fields</p>
+<ul>
+<li>LABEL: data type label, such as GPP and LAI</li>
+<li>SUPPORTED_COMBOS: a list of strings indicating supported combos, such as [“2X_1Y_V1”, “2X_1Y_V2”]</li>
+<li>DEFAULT_COMBO: default combo for this collection, one of the SUPPORTED_COMBOS</li>
+</ul>
+<p>Please find the supported data collections at <a href="https://github.com/CliMA/GriddingMachine.jl/tree/main/src/collector">the folder</a>. Note here that this struct is mostly meant for documentation purpose, and is currently hardcoded in the main code; the SUPPORTED_COMBOS field can be modified using the <strong>push!</strong> function. However, we do recommend users to add the COMBO labels to SUPPORTED_COMBOS when porting new data to GriddingMachine.</p>
+<section id="query-the-datasets-v0.2" class="level2">
+<h2 class="anchored" data-anchor-id="query-the-datasets-v0.2">Query the datasets (v0.2)</h2>
+<p>Function <strong>query_collection</strong> is designed to automatically download the dataset if not yet downloaded and then return to the user the path of the downloaded dataset. There are three methods for the <strong>query_collection</strong> function:</p>
+<ul>
+<li><code>query_collection(ds::GriddedCollection)</code> queries the default dataset within a collection;</li>
+<li><code>query_collection(ds::GriddedCollection, version::String)</code> queries one version from the supported datasets;</li>
+<li><code>query_collection(artname::String)</code> queries the dataset using the full tag of a dataset.</li>
+</ul>
+<p>It is recommended to use the last method for research as the combo tag may not be updated in the GriddedCollection struct or the default dataset may change over time:</p>
+<pre><code>julia&gt; using GriddingMachine.Collector: query_collection
+julia&gt; dsfile = query_collection("VCMAX_2X_1Y_V1")</code></pre>
 </section>
-<section id="第一章六" class="level2">
-<h2 class="anchored" data-anchor-id="第一章六">第一章（六）</h2>
-<p>船长的船保证了远航<br>
-船长的船为你们挡着风浪<br>
-船长的船让你们落脚与下榻<br>
-因此哪怕你奉献生命也要将这恩情报答<br>
-</p>
-<p>“以后就由D大副负责作物种植<br>
-你们要安心在她手下做事”<br>
-不妨将所有种子与土壤一起搅拌<br>
-这种熵增的设计绝对会高产<br>
-</p>
-<p>农夫的脏手并不适用于科学<br>
-下里巴人何德能言鹈鴂<br>
-工人的呼吸会把水汽污染<br>
-流觞曲水哪里容得大蒜<br>
-</p>
-<p>红日依旧起于扶桑、落于归墟<br>
-海风依旧裹着轻言絮语<br>
-但我再也听不清、只恨那船头的嘈杂<br>
-夸那红袖的舞姿、羡那都市的繁华</p>
+<section id="clean-the-downloaded-datasets-v0.2" class="level2">
+<h2 class="anchored" data-anchor-id="clean-the-downloaded-datasets-v0.2">Clean the downloaded datasets (v0.2)</h2>
+<p>Function <strong>clean_collections!</strong> is designed to clean the downloaded datasets, and there are three methods to use it:</p>
+<ul>
+<li><code>clean_collections!(selection::String="old")</code> to clean only the outdated (default) or all datasets (set selection to “all”);</li>
+<li><code>clean_collections!(selection::Vector{String})</code> to clean the datasets using their tags;</li>
+<li><code>clean_collections!(selection::GriddedCollection)</code> to clean all the datasets within a collection.</li>
+</ul>
+<p>Typically, it is only recommended to clean only the outdated datasets</p>
+<pre><code>julia&gt; using GriddingMachine.Collector: clean_collections!
+julia&gt; clean_collections!();</code></pre>
+</section>
+<section id="sync-the-database-v0.2" class="level2">
+<h2 class="anchored" data-anchor-id="sync-the-database-v0.2">Sync the database (v0.2)</h2>
+<p>Sometimes, users may want to download all the datasets, for example, when building a server for the Requester module. In this case, we provide a function <strong>sync_collections!</strong>, which supoorts two methods:</p>
+<ul>
+<li><code>sync_collections!()</code> to download all the datasets within all collections;</li>
+<li><code>sync_collections!(gc::GriddedCollection)</code> to download specified collection.</li>
+</ul>
+<p>And it is simple to perform the synchronization (<strong>Note: do not try this code unless you really want to download all the data!</strong>):</p>
+<pre><code>julia&gt; using GriddingMachine.Collector: sync_collections!
+julia&gt; sync_collections!();</code></pre>
 
 
 </section>

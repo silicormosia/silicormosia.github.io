@@ -8,6 +8,9 @@
   {
     "listing": "/blogs.html",
     "items": [
+      "/blogs/tutorials/griddingmachine/5-version-0.3.html",
+      "/blogs/tutorials/griddingmachine/6-collector.html",
+      "/blogs/tutorials/griddingmachine/4-requestor.html",
       "/blogs/peotry/grid-isles/1-8_9.html",
       "/blogs/peotry/grid-isles/1-7.html",
       "/blogs/papers/20240527/index.html",
@@ -20,9 +23,9 @@
       "/blogs/papers/20240322/index.html",
       "/blogs/emerald/emerald.html",
       "/blogs/papers/logs.html",
-      "/blogs/tutorials/20240130/index.html",
-      "/blogs/tutorials/20240119/index.html",
-      "/blogs/tutorials/20240112/index.html",
+      "/blogs/tutorials/griddingmachine/3-indexer.html",
+      "/blogs/tutorials/griddingmachine/2-collector.html",
+      "/blogs/tutorials/griddingmachine/1-install.html",
       "/blogs/papers/20240103/index.html",
       "/blogs/peotry/20230530/index.html",
       "/blogs/papers/20230501/index.html",

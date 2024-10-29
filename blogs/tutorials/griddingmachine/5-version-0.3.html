@@ -6,11 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="王玉杰">
-<meta name="dcterms.date" content="2024-05-21">
-<meta name="description" content="刚开始开发CliMA Land时我也是踌躇满志的，结果过了这些年依旧没能将我的模型和大气模型耦合。再加上找工作也一直不顺利，心态居然都崩习惯了。。。">
+<meta name="author" content="Yujie Wang">
+<meta name="dcterms.date" content="2024-10-29">
+<meta name="description" content="Update to version 0.3.0">
 
-<title>经纬岛 第一章 – Ormosia</title>
+<title>GriddingMachine Tutorial 5 – Ormosia</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -172,15 +172,14 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">经纬岛 第一章</h1>
+      <h1 class="title">GriddingMachine Tutorial 5</h1>
                   <div>
         <div class="description">
-          刚开始开发CliMA Land时我也是踌躇满志的，结果过了这些年依旧没能将我的模型和大气模型耦合。再加上找工作也一直不顺利，心态居然都崩习惯了。。。
+          Update to version 0.3.0
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">Poem</div>
-                <div class="quarto-category">经纬岛</div>
+                <div class="quarto-category">Tutorial</div>
               </div>
                   </div>
   </div>
@@ -191,14 +190,14 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>王玉杰 </p>
+               <p>Yujie Wang </p>
             </div>
     </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">May 21, 2024</p>
+        <p class="date">October 29, 2024</p>
       </div>
     </div>
     
@@ -217,52 +216,29 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 
 
 
-<section id="第一章五" class="level2">
-<h2 class="anchored" data-anchor-id="第一章五">第一章（五）</h2>
-<p>我靠着干瘪或半霉的果蔬预防坏血病<br>
-向着龙神祈雨艰难维持生命<br>
-因为资源都已倾斜给船长、大副与水手<br>
-而我们捡食剩饭残羹时他们甚至也眉头微皱<br>
-</p>
-<p>有人偷偷将种子埋进煤渣与灰土<br>
-有人趁着凌晨采集朝露<br>
-有人用冷玻璃将蒸汽收集<br>
-有人用酒桶把雨水装起<br>
-</p>
-<p>直到船尾的作物开始欣欣向荣<br>
-我们奴隶般的身体却也渐渐浮肿<br>
-但我们眼中却充满希冀<br>
-即便是枯黄的芽叶也是那么旖旎<br>
-</p>
-<p>然而我们却收到船长的布告<br>
-他对着那无尽的海面与汹涌的波涛<br>
-“即日起，我将船上的私有物品收回<br>
-包括：花盆、种子、酒桶以及煤灰”</p>
-</section>
-<section id="第一章六" class="level2">
-<h2 class="anchored" data-anchor-id="第一章六">第一章（六）</h2>
-<p>船长的船保证了远航<br>
-船长的船为你们挡着风浪<br>
-船长的船让你们落脚与下榻<br>
-因此哪怕你奉献生命也要将这恩情报答<br>
-</p>
-<p>“以后就由D大副负责作物种植<br>
-你们要安心在她手下做事”<br>
-不妨将所有种子与土壤一起搅拌<br>
-这种熵增的设计绝对会高产<br>
-</p>
-<p>农夫的脏手并不适用于科学<br>
-下里巴人何德能言鹈鴂<br>
-工人的呼吸会把水汽污染<br>
-流觞曲水哪里容得大蒜<br>
-</p>
-<p>红日依旧起于扶桑、落于归墟<br>
-海风依旧裹着轻言絮语<br>
-但我再也听不清、只恨那船头的嘈杂<br>
-夸那红袖的舞姿、羡那都市的繁华</p>
+<p>The packaging and distribution of GriddingMachine artifacts were following the template of standard Julia artifacts. Though the use of unique artifact name tag and SHA hash values allows for the delivery of packages readily as a product, these facts make the database not as convenient as I expect it to be:</p>
+<ul>
+<li>The Artifact.toml file must be updated regularly through GriddingMachine versioning, even though the core code of GriddingMachine does not change. It does not make sense this way.</li>
+<li>There is not yet a mature pipeline to pre-process the data to feed into GriddingMachine database. Although I tried to so do last year with the help of Emily Gu through the SURF program, it has not been completed as I was not very motivated.</li>
+<li>The API of the modules are not as convenient.</li>
+</ul>
+<p>To avoid the problems, I decided to redesign the GriddingMachine package, and made the following major changes:</p>
+<ul>
+<li>Create a separate repository to process the data to meet the requirements of GriddingMachine (not yet mature, will write a tutorial when it is done).</li>
+<li>Use a standalone Atifacts.yaml file generated from GriddingMachineDatasets to host the database. Then what GriddingMachine does is to update the database file regularly and query data using the database (no code or version change required).</li>
+<li>Remove the collection structure method (not necessary) as one can directly use the GriddingMachine TAG.</li>
+<li>Download and unpack the data to a local folder <code>/homedir/GriddingMachine</code> instead of in <code>/homedir/.julia/artifacts</code> so users can manage the database manually.</li>
+</ul>
+<p>Per the user side, the major changes are:</p>
+<ul>
+<li><code>query_collection</code> function removed from Collector</li>
+<li><code>download_artifact!</code> function served as the the new <code>query_collection</code> (one can simply use an alias such as <code>query_collection = Collector.download_artifact!</code> so that the existing code still works)</li>
+<li><code>read_LUT</code> method now accepts TAG name directly (only accept file path in v0.2), and thus one can directly do <code>read_LUT(tag, 32.33, 118.03)</code>. Of course <code>read_LUT(download_artifact!(tag), 32.33, 118.03)</code> still works.</li>
+<li><code>read_LUT</code> does not accept FT now, and users should do the conversion at the user end</li>
+</ul>
+<p>These updates do break current code, but the changes to code should be minimum. So be prepared for code changes if you decide to upgrade GriddingMachine to version 0.3.</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
