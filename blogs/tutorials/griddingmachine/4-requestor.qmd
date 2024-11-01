@@ -4,6 +4,7 @@ image: ../../../images/griddingmachine.jpg
 description: "How to use the Requestor module of GriddingMachine.jl?"
 author: "Yujie Wang"
 date: "10/9/2024"
+date-modified: 10/29/2024
 categories:
   - Tutorial
 ---

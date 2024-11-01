@@ -3,7 +3,7 @@ title: "GriddingMachine Tutorial 6"
 image: ../../../images/griddingmachine.jpg
 description: "How to use the Collector module of GriddingMachine.jl (v0.3)?"
 author: "Yujie Wang"
-date: "10/29/2024"
+date: "10/30/2024"
 categories:
   - Tutorial
 ---
