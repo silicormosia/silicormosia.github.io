@@ -1,6 +1,6 @@
 ---
 title: "Non-steady state modeling"
-image: paper.png
+image: liu-2024-stomatal.png
 description: "Modeling stomatal conductance at non-steady state in CliMA Land"
 author: "Yujie Wang"
 date: "3/22/2024"
@@ -19,7 +19,7 @@ Most importantly, the soil-plant-air continuum in nature will NEVER be at a stea
 
 In the recent research led by Ke Liu ([Liu et al., 2024; Biogeosciences](https://doi.org/10.5194/bg-21-1501-2024)), we evaluated the impacts of modeling gs at non-steady state using [CliMA Land](https://github.com/CliMA/Land). We found that, as stomata open "slowly" (compared to immediately at steady state), gs would be lower than steady state models in the morning time in an ideal environment without cloud. Comparatively, as stomata close "slowly", gs would be higher than the steady-state assumption in the afternoon in the ideal environment. In this case, these differences could cancel out, but it still suggested that modelers had messed up the timing. Notably, the natural environment is never ideal following a sine or cosine function, and plants are experiencing random fluctuations in radiation, dry air, etc. These resulted in elevated differences between steady-state and non-steady-state modeling (Fig. 1).
 
-![Fig. 1 Difference between modeled carbon and water fluxes under steady and non-steady states.](bias.png)
+![Fig. 1 Difference between modeled carbon and water fluxes under steady and non-steady states.](liu-2024-stomatal-bias.png)
 
 There are many benefits for models to take the non-steady state approach, particularly that it is more realistic! There are also more implications from the study, please check out the [paper](https://doi.org/10.5194/bg-21-1501-2024) for more details. Yet, there are still a lot of problems to resolve in the future, such as
 

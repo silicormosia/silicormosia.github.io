@@ -1,6 +1,6 @@
 ---
 title: "Accounting for ultraviolet and far-red radiation in land surface modeling"
-image: paper.png
+image: wang-2024-uv-fr.png
 description: "UV is not explicitly accounted for in LSM; FR can boost photosynthesis but LSMs typically treat it as NIR. How can we improve these?"
 author: "Yujie Wang"
 date: "5/27/2024"
@@ -22,6 +22,6 @@ On average, the Earth's surface receives 45.5 W m⁻² UV and 60.1 W m⁻² FR (
 - Counting the FR absorption by chlorophyll as PPAR (photons absorbed by chlorophyll and used for photosynthesis);
 - Distincting FR photons from UV and PAR photons in the photosynthesis model, to not overestimate FR's contribution to photosynthesis.
 
-![Fig. 1 LSMs do not model UV explicitly, thus tend to overestimate UV albedo. LSMs do not account for FR's contribution to photosynthesis, thus tend to underestimate plant productivity.](highlight.png)
+![Fig. 1 LSMs do not model UV explicitly, thus tend to overestimate UV albedo. LSMs do not account for FR's contribution to photosynthesis, thus tend to underestimate plant productivity.](wang-2024-uv-fr-highlight.png)
 
 We tested our UV implementation using data from the flux tower observations, and FR implementation using data collected from plants with different combinations of PAR+FR LED. We also ran the CliMA Land model at the global scale to assess the impact on modeled gross primary productivity (GPP). Our model results suggest that (1) GPP may increase by more than 8%, particularly in the tropics with the highest LAI, and that (2) UV albedo may be underestimated by more than 0.05, particularly in the boreal vegetated regions. For more details, please refer to [our recently published paper](https://doi.org/10.1111/gcb.17346).

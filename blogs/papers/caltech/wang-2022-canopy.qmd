@@ -1,6 +1,6 @@
 ---
 title: "Canopy Model Complexity"
-image: complexity.png
+image: wang-2022-canopy.png
 description: "Comparisons of vegetation canopy model complexities"
 author: "Yujie Wang"
 date: "9/30/2021"
