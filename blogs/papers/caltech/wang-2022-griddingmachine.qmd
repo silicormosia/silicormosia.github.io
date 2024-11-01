@@ -1,6 +1,6 @@
 ---
 title: "GriddingMachine"
-image: paper.png
+image: wang-2022-griddingmachine.png
 description: "GriddingMachine: A new database and software for sharing global datasets"
 author: "Yujie Wang"
 date: "8/17/2022"
@@ -10,7 +10,7 @@ categories:
 
 Researchers are spending way too much time in finding, formatting, and reusing public data. The ever increasing amount of data, various forms of data, and different layouts of data make this problem even more serious. While the intention of sharing data within the community is to promote future research, the increasing fragmentation makes it harder and harder for researchers to find and reuse them, particularly for newbies. Taking my personal experience as an example, to collect the global datasets for the CliMA Land Model, we spent weeks and months to identify which datasets to use, download the data from different sources, standardize the datasets, and learn how to read the datasets correctly with different formats (such as NetCDF, GeoTIFF, CSV, and binary) with different programming languages. Unfortunately, researchers may need to repeat this tedious work again and again, even for the same datasets (if one forgot where the data is stored or how it has been processed).
 
-![Fig. 1 Pathway to assemble and distribute the GriddingMachine database.](modules.png)
+![Fig. 1 Pathway to assemble and distribute the GriddingMachine database.](wang-2022-griddingmachine-modules.png)
 
 Aiming towards minimizing the effort involved in the data reuse, we started the GriddingMachine project by
 

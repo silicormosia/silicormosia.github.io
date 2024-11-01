@@ -1,6 +1,6 @@
 ---
 title: "Improve canopy radiative transfer and electron transport modeling"
-image: paper.png
+image: wang-2024-hyperspectral.png
 description: "Land surface models typically use broadband RT modeling, potentially resulting in biased PPAR and J calculations. How can we improve this?"
 author: "Yujie Wang"
 date: "4/7/2024"
@@ -17,7 +17,7 @@ Nevertheless, there are some well-recognized problems in the broadband models, p
 - Light partitioning within the leaf. Not all PAR absorbed by leaf contributes to photosynthesis, as water, leaf biomass, and pigments other than chlorophyll also absorb PAR photons (Fig. 1). Therefore, only the photons absorbed by chlorophyll and some carotenoid should be counted as PPAR (PAR that goes to photosystems; Fig. 1).
 - Photon partitioning in the photosystems. Photons in the photosystems have four fates: heat dissipation, non-photochemical quenching, photochemical quenching, and fluorescence. A rate coefficient is associated with each fate, namely Kd, Kn, Kp, and Kf. These rate coefficients might also be temperature-dependent.
 
-![Fig. 1 Absorption coefficients of main leaf constitutes and chlorophyll content's impact on $f_\text{APAR} \cdot f_\text{APAR}$.](spectra-trait.png)
+![Fig. 1 Absorption coefficients of main leaf constitutes and chlorophyll content's impact on $f_\text{APAR} \cdot f_\text{APAR}$.](wang-2024-hyperspectral-trait.png)
 
 If we consider the photon absorption and electron transport as a series of partitioning problems, we have
 $$

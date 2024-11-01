@@ -1,6 +1,6 @@
 ---
 title: "CliMA Land"
-image: paper.png
+image: wang-2023-clima-land.png
 description: "CliMA Land: A next-generation land surface model that bridges vegetation processes and remote sensing"
 author: "Yujie Wang and Renato Braghiere"
 date: "5/1/2023"
@@ -17,10 +17,10 @@ In CliMA, we are developing a next-generation climate model that learns from dat
 
 CliMA Land is a cutting-edge, highly modular model, entirely written in Julia, with all of its submodules available as standalone packages for use in research from leaf level to regional and global scales (Fig. 1 biophysics module of CliMA Land). The biophysics component of CliMA Land boasts an impressive array of features, including support for two canopy radiative transfer schemes (broadband and hyperspectral), a sophisticated plant hydraulic model (offering both steady and non-steady state options), and nine stomatal models (including both empirical and optimality-based models). Further details, code, examples, and documentation can be found at [https://github.com/CliMA/Land](https://github.com/CliMA/Land).
 
-![Fig. 1 Diagram of CliMA Land biophysics module hierarchy.](land.modules.jpg)
+![Fig. 1 Diagram of CliMA Land biophysics module hierarchy.](wang-2023-clima-land-modules.jpg)
 
 We are thrilled to announce that we have successfully run a global simulation using CliMA Land for the first time. The model showed very high predictive skills with regard to simulated quantities such as gross primary productivity, solar-induced chlorophyll fluorescence, and canopy reflectance properties (as shown in Fig. 2). Although the model has not yet been calibrated based on field- or space-based data, it demonstrated impressive spatial and temporal predictions (mean R^2^ = 0.78 for nine simulated flux and remote sensing quantities). This work has recently been published in the Journal of Advances in Modeling Earth Systems ([doi:10.1029/2021MS002964](https://doi.org/10.1029/2021MS002964)).
 
 We continue to work on improving the model’s predictive skills through development, configuration, and calibration efforts. Furthermore, we are dedicated to keeping the model open-source and user-friendly, and thus warmly welcome contributions and suggestions from the community.
 
-![Fig. 2 Overview of CliMA Land simulations (before model calibration).](global.png)
+![Fig. 2 Overview of CliMA Land simulations (before model calibration).](wang-2023-clima-land-global.png)

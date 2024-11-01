@@ -1,6 +1,6 @@
 ---
 title: "Using GPS for research"
-image: paper.png
+image: yao-2024-gnss-vod.png
 description: "GPP signals can be used to estimate canopy water content in various time scales"
 author: "Yujie Wang"
 date: "3/23/2024"
@@ -25,7 +25,7 @@ For example, higher leaf area index and water content lead to higher VOD, and hi
 
 In the most recent paper by Yitong Yao ([Yao et al., 2024; Geophysical Research Letters](https://doi.org/10.1029/2023GL107121)), we used the pair of GNSS receivers deployed at the Ozark flux tower site to see how the GNSS VOD data can be utilized to maximally exploit its potential. We did find that the VOD changed in a diurnal cycle, in a seasonal cycle, and with satellite position, showing great potential in estimating canopy water content and biomass. Surprisingly and also as expected as well, the VOD noise was related to precipitation, which is equivalent to increasing leaf water content, meaning it can also be used to "see" the weather!
 
-![Fig. 1 Seaonal GNSS VOD, LAI, and weather.](vod.jpg)
+![Fig. 1 Seaonal GNSS VOD, LAI, and weather.](yao-2024-gnss-vod-seasonal.jpg)
 
 The GNSS VOD not only can be used to invert not canopy water content, its time series can also be used to to estimate transpiration rate (site-level calibration required). When coupled to sap flux measurements, the results would be useful to quantify the exact amount of water in the canopy. For more details, please check out the [paper](https://doi.org/10.1029/2023GL107121) and [Yitong's blog](https://rsfralab.github.io/BlogPosts/vod_blog_March19.html).
 
