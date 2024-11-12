@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Yujie Wang">
-<meta name="dcterms.date" content="2024-03-23">
-<meta name="description" content="GPP signals can be used to estimate canopy water content in various time scales">
+<meta name="dcterms.date" content="2024-05-27">
+<meta name="description" content="UV is not explicitly accounted for in LSM; FR can boost photosynthesis but LSMs typically treat it as NIR. How can we improve these?">
 
-<title>Using GPS for research – Ormosia</title>
+<title>Accounting for ultraviolet and far-red radiation in land surface modeling – Ormosia</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -172,13 +172,14 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Using GPS for research</h1>
+      <h1 class="title">Accounting for ultraviolet and far-red radiation in land surface modeling</h1>
                   <div>
         <div class="description">
-          GPP signals can be used to estimate canopy water content in various time scales
+          UV is not explicitly accounted for in LSM; FR can boost photosynthesis but LSMs typically treat it as NIR. How can we improve these?
         </div>
       </div>
                           <div class="quarto-categories">
+                <div class="quarto-category">LSM</div>
                 <div class="quarto-category">Paper</div>
               </div>
                   </div>
@@ -197,7 +198,7 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">March 23, 2024</p>
+        <p class="date">May 27, 2024</p>
       </div>
     </div>
     
@@ -216,26 +217,26 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 
 
 
-<p>In the 2020 KISS workshop, when Dr.&nbsp;Vincent Humphrey first presented his result to correlate GPS signals to canopy water content, I was fascinated by the findings. We are using GPS all the time, whether recognizing it or not. One thing clear is that when we are directly exposed to the sky, we have good GPS signals; and when we are sheltered by anything, we get weak signals. So, can we make use of the signals to estimate the things surrounding us, like trees? The short answer is YES!</p>
-<p>When installing one GPS receiver at the top of the canopy and one at the bottom, the signal difference is then fully attributed to the canopy (and canopy airspace) in between. Should any change in the differential signal, it is due to the canopy (and canopy airspace). With this technique, we should be expecting to see the diurnal and seasonal changes in the differential signals, which reflect the changes in the canopy.</p>
-<p>The microwave signal used by GPS satellites can well penetrate through the atmosphere but still gets absorbed by molecules like water. Therefore, any change in canopy water content would lead to changes in the differential GPS signal. However, as the differential signals are also impacted by the atmosphere (like weather) and satellites (raw signal and satellite position), they are transformed to a unitless vegetation optical depth (VOD) to describe the canopy. In this case, when the canopy water content is high, VOD is high (equivalent to a thicker canopy).</p>
-<p>Many factors could impact the VOD retrieved from global navigation satellite system (GNSS), including but not limited to</p>
+<p>Following my <a href="https://silicormosia.github.io/blogs/papers/20240407/">last blog</a>, canopy energy balance and leaf photosynthesis are crucial for land surface models (LSMs). Thus, the upstream canopy radiative transfer is of great importance. However, LSMs typically use broadband models, simply separating photosynthetically active radiation (PAR, some also use visible light) from near-infrared radiation (NIR). While this approach is computationally more efficient, it has the following downsides:</p>
 <ul>
-<li>Leaf/Stem area index,</li>
-<li>Leaf/Stem water content,</li>
-<li>Leaf/Stem biomass, and</li>
-<li>Canopy structure.</li>
+<li>Plants and soil have a higher absorption ratio for ultraviolet (UV; 300-400 nm) radiation, but it is not separated from PAR in the broadband model;</li>
+<li>UV is mostly absorbed by protective materials rather than chlorophyll, but the broadband models treat the UV absorption as PAR;</li>
+<li>Far-red (FR; 700-750 nm) radiation could boost photosynthesis when supplementing to PAR, but broadband models treat it as NIR, so FR in broadband models has no photosynthetic effects;</li>
+<li>FR alone cannot trigger photosynthesis, so treating FR as PAR is also problematic.</li>
 </ul>
-<p>For example, higher leaf area index and water content lead to higher VOD, and higher biomass leads to higher VOD. As leaf and stem biomass are not supposed to change dramatically in a day (unless due to leaf shedding), we can utilize the GNSS VOD to estimate the canopy water content dynamics. Season-wise, the GNSS VOD can be used to decode leaf area index dynamics as stem biomass is not changing substantially. Further, as the canopy is not fully closed as if it is a cloud of leaves, we should be expecting to see signal variation at different satellite viewing angles.</p>
-<p>In the most recent paper by Yitong Yao (<a href="https://doi.org/10.1029/2023GL107121">Yao et al., 2024; Geophysical Research Letters</a>), we used the pair of GNSS receivers deployed at the Ozark flux tower site to see how the GNSS VOD data can be utilized to maximally exploit its potential. We did find that the VOD changed in a diurnal cycle, in a seasonal cycle, and with satellite position, showing great potential in estimating canopy water content and biomass. Surprisingly and also as expected as well, the VOD noise was related to precipitation, which is equivalent to increasing leaf water content, meaning it can also be used to “see” the weather!</p>
+<p>On average, the Earth’s surface receives 45.5 W m⁻² UV and 60.1 W m⁻² FR (Fig. 1). Therefore, implementing UV and FR explicitly in LSMs would impact not only the canopy energy budget but also photosynthesis. The best way would be to use the hyperspectral radiative transfer model. In <a href="https://doi.org/10.1111/gcb.17346">our recently published paper</a>, we did the following to improve the UV and FR representations:</p>
+<ul>
+<li>Extend the absorption features of the key constitutes of the leaf, including chlorophyll, carotenoid, leaf biomass, and water;</li>
+<li>Counting the FR absorption by chlorophyll as PPAR (photons absorbed by chlorophyll and used for photosynthesis);</li>
+<li>Distincting FR photons from UV and PAR photons in the photosynthesis model, to not overestimate FR’s contribution to photosynthesis.</li>
+</ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="vod.jpg" class="img-fluid figure-img"></p>
-<figcaption>Fig. 1 Seaonal GNSS VOD, LAI, and weather.</figcaption>
+<p><img src="wang-2024-uv-fr-highlight.png" class="img-fluid figure-img"></p>
+<figcaption>Fig. 1 LSMs do not model UV explicitly, thus tend to overestimate UV albedo. LSMs do not account for FR’s contribution to photosynthesis, thus tend to underestimate plant productivity.</figcaption>
 </figure>
 </div>
-<p>The GNSS VOD not only can be used to invert not canopy water content, its time series can also be used to to estimate transpiration rate (site-level calibration required). When coupled to sap flux measurements, the results would be useful to quantify the exact amount of water in the canopy. For more details, please check out the <a href="https://doi.org/10.1029/2023GL107121">paper</a> and <a href="https://rsfralab.github.io/BlogPosts/vod_blog_March19.html">Yitong’s blog</a>.</p>
-<p>I can see the great potential of the technique being more sophisticated and being used at more places across the globe, say at each flux tower site, and on the campus. Imagine that one day, we can install two cell phones or watches to log the GNSS signals. But better to use the waterproofed ones.</p>
+<p>We tested our UV implementation using data from the flux tower observations, and FR implementation using data collected from plants with different combinations of PAR+FR LED. We also ran the CliMA Land model at the global scale to assess the impact on modeled gross primary productivity (GPP). Our model results suggest that (1) GPP may increase by more than 8%, particularly in the tropics with the highest LAI, and that (2) UV albedo may be underestimated by more than 0.05, particularly in the boreal vegetated regions. For more details, please refer to <a href="https://doi.org/10.1111/gcb.17346">our recently published paper</a>.</p>
 
 
 

@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Yujie Wang">
-<meta name="dcterms.date" content="2024-04-07">
-<meta name="description" content="Land surface models typically use broadband RT modeling, potentially resulting in biased PPAR and J calculations. How can we improve this?">
+<meta name="dcterms.date" content="2024-03-22">
+<meta name="description" content="Modeling stomatal conductance at non-steady state in CliMA Land">
 
-<title>Improve canopy radiative transfer and electron transport modeling – Ormosia</title>
+<title>Non-steady state modeling – Ormosia</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -82,35 +82,6 @@ gtag('js', new Date());
 gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../../../styles.css">
 </head>
@@ -201,15 +172,15 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Improve canopy radiative transfer and electron transport modeling</h1>
+      <h1 class="title">Non-steady state modeling</h1>
                   <div>
         <div class="description">
-          Land surface models typically use broadband RT modeling, potentially resulting in biased PPAR and J calculations. How can we improve this?
+          Modeling stomatal conductance at non-steady state in CliMA Land
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">LSM</div>
                 <div class="quarto-category">Paper</div>
+                <div class="quarto-category">LSM</div>
               </div>
                   </div>
   </div>
@@ -227,7 +198,7 @@ window.Quarto = {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">April 7, 2024</p>
+        <p class="date">March 22, 2024</p>
       </div>
     </div>
     
@@ -246,43 +217,24 @@ window.Quarto = {
 
 
 
-<p>Quantifying canopy radiative transfer (RT) is crucial for modeling all the subsequent processes, such as canopy energy balance and leaf photosynthesis. The most widely used canopy RT schemes in current vegetation and land surface models are the two-stream scheme reported by Sellers and the scheme described by Campbell and Norman, both of which dated back to the 1980s (maybe even earlier). These schemes use two broad bands to represent the continuous solar radiation spectra: photosynthetically active radiation (PAR, some also use visible light) and near-infrared radiation (NIR). As plants generally absorb more PAR than NIR (even the green light absorption is higher than NIR), using a constant approximation for PAR seems okay in the old days given the limitation in computation resources and lack of knowledge on how plant traits impact the absorption ratio.</p>
-<p>Nevertheless, there are some well-recognized problems in the broadband models, particularly for natural radiation:</p>
-<ul>
-<li>Light source difference along the vertical canopy. For example, plants absorb more red and blue light compared to green light; as a result, the red and blue light fraction would decrease in the lower canopy, and the effective absorption ratio should decrease in the lower canopy.</li>
-<li>Light partitioning within the leaf. Not all PAR absorbed by leaf contributes to photosynthesis, as water, leaf biomass, and pigments other than chlorophyll also absorb PAR photons (Fig. 1). Therefore, only the photons absorbed by chlorophyll and some carotenoid should be counted as PPAR (PAR that goes to photosystems; Fig. 1).</li>
-<li>Photon partitioning in the photosystems. Photons in the photosystems have four fates: heat dissipation, non-photochemical quenching, photochemical quenching, and fluorescence. A rate coefficient is associated with each fate, namely Kd, Kn, Kp, and Kf. These rate coefficients might also be temperature-dependent.</li>
-</ul>
+<p>Modeling stomatal conductance (gs) is a key challenge in vegetation models and land surface models, and various approaches have been developed including statistics- and optimality-based models. The stomatal model is typically used along with the canopy radiative model, which provides the former with necessary inputs like photosynthetically active radiation (PAR) and temperature (T) to compute photosynthesis and then gs. In model world practice, gs is typically computed at a steady state, meaning that model parameters (such as photosynthetic rate [A], transpiration rate (E), gs, PAR, and T) agree numerically. This assumption is fine for most models as their canopy models are simple enough and the computation resource required to derive the steady state is low.</p>
+<p>However, finding a similar steady state for complicated canopy models as in <a href="https://github.com/CliMA/Land">CliMA Land</a> is overwhelming. For example, any change in gs would lead to changes in A and E, and thus leaf latend heat flux, leaf temperature, longwave radiation, hydraulic profiles, etc.</p>
+<p>Moreover, the steady-state assumption could break the mass and energy conservation. If leaf water content and heat capacity are considered, but the final water and heat flux are all at steady state, then how do we account for the changes in water mass and total energy?</p>
+<p>Most importantly, the soil-plant-air continuum in nature will NEVER be at a steady state, say the sun is moving all the time, wind is randomly changing leaf positions, soil water contents are changing, and plant physiology is responding. For all these reasons, we’d better model the land surface processes prognostically.</p>
+<p>In the recent research led by Ke Liu (<a href="https://doi.org/10.5194/bg-21-1501-2024">Liu et al., 2024; Biogeosciences</a>), we evaluated the impacts of modeling gs at non-steady state using <a href="https://github.com/CliMA/Land">CliMA Land</a>. We found that, as stomata open “slowly” (compared to immediately at steady state), gs would be lower than steady state models in the morning time in an ideal environment without cloud. Comparatively, as stomata close “slowly”, gs would be higher than the steady-state assumption in the afternoon in the ideal environment. In this case, these differences could cancel out, but it still suggested that modelers had messed up the timing. Notably, the natural environment is never ideal following a sine or cosine function, and plants are experiencing random fluctuations in radiation, dry air, etc. These resulted in elevated differences between steady-state and non-steady-state modeling (Fig. 1).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="spectra-trait.png" class="img-fluid figure-img"></p>
-<figcaption>Fig. 1 Absorption coefficients of main leaf constitutes and chlorophyll content’s impact on <span class="math inline">\(f_\text{APAR} \cdot f_\text{APAR}\)</span>.</figcaption>
+<p><img src="liu-2024-stomatal-bias.png" class="img-fluid figure-img"></p>
+<figcaption>Fig. 1 Difference between modeled carbon and water fluxes under steady and non-steady states.</figcaption>
 </figure>
 </div>
-<p>If we consider the photon absorption and electron transport as a series of partitioning problems, we have <span class="math display">\[
-J_\text{PSII} = \text{PAR} \cdot f_\text{APAR} \cdot f_\text{PPAR} \cdot \frac{1}{2} \cdot \frac{K_\text{pmax}}{K_\text{d} + K_\text{n} + K_\text{pmax} + K_\text{f}},
-\]</span> where</p>
+<p>There are many benefits for models to take the non-steady state approach, particularly that it is more realistic! There are also more implications from the study, please check out the <a href="https://doi.org/10.5194/bg-21-1501-2024">paper</a> for more details. Yet, there are still a lot of problems to resolve in the future, such as</p>
 <ul>
-<li><span class="math inline">\(J_\text{PSII}\)</span>: maximum photons that go to photosystem II,</li>
-<li><span class="math inline">\(\text{PAR}\)</span>: Incoming PAR in photons;</li>
-<li><span class="math inline">\(f_\text{APAR}\)</span>: Fraction of PAR absorbed by the leaf (<span class="math inline">\(\text{APAR} = \text{PAR} \cdot f_\text{APAR}\)</span>);</li>
-<li><span class="math inline">\(f_\text{PPAR}\)</span>: Fraction of APAR absorbed by chlorophyll (and some carotenoid; <span class="math inline">\(\text{PPAR} = \text{APAR} \cdot f_\text{PPAR}\)</span>);</li>
-<li><span class="math inline">\(\frac{1}{2}\)</span>: Fraction of PPAR that goes to photosystem II;</li>
-<li><span class="math inline">\(K_\text{pmax}\)</span>: Maximum rate constant for photochemical quenching;</li>
-<li><span class="math inline">\(K_\text{d}\)</span>: Rate constant for heat dissipation;</li>
-<li><span class="math inline">\(K_\text{n}\)</span>: Non-photochemical quenching (NPQ) rate constant (default is 0 unless sustained NPQ exists);</li>
-<li><span class="math inline">\(K_\text{f}\)</span>: Rate constant for fluorescence;</li>
+<li>How to best represent the prognostic gs (other formulations)?</li>
+<li>Do plants have different time constants when opening and closing the stomata?</li>
+<li>Do sunlit and shaded leaves have different time constants?</li>
 </ul>
-<p>In this simplified equation,</p>
-<ul>
-<li>PAR varies along the vertical canopy, and changes with canopy structure and leaf traits;</li>
-<li><span class="math inline">\(f_\text{APAR}\)</span> is plant trait-dependent, such as chlorophyll content;</li>
-<li><span class="math inline">\(f_\text{PPAR}\)</span> is also trait-dependent, such as chlorophyll content;</li>
-<li><span class="math inline">\(K_\text{d}\)</span> is likely temperature-dependent;</li>
-<li>Sustained NPQ and thus residual <span class="math inline">\(K_\text{n}\)</span> are temperature-dependent.</li>
-</ul>
-<p>However, none of these has been explicitly accounted for in the traditional land surface models, which adopt broadband RT schemes. As we now have more complicated and powerful RT models and an increasing amount of plant trait data, it would be a good opportunity to move forward and use the more accurate hyperspectral canopy RT scheme in future modeling practice. When examining how the use of hyperspectral and broadband RT schemes may impact global simulation results, we found that the globally integrated GPP may differ by 8% while the grid level difference may be &gt; 20%. For a thorough analysis, please refer to <a href="https://doi.org/10.1029/2023MS003992">the published paper</a>.</p>
-<p>Given the substantial impacts, we highly recommend other land surface models use a hyperspectral RT scheme in their future model versions. Or at least some corrections need to be made to account for the plant traits- and light source-related changes in <span class="math inline">\(f_\text{APAR}\)</span> and <span class="math inline">\(f_\text{PPAR}\)</span>. Please refer to <a href="https://doi.org/10.1029/2023MS003992">our published paper</a> for the correction methods we proposed in the Journal of Advances in Modeling Earth Systems.</p>
+<p>I am keen to see follow-up studies that address these problems. Together, we can make the vegetation and land surface models more realistic.</p>
 
 
 

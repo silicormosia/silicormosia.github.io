@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Yujie Wang">
-<meta name="dcterms.date" content="2024-05-27">
-<meta name="description" content="UV is not explicitly accounted for in LSM; FR can boost photosynthesis but LSMs typically treat it as NIR. How can we improve these?">
+<meta name="dcterms.date" content="2022-08-17">
+<meta name="description" content="GriddingMachine: A new database and software for sharing global datasets">
 
-<title>Accounting for ultraviolet and far-red radiation in land surface modeling – Ormosia</title>
+<title>GriddingMachine – Ormosia</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,6 +22,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -172,14 +206,13 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Accounting for ultraviolet and far-red radiation in land surface modeling</h1>
+      <h1 class="title">GriddingMachine</h1>
                   <div>
         <div class="description">
-          UV is not explicitly accounted for in LSM; FR can boost photosynthesis but LSMs typically treat it as NIR. How can we improve these?
+          GriddingMachine: A new database and software for sharing global datasets
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">LSM</div>
                 <div class="quarto-category">Paper</div>
               </div>
                   </div>
@@ -198,7 +231,7 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">May 27, 2024</p>
+        <p class="date">August 17, 2022</p>
       </div>
     </div>
     
@@ -217,26 +250,35 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 
 
 
-<p>Following my <a href="https://silicormosia.github.io/blogs/papers/20240407/">last blog</a>, canopy energy balance and leaf photosynthesis are crucial for land surface models (LSMs). Thus, the upstream canopy radiative transfer is of great importance. However, LSMs typically use broadband models, simply separating photosynthetically active radiation (PAR, some also use visible light) from near-infrared radiation (NIR). While this approach is computationally more efficient, it has the following downsides:</p>
-<ul>
-<li>Plants and soil have a higher absorption ratio for ultraviolet (UV; 300-400 nm) radiation, but it is not separated from PAR in the broadband model;</li>
-<li>UV is mostly absorbed by protective materials rather than chlorophyll, but the broadband models treat the UV absorption as PAR;</li>
-<li>Far-red (FR; 700-750 nm) radiation could boost photosynthesis when supplementing to PAR, but broadband models treat it as NIR, so FR in broadband models has no photosynthetic effects;</li>
-<li>FR alone cannot trigger photosynthesis, so treating FR as PAR is also problematic.</li>
-</ul>
-<p>On average, the Earth’s surface receives 45.5 W m⁻² UV and 60.1 W m⁻² FR (Fig. 1). Therefore, implementing UV and FR explicitly in LSMs would impact not only the canopy energy budget but also photosynthesis. The best way would be to use the hyperspectral radiative transfer model. In <a href="https://doi.org/10.1111/gcb.17346">our recently published paper</a>, we did the following to improve the UV and FR representations:</p>
-<ul>
-<li>Extend the absorption features of the key constitutes of the leaf, including chlorophyll, carotenoid, leaf biomass, and water;</li>
-<li>Counting the FR absorption by chlorophyll as PPAR (photons absorbed by chlorophyll and used for photosynthesis);</li>
-<li>Distincting FR photons from UV and PAR photons in the photosynthesis model, to not overestimate FR’s contribution to photosynthesis.</li>
-</ul>
+<p>Researchers are spending way too much time in finding, formatting, and reusing public data. The ever increasing amount of data, various forms of data, and different layouts of data make this problem even more serious. While the intention of sharing data within the community is to promote future research, the increasing fragmentation makes it harder and harder for researchers to find and reuse them, particularly for newbies. Taking my personal experience as an example, to collect the global datasets for the CliMA Land Model, we spent weeks and months to identify which datasets to use, download the data from different sources, standardize the datasets, and learn how to read the datasets correctly with different formats (such as NetCDF, GeoTIFF, CSV, and binary) with different programming languages. Unfortunately, researchers may need to repeat this tedious work again and again, even for the same datasets (if one forgot where the data is stored or how it has been processed).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="highlight.png" class="img-fluid figure-img"></p>
-<figcaption>Fig. 1 LSMs do not model UV explicitly, thus tend to overestimate UV albedo. LSMs do not account for FR’s contribution to photosynthesis, thus tend to underestimate plant productivity.</figcaption>
+<p><img src="wang-2022-griddingmachine-modules.png" class="img-fluid figure-img"></p>
+<figcaption>Fig. 1 Pathway to assemble and distribute the GriddingMachine database.</figcaption>
 </figure>
 </div>
-<p>We tested our UV implementation using data from the flux tower observations, and FR implementation using data collected from plants with different combinations of PAR+FR LED. We also ran the CliMA Land model at the global scale to assess the impact on modeled gross primary productivity (GPP). Our model results suggest that (1) GPP may increase by more than 8%, particularly in the tropics with the highest LAI, and that (2) UV albedo may be underestimated by more than 0.05, particularly in the boreal vegetated regions. For more details, please refer to <a href="https://doi.org/10.1111/gcb.17346">our recently published paper</a>.</p>
+<p>Aiming towards minimizing the effort involved in the data reuse, we started the GriddingMachine project by</p>
+<ul>
+<li>Collecting the data from various sources,</li>
+<li>Processing the data to a uniform format (NetCDF),</li>
+<li>Storing the reprocessed data on a public server, and</li>
+<li>Distributing the datasets via different programming languages.</li>
+</ul>
+<p>Each dataset is labeled with a unique tag that describes</p>
+<ul>
+<li>Type of the dataset (e.g., leaf area index, biomass, and etc.),</li>
+<li>Spatial resolution (e.g., 5X means 0.2° × 0.2° grid),</li>
+<li>Temporal resolution (e.g., 1Y means 1 year, 1M means 1 month),</li>
+<li>Year of the data, and</li>
+<li>Version of the data (from different publications).</li>
+</ul>
+<p>One can simply look up the available dataset tags (and suggest new datasets) through <a href="https://github.com/CliMA/GriddingMachine.jl/issues/62">our Github repository</a>.</p>
+<p>With the unique tag, one can query the data directly via function query_collection, for example</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">query_collection</span>(<span class="st">"LAI_MODIS_2X_8D_2020"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>for the global leaf area index of the year 2020, and the dataset will be downloaded automatically. Alternatively, one can query data only for a site using the latitude and longitude without downloading the dataset, for example,</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">request_LUT</span>(<span class="st">"LAI_MODIS_2X_8D_2020_V1"</span>, <span class="fl">34.1478</span>, <span class="op">-</span><span class="fl">118.1445</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>for the leaf area index of the year 2020 at Pasadena, CA, USA. See our published work <a href="https://doi.org/10.1038/s41597-022-01346-x">(Wang et al., 2022)</a> and <a href="https://github.com/CliMA/GriddingMachine.jl">online documentation</a> for more information about how to use GriddingMachine. It supports Julia, Matlab, Octave, Python, and R.</p>
+<p>GriddingMachine makes it way easier to reuse the community-based datasets, as users are waived from data collection, formatting, and management. Given the aims of GriddingMachine, we welcome the contributions of globally gridded data to <a href="https://github.com/CliMA/GriddingMachine.jl/issues/62">our collection</a>.</p>
 
 
 

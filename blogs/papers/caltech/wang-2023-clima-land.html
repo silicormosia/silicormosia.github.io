@@ -6,11 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Yujie Wang">
-<meta name="dcterms.date" content="2024-03-22">
-<meta name="description" content="Modeling stomatal conductance at non-steady state in CliMA Land">
+<meta name="author" content="Yujie Wang and Renato Braghiere">
+<meta name="dcterms.date" content="2023-05-01">
+<meta name="description" content="CliMA Land: A next-generation land surface model that bridges vegetation processes and remote sensing">
 
-<title>Non-steady state modeling – Ormosia</title>
+<title>CliMA Land – Ormosia</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -172,10 +172,10 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Non-steady state modeling</h1>
+      <h1 class="title">CliMA Land</h1>
                   <div>
         <div class="description">
-          Modeling stomatal conductance at non-steady state in CliMA Land
+          CliMA Land: A next-generation land surface model that bridges vegetation processes and remote sensing
         </div>
       </div>
                           <div class="quarto-categories">
@@ -191,14 +191,14 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>Yujie Wang </p>
+               <p>Yujie Wang and Renato Braghiere </p>
             </div>
     </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">March 22, 2024</p>
+        <p class="date">May 1, 2023</p>
       </div>
     </div>
     
@@ -217,24 +217,24 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 
 
 
-<p>Modeling stomatal conductance (gs) is a key challenge in vegetation models and land surface models, and various approaches have been developed including statistics- and optimality-based models. The stomatal model is typically used along with the canopy radiative model, which provides the former with necessary inputs like photosynthetically active radiation (PAR) and temperature (T) to compute photosynthesis and then gs. In model world practice, gs is typically computed at a steady state, meaning that model parameters (such as photosynthetic rate [A], transpiration rate (E), gs, PAR, and T) agree numerically. This assumption is fine for most models as their canopy models are simple enough and the computation resource required to derive the steady state is low.</p>
-<p>However, finding a similar steady state for complicated canopy models as in <a href="https://github.com/CliMA/Land">CliMA Land</a> is overwhelming. For example, any change in gs would lead to changes in A and E, and thus leaf latend heat flux, leaf temperature, longwave radiation, hydraulic profiles, etc.</p>
-<p>Moreover, the steady-state assumption could break the mass and energy conservation. If leaf water content and heat capacity are considered, but the final water and heat flux are all at steady state, then how do we account for the changes in water mass and total energy?</p>
-<p>Most importantly, the soil-plant-air continuum in nature will NEVER be at a steady state, say the sun is moving all the time, wind is randomly changing leaf positions, soil water contents are changing, and plant physiology is responding. For all these reasons, we’d better model the land surface processes prognostically.</p>
-<p>In the recent research led by Ke Liu (<a href="https://doi.org/10.5194/bg-21-1501-2024">Liu et al., 2024; Biogeosciences</a>), we evaluated the impacts of modeling gs at non-steady state using <a href="https://github.com/CliMA/Land">CliMA Land</a>. We found that, as stomata open “slowly” (compared to immediately at steady state), gs would be lower than steady state models in the morning time in an ideal environment without cloud. Comparatively, as stomata close “slowly”, gs would be higher than the steady-state assumption in the afternoon in the ideal environment. In this case, these differences could cancel out, but it still suggested that modelers had messed up the timing. Notably, the natural environment is never ideal following a sine or cosine function, and plants are experiencing random fluctuations in radiation, dry air, etc. These resulted in elevated differences between steady-state and non-steady-state modeling (Fig. 1).</p>
+<p>Climate model predictions of future land carbon sink strength show significant discrepancies. To enhance predictive accuracy and reduce inter-model disagreements, it is crucial to improve the representation of vegetation processes and calibrate the models using more observational data. However, the limitations of computational resources in the past have hindered the integration of new theories and advances into traditional climate models, which often rely on statistical models to parameterize vegetation processes instead of mechanistic and physiological models (such as stomatal control models). Additionally, the preference for faster models has limited the incorporation of complex features (e.g., canopy model complexity), restricting the predictive skills of climate models.</p>
+<p>The use of simple vegetation parameterization schemes in traditional climate and land surface models has also limited the types of data that could be used for model calibration. For example, existing climate models do not use complex canopy radiative transfer models, thus being limited to use data such as carbon, water, and energy fluxes for calibration, often from flux towers. Despite the high temporal resolution provided by flux towers, the towers’ sparsity in space and time is a major limitation. Remote sensing data from space (such as MODIS, TROPOMI, and OCO 2/3), which provide global coverage, or field data (such as PhotoSpec), which provide high spectral and temporal resolution, cannot be directly harnessed by the traditional models.</p>
+<p>In CliMA, we are developing a next-generation climate model that learns from data. In pursuit of this goal, the land model component of CliMA seeks to equip the model with improved representations of vegetation processes and the capacity to directly harness remote sensing data, beyond just carbon, water, and energy fluxes. Thanks to the concerted efforts of the land team, we have successfully developed a first version of the next-generation land surface model—CliMA Land.</p>
+<p>CliMA Land is a cutting-edge, highly modular model, entirely written in Julia, with all of its submodules available as standalone packages for use in research from leaf level to regional and global scales (Fig. 1 biophysics module of CliMA Land). The biophysics component of CliMA Land boasts an impressive array of features, including support for two canopy radiative transfer schemes (broadband and hyperspectral), a sophisticated plant hydraulic model (offering both steady and non-steady state options), and nine stomatal models (including both empirical and optimality-based models). Further details, code, examples, and documentation can be found at <a href="https://github.com/CliMA/Land">https://github.com/CliMA/Land</a>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="bias.png" class="img-fluid figure-img"></p>
-<figcaption>Fig. 1 Difference between modeled carbon and water fluxes under steady and non-steady states.</figcaption>
+<p><img src="wang-2023-clima-land-modules.jpg" class="img-fluid figure-img"></p>
+<figcaption>Fig. 1 Diagram of CliMA Land biophysics module hierarchy.</figcaption>
 </figure>
 </div>
-<p>There are many benefits for models to take the non-steady state approach, particularly that it is more realistic! There are also more implications from the study, please check out the <a href="https://doi.org/10.5194/bg-21-1501-2024">paper</a> for more details. Yet, there are still a lot of problems to resolve in the future, such as</p>
-<ul>
-<li>How to best represent the prognostic gs (other formulations)?</li>
-<li>Do plants have different time constants when opening and closing the stomata?</li>
-<li>Do sunlit and shaded leaves have different time constants?</li>
-</ul>
-<p>I am keen to see follow-up studies that address these problems. Together, we can make the vegetation and land surface models more realistic.</p>
+<p>We are thrilled to announce that we have successfully run a global simulation using CliMA Land for the first time. The model showed very high predictive skills with regard to simulated quantities such as gross primary productivity, solar-induced chlorophyll fluorescence, and canopy reflectance properties (as shown in Fig. 2). Although the model has not yet been calibrated based on field- or space-based data, it demonstrated impressive spatial and temporal predictions (mean R<sup>2</sup> = 0.78 for nine simulated flux and remote sensing quantities). This work has recently been published in the Journal of Advances in Modeling Earth Systems (<a href="https://doi.org/10.1029/2021MS002964">doi:10.1029/2021MS002964</a>).</p>
+<p>We continue to work on improving the model’s predictive skills through development, configuration, and calibration efforts. Furthermore, we are dedicated to keeping the model open-source and user-friendly, and thus warmly welcome contributions and suggestions from the community.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="wang-2023-clima-land-global.png" class="img-fluid figure-img"></p>
+<figcaption>Fig. 2 Overview of CliMA Land simulations (before model calibration).</figcaption>
+</figure>
+</div>
 
 
 

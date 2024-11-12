@@ -6,11 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Yujie Wang and Renato Braghiere">
-<meta name="dcterms.date" content="2023-05-01">
-<meta name="description" content="CliMA Land: A next-generation land surface model that bridges vegetation processes and remote sensing">
+<meta name="author" content="Yujie Wang">
+<meta name="dcterms.date" content="2024-04-07">
+<meta name="description" content="Land surface models typically use broadband RT modeling, potentially resulting in biased PPAR and J calculations. How can we improve this?">
 
-<title>CliMA Land – Ormosia</title>
+<title>Improve canopy radiative transfer and electron transport modeling – Ormosia</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -82,6 +82,35 @@ gtag('js', new Date());
 gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../../styles.css">
 </head>
@@ -172,15 +201,15 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">CliMA Land</h1>
+      <h1 class="title">Improve canopy radiative transfer and electron transport modeling</h1>
                   <div>
         <div class="description">
-          CliMA Land: A next-generation land surface model that bridges vegetation processes and remote sensing
+          Land surface models typically use broadband RT modeling, potentially resulting in biased PPAR and J calculations. How can we improve this?
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">Paper</div>
                 <div class="quarto-category">LSM</div>
+                <div class="quarto-category">Paper</div>
               </div>
                   </div>
   </div>
@@ -191,14 +220,14 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>Yujie Wang and Renato Braghiere </p>
+               <p>Yujie Wang </p>
             </div>
     </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">May 1, 2023</p>
+        <p class="date">April 7, 2024</p>
       </div>
     </div>
     
@@ -217,24 +246,43 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 
 
 
-<p>Climate model predictions of future land carbon sink strength show significant discrepancies. To enhance predictive accuracy and reduce inter-model disagreements, it is crucial to improve the representation of vegetation processes and calibrate the models using more observational data. However, the limitations of computational resources in the past have hindered the integration of new theories and advances into traditional climate models, which often rely on statistical models to parameterize vegetation processes instead of mechanistic and physiological models (such as stomatal control models). Additionally, the preference for faster models has limited the incorporation of complex features (e.g., canopy model complexity), restricting the predictive skills of climate models.</p>
-<p>The use of simple vegetation parameterization schemes in traditional climate and land surface models has also limited the types of data that could be used for model calibration. For example, existing climate models do not use complex canopy radiative transfer models, thus being limited to use data such as carbon, water, and energy fluxes for calibration, often from flux towers. Despite the high temporal resolution provided by flux towers, the towers’ sparsity in space and time is a major limitation. Remote sensing data from space (such as MODIS, TROPOMI, and OCO 2/3), which provide global coverage, or field data (such as PhotoSpec), which provide high spectral and temporal resolution, cannot be directly harnessed by the traditional models.</p>
-<p>In CliMA, we are developing a next-generation climate model that learns from data. In pursuit of this goal, the land model component of CliMA seeks to equip the model with improved representations of vegetation processes and the capacity to directly harness remote sensing data, beyond just carbon, water, and energy fluxes. Thanks to the concerted efforts of the land team, we have successfully developed a first version of the next-generation land surface model—CliMA Land.</p>
-<p>CliMA Land is a cutting-edge, highly modular model, entirely written in Julia, with all of its submodules available as standalone packages for use in research from leaf level to regional and global scales (Fig. 1 biophysics module of CliMA Land). The biophysics component of CliMA Land boasts an impressive array of features, including support for two canopy radiative transfer schemes (broadband and hyperspectral), a sophisticated plant hydraulic model (offering both steady and non-steady state options), and nine stomatal models (including both empirical and optimality-based models). Further details, code, examples, and documentation can be found at <a href="https://github.com/CliMA/Land">https://github.com/CliMA/Land</a>.</p>
+<p>Quantifying canopy radiative transfer (RT) is crucial for modeling all the subsequent processes, such as canopy energy balance and leaf photosynthesis. The most widely used canopy RT schemes in current vegetation and land surface models are the two-stream scheme reported by Sellers and the scheme described by Campbell and Norman, both of which dated back to the 1980s (maybe even earlier). These schemes use two broad bands to represent the continuous solar radiation spectra: photosynthetically active radiation (PAR, some also use visible light) and near-infrared radiation (NIR). As plants generally absorb more PAR than NIR (even the green light absorption is higher than NIR), using a constant approximation for PAR seems okay in the old days given the limitation in computation resources and lack of knowledge on how plant traits impact the absorption ratio.</p>
+<p>Nevertheless, there are some well-recognized problems in the broadband models, particularly for natural radiation:</p>
+<ul>
+<li>Light source difference along the vertical canopy. For example, plants absorb more red and blue light compared to green light; as a result, the red and blue light fraction would decrease in the lower canopy, and the effective absorption ratio should decrease in the lower canopy.</li>
+<li>Light partitioning within the leaf. Not all PAR absorbed by leaf contributes to photosynthesis, as water, leaf biomass, and pigments other than chlorophyll also absorb PAR photons (Fig. 1). Therefore, only the photons absorbed by chlorophyll and some carotenoid should be counted as PPAR (PAR that goes to photosystems; Fig. 1).</li>
+<li>Photon partitioning in the photosystems. Photons in the photosystems have four fates: heat dissipation, non-photochemical quenching, photochemical quenching, and fluorescence. A rate coefficient is associated with each fate, namely Kd, Kn, Kp, and Kf. These rate coefficients might also be temperature-dependent.</li>
+</ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="land.modules.jpg" class="img-fluid figure-img"></p>
-<figcaption>Fig. 1 Diagram of CliMA Land biophysics module hierarchy.</figcaption>
+<p><img src="wang-2024-hyperspectral-trait.png" class="img-fluid figure-img"></p>
+<figcaption>Fig. 1 Absorption coefficients of main leaf constitutes and chlorophyll content’s impact on <span class="math inline">\(f_\text{APAR} \cdot f_\text{APAR}\)</span>.</figcaption>
 </figure>
 </div>
-<p>We are thrilled to announce that we have successfully run a global simulation using CliMA Land for the first time. The model showed very high predictive skills with regard to simulated quantities such as gross primary productivity, solar-induced chlorophyll fluorescence, and canopy reflectance properties (as shown in Fig. 2). Although the model has not yet been calibrated based on field- or space-based data, it demonstrated impressive spatial and temporal predictions (mean R<sup>2</sup> = 0.78 for nine simulated flux and remote sensing quantities). This work has recently been published in the Journal of Advances in Modeling Earth Systems (<a href="https://doi.org/10.1029/2021MS002964">doi:10.1029/2021MS002964</a>).</p>
-<p>We continue to work on improving the model’s predictive skills through development, configuration, and calibration efforts. Furthermore, we are dedicated to keeping the model open-source and user-friendly, and thus warmly welcome contributions and suggestions from the community.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="global.png" class="img-fluid figure-img"></p>
-<figcaption>Fig. 2 Overview of CliMA Land simulations (before model calibration).</figcaption>
-</figure>
-</div>
+<p>If we consider the photon absorption and electron transport as a series of partitioning problems, we have <span class="math display">\[
+J_\text{PSII} = \text{PAR} \cdot f_\text{APAR} \cdot f_\text{PPAR} \cdot \frac{1}{2} \cdot \frac{K_\text{pmax}}{K_\text{d} + K_\text{n} + K_\text{pmax} + K_\text{f}},
+\]</span> where</p>
+<ul>
+<li><span class="math inline">\(J_\text{PSII}\)</span>: maximum photons that go to photosystem II,</li>
+<li><span class="math inline">\(\text{PAR}\)</span>: Incoming PAR in photons;</li>
+<li><span class="math inline">\(f_\text{APAR}\)</span>: Fraction of PAR absorbed by the leaf (<span class="math inline">\(\text{APAR} = \text{PAR} \cdot f_\text{APAR}\)</span>);</li>
+<li><span class="math inline">\(f_\text{PPAR}\)</span>: Fraction of APAR absorbed by chlorophyll (and some carotenoid; <span class="math inline">\(\text{PPAR} = \text{APAR} \cdot f_\text{PPAR}\)</span>);</li>
+<li><span class="math inline">\(\frac{1}{2}\)</span>: Fraction of PPAR that goes to photosystem II;</li>
+<li><span class="math inline">\(K_\text{pmax}\)</span>: Maximum rate constant for photochemical quenching;</li>
+<li><span class="math inline">\(K_\text{d}\)</span>: Rate constant for heat dissipation;</li>
+<li><span class="math inline">\(K_\text{n}\)</span>: Non-photochemical quenching (NPQ) rate constant (default is 0 unless sustained NPQ exists);</li>
+<li><span class="math inline">\(K_\text{f}\)</span>: Rate constant for fluorescence;</li>
+</ul>
+<p>In this simplified equation,</p>
+<ul>
+<li>PAR varies along the vertical canopy, and changes with canopy structure and leaf traits;</li>
+<li><span class="math inline">\(f_\text{APAR}\)</span> is plant trait-dependent, such as chlorophyll content;</li>
+<li><span class="math inline">\(f_\text{PPAR}\)</span> is also trait-dependent, such as chlorophyll content;</li>
+<li><span class="math inline">\(K_\text{d}\)</span> is likely temperature-dependent;</li>
+<li>Sustained NPQ and thus residual <span class="math inline">\(K_\text{n}\)</span> are temperature-dependent.</li>
+</ul>
+<p>However, none of these has been explicitly accounted for in the traditional land surface models, which adopt broadband RT schemes. As we now have more complicated and powerful RT models and an increasing amount of plant trait data, it would be a good opportunity to move forward and use the more accurate hyperspectral canopy RT scheme in future modeling practice. When examining how the use of hyperspectral and broadband RT schemes may impact global simulation results, we found that the globally integrated GPP may differ by 8% while the grid level difference may be &gt; 20%. For a thorough analysis, please refer to <a href="https://doi.org/10.1029/2023MS003992">the published paper</a>.</p>
+<p>Given the substantial impacts, we highly recommend other land surface models use a hyperspectral RT scheme in their future model versions. Or at least some corrections need to be made to account for the plant traits- and light source-related changes in <span class="math inline">\(f_\text{APAR}\)</span> and <span class="math inline">\(f_\text{PPAR}\)</span>. Please refer to <a href="https://doi.org/10.1029/2023MS003992">our published paper</a> for the correction methods we proposed in the Journal of Advances in Modeling Earth Systems.</p>
 
 
 

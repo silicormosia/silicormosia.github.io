@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Yujie Wang">
-<meta name="dcterms.date" content="2022-08-17">
-<meta name="description" content="GriddingMachine: A new database and software for sharing global datasets">
+<meta name="dcterms.date" content="2024-01-03">
+<meta name="description" content="Agriculture in silico: Use of vegetation modeling for crop yield advances">
 
-<title>GriddingMachine – Ormosia</title>
+<title>Agriculture in silico – Ormosia</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,40 +22,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -206,10 +172,10 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">GriddingMachine</h1>
+      <h1 class="title">Agriculture in silico</h1>
                   <div>
         <div class="description">
-          GriddingMachine: A new database and software for sharing global datasets
+          Agriculture in silico: Use of vegetation modeling for crop yield advances
         </div>
       </div>
                           <div class="quarto-categories">
@@ -231,7 +197,7 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">August 17, 2022</p>
+        <p class="date">January 3, 2024</p>
       </div>
     </div>
     
@@ -250,35 +216,28 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 
 
 
-<p>Researchers are spending way too much time in finding, formatting, and reusing public data. The ever increasing amount of data, various forms of data, and different layouts of data make this problem even more serious. While the intention of sharing data within the community is to promote future research, the increasing fragmentation makes it harder and harder for researchers to find and reuse them, particularly for newbies. Taking my personal experience as an example, to collect the global datasets for the CliMA Land Model, we spent weeks and months to identify which datasets to use, download the data from different sources, standardize the datasets, and learn how to read the datasets correctly with different formats (such as NetCDF, GeoTIFF, CSV, and binary) with different programming languages. Unfortunately, researchers may need to repeat this tedious work again and again, even for the same datasets (if one forgot where the data is stored or how it has been processed).</p>
+<p>There are many ways to improve crop yield, and the approaches can be categorized to</p>
+<ul>
+<li>trait enhancement (e.g., breeding)</li>
+<li>water use (e.g., irrigation, fertilization, and mulching), and</li>
+<li>light use (e.g., density control and vertical farming).</li>
+</ul>
+<p>However, these efforts are all very time consuming to find an optimized solution. Thus, there is increasing demand for a uniform tool to evaluate these approaches. One solution is to combine the agricultural practices with vegetation modeling to help explore the possible combinations of approaches to advance the crop yield. Here, we reviewed the trials and practices that aim to improve crop yield through light use at different stages.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="modules.png" class="img-fluid figure-img"></p>
-<figcaption>Fig. 1 Pathway to assemble and distribute the GriddingMachine database.</figcaption>
+<p><img src="wang-2023-crop-strategies.jpg" class="img-fluid figure-img"></p>
+<figcaption>Fig. 1 Strategies that can be used to improve crop yield through canopy radiation optimization.</figcaption>
 </figure>
 </div>
-<p>Aiming towards minimizing the effort involved in the data reuse, we started the GriddingMachine project by</p>
+<p>For example, one can</p>
 <ul>
-<li>Collecting the data from various sources,</li>
-<li>Processing the data to a uniform format (NetCDF),</li>
-<li>Storing the reprocessed data on a public server, and</li>
-<li>Distributing the datasets via different programming languages.</li>
+<li>optimize chlorophyll content to improve the light condition in the lower canopy,</li>
+<li>implement chlorophyll d and f to increase the near infrared light absorption,</li>
+<li>optimize crop density and space to improve light condition in the lower canopy,</li>
+<li>mix crop to maximize light absorption in the lower canopy, and</li>
+<li>optimize the supplemental light spectra and power.</li>
 </ul>
-<p>Each dataset is labeled with a unique tag that describes</p>
-<ul>
-<li>Type of the dataset (e.g., leaf area index, biomass, and etc.),</li>
-<li>Spatial resolution (e.g., 5X means 0.2° × 0.2° grid),</li>
-<li>Temporal resolution (e.g., 1Y means 1 year, 1M means 1 month),</li>
-<li>Year of the data, and</li>
-<li>Version of the data (from different publications).</li>
-</ul>
-<p>One can simply look up the available dataset tags (and suggest new datasets) through <a href="https://github.com/CliMA/GriddingMachine.jl/issues/62">our Github repository</a>.</p>
-<p>With the unique tag, one can query the data directly via function query_collection, for example</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">query_collection</span>(<span class="st">"LAI_MODIS_2X_8D_2020"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>for the global leaf area index of the year 2020, and the dataset will be downloaded automatically. Alternatively, one can query data only for a site using the latitude and longitude without downloading the dataset, for example,</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">request_LUT</span>(<span class="st">"LAI_MODIS_2X_8D_2020_V1"</span>, <span class="fl">34.1478</span>, <span class="op">-</span><span class="fl">118.1445</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>for the leaf area index of the year 2020 at Pasadena, CA, USA. See our published work <a href="https://doi.org/10.1038/s41597-022-01346-x">(Wang et al., 2022)</a> and <a href="https://github.com/CliMA/GriddingMachine.jl">online documentation</a> for more information about how to use GriddingMachine. It supports Julia, Matlab, Octave, Python, and R.</p>
-<p>GriddingMachine makes it way easier to reuse the community-based datasets, as users are waived from data collection, formatting, and management. Given the aims of GriddingMachine, we welcome the contributions of globally gridded data to <a href="https://github.com/CliMA/GriddingMachine.jl/issues/62">our collection</a>.</p>
+<p>We used <a href="https://github.com/CliMA/Land">CliMA Land</a> to quantitatively evaluate the potentials of the proposed approaches, and thus that of vegetation modeling. This work has recently been published in the Crop and Environment (<a href="https://doi.org/10.1016/j.crope.2023.07.003">doi:10.1016/j.crope.2023.07.003</a>). We believe that future efforts in advancing vegetation modeling and bridging it to agriculture will better guide real-world agricultural practices.</p>
 
 
 
