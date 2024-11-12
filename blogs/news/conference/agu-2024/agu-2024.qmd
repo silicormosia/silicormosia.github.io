@@ -1,0 +1,33 @@
+---
+title: "AGU 2024 Fall Meeting"
+image: "agu-2024.png"
+description: "silicormosia @ Washington DC"
+author: "Yujie Wang"
+date: "11/13/2024"
+categories:
+  - Conference
+toc: true
+---
+
+## Hosted sessions
+
+### B21N Poster Session
+[![](agu-2024-b21n.png){width=80%}](https://agu.confex.com/agu/agu24/meetingapp.cgi/Session/238443){target="_blank"}
+
+### B24D Oral session
+[![](agu-2024-b24d.png){width=80%}](https://agu.confex.com/agu/agu24/meetingapp.cgi/Session/238994){target="_blank"}
+
+
+## Yujie Wang
+### Talk
+[![](agu-2024-yujie-oral.png){width=80%}](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1624685){target="_blank"}
+
+
+### Poster
+[![](agu-2024-yujie-poster.png){width=80%}](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1597346){target="_blank"}
+
+
+### Coauthored
+[![](agu-2024-renato-oral.png){width=80%}](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1619083){target="_blank"}
+
+[![](agu-2024-yitong-poster.png){width=80%}](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1604443){target="_blank"}
