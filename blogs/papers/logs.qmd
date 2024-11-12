@@ -3,8 +3,7 @@ title: "Logs of Reviews and Reviewing"
 image: ../../images/chip_tree_art.jpg
 description: "Logs for the number of reviews we recieve and make. We try to balance the two!"
 author: "Yujie Wang"
-date: "1/31/2024"
-date-modified: "10/29/2024"
+date: "11/12/2024"
 categories:
   - Logs
 ---
@@ -20,11 +19,11 @@ It should be a responsibility to perform free peer reviews if you receive them f
 |          | Yujie Wang  | Earth System Science Data                        |                      | 1                |
 |          | Yujie Wang  | Geophysical Research Letters                     |                      | 2                |
 |          | Yujie Wang  | Global Change Biology                            | 3                    |                  |
-|          | Yujie Wang  | Journal of Advances in Modeling Earth Systems    | 6                    | 2                |
+|          | Yujie Wang  | Journal of Advances in Modeling Earth Systems    | 6                    | 3                |
 |          | Yujie Wang  | Journal of Geophysical Research - Biogeosciences |                      | 1                |
 |          | Yujie Wang  | Nature Communications                            | 2                    |                  |
 |          | Yujie Wang  | Nature Plants                                    |                      | 2                |
-|          | Yujie Wang  | Remote Sensing of Environment                    |                      | 4                |
+|          | Yujie Wang  | Remote Sensing of Environment                    |                      | 5                |
 |          | Yujie Wang  | Scientific Data                                  |                      | 3                |
 |          | Yujie Wang  | Tree Physiology                                  |                      | 1                |
 |          |             | **Summary**                                      | 11                   | 18               |
