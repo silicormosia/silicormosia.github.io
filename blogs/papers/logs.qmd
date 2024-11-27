@@ -3,7 +3,7 @@ title: "Logs of Reviews and Reviewing"
 image: ../../images/chip_tree_art.jpg
 description: "Logs for the number of reviews we recieve and make. We try to balance the two!"
 author: "Yujie Wang"
-date: "11/12/2024"
+date: "11/27/2024"
 categories:
   - Logs
 ---
@@ -14,7 +14,7 @@ It should be a responsibility to perform free peer reviews if you receive them f
 
 | **Year** | **Person**  | **Journal**                                      | **Reviews Received** | **Reviews Made** |
 |:---------|:------------|:-------------------------------------------------|:---------------------|:-----------------|
-| 2024     | Yujie Wang  | Agricultural and Forest Meteorology              |                      | 1                |
+| 2024     | Yujie Wang  | Agricultural and Forest Meteorology              |                      | 2                |
 |          | Yujie Wang  | Biogeosciences                                   |                      | 1                |
 |          | Yujie Wang  | Earth System Science Data                        |                      | 1                |
 |          | Yujie Wang  | Geophysical Research Letters                     |                      | 2                |
@@ -26,7 +26,7 @@ It should be a responsibility to perform free peer reviews if you receive them f
 |          | Yujie Wang  | Remote Sensing of Environment                    |                      | 5                |
 |          | Yujie Wang  | Scientific Data                                  |                      | 3                |
 |          | Yujie Wang  | Tree Physiology                                  |                      | 1                |
-|          |             | **Summary**                                      | 11                   | 18               |
+|          |             | **Summary**                                      | 11                   | 19               |
 
 ## 2017-2023
 
