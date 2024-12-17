@@ -34,12 +34,22 @@ For the code I wrote for the 1st-authored and some co-authorred publications, pl
 
 ## Posters
 
-- Y. Wang, J. S. Sperry, M. D. Venturas, A. T. Trugman, and W. R. L. Anderegg (2019).
+- Y. Wang et al. (2024).
+  AGU Fall Meeting:
+  Accounting for canopy structure improves GPP estimation from SIF.
+  [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/posters/2024-wang-agu.pdf)
+
+- Y. Wang et al. (2019).
   AGU Fall Meeting:
   Modeling leaf investment within optimality theory.
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/posters/2019-wang-agu.pdf)
 
 ## Slides
+
+- Y. Wang (2024).
+  Talk @ AGU 2024 Fall Meeting:
+  From PFT to traits: Improving the canopy radiative transfer in Earth system modeling.
+  [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/talks/2024-wang-agu.pdf)
 
 - Y. Wang (2024).
   Talk @ GRC Multiscale Plant Vascular Biology:
