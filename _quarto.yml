@@ -16,6 +16,7 @@ website:
       - research.qmd
       - blogs.qmd
       - publications.qmd
+      - theses.qmd
       - resources.qmd
       - about.qmd
     right:

@@ -117,11 +117,6 @@ For the code I wrote for the 1st-authored and some co-authorred publications, pl
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/talks/2020-wang-hzau.pdf)
 
 - Y. Wang (2019).
-  PhD Defense @ University of Utah:
-  Carbon gain and risk in modeling leaf gas exchange.
-  [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/talks/2019-wang-utah.pdf)
-
-- Y. Wang (2019).
   Postdoc Job Talk @ California Institute of Technology:
   Improve leaf gas exchange modeling with gain vs. risk optimization.
   [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/talks/2019-wang-caltech.pdf)
