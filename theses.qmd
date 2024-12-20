@@ -17,6 +17,12 @@ toc: true
   [Thesis](./theses/wang-2013-ms-thesis.pdf)
   [Defense](./theses/wang-2013-ms-thesis-defense.pdf)
 
+- PhD Proposal (2017).
+  University of Utah.
+  Carbon gain and risk in modeling leaf gas exchange.
+  [Proposal](./theses/wang-2017-phd-proposal.pdf)
+  [Defense](./theses/wang-2017-phd-proposal-defense.pdf)
+
 - PhD Thesis (2020).
   University of Utah.
   Carbon gain and risk in modeling leaf gas exchange.
