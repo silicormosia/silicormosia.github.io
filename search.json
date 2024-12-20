@@ -277,7 +277,7 @@
     "href": "resources.html#slides",
     "title": "Resources",
     "section": "Slides",
-    "text": "Slides\n\nY. Wang (2024). Talk @ AGU 2024 Fall Meeting: From PFT to traits: Improving the canopy radiative transfer in Earth system modeling. PDF\nY. Wang (2024). Talk @ GRC Multiscale Plant Vascular Biology: (Modeling) Hydraulics from rhizosphere to landscape. PDF\nY. Wang, R. K. Braghiere, and C. Frankenberg (2023). Talk @ AGU Fall Meeting: Moving toward hyperspectral canopy radiative transfer in Earth system modeling. PDF\nY. Wang (2023). Faculty Job Talk @ University of Hong Kong: Moving toward the next-generation land surface modeling. PDF\nY. Wang (2023). Seminar @ Peking University: Next generation land surface model and global carbon cycle. PDF\nY. Wang (2023). Seminar @ University of Science and Technology of China: Next generation land surface model and global carbon cycle. PDF\nY. Wang, R. K. Braghiere, A. A. Bloom, and C. Frankenberg (2023). Talk @ EGU General Assembly: Modeling global vegetation processes and hyperspectral canopy radiative transfer using CliMA Land. PDF\nY. Wang (2023). Seminar @ JPL Carbon Club: Modeling global vegetation processes using a next-generation land surface model—CliMA Land. PDF\nY. Wang (2023). Faculty Job Talk @ University of Central Florida: Modeling vegetation processes from organ to global scale. PDF\nY. Wang (2022). Seminar @ 2nd Model Hierarchy Workshop: Modeling canopy fluxes and optical properties using CliMA Land. PDF\nY. Wang (2022). Talk @ RUBISCO SFA: GriddingMachine.jl: A database and software for Earth system modeling. PDF\nY. Wang (2022). Talk @ GeoCarb Science Meeting: Modeling canopy fluxes and optical properties using CliMA Land. PDF\nY. Wang (2020). Seminar @ JPL Carbon Club: Modeling optimal leaf area and photosynthetic capacity from plant traits and climate. PDF\nY. Wang (2020). Seminar @ Huazhong Agriculture University: Plant hydraulics and stomatal control. PDF\nY. Wang (2019). PhD Defense @ University of Utah: Carbon gain and risk in modeling leaf gas exchange. PDF\nY. Wang (2019). Postdoc Job Talk @ California Institute of Technology: Improve leaf gas exchange modeling with gain vs. risk optimization. PDF\nY. Wang (2019). TGIF Seminar @ University of Utah: How to stack chloroplasts in palisade mesophyll? PDF\nY. Wang (2018). Seminar @ Institute of Applied Ecology: Modeling the stomatal control from plant physiological traits. PDF\nY. Wang (2018). Seminar @ Guangxi University: Modeling the stomatal control from plant physiological traits. PDF\nY. Wang (2018). TGIF Seminar @ University of Utah: Evolutionary drivers of stomatal size and density. PDF\nY. Wang (2017). TGIF Seminar @ University of Utah: Modelling the trade-off between water usage and photosynthesis in trees. PDF"
+    "text": "Slides\n\nY. Wang (2024). Talk @ AGU 2024 Fall Meeting: From PFT to traits: Improving the canopy radiative transfer in Earth system modeling. PDF\nY. Wang (2024). Talk @ GRC Multiscale Plant Vascular Biology: (Modeling) Hydraulics from rhizosphere to landscape. PDF\nY. Wang, R. K. Braghiere, and C. Frankenberg (2023). Talk @ AGU Fall Meeting: Moving toward hyperspectral canopy radiative transfer in Earth system modeling. PDF\nY. Wang (2023). Faculty Job Talk @ University of Hong Kong: Moving toward the next-generation land surface modeling. PDF\nY. Wang (2023). Seminar @ Peking University: Next generation land surface model and global carbon cycle. PDF\nY. Wang (2023). Seminar @ University of Science and Technology of China: Next generation land surface model and global carbon cycle. PDF\nY. Wang, R. K. Braghiere, A. A. Bloom, and C. Frankenberg (2023). Talk @ EGU General Assembly: Modeling global vegetation processes and hyperspectral canopy radiative transfer using CliMA Land. PDF\nY. Wang (2023). Seminar @ JPL Carbon Club: Modeling global vegetation processes using a next-generation land surface model—CliMA Land. PDF\nY. Wang (2023). Faculty Job Talk @ University of Central Florida: Modeling vegetation processes from organ to global scale. PDF\nY. Wang (2022). Seminar @ 2nd Model Hierarchy Workshop: Modeling canopy fluxes and optical properties using CliMA Land. PDF\nY. Wang (2022). Talk @ RUBISCO SFA: GriddingMachine.jl: A database and software for Earth system modeling. PDF\nY. Wang (2022). Talk @ GeoCarb Science Meeting: Modeling canopy fluxes and optical properties using CliMA Land. PDF\nY. Wang (2020). Seminar @ JPL Carbon Club: Modeling optimal leaf area and photosynthetic capacity from plant traits and climate. PDF\nY. Wang (2020). Seminar @ Huazhong Agriculture University: Plant hydraulics and stomatal control. PDF\nY. Wang (2019). Postdoc Job Talk @ California Institute of Technology: Improve leaf gas exchange modeling with gain vs. risk optimization. PDF\nY. Wang (2019). TGIF Seminar @ University of Utah: How to stack chloroplasts in palisade mesophyll? PDF\nY. Wang (2018). Seminar @ Institute of Applied Ecology: Modeling the stomatal control from plant physiological traits. PDF\nY. Wang (2018). Seminar @ Guangxi University: Modeling the stomatal control from plant physiological traits. PDF\nY. Wang (2018). TGIF Seminar @ University of Utah: Evolutionary drivers of stomatal size and density. PDF\nY. Wang (2017). TGIF Seminar @ University of Utah: Modelling the trade-off between water usage and photosynthesis in trees. PDF"
   },
   {
     "objectID": "resources.html#software",
@@ -285,6 +285,55 @@
     "title": "Resources",
     "section": "Software",
     "text": "Software\n\nCliMA Land v0.1\nCliMA Land Global Simulation v0.1 (private)\nEmerald\nGriddingMachine.jl\nOrmosia (private)\nPublished Code"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Research Scientist, Caltech\n1200 E California Blvd. MC 131-24\nPasadena, CA 91125, USA\nOffice: Linde 231 \n +1 626-395-2021\n wyujie@caltech.edu"
+  },
+  {
+    "objectID": "about.html#contact-information",
+    "href": "about.html#contact-information",
+    "title": "About",
+    "section": "",
+    "text": "Research Scientist, Caltech\n1200 E California Blvd. MC 131-24\nPasadena, CA 91125, USA\nOffice: Linde 231 \n +1 626-395-2021\n wyujie@caltech.edu"
+  },
+  {
+    "objectID": "about.html#report-issues",
+    "href": "about.html#report-issues",
+    "title": "About",
+    "section": "Report Issues",
+    "text": "Report Issues\nThis website is generated using Quarto. Should you find any issue, please report it to the GitHub Repository!"
+  },
+  {
+    "objectID": "people/current/wyujie.html",
+    "href": "people/current/wyujie.html",
+    "title": "WANG, Yujie",
+    "section": "",
+    "text": "Research Scientist, Caltech\n1200 E California Blvd. MC 131-24\nPasadena, CA 91125, USA\nOffice: Linde 231 \n 626-395-2021\n wyujie@caltech.edu\nYujie is a Research Scientist at Caltech working on vegetation and land surface modeling, particularly in how plants respond and acclimate to the changing climate. While at the Climate Modeling Alliance (CliMA), he leads the development of a next-generation land surface model (CliMA Land) from scratch. Yujie’s research aims are to improve the Earth system models’ predictive skills in tracking global carbon, water, and energy fluxes using the increasing number of remote sensing data."
+  },
+  {
+    "objectID": "people/current/wyujie.html#professional-experience",
+    "href": "people/current/wyujie.html#professional-experience",
+    "title": "WANG, Yujie",
+    "section": "Professional Experience",
+    "text": "Professional Experience\n\n2022-present: Research Scientist, Caltech\n2020-2022: Postdoctoral Fellow, Caltech"
+  },
+  {
+    "objectID": "people/current/wyujie.html#education",
+    "href": "people/current/wyujie.html#education",
+    "title": "WANG, Yujie",
+    "section": "Education",
+    "text": "Education\n\nPhD in Biology | University of Utah, USA | 2015 - 2019\nMS in Biology | University of Science and Technology of China, China | 2011 - 2013\nBS in Biology | University of Science and Technology of China, China | 2007 - 2011"
+  },
+  {
+    "objectID": "people/current/wyujie.html#thesis-dissertation",
+    "href": "people/current/wyujie.html#thesis-dissertation",
+    "title": "WANG, Yujie",
+    "section": "Thesis & Dissertation",
+    "text": "Thesis & Dissertation\n\nPhD. 2020. Carbon gain and risk in leaf gas exchange. University of Utah. Advised by Dr. John S. Sperry.\nPhD Candidate. 2017. Research Proposal. University of Utah. Advised by Dr. John S. Sperry.\nMaster. 2013. Theory and model of centrifuge method in vulnerbility curve. University of Science and Technology of China. Advised by Dr. Kunfang Cao and Dr. Melvin T. Tyree."
   },
   {
     "objectID": "research.html",
@@ -343,53 +392,18 @@
     "text": "Nature-based Climate Solutions"
   },
   {
-    "objectID": "people/current/wyujie.html",
-    "href": "people/current/wyujie.html",
-    "title": "WANG, Yujie",
+    "objectID": "theses.html",
+    "href": "theses.html",
+    "title": "Thesis",
     "section": "",
-    "text": "Research Scientist, Caltech\n1200 E California Blvd. MC 131-24\nPasadena, CA 91125, USA\nOffice: Linde 231 \n 626-395-2021\n wyujie@caltech.edu\nYujie is a Research Scientist at Caltech working on vegetation and land surface modeling, particularly in how plants respond and acclimate to the changing climate. While at the Climate Modeling Alliance (CliMA), he leads the development of a next-generation land surface model (CliMA Land) from scratch. Yujie’s research aims are to improve the Earth system models’ predictive skills in tracking global carbon, water, and energy fluxes using the increasing number of remote sensing data."
+    "text": "Master Proposal (2012). University of Science and Technology of China. Modeling of Plant Hydraulics (植物水力模型构建). Proposal Defense\nMaster Thesis (2013). University of Science and Technology of China. Theory and Model of Centrifuge Method in Vulnerability Curve (离心机法测枝条脆弱性曲线的理论与模型). Thesis Defense\nPhD Thesis (2020). University of Utah. Carbon gain and risk in modeling leaf gas exchange. Dissertation Defense"
   },
   {
-    "objectID": "people/current/wyujie.html#professional-experience",
-    "href": "people/current/wyujie.html#professional-experience",
-    "title": "WANG, Yujie",
-    "section": "Professional Experience",
-    "text": "Professional Experience\n\n2022-present: Research Scientist, Caltech\n2020-2022: Postdoctoral Fellow, Caltech"
-  },
-  {
-    "objectID": "people/current/wyujie.html#education",
-    "href": "people/current/wyujie.html#education",
-    "title": "WANG, Yujie",
-    "section": "Education",
-    "text": "Education\n\nPhD in Biology | University of Utah, USA | 2015 - 2019\nMS in Biology | University of Science and Technology of China, China | 2011 - 2013\nBS in Biology | University of Science and Technology of China, China | 2007 - 2011"
-  },
-  {
-    "objectID": "people/current/wyujie.html#thesis-dissertation",
-    "href": "people/current/wyujie.html#thesis-dissertation",
-    "title": "WANG, Yujie",
-    "section": "Thesis & Dissertation",
-    "text": "Thesis & Dissertation\n\nPhD. 2020. Carbon gain and risk in leaf gas exchange. University of Utah. Advised by Dr. John S. Sperry.\nPhD Candidate. 2017. Research Proposal. University of Utah. Advised by Dr. John S. Sperry.\nMaster. 2013. Theory and model of centrifuge method in vulnerbility curve. University of Science and Technology of China. Advised by Dr. Kunfang Cao and Dr. Melvin T. Tyree."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "theses.html#yujie-wang",
+    "href": "theses.html#yujie-wang",
+    "title": "Thesis",
     "section": "",
-    "text": "Research Scientist, Caltech\n1200 E California Blvd. MC 131-24\nPasadena, CA 91125, USA\nOffice: Linde 231 \n +1 626-395-2021\n wyujie@caltech.edu"
-  },
-  {
-    "objectID": "about.html#contact-information",
-    "href": "about.html#contact-information",
-    "title": "About",
-    "section": "",
-    "text": "Research Scientist, Caltech\n1200 E California Blvd. MC 131-24\nPasadena, CA 91125, USA\nOffice: Linde 231 \n +1 626-395-2021\n wyujie@caltech.edu"
-  },
-  {
-    "objectID": "about.html#report-issues",
-    "href": "about.html#report-issues",
-    "title": "About",
-    "section": "Report Issues",
-    "text": "Report Issues\nThis website is generated using Quarto. Should you find any issue, please report it to the GitHub Repository!"
+    "text": "Master Proposal (2012). University of Science and Technology of China. Modeling of Plant Hydraulics (植物水力模型构建). Proposal Defense\nMaster Thesis (2013). University of Science and Technology of China. Theory and Model of Centrifuge Method in Vulnerability Curve (离心机法测枝条脆弱性曲线的理论与模型). Thesis Defense\nPhD Thesis (2020). University of Utah. Carbon gain and risk in modeling leaf gas exchange. Dissertation Defense"
   },
   {
     "objectID": "index.html",
