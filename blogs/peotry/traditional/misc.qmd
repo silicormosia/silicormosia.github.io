@@ -1,0 +1,16 @@
+---
+title: "无题"
+image: "../figure/night.jpg"
+description: "找到以前写的一首诗，随便命个名。。。"
+author: "王玉杰"
+date: "10/12/2017"
+categories:
+  - Poem
+---
+
+远山雾弭古道\
+残天云连海潮\
+白沙雍绕青渚\
+绿椰斜倚碧涛\
+若得流觞几许\
+结庐不问叨扰\
