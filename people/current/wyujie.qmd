@@ -67,14 +67,14 @@ Yujie is a Research Professor at USTC working on vegetation and land surface mod
 
 ## Thesis & Dissertation
 - PhD. 2020.
-  Carbon gain and risk in leaf gas exchange.
+  [Carbon gain and risk in leaf gas exchange.](https://silicormosia.github.io/theses.html#yujie-wang){target="_blank}
   University of Utah.
   Advised by Dr. John S. Sperry.
 - PhD Candidate. 2017.
-  Research Proposal.
+  [Research Proposal.](https://silicormosia.github.io/theses.html#yujie-wang){target="_blank}
   University of Utah.
   Advised by Dr. John S. Sperry.
 - Master. 2013.
-  Theory and model of centrifuge method in vulnerbility curve.
+  [Theory and model of centrifuge method in vulnerbility curve.](https://silicormosia.github.io/theses.html#yujie-wang){target="_blank}
   University of Science and Technology of China.
   Advised by Dr. Kunfang Cao and Dr. Melvin T. Tyree.

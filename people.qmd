@@ -8,16 +8,6 @@ listing:
     grid-item-align: center
     sort: [sortby, title]
     fields: [image, title, subtitle]
-page-layout: full
----
-
-<!--
-## Current Members
--->
-:::{#current-members}
-:::
-
-<!--
   - id: alumni
     contents: people/alumni
     type: table
@@ -28,7 +18,13 @@ page-layout: full
       title: "Name"
       subtitle: "Former Role"
       started: "Started"
+page-layout: full
+---
+
+## Current Members
+:::{#current-members}
+:::
+
 ## Alumni
 :::{#alumni}
 :::
--->
