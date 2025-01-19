@@ -5,17 +5,11 @@ toc: true
 
 ## Yujie Wang
 
-- Master Proposal (2012).
-  University of Science and Technology of China.
-  Modeling of Plant Hydraulics (植物水力模型构建).
-  [Proposal](./theses/wang-2012-ms-proposal.pdf)
-  [Defense](./theses/wang-2012-ms-proposal-defense.pdf)
-
-- Master Thesis (2013).
-  University of Science and Technology of China.
-  Theory and Model of Centrifuge Method in Vulnerability Curve (离心机法测枝条脆弱性曲线的理论与模型).
-  [Thesis](./theses/wang-2013-ms-thesis.pdf)
-  [Defense](./theses/wang-2013-ms-thesis-defense.pdf)
+- PhD Thesis (2020).
+  University of Utah.
+  Carbon gain and risk in modeling leaf gas exchange.
+  [Dissertation](./theses/wang-2020-phd-dissertation.pdf)
+  [Defense](./theses/wang-2019-phd-dissertation-defense.pdf)
 
 - PhD Proposal (2017).
   University of Utah.
@@ -23,8 +17,14 @@ toc: true
   [Proposal](./theses/wang-2017-phd-proposal.pdf)
   [Defense](./theses/wang-2017-phd-proposal-defense.pdf)
 
-- PhD Thesis (2020).
-  University of Utah.
-  Carbon gain and risk in modeling leaf gas exchange.
-  [Dissertation](./theses/wang-2020-phd-dissertation.pdf)
-  [Defense](./theses/wang-2019-phd-dissertation-defense.pdf)
+- Master Thesis (2013).
+  University of Science and Technology of China.
+  Theory and Model of Centrifuge Method in Vulnerability Curve (离心机法测枝条脆弱性曲线的理论与模型).
+  [Thesis](./theses/wang-2013-ms-thesis.pdf)
+  [Defense](./theses/wang-2013-ms-thesis-defense.pdf)
+
+- Master Proposal (2012).
+  University of Science and Technology of China.
+  Modeling of Plant Hydraulics (植物水力模型构建).
+  [Proposal](./theses/wang-2012-ms-proposal.pdf)
+  [Defense](./theses/wang-2012-ms-proposal-defense.pdf)

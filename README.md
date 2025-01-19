@@ -24,3 +24,13 @@ git checkout feature
 git rebase main
 git push -f
 ```
+
+## Quarto Render
+
+It is recommended to test the rendering before updating the changes. To do so, some packages are required a priori (also see the render.yaml file in the github/workflows folder):
+```
+python3 -m pip install jupyter
+quarto install extension mcanouil/quarto-iconify --no-prompt
+quarto install extension quarto-ext/fontawesome --no-prompt
+quarto install extension schochastics/academicons --no-prompt
+```
