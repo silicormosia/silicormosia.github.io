@@ -9,7 +9,7 @@ categories:
   - Tutorial
 ---
 
-[GriddingMachine.jl](https://github.com/CliMA/GriddingMachine.jl) is a software and database designed to share global scale datasets for Earth system modeling. GriddingMachine is a registered package and currently with a stable version v0.3. It is not recommended to use version v0.1.
+[GriddingMachine.jl](https://github.com/CliMA/GriddingMachine.jl){target="_blank"} is a software and database designed to share global scale datasets for Earth system modeling. GriddingMachine is a registered package and currently with a stable version v0.3. It is not recommended to use version v0.1.
 
 GriddingMachine has the following modules:
 
@@ -40,7 +40,7 @@ By default, the **pkg** environment will install the latested version that is co
 ```
 GriddingMachine = "=0.2.8"
 ```
-This will constrain the version to exactly v0.2.8. See [https://pkgdocs.julialang.org/v1/compatibility/](https://pkgdocs.julialang.org/v1/compatibility/) for more details about how to best utilize "Project.toml" file to manage the Julia environment.
+This will constrain the version to exactly v0.2.8. See [https://pkgdocs.julialang.org/v1/compatibility/](https://pkgdocs.julialang.org/v1/compatibility/){target="_blank"} for more details about how to best utilize "Project.toml" file to manage the Julia environment.
 
 Alternatively, users can install the specific versions when install the package through REPL:
 ```

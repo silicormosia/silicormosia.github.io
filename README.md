@@ -2,7 +2,7 @@
 
 ## Ormosia in silico (silicormosia)
 
-GitHub Pages for my website. The webiste will be rendered using Quarto and published to GitHub Pages. Please visit [here](https://silicormosia.github.io/) for the rendered website.
+GitHub Pages for my website. The webiste will be rendered using Quarto and published to GitHub Pages. Please visit [here](https://silicormosia.github.io/){target="_blank"} for the rendered website.
 
 ## Instructions
 

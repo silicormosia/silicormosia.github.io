@@ -8,9 +8,9 @@ categories:
   - Tutorial
 ---
 
-The Collector module within [GriddingMachine.jl](https://github.com/CliMA/GriddingMachine.jl) is designed to download the datasets to local drive and manage the downloaded datasets.
+The Collector module within [GriddingMachine.jl](https://github.com/CliMA/GriddingMachine.jl){target="_blank"} is designed to download the datasets to local drive and manage the downloaded datasets.
 
-Each of the dataset in GriddingMachine is assigned a unique tag, such as **VCMAX_2X_1Y_V1**. Please see the [documentation](https://github.com/CliMA/GriddingMachine.jl/issues/62) for all the supported datasets and their tags.
+Each of the dataset in GriddingMachine is assigned a unique tag, such as **VCMAX_2X_1Y_V1**. Please see the [documentation](https://github.com/CliMA/GriddingMachine.jl/issues/62){target="_blank"} for all the supported datasets and their tags.
 
 
 ## Query the datasets (v0.3)
