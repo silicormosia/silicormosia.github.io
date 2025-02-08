@@ -5,7 +5,7 @@ description: "打算写成一个长篇叙事诗，不知道写不写的好。。
 author: "王玉杰"
 date: "9/22/2022"
 categories:
-  - Poem
+  - 现代诗
   - 经纬岛
 ---
 

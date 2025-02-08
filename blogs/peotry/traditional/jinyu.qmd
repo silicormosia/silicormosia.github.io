@@ -1,11 +1,11 @@
 ---
-title: "相恋"
+title: "吻"
 image: "../figure/night.jpg"
 description: "昨晚小杰带着小玉出去玩，嘻嘻，好开心呐……"
 author: "王玉杰"
 date: "10/23/2010"
 categories:
-  - Poem
+  - 古体诗
 ---
 
 懦懦却论寒寒是\

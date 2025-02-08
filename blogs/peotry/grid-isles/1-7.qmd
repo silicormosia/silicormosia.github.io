@@ -5,7 +5,7 @@ description: "穷困潦倒时的自卑与怯懦，或许会给人埋在心底最
 author: "王玉杰"
 date: "6/15/2024"
 categories:
-  - Poem
+  - 现代诗
   - 经纬岛
 ---
 

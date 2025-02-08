@@ -1,11 +1,11 @@
 ---
 title: "等你想我的一天"
 image: "../figure/night.jpg"
-description: "大学时候的诗（集合）。。。"
+description: "大学时候的诗（合辑）。。。"
 author: "王玉杰"
 date: "5/7/2011"
 categories:
-  - Poem
+  - 现代诗
 ---
 
 ## （一）扭曲

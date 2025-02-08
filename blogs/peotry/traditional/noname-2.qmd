@@ -5,7 +5,7 @@ description: "找到以前写的一首诗，随便命个名。。。"
 author: "王玉杰"
 date: "3/19/2013"
 categories:
-  - Poem
+  - 古体诗
 ---
 
 荫荫玉伞荫竹蓬\

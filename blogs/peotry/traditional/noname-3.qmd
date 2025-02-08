@@ -5,7 +5,7 @@ description: "找到以前写的一首诗，随便命个名。。。"
 author: "王玉杰"
 date: "10/12/2017"
 categories:
-  - Poem
+  - 古体诗
 ---
 
 远山雾弭古道\

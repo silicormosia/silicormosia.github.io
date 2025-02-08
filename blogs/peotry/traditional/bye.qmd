@@ -5,7 +5,7 @@ description: "西双版纳纪行"
 author: "王玉杰"
 date: "6/2/2011"
 categories:
-  - Poem
+  - 古体诗
 ---
 
 ## 其一

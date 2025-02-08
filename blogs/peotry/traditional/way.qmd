@@ -6,7 +6,7 @@ author: "王玉杰"
 date: "3/28/2024"
 date-modified: "3/30/2024"
 categories:
-  - Poem
+  - 古体诗
 ---
 
 ## 其一

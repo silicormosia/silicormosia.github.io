@@ -5,7 +5,7 @@ description: "凌晨时候听二哥说奶奶走了，而我仍在美国。上次
 author: "王玉杰"
 date: "5/17/2024"
 categories:
-  - Poem
+  - 现代诗
   - 经纬岛
 ---
 

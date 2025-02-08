@@ -5,7 +5,7 @@ description: "周二夜驱车归家，见满月悬空，不禁唏嘘。。。"
 author: "王玉杰"
 date: "4/25/2024"
 categories:
-  - Poem
+  - 古体诗
 ---
 
 明月不邀我\

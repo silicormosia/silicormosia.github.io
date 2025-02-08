@@ -5,7 +5,7 @@ description: "上大学时，在大学生心理学课上学到一个词叫做被
 author: "王玉杰"
 date: "6/21/2024"
 categories:
-  - Poem
+  - 现代诗
   - 经纬岛
 ---
 
