@@ -1,80 +1,66 @@
 [
   {
-    "objectID": "theses.html",
-    "href": "theses.html",
-    "title": "Thesis",
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
     "section": "",
-    "text": "PhD Thesis (2020). University of Utah. Carbon gain and risk in modeling leaf gas exchange. Dissertation Defense\nPhD Proposal (2017). University of Utah. Carbon gain and risk in modeling leaf gas exchange. Proposal Defense\nMaster Thesis (2013). University of Science and Technology of China. Theory and Model of Centrifuge Method in Vulnerability Curve (离心机法测枝条脆弱性曲线的理论与模型). Thesis Defense\nMaster Proposal (2012). University of Science and Technology of China. Modeling of Plant Hydraulics (植物水力模型构建). Proposal Defense"
+    "text": "Research Professor\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "theses.html#yujie-wang",
-    "href": "theses.html#yujie-wang",
-    "title": "Thesis",
+    "objectID": "people.html#current-members",
+    "href": "people.html#current-members",
+    "title": "People",
     "section": "",
-    "text": "PhD Thesis (2020). University of Utah. Carbon gain and risk in modeling leaf gas exchange. Dissertation Defense\nPhD Proposal (2017). University of Utah. Carbon gain and risk in modeling leaf gas exchange. Proposal Defense\nMaster Thesis (2013). University of Science and Technology of China. Theory and Model of Centrifuge Method in Vulnerability Curve (离心机法测枝条脆弱性曲线的理论与模型). Thesis Defense\nMaster Proposal (2012). University of Science and Technology of China. Modeling of Plant Hydraulics (植物水力模型构建). Proposal Defense"
+    "text": "Research Professor\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "people/current/wyujie.html",
-    "href": "people/current/wyujie.html",
-    "title": "WANG, Yujie",
+    "objectID": "people.html#alumni",
+    "href": "people.html#alumni",
+    "title": "People",
+    "section": "Alumni",
+    "text": "Alumni\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Name\n        \n         \n          Former Role\n        \n         \n          Started\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nName\n\n\nFormer Role\n\n\nStarted\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to Yujie’s Website",
     "section": "",
-    "text": "Research Professor\nSchool of Earth and Space Sciences\nUniversity of Science and Technology of China (USTC)\nNo.96, JinZhai Road Baohe District\nHefei, Anhui 230026, China\nOffice: 教学行政楼804-806 \n +86 xxx-xxxx-xxxx\n wyujie@ustc.edu.cn\nYujie is a Research Professor at USTC working on vegetation and land surface modeling, particularly in how plants respond and acclimate to the changing climate. While at the Climate Modeling Alliance (CliMA), he leads the development of a next-generation land surface model (CliMA Land) from scratch. Yujie’s research aims are to improve the Earth system models’ predictive skills in tracking global carbon, water, and energy fluxes using the increasing number of remote sensing data."
+    "text": "WANG, Yujie\nResearch Professor\nSchool of Earth and Space Sciences\nUniversity of Science and Technology of China (USTC)\nNo.96, JinZhai Road Baohe District\nHefei, Anhui 230026, China\n\nOffice: 教学行政楼804-806 \n +86 xxx-xxxx-xxxx\n wyujie@ustc.edu.cn"
   },
   {
-    "objectID": "people/current/wyujie.html#professional-experience",
-    "href": "people/current/wyujie.html#professional-experience",
-    "title": "WANG, Yujie",
-    "section": "Professional Experience",
-    "text": "Professional Experience\n\n2025-present: Research Professor, USTC\n2022-2025: Research Scientist, Caltech\n2020-2022: Postdoctoral Fellow, Caltech"
-  },
-  {
-    "objectID": "people/current/wyujie.html#education",
-    "href": "people/current/wyujie.html#education",
-    "title": "WANG, Yujie",
-    "section": "Education",
-    "text": "Education\n\nPhD in Biology | University of Utah, USA | 2015 - 2019\nMS in Biology | University of Science and Technology of China, China | 2011 - 2013\nBS in Biology | University of Science and Technology of China, China | 2007 - 2011"
-  },
-  {
-    "objectID": "people/current/wyujie.html#thesis-dissertation",
-    "href": "people/current/wyujie.html#thesis-dissertation",
-    "title": "WANG, Yujie",
-    "section": "Thesis & Dissertation",
-    "text": "Thesis & Dissertation\n\nPhD. 2020. Carbon gain and risk in leaf gas exchange. University of Utah. Advised by Dr. John S. Sperry.\nPhD Candidate. 2017. Research Proposal. University of Utah. Advised by Dr. John S. Sperry.\nMaster. 2013. Theory and model of centrifuge method in vulnerbility curve. University of Science and Technology of China. Advised by Dr. Kunfang Cao and Dr. Melvin T. Tyree."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "blogs/emerald/emerald.html",
+    "href": "blogs/emerald/emerald.html",
+    "title": "CliMA Land Benchmarks",
     "section": "",
-    "text": "Research Professor\nSchool of Earth and Space Sciences\nUniversity of Science and Technology of China (USTC)\nNo.96, JinZhai Road Baohe District\nHefei, Anhui 230026, China\n\nOffice: 教学行政楼804-806 \n +86 xxx-xxxx-xxxx\n wyujie@ustc.edu.cn"
+    "text": "This blog tracks the performance of the CliMA Land global simulations in terms its spatial patterns in the following aspects:\nPer release, the major improvements are:\nThe RMSE per variable per simulation are"
   },
   {
-    "objectID": "about.html#contact-information",
-    "href": "about.html#contact-information",
-    "title": "About",
-    "section": "",
-    "text": "Research Professor\nSchool of Earth and Space Sciences\nUniversity of Science and Technology of China (USTC)\nNo.96, JinZhai Road Baohe District\nHefei, Anhui 230026, China\n\nOffice: 教学行政楼804-806 \n +86 xxx-xxxx-xxxx\n wyujie@ustc.edu.cn"
+    "objectID": "blogs/emerald/emerald.html#model-versions",
+    "href": "blogs/emerald/emerald.html#model-versions",
+    "title": "CliMA Land Benchmarks",
+    "section": "Model Versions",
+    "text": "Model Versions\n\n\n\nVersion Tag\nLinear Change History\n\n\n\n\nA14\nCompute beta using SWC\n\n\n\nAdd option to remove Rd from GPP\n\n\nA13\nFix a bug in PFT fractions\n\n\n\nAdd C4 photosynthesis support\n\n\nA12\nFix a bug in f_sunlit (RT impacted)\n\n\nA11\nNot counting Car absorption in PPAR+SIF\n\n\n\nAdd new SIF spectrum option (V7)\n\n\nA10\nExtend spectra down to 300 nm\n\n\n\nBalance FR and VIS PAR in photosyntheis\n\n\n\nBug fix: account for wind in Gb\n\n\n\nRemove f_PSII option\n\n\n\nAdd option to prescribe leaf refl+trans\n\n\n\nAdd option to use broadband soil albedo\n\n\n\nSet f_PPAR to 1 in broadband RT mode\n\n\nA9\nAdd option for a TD Kd and maxPSII\n\n\n\nAdd function to prescribe Kf\n\n\nA8\nFix a bug in sunlit APAR\n\n\nA7\nAdd quadratic colimitation to C3 J (0.7)\n\n\n\nAdd option to prescribe f_PSII\n\n\n\nAdd option to set SIF excitation WL\n\n\nA6\nFix a bug in Medlyn model (coeff 1.6)\n\n\nNote\nHistory in ClimaLand-0.1\n\n\nA5\nFix SIF yield scaling bug\n\n\n\nAdd ePAR scenario\n\n\n\nAdd prescibed CI option\n\n\nA4\nExtend PAR definition to 400-750 nm\n\n\nA3\nAdd vertical Vcmax profile\n\n\nA2\nUse minimum beta instead of mean beta\n\n\n\nUse moving average optimal T from CLM5\n\n\nA1\nVersion used for initial run"
   },
   {
-    "objectID": "about.html#report-issues",
-    "href": "about.html#report-issues",
-    "title": "About",
-    "section": "Report Issues",
-    "text": "Report Issues\nThis website is generated using Quarto. Should you find any issue, please report it to the GitHub Repository!"
+    "objectID": "blogs/emerald/emerald.html#weather-drivers",
+    "href": "blogs/emerald/emerald.html#weather-drivers",
+    "title": "CliMA Land Benchmarks",
+    "section": "Weather Drivers",
+    "text": "Weather Drivers\n\n\n\nVersion Tag\nDescription\n\n\n\n\nWD1\nERA5 Single Levels"
   },
   {
-    "objectID": "blogs/papers/caltech/wang-2024-hyperspectral.html",
-    "href": "blogs/papers/caltech/wang-2024-hyperspectral.html",
-    "title": "Improve canopy radiative transfer and electron transport modeling",
-    "section": "",
-    "text": "Quantifying canopy radiative transfer (RT) is crucial for modeling all the subsequent processes, such as canopy energy balance and leaf photosynthesis. The most widely used canopy RT schemes in current vegetation and land surface models are the two-stream scheme reported by Sellers and the scheme described by Campbell and Norman, both of which dated back to the 1980s (maybe even earlier). These schemes use two broad bands to represent the continuous solar radiation spectra: photosynthetically active radiation (PAR, some also use visible light) and near-infrared radiation (NIR). As plants generally absorb more PAR than NIR (even the green light absorption is higher than NIR), using a constant approximation for PAR seems okay in the old days given the limitation in computation resources and lack of knowledge on how plant traits impact the absorption ratio.\nNevertheless, there are some well-recognized problems in the broadband models, particularly for natural radiation:\n\nLight source difference along the vertical canopy. For example, plants absorb more red and blue light compared to green light; as a result, the red and blue light fraction would decrease in the lower canopy, and the effective absorption ratio should decrease in the lower canopy.\nLight partitioning within the leaf. Not all PAR absorbed by leaf contributes to photosynthesis, as water, leaf biomass, and pigments other than chlorophyll also absorb PAR photons (Fig. 1). Therefore, only the photons absorbed by chlorophyll and some carotenoid should be counted as PPAR (PAR that goes to photosystems; Fig. 1).\nPhoton partitioning in the photosystems. Photons in the photosystems have four fates: heat dissipation, non-photochemical quenching, photochemical quenching, and fluorescence. A rate coefficient is associated with each fate, namely Kd, Kn, Kp, and Kf. These rate coefficients might also be temperature-dependent.\n\n\n\n\nFig. 1 Absorption coefficients of main leaf constitutes and chlorophyll content’s impact on \\(f_\\text{APAR} \\cdot f_\\text{APAR}\\).\n\n\nIf we consider the photon absorption and electron transport as a series of partitioning problems, we have \\[\nJ_\\text{PSII} = \\text{PAR} \\cdot f_\\text{APAR} \\cdot f_\\text{PPAR} \\cdot \\frac{1}{2} \\cdot \\frac{K_\\text{pmax}}{K_\\text{d} + K_\\text{n} + K_\\text{pmax} + K_\\text{f}},\n\\] where\n\n\\(J_\\text{PSII}\\): maximum photons that go to photosystem II,\n\\(\\text{PAR}\\): Incoming PAR in photons;\n\\(f_\\text{APAR}\\): Fraction of PAR absorbed by the leaf (\\(\\text{APAR} = \\text{PAR} \\cdot f_\\text{APAR}\\));\n\\(f_\\text{PPAR}\\): Fraction of APAR absorbed by chlorophyll (and some carotenoid; \\(\\text{PPAR} = \\text{APAR} \\cdot f_\\text{PPAR}\\));\n\\(\\frac{1}{2}\\): Fraction of PPAR that goes to photosystem II;\n\\(K_\\text{pmax}\\): Maximum rate constant for photochemical quenching;\n\\(K_\\text{d}\\): Rate constant for heat dissipation;\n\\(K_\\text{n}\\): Non-photochemical quenching (NPQ) rate constant (default is 0 unless sustained NPQ exists);\n\\(K_\\text{f}\\): Rate constant for fluorescence;\n\nIn this simplified equation,\n\nPAR varies along the vertical canopy, and changes with canopy structure and leaf traits;\n\\(f_\\text{APAR}\\) is plant trait-dependent, such as chlorophyll content;\n\\(f_\\text{PPAR}\\) is also trait-dependent, such as chlorophyll content;\n\\(K_\\text{d}\\) is likely temperature-dependent;\nSustained NPQ and thus residual \\(K_\\text{n}\\) are temperature-dependent.\n\nHowever, none of these has been explicitly accounted for in the traditional land surface models, which adopt broadband RT schemes. As we now have more complicated and powerful RT models and an increasing amount of plant trait data, it would be a good opportunity to move forward and use the more accurate hyperspectral canopy RT scheme in future modeling practice. When examining how the use of hyperspectral and broadband RT schemes may impact global simulation results, we found that the globally integrated GPP may differ by 8% while the grid level difference may be &gt; 20%. For a thorough analysis, please refer to the published paper.\nGiven the substantial impacts, we highly recommend other land surface models use a hyperspectral RT scheme in their future model versions. Or at least some corrections need to be made to account for the plant traits- and light source-related changes in \\(f_\\text{APAR}\\) and \\(f_\\text{PPAR}\\). Please refer to our published paper for the correction methods we proposed in the Journal of Advances in Modeling Earth Systems."
+    "objectID": "blogs/emerald/emerald.html#griddingmachine-selections",
+    "href": "blogs/emerald/emerald.html#griddingmachine-selections",
+    "title": "CliMA Land Benchmarks",
+    "section": "GriddingMachine Selections",
+    "text": "GriddingMachine Selections\n\nGM4\n\n\n\nVariable\nGriddingMachine Tag\n\n\n\n\ns_cc\nSC_2X_1Y_V1\n\n\ns_α\nSOIL_VGA_12X_1Y_V1\n\n\ns_n\nSOIL_VGN_12X_1Y_V1\n\n\ns_Θr\nSOIL_SWCR_12X_1Y_V1\n\n\ns_Θs\nSOIL_SWCS_12X_1Y_V1\n\n\np_ch\nCH_20X_1Y_V1\n\n\np_chl\nCHL_2X_7D_V1\n\n\np_ci\nCI_2X_1M_V3\n\n\np_lai\nLAI_MODIS_2X_8D_YYYY_V1\n\n\np_sla\nSLA_2X_1Y_V1\n\n\np_vcm\nVCMAX_CESM_1X_1M_V3\n\n\nt_ele\nELEV_4X_1Y_V1\n\n\nt_lm\nLM_4X_1Y_V1\n\n\nt_pft\nPFT_2X_1Y_V1\n\n\n\n\n\n\n\n\n\nGM3\n\n\n\nVariable\nGriddingMachine Tag\n\n\n\n\ns_cc\nSC_2X_1Y_V1\n\n\ns_α\nSOIL_VGA_12X_1Y_V1\n\n\ns_n\nSOIL_VGN_12X_1Y_V1\n\n\ns_Θr\nSOIL_SWCR_12X_1Y_V1\n\n\ns_Θs\nSOIL_SWCS_12X_1Y_V1\n\n\np_ch\nCH_20X_1Y_V1\n\n\np_chl\nCHL_2X_7D_V1\n\n\np_ci\nCI_2X_1M_V3\n\n\np_lai\nLAI_MODIS_2X_8D_YYYY_V1\n\n\np_sla\nSLA_2X_1Y_V1\n\n\np_vcm\nVCMAX_2X_1Y_V2 (60%)\n\n\nt_ele\nELEV_4X_1Y_V1\n\n\nt_lm\nLM_4X_1Y_V1\n\n\nt_pft\nPFT_2X_1Y_V1\n\n\n\n\n\n\n\n\n\nGM2 (default)\n\n\n\nVariable\nGriddingMachine Tag\n\n\n\n\ns_cc\nSC_2X_1Y_V1\n\n\ns_α\nSOIL_VGA_12X_1Y_V1\n\n\ns_n\nSOIL_VGN_12X_1Y_V1\n\n\ns_Θr\nSOIL_SWCR_12X_1Y_V1\n\n\ns_Θs\nSOIL_SWCS_12X_1Y_V1\n\n\np_ch\nCH_20X_1Y_V1\n\n\np_chl\nCHL_2X_7D_V1\n\n\np_ci\nCI_2X_1M_V3\n\n\np_lai\nLAI_MODIS_2X_8D_YYYY_V1\n\n\np_sla\nSLA_2X_1Y_V1\n\n\np_vcm\nVCMAX_2X_1Y_V2\n\n\nt_ele\nELEV_4X_1Y_V1\n\n\nt_lm\nLM_4X_1Y_V1\n\n\nt_pft\nPFT_2X_1Y_V1\n\n\n\n\n\nGM1\n\n\n\nVariable\nGriddingMachine Tag\n\n\n\n\ns_cc\nSC_2X_1Y_V1\n\n\ns_α\nSOIL_VGA_12X_1Y_V1\n\n\ns_n\nSOIL_VGN_12X_1Y_V1\n\n\ns_Θr\nSOIL_SWCR_12X_1Y_V1\n\n\ns_Θs\nSOIL_SWCS_12X_1Y_V1\n\n\np_ch\nCH_20X_1Y_V1\n\n\np_chl\nCHL_2X_7D_V1\n\n\np_ci\nCI_2X_1Y_V1\n\n\np_lai\nLAI_MODIS_2X_8D_YYYY_V1\n\n\np_sla\nSLA_2X_1Y_V1\n\n\np_vcm\nVCMAX_2X_1Y_V2\n\n\nt_ele\nELEV_4X_1Y_V1\n\n\nt_lm\nLM_4X_1Y_V1\n\n\nt_pft\nPFT_2X_1Y_V1"
   },
   {
-    "objectID": "blogs/papers/caltech/wang-2022-griddingmachine.html",
-    "href": "blogs/papers/caltech/wang-2022-griddingmachine.html",
-    "title": "GriddingMachine",
-    "section": "",
-    "text": "Researchers are spending way too much time in finding, formatting, and reusing public data. The ever increasing amount of data, various forms of data, and different layouts of data make this problem even more serious. While the intention of sharing data within the community is to promote future research, the increasing fragmentation makes it harder and harder for researchers to find and reuse them, particularly for newbies. Taking my personal experience as an example, to collect the global datasets for the CliMA Land Model, we spent weeks and months to identify which datasets to use, download the data from different sources, standardize the datasets, and learn how to read the datasets correctly with different formats (such as NetCDF, GeoTIFF, CSV, and binary) with different programming languages. Unfortunately, researchers may need to repeat this tedious work again and again, even for the same datasets (if one forgot where the data is stored or how it has been processed).\n\n\n\nFig. 1 Pathway to assemble and distribute the GriddingMachine database.\n\n\nAiming towards minimizing the effort involved in the data reuse, we started the GriddingMachine project by\n\nCollecting the data from various sources,\nProcessing the data to a uniform format (NetCDF),\nStoring the reprocessed data on a public server, and\nDistributing the datasets via different programming languages.\n\nEach dataset is labeled with a unique tag that describes\n\nType of the dataset (e.g., leaf area index, biomass, and etc.),\nSpatial resolution (e.g., 5X means 0.2° × 0.2° grid),\nTemporal resolution (e.g., 1Y means 1 year, 1M means 1 month),\nYear of the data, and\nVersion of the data (from different publications).\n\nOne can simply look up the available dataset tags (and suggest new datasets) through our Github repository.\nWith the unique tag, one can query the data directly via function query_collection, for example\nquery_collection(\"LAI_MODIS_2X_8D_2020\")\nfor the global leaf area index of the year 2020, and the dataset will be downloaded automatically. Alternatively, one can query data only for a site using the latitude and longitude without downloading the dataset, for example,\nrequest_LUT(\"LAI_MODIS_2X_8D_2020_V1\", 34.1478, -118.1445)\nfor the leaf area index of the year 2020 at Pasadena, CA, USA. See our published work (Wang et al., 2022) and online documentation for more information about how to use GriddingMachine. It supports Julia, Matlab, Octave, Python, and R.\nGriddingMachine makes it way easier to reuse the community-based datasets, as users are waived from data collection, formatting, and management. Given the aims of GriddingMachine, we welcome the contributions of globally gridded data to our collection."
+    "objectID": "blogs/emerald/emerald.html#simulation-history",
+    "href": "blogs/emerald/emerald.html#simulation-history",
+    "title": "CliMA Land Benchmarks",
+    "section": "Simulation History",
+    "text": "Simulation History\n\na1_gm1_wd1\n\n\n\nSpatial patterns of selected parameters.\n\n\n\n\n\nComparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).\n\n\n\n\na2_gm1_wd1\n\n\n\nSpatial patterns of selected parameters.\n\n\n\n\n\nComparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).\n\n\n\n\na3_gm1_wd1\n\n\n\nSpatial patterns of selected parameters.\n\n\n\n\n\nComparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).\n\n\n\n\na4_gm1_wd1\n\n\n\nSpatial patterns of selected parameters.\n\n\n\n\n\nComparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).\n\n\n\n\na5_gm1_wd1\n\n\n\nSpatial patterns of selected parameters.\n\n\n\n\n\nComparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).\n\n\n\n\na6_gm1_wd1\n\n\n\nSpatial patterns of selected parameters.\n\n\n\n\n\nComparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).\n\n\n\n\na7_gm1_wd1\n\n\n\nSpatial patterns of selected parameters.\n\n\n\n\n\nComparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).\n\n\n\n\na8_gm2_wd1\n\n\n\nSpatial patterns of selected parameters.\n\n\n\n\n\nComparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).\n\n\n\n\na9_gm2_wd1\n\n\n\nSpatial patterns of selected parameters.\n\n\n\n\n\nComparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).\n\n\n\n\na10_gm2_wd1\n\n\n\nSpatial patterns of selected parameters.\n\n\n\n\n\nComparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).\n\n\n\n\na11_gm2_wd1\n\n\n\nSpatial patterns of selected parameters.\n\n\n\n\n\nComparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).\n\n\n\n\na11_gm3_wd1\n\n\n\nSpatial patterns of selected parameters.\n\n\n\n\n\nComparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).\n\n\n\n\na12_gm3_wd1\n\n\n\nSpatial patterns of selected parameters.\n\n\n\n\n\nComparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).\n\n\n\n\na13_gm3_wd1\n\n\n\nSpatial patterns of selected parameters.\n\n\n\n\n\nComparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).\n\n\n\n\na13_gm4_wd1\n\n\n\nSpatial patterns of selected parameters.\n\n\n\n\n\nComparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).\n\n\n\n\na14_gm4_wd1\n\n\n\nSpatial patterns of selected parameters.\n\n\n\n\n\nComparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).\n\n\n\n\na14_gm3_wd1\n\n\n\nSpatial patterns of selected parameters.\n\n\n\n\n\nComparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).\n\n\n\n\na14_gm2_wd1\n\n\n\nSpatial patterns of selected parameters.\n\n\n\n\n\nComparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771)."
   },
   {
     "objectID": "blogs/papers/caltech/wang-2024-uv-fr.html",
@@ -91,11 +77,18 @@
     "text": "In the 2020 KISS workshop, when Dr. Vincent Humphrey first presented his result to correlate GPS signals to canopy water content, I was fascinated by the findings. We are using GPS all the time, whether recognizing it or not. One thing clear is that when we are directly exposed to the sky, we have good GPS signals; and when we are sheltered by anything, we get weak signals. So, can we make use of the signals to estimate the things surrounding us, like trees? The short answer is YES!\nWhen installing one GPS receiver at the top of the canopy and one at the bottom, the signal difference is then fully attributed to the canopy (and canopy airspace) in between. Should any change in the differential signal, it is due to the canopy (and canopy airspace). With this technique, we should be expecting to see the diurnal and seasonal changes in the differential signals, which reflect the changes in the canopy.\nThe microwave signal used by GPS satellites can well penetrate through the atmosphere but still gets absorbed by molecules like water. Therefore, any change in canopy water content would lead to changes in the differential GPS signal. However, as the differential signals are also impacted by the atmosphere (like weather) and satellites (raw signal and satellite position), they are transformed to a unitless vegetation optical depth (VOD) to describe the canopy. In this case, when the canopy water content is high, VOD is high (equivalent to a thicker canopy).\nMany factors could impact the VOD retrieved from global navigation satellite system (GNSS), including but not limited to\n\nLeaf/Stem area index,\nLeaf/Stem water content,\nLeaf/Stem biomass, and\nCanopy structure.\n\nFor example, higher leaf area index and water content lead to higher VOD, and higher biomass leads to higher VOD. As leaf and stem biomass are not supposed to change dramatically in a day (unless due to leaf shedding), we can utilize the GNSS VOD to estimate the canopy water content dynamics. Season-wise, the GNSS VOD can be used to decode leaf area index dynamics as stem biomass is not changing substantially. Further, as the canopy is not fully closed as if it is a cloud of leaves, we should be expecting to see signal variation at different satellite viewing angles.\nIn the most recent paper by Yitong Yao (Yao et al., 2024; Geophysical Research Letters), we used the pair of GNSS receivers deployed at the Ozark flux tower site to see how the GNSS VOD data can be utilized to maximally exploit its potential. We did find that the VOD changed in a diurnal cycle, in a seasonal cycle, and with satellite position, showing great potential in estimating canopy water content and biomass. Surprisingly and also as expected as well, the VOD noise was related to precipitation, which is equivalent to increasing leaf water content, meaning it can also be used to “see” the weather!\n\n\n\nFig. 1 Seaonal GNSS VOD, LAI, and weather.\n\n\nThe GNSS VOD not only can be used to invert not canopy water content, its time series can also be used to to estimate transpiration rate (site-level calibration required). When coupled to sap flux measurements, the results would be useful to quantify the exact amount of water in the canopy. For more details, please check out the paper and Yitong’s blog.\nI can see the great potential of the technique being more sophisticated and being used at more places across the globe, say at each flux tower site, and on the campus. Imagine that one day, we can install two cell phones or watches to log the GNSS signals. But better to use the waterproofed ones."
   },
   {
-    "objectID": "blogs/news/conference/agu-2024/agu-2024.html#yujie-wang",
-    "href": "blogs/news/conference/agu-2024/agu-2024.html#yujie-wang",
-    "title": "AGU 2024 Fall Meeting",
-    "section": "Yujie Wang",
-    "text": "Yujie Wang\n\nTalk\n\n\n\nPoster\n\n\n\nCoauthored"
+    "objectID": "blogs/papers/caltech/wang-2024-hyperspectral.html",
+    "href": "blogs/papers/caltech/wang-2024-hyperspectral.html",
+    "title": "Improve canopy radiative transfer and electron transport modeling",
+    "section": "",
+    "text": "Quantifying canopy radiative transfer (RT) is crucial for modeling all the subsequent processes, such as canopy energy balance and leaf photosynthesis. The most widely used canopy RT schemes in current vegetation and land surface models are the two-stream scheme reported by Sellers and the scheme described by Campbell and Norman, both of which dated back to the 1980s (maybe even earlier). These schemes use two broad bands to represent the continuous solar radiation spectra: photosynthetically active radiation (PAR, some also use visible light) and near-infrared radiation (NIR). As plants generally absorb more PAR than NIR (even the green light absorption is higher than NIR), using a constant approximation for PAR seems okay in the old days given the limitation in computation resources and lack of knowledge on how plant traits impact the absorption ratio.\nNevertheless, there are some well-recognized problems in the broadband models, particularly for natural radiation:\n\nLight source difference along the vertical canopy. For example, plants absorb more red and blue light compared to green light; as a result, the red and blue light fraction would decrease in the lower canopy, and the effective absorption ratio should decrease in the lower canopy.\nLight partitioning within the leaf. Not all PAR absorbed by leaf contributes to photosynthesis, as water, leaf biomass, and pigments other than chlorophyll also absorb PAR photons (Fig. 1). Therefore, only the photons absorbed by chlorophyll and some carotenoid should be counted as PPAR (PAR that goes to photosystems; Fig. 1).\nPhoton partitioning in the photosystems. Photons in the photosystems have four fates: heat dissipation, non-photochemical quenching, photochemical quenching, and fluorescence. A rate coefficient is associated with each fate, namely Kd, Kn, Kp, and Kf. These rate coefficients might also be temperature-dependent.\n\n\n\n\nFig. 1 Absorption coefficients of main leaf constitutes and chlorophyll content’s impact on \\(f_\\text{APAR} \\cdot f_\\text{APAR}\\).\n\n\nIf we consider the photon absorption and electron transport as a series of partitioning problems, we have \\[\nJ_\\text{PSII} = \\text{PAR} \\cdot f_\\text{APAR} \\cdot f_\\text{PPAR} \\cdot \\frac{1}{2} \\cdot \\frac{K_\\text{pmax}}{K_\\text{d} + K_\\text{n} + K_\\text{pmax} + K_\\text{f}},\n\\] where\n\n\\(J_\\text{PSII}\\): maximum photons that go to photosystem II,\n\\(\\text{PAR}\\): Incoming PAR in photons;\n\\(f_\\text{APAR}\\): Fraction of PAR absorbed by the leaf (\\(\\text{APAR} = \\text{PAR} \\cdot f_\\text{APAR}\\));\n\\(f_\\text{PPAR}\\): Fraction of APAR absorbed by chlorophyll (and some carotenoid; \\(\\text{PPAR} = \\text{APAR} \\cdot f_\\text{PPAR}\\));\n\\(\\frac{1}{2}\\): Fraction of PPAR that goes to photosystem II;\n\\(K_\\text{pmax}\\): Maximum rate constant for photochemical quenching;\n\\(K_\\text{d}\\): Rate constant for heat dissipation;\n\\(K_\\text{n}\\): Non-photochemical quenching (NPQ) rate constant (default is 0 unless sustained NPQ exists);\n\\(K_\\text{f}\\): Rate constant for fluorescence;\n\nIn this simplified equation,\n\nPAR varies along the vertical canopy, and changes with canopy structure and leaf traits;\n\\(f_\\text{APAR}\\) is plant trait-dependent, such as chlorophyll content;\n\\(f_\\text{PPAR}\\) is also trait-dependent, such as chlorophyll content;\n\\(K_\\text{d}\\) is likely temperature-dependent;\nSustained NPQ and thus residual \\(K_\\text{n}\\) are temperature-dependent.\n\nHowever, none of these has been explicitly accounted for in the traditional land surface models, which adopt broadband RT schemes. As we now have more complicated and powerful RT models and an increasing amount of plant trait data, it would be a good opportunity to move forward and use the more accurate hyperspectral canopy RT scheme in future modeling practice. When examining how the use of hyperspectral and broadband RT schemes may impact global simulation results, we found that the globally integrated GPP may differ by 8% while the grid level difference may be &gt; 20%. For a thorough analysis, please refer to the published paper.\nGiven the substantial impacts, we highly recommend other land surface models use a hyperspectral RT scheme in their future model versions. Or at least some corrections need to be made to account for the plant traits- and light source-related changes in \\(f_\\text{APAR}\\) and \\(f_\\text{PPAR}\\). Please refer to our published paper for the correction methods we proposed in the Journal of Advances in Modeling Earth Systems."
+  },
+  {
+    "objectID": "blogs/papers/caltech/wang-2023-crop.html",
+    "href": "blogs/papers/caltech/wang-2023-crop.html",
+    "title": "Agriculture in silico",
+    "section": "",
+    "text": "There are many ways to improve crop yield, and the approaches can be categorized to\n\ntrait enhancement (e.g., breeding)\nwater use (e.g., irrigation, fertilization, and mulching), and\nlight use (e.g., density control and vertical farming).\n\nHowever, these efforts are all very time consuming to find an optimized solution. Thus, there is increasing demand for a uniform tool to evaluate these approaches. One solution is to combine the agricultural practices with vegetation modeling to help explore the possible combinations of approaches to advance the crop yield. Here, we reviewed the trials and practices that aim to improve crop yield through light use at different stages.\n\n\n\nFig. 1 Strategies that can be used to improve crop yield through canopy radiation optimization.\n\n\nFor example, one can\n\noptimize chlorophyll content to improve the light condition in the lower canopy,\nimplement chlorophyll d and f to increase the near infrared light absorption,\noptimize crop density and space to improve light condition in the lower canopy,\nmix crop to maximize light absorption in the lower canopy, and\noptimize the supplemental light spectra and power.\n\nWe used CliMA Land to quantitatively evaluate the potentials of the proposed approaches, and thus that of vegetation modeling. This work has recently been published in the Crop and Environment (doi:10.1016/j.crope.2023.07.003). We believe that future efforts in advancing vegetation modeling and bridging it to agriculture will better guide real-world agricultural practices."
   },
   {
     "objectID": "blogs/tutorials/griddingmachine/4-requestor.html",
@@ -154,32 +147,228 @@
     "text": "Sync the database (v0.3)\nSometimes, users may want to download all the datasets, for example, when building a server for the Requester module. In this case, we provide a function sync_collections!, which supoorts two methods:\n\nsync_database!() to download all the datasets within all collections;\n\nAnd it is simple to perform the synchronization (Note: do not try this code unless you really want to download all the data!):\njulia&gt; using GriddingMachine.Collector: sync_database!\njulia&gt; sync_database!();"
   },
   {
-    "objectID": "blogs/tutorials/griddingmachine/3-indexer.html",
-    "href": "blogs/tutorials/griddingmachine/3-indexer.html",
-    "title": "GriddingMachine Tutorial 3",
+    "objectID": "blogs/tutorials/griddingmachine/2-collector.html",
+    "href": "blogs/tutorials/griddingmachine/2-collector.html",
+    "title": "GriddingMachine Tutorial 2",
     "section": "",
-    "text": "The Indexer module of the GriddingMachine.jl is designed to read the entire or partial data from GriddingMachine datasets, which are as netcdf files.\nBy default, each dataset contains a data and std field, meaning the actual data and the standard deviation, respectively. The primary function provided will read the data and std at the same time, and return the two as a tuple, even if the std may be filled with NaNs. There are only three functions in the Indexer module at the moment, but each function could support multiple methods supported by Julia’s multiple dispatch feature. I will cover the functions in the tutorial below."
+    "text": "The Collector module within GriddingMachine.jl is designed to download the datasets to local drive and manage the downloaded datasets.\nEach of the dataset in GriddingMachine is assigned a unique tag, such as VCMAX_2X_1Y_V1. Please see the documentation for all the supported datasets and their tags. The datasets in GriddingMachine are catergorized to different collections following a generic struct called GriddedCollection. The struct has the following fields\nPlease find the supported data collections at the folder. Note here that this struct is mostly meant for documentation purpose, and is currently hardcoded in the main code; the SUPPORTED_COMBOS field can be modified using the push! function. However, we do recommend users to add the COMBO labels to SUPPORTED_COMBOS when porting new data to GriddingMachine."
   },
   {
-    "objectID": "blogs/tutorials/griddingmachine/3-indexer.html#lat_ind-and-lon_ind",
-    "href": "blogs/tutorials/griddingmachine/3-indexer.html#lat_ind-and-lon_ind",
-    "title": "GriddingMachine Tutorial 3",
-    "section": "lat_ind and lon_ind",
-    "text": "lat_ind and lon_ind\nAll data points in each GriddingMachine dataset represent the mean or sum of the entire grid (not the value on an edge). Therefore, when we read the data using latitude and longitude, by default, the Indexer will first determine where the target site is located and then return the data and std of that particular grid. So, lat_ind and lon_ind are designed to compute the indices of the grid in latitudinal and longitudinal directions (with latitude from 90S to 90N, and longitude from 180W to 180E). For example, one can use the following command to get the latitudinal index:\njulia&gt; ilat = lat_ind(32.58; res = 0.25)\nhere the 32.58 is the latitude and option res is the spatial resolution (0.25 degree) in the latitudinal direction. Similarly, the longitude index can be computed from\njulia&gt; ilon = lon_ind(115.33, res = 1/12)\nhere 115.33 is the longitude and 1/12 is the spatial resolution (1/12 degree) in the longitudinal direction.\nPlease note here that the lat_ind and lon_ind functions are meant to be used by the read_LUT function below, but users can import these functions for research purposes (simple functions to write, but will save you some time to round up the numbers)."
+    "objectID": "blogs/tutorials/griddingmachine/2-collector.html#query-the-datasets-v0.2",
+    "href": "blogs/tutorials/griddingmachine/2-collector.html#query-the-datasets-v0.2",
+    "title": "GriddingMachine Tutorial 2",
+    "section": "Query the datasets (v0.2)",
+    "text": "Query the datasets (v0.2)\nFunction query_collection is designed to automatically download the dataset if not yet downloaded and then return to the user the path of the downloaded dataset. There are three methods for the query_collection function:\n\nquery_collection(ds::GriddedCollection) queries the default dataset within a collection;\nquery_collection(ds::GriddedCollection, version::String) queries one version from the supported datasets;\nquery_collection(artname::String) queries the dataset using the full tag of a dataset.\n\nIt is recommended to use the last method for research as the combo tag may not be updated in the GriddedCollection struct or the default dataset may change over time:\njulia&gt; using GriddingMachine.Collector: query_collection\njulia&gt; dsfile = query_collection(\"VCMAX_2X_1Y_V1\")"
   },
   {
-    "objectID": "blogs/tutorials/griddingmachine/3-indexer.html#read_lut-v0.3",
-    "href": "blogs/tutorials/griddingmachine/3-indexer.html#read_lut-v0.3",
-    "title": "GriddingMachine Tutorial 3",
-    "section": "read_LUT (v0.3)",
-    "text": "read_LUT (v0.3)\nVersion 0.3 differed from v0.2 in the following\n\nFT control removed\nfn can be file path or GriddingMachine tag (only accepts file path in v0.2)\n\nThe read_LUT function means read look-up table, which is a latitude-longitude(-time) table rather than indexed by plant function type. This function supports several methods:\n\nread_LUT(fn::String) to read the entire dataset (2D or 3D dataset)\nread_LUT(fn::String, cyc::Int) to read a slice of data in time for a 3D dataset\nread_LUT(fn::String, lat::Number, lon::Number; interpolation::Bool = false) to read the data at a site (2D dataset) or in a column (3D dataset)\nread_LUT(fn::String, lat::Number, lon::Number, cyc::Int; interpolation::Bool = false) to read the data at a site and time for a 3D dataset\n\nHere,\n\nfn is the file name of the dataset or GriddingMachine tag\ncyc is the index in time\nlat is the latitude\nlon is the longitude\ninterpolation is an optional bool (default is false) to determine whether to interpolate the data based on the latitude and longitude\n\nFor example,\nusing GriddingMachine.Collector: download_artifact!\nusing GriddingMachine.Indexer: read_LUT\njulia&gt; ds, ds_std = read_LUT(download_artifact!(\"VCMAX_2X_1Y_V2\"));\njulia&gt; ds, ds_std = read_LUT(\"VCMAX_2X_1Y_V2\");\njulia&gt; mean_site, std_site = read_LUT(download_artifact!(\"VCMAX_2X_1Y_V2\"), 32.33, 118.03);\njulia&gt; mean_site, std_site = read_LUT(\"VCMAX_2X_1Y_V2\", 32.33, 118.03);\nBecause the methods are pretty straightforward given the input variable names, I will not go through each method. You may go to the CI tests for more examples.\nNote here because these functions are all set to be private functions, users need to import these functions before using them (I designed it this way to avoid repeated function names with other modules). This design logic applies to most of the modules I wrote, such as CliMA Land and Emerald."
+    "objectID": "blogs/tutorials/griddingmachine/2-collector.html#clean-the-downloaded-datasets-v0.2",
+    "href": "blogs/tutorials/griddingmachine/2-collector.html#clean-the-downloaded-datasets-v0.2",
+    "title": "GriddingMachine Tutorial 2",
+    "section": "Clean the downloaded datasets (v0.2)",
+    "text": "Clean the downloaded datasets (v0.2)\nFunction clean_collections! is designed to clean the downloaded datasets, and there are three methods to use it:\n\nclean_collections!(selection::String=\"old\") to clean only the outdated (default) or all datasets (set selection to “all”);\nclean_collections!(selection::Vector{String}) to clean the datasets using their tags;\nclean_collections!(selection::GriddedCollection) to clean all the datasets within a collection.\n\nTypically, it is only recommended to clean only the outdated datasets\njulia&gt; using GriddingMachine.Collector: clean_collections!\njulia&gt; clean_collections!();"
   },
   {
-    "objectID": "blogs/tutorials/griddingmachine/3-indexer.html#read_lut-v0.2",
-    "href": "blogs/tutorials/griddingmachine/3-indexer.html#read_lut-v0.2",
-    "title": "GriddingMachine Tutorial 3",
-    "section": "read_LUT (v0.2)",
-    "text": "read_LUT (v0.2)\nThe read_LUT function means read look-up table, which is a latitude-longitude(-time) table rather than indexed by plant function type. This function supports several methods:\n\nread_LUT(fn::String, FT::DataType = Float32) to read the entire dataset (2D or 3D dataset)\nread_LUT(fn::String, cyc::Int, FT::DataType = Float32) to read a slice of data in time for a 3D dataset\nread_LUT(fn::String, lat::Number, lon::Number, FT::DataType = Float32; interpolation::Bool = false) to read the data at a site (2D dataset) or in a column (3D dataset)\nread_LUT(fn::String, lat::Number, lon::Number, cyc::Int, FT::DataType = Float32; interpolation::Bool = false) to read the data at a site and time for a 3D dataset\n\nHere,\n\nFT is the output floating number type\n\nFor example,\nusing GriddingMachine.Collector: query_collection, vcmax_collection\nusing GriddingMachine.Indexer: read_LUT\njulia&gt; ds,ds_std = read_LUT(query_collection(vcmax_collection()));\njulia&gt; mean_site, std_site = read_LUT(query_collection(vcmax_collection()), 32.33, 118.03);"
+    "objectID": "blogs/tutorials/griddingmachine/2-collector.html#sync-the-database-v0.2",
+    "href": "blogs/tutorials/griddingmachine/2-collector.html#sync-the-database-v0.2",
+    "title": "GriddingMachine Tutorial 2",
+    "section": "Sync the database (v0.2)",
+    "text": "Sync the database (v0.2)\nSometimes, users may want to download all the datasets, for example, when building a server for the Requester module. In this case, we provide a function sync_collections!, which supoorts two methods:\n\nsync_collections!() to download all the datasets within all collections;\nsync_collections!(gc::GriddedCollection) to download specified collection.\n\nAnd it is simple to perform the synchronization (Note: do not try this code unless you really want to download all the data!):\njulia&gt; using GriddingMachine.Collector: sync_collections!\njulia&gt; sync_collections!();"
+  },
+  {
+    "objectID": "blogs/peotry/english/crow.html",
+    "href": "blogs/peotry/english/crow.html",
+    "title": "Two-legged crow",
+    "section": "",
+    "text": "It is going to be the time to sow\nAlthough the garden is still covered with snow\nYet it does not hurt to pre-mesh the column and row\nAnd may in your greenhouse the seeds grow\n\nWe will need the water and the air\nThe fertilization need rises in pair\nWe can imagine the uncoupled nightmare\nBut at this moment nobody would care\n\nWe prepare the seeds\nWe are also ready to remove the weeds\nWe are waiting for the warm breeze\nYet, after months the liquid water is still freeze\n\nThe plants are stuck in the tight\nGrowing the shoots toward the bright\nDespite the soil there in sight\nThe environment is just not right\n\nDown the heaven falls a two-legged crow\nSo haughty to ask us to bow\n“Without me the soil water won’t flow\nWithout me the wind won’t blow”\n\n“All things are governed by the physical rules\nMass in kilograms and energy in joules\nRegardless the mountains, deserts, plains, or tules\nFor all the solid, liquid, or air molecules”\n\n“Welcome to my new land\nYou have access to silt, clay, loam, and sand\nIt is the mother of humankind\nIt is the time to let your plants expand”\n\n“But hold on, do not move your grown plants\nThat is not what the lord grants\nI do not care about your rants\nThey cannot be individuals, not to say the complicated mutants”\n\n“The nature of beauty is simplicity\nSimple means better scalarity\nSimple means more opacity and capacity\nSimple means readily parallelity”\n\nI am in such a rage\nI have to put the crow in a cage\nTo freedom and love that I engage\nBlessless that I try a new voyage\n\nThe dead seeks entropy increase\nThe live pursues maximal please\nIf the decision making right is to tease\nThat is when evolutions cease\n\nI abhor the dead rules and spat the two-legged crow\nBuild my own garden and manage the flow\nYet, I hear helpless scream inside the window\n“The lord will forbid you from air and punish you with endless snow”"
+  },
+  {
+    "objectID": "blogs/peotry/youth/love.html",
+    "href": "blogs/peotry/youth/love.html",
+    "title": "等你想我的一天",
+    "section": "",
+    "text": "变成一个最强的男人？人在变强之后，会有一种情丝\n有的选择权利，有的选择爱情，有的选择自然与朴实…\n爱？对于一个人，有的是一见钟情，有的却是不敢道出的情意\n一见钟情是暴雨式的爱情，究竟是否会一直滋养也不可知\n爱越是忧伤越深情，情有独钟不是骗人的把戏，是真的\n即使在一段时间的消磨后，它也一直是真情，只不过已经不是那种\n而是一种难以磨灭的情感，或是寄托，或是慰藉，但已经飘渺\n但这种忧伤的爱一直萦绕在人心间，给人难为，给人希望\n\n这种等待很漫长，但心路历程更加漫长，你一直想将一个人忘记？\n一秒钟遇见一个人，一分钟爱上一个人，一辈子难以忘记一个爱的人\n忧伤的爱的起初是无意的好感，却在心中的一直难以忘怀\n当你体会到时，你已经心动，嘴上不说却很是难安，不住的忧郁\n深深的爱在无言中消磨，冷冷的相见渐渐把心冰冷\n虽是深情却不能将心收住，爱与不爱，总未能找到结果\n爱的人眼中总会脉脉含情，不爱的人眼中却什么也看不到\n即使是爱慕，也只是两两难安，因为你不敢深情看着她双眼\n\n她是爱了，却也很是忧伤，因为是仇人？而是因为他很冷\n很是平淡的生活，很是朴实的生活，彼此的内疚在困惑\n在人的期待中的生活与情感是真实的，而不是娇柔做作的\n你也做不到，因为爱，除非你是采花贼而没有半点情分与爱情\n你认为自己很是难为时，在你爱慕的人面前却会显得拘谨、什么都按捺得住\n坐立难安、吞吞吐吐，而偏偏她却不懂得，相互对着羞赧的双颊\n但时间久了，你不表白，你发现情越来越淡，渐渐只是一个话题\n实际上她在你心中已经很重，已经成为天平怎么再称量自己？"
+  },
+  {
+    "objectID": "blogs/peotry/youth/love.html#一扭曲",
+    "href": "blogs/peotry/youth/love.html#一扭曲",
+    "title": "等你想我的一天",
+    "section": "",
+    "text": "变成一个最强的男人？人在变强之后，会有一种情丝\n有的选择权利，有的选择爱情，有的选择自然与朴实…\n爱？对于一个人，有的是一见钟情，有的却是不敢道出的情意\n一见钟情是暴雨式的爱情，究竟是否会一直滋养也不可知\n爱越是忧伤越深情，情有独钟不是骗人的把戏，是真的\n即使在一段时间的消磨后，它也一直是真情，只不过已经不是那种\n而是一种难以磨灭的情感，或是寄托，或是慰藉，但已经飘渺\n但这种忧伤的爱一直萦绕在人心间，给人难为，给人希望\n\n这种等待很漫长，但心路历程更加漫长，你一直想将一个人忘记？\n一秒钟遇见一个人，一分钟爱上一个人，一辈子难以忘记一个爱的人\n忧伤的爱的起初是无意的好感，却在心中的一直难以忘怀\n当你体会到时，你已经心动，嘴上不说却很是难安，不住的忧郁\n深深的爱在无言中消磨，冷冷的相见渐渐把心冰冷\n虽是深情却不能将心收住，爱与不爱，总未能找到结果\n爱的人眼中总会脉脉含情，不爱的人眼中却什么也看不到\n即使是爱慕，也只是两两难安，因为你不敢深情看着她双眼\n\n她是爱了，却也很是忧伤，因为是仇人？而是因为他很冷\n很是平淡的生活，很是朴实的生活，彼此的内疚在困惑\n在人的期待中的生活与情感是真实的，而不是娇柔做作的\n你也做不到，因为爱，除非你是采花贼而没有半点情分与爱情\n你认为自己很是难为时，在你爱慕的人面前却会显得拘谨、什么都按捺得住\n坐立难安、吞吞吐吐，而偏偏她却不懂得，相互对着羞赧的双颊\n但时间久了，你不表白，你发现情越来越淡，渐渐只是一个话题\n实际上她在你心中已经很重，已经成为天平怎么再称量自己？"
+  },
+  {
+    "objectID": "blogs/peotry/youth/love.html#二金合欢花针",
+    "href": "blogs/peotry/youth/love.html#二金合欢花针",
+    "title": "等你想我的一天",
+    "section": "（二）金合欢花针",
+    "text": "（二）金合欢花针\n嘤嘤然的情愫，在荷塘边\n蛙声戛然而止，余下波痕滟潋\n幽一层暧昧，蒙一层恹恹\n\n粉靥的微醉，梢枝间的烟炊\n织一缕韶华，织一缕轮回\n在飘落的刹那被揉碎\n\n我在雨后想再寻找你的足迹\n除了荷叶上滑落的露滴\n\n当水雾曳得湖漘忧惄\n再回首时已是花落满地\n\n我想知道为何会有涟漪\n想知道这层波从何处泛起\n但为何没有人留低"
+  },
+  {
+    "objectID": "blogs/peotry/youth/love.html#三蓝色的爱",
+    "href": "blogs/peotry/youth/love.html#三蓝色的爱",
+    "title": "等你想我的一天",
+    "section": "（三）蓝色的爱",
+    "text": "（三）蓝色的爱\n蓝色是忧郁的\n仿佛是在望天空\n知道自己什么也不懂\n但心中难免隐恻\n\n这种怅惘的爱又多么难忍\n或许天空中有薤白的云\n但陷入时你怎会那么天真\n反让你更喜欢等待晚晕\n\n我知道有人愿意执着\n也有人只是不情愿的冷漠\n但执着于不爱很难过\n冷冷的心更会很沉默\n\n不论是雪莱的云雀\n还是济慈的夜莺\n要么声音那么隐约\n要么心思那么寂静\n\n唐璜的资本与技巧\n怕是一般人不能学得到\n就是圣手也难以比较\n又怎么讲不懂的心抓牢\n\n望着天空的确遐思万千\n但自己也不懂\n为何心儿总那么眷恋\n为何感觉总那么朦胧\n\n云游？隐居？怕是很难\n只敢一点点把思绪放诞\n不懂终究是伤害、凄婉\n只敢告诉自己放淡————放淡"
+  },
+  {
+    "objectID": "blogs/peotry/youth/love.html#四那叶在飘零",
+    "href": "blogs/peotry/youth/love.html#四那叶在飘零",
+    "title": "等你想我的一天",
+    "section": "（四）那叶在飘零",
+    "text": "（四）那叶在飘零\n哦，那叶在飘零，似乎很无情\n像寒冬寂冷夜中孤独的辰星\n\n轻落在那莎草菶菶的浮町\n像一滴寒露，像离人的背影\n带着我憔悴的心随它飘零\n\n轻落在曾绰约滟潋的湖面\n不再有昔日的嫣然，不再有轻声泠然\n带着我的思绪像水雾般弥散\n\n轻落在飘着絮雪的芦苇\n叹息流光韶华，叹息生命轮回\n带着我的记忆在苇叶间沉醉\n\n轻落在苜蓿簇簇的溪漘\n再轻吟旧诗，再思忆这香醇\n带着我的幻影到离别的轻吻\n\n轻落在满是落叶的青石的石阶\n像冬日的飘雪，像菊英在凋谢\n带着我的伤痛再回那飘雨的时节\n\n哦，那叶在飘零，暮云已经蔼蔼\n（我的记忆却像雪一般苍寂薤白）\n哦，那叶在飘零，那人已离开"
+  },
+  {
+    "objectID": "blogs/peotry/youth/love.html#五七夕夜",
+    "href": "blogs/peotry/youth/love.html#五七夕夜",
+    "title": "等你想我的一天",
+    "section": "（五）七夕夜",
+    "text": "（五）七夕夜\n是个七夕夜，夜色很好\n先是有一盏弯月，煞是委婉\n我望着一畦畦的玉米田\n和远方的树林渐渐成为丛莽\n我等到了第一颗星星\n它是那么深邃，我极目地望去\n甚至不敢眨眼，生怕…\n那一刻的美好就偏偏消失在瞬间\n\n月色渐渐变得微黄，惨淡\n而它却益加皓白，明亮\n似一颗刚出于蚌的珍珠那般剔透\n似一个出水的芙蕖那般绽出\n仙女一般的姽婳身姿\n西方的天际露着绛红的霞光\n并一点点像波澜漫开\n变成浅红，珠黄，半黄，青灰\n\n有第二颗星星，非常的惨白\n但我一直深情望着第一颗星星\n即使在人海，在你心中它依旧那么清明"
+  },
+  {
+    "objectID": "blogs/peotry/youth/love.html#六思念",
+    "href": "blogs/peotry/youth/love.html#六思念",
+    "title": "等你想我的一天",
+    "section": "（六）思念",
+    "text": "（六）思念\n最难磨灭的是对你\n如这繁星般却又孤零的思念\n最难倾诉的是对你\n如这星汉却又难解的情意\n\n这依稀的，如紧匝的春雨\n这飘渺的，如无心的柳絮\n似有滟潋湖波的心绪\n又有莎草菶菶的喟语\n\n教我如何再追寻往日\n再追溯往日的情愫\n却只得彳亍对着这繁星\n空怀着心中烟霭中的日暮"
+  },
+  {
+    "objectID": "blogs/peotry/youth/love.html#七她的歌声",
+    "href": "blogs/peotry/youth/love.html#七她的歌声",
+    "title": "等你想我的一天",
+    "section": "（七）她的歌声",
+    "text": "（七）她的歌声\n似在皎皎月色中的恬静月华\n似在冥冥黄昏中的叆叇暮云\n似在飒飒秋风中馝馞的桂花\n似在幽幽白雪中茗香的霭蕴\n\n似在春日斜阳下的喟语\n似在晨曦光缕下的浆露\n似在杨柳带荚时的飞絮\n似在天际闲云时的晚渡\n\n呵，雅致的流萤与娟鸟\n附和着起伏的窸窸窣窣\n怎让这彳亍的行人远眺\n隔一层秋霜，那般烟幕"
+  },
+  {
+    "objectID": "blogs/peotry/youth/love.html#八她好像是睡着了",
+    "href": "blogs/peotry/youth/love.html#八她好像是睡着了",
+    "title": "等你想我的一天",
+    "section": "（八）她好像是睡着了",
+    "text": "（八）她好像是睡着了\n她好像是睡着了，轻颦着黛痕\n像一株罗兰轻泛在多露的清晨\n劝诫这喧闹的路人\n莫在熙晓下烦扰这般清醇\n\n她像是睡着了，似斜欹的殷竹\n像簇簇的苜蓿沾染晨露\n带着鹅黄与薤白的相映\n教我如何不恋于你的娉婷\n\n她像是睡着了，似绰约的湖水\n露出波色滟潋的妩媚\n莕草柔影缠绵着柳绦的青翠\n风烟缱绻又赧然令人沉醉\n\n教我如何淡却这情意\n窗外现已是霏雨霫霫\n阴气蔼蔼，似乎在怨艾\n叫我如何离开，我已经爱上了你"
+  },
+  {
+    "objectID": "blogs/peotry/youth/love.html#九我有一个女友",
+    "href": "blogs/peotry/youth/love.html#九我有一个女友",
+    "title": "等你想我的一天",
+    "section": "（九）我有一个女友",
+    "text": "（九）我有一个女友\n我有一个女友\n当我十一时，她已十六\n千万次在这回首\n教我怎么不僝僽\n\n我有一个女友\n她似罗兰般清幽\n但如今我在这怅望\n教我怎将你芳香轻嗅\n\n我有一个女友\n她有着苜蓿般的清秀\n加着浅涩的回眸\n似那泛银的波流\n\n我有一个女友\n但我只是凋零之柳\n我将永远祝福你\n即使你让我冷如清秋"
+  },
+  {
+    "objectID": "blogs/peotry/youth/love.html#十嘘它睡着了",
+    "href": "blogs/peotry/youth/love.html#十嘘它睡着了",
+    "title": "等你想我的一天",
+    "section": "（十）嘘，它睡着了",
+    "text": "（十）嘘，它睡着了\n它睡着了，呜呜着很优雅的声音\n像忧郁秋日的喟语，像晨黎雾中的鸟叫\n在盘匝着雪下的深林\n在氤氲着那夜中的笙箫\n\n它睡着了，轻枕在我的臂弯\n眯着双眼，吐着很是清馨的气息\n像流水一般潺湲\n总那么可爱，我的小猫咪"
+  },
+  {
+    "objectID": "blogs/peotry/youth/love.html#十一雪语",
+    "href": "blogs/peotry/youth/love.html#十一雪语",
+    "title": "等你想我的一天",
+    "section": "（十一）雪语",
+    "text": "（十一）雪语\n静静地听着沙沙的雪花滑落的声音，会多些安然的感觉，仿佛自己耳畔有种嘤嘤的颂赞，那么娓娓的声音，轻轻掠过你的心田，剥落一层追忆，剥落一层叹息，只是让你心如止水，凉凉的洒脱，再多一丝哀矜，不哀伤逝去的韶华，也不哀伤荏苒的悲伤，啖一鞠盈盈的光晕，揽一缕幽幽的轻恬，那么的迷人、偷心……\n再深情望着那片雪花，似乎要散尽那般烟华\n袅袅像炊烟一般的婉转，再带一丝樱花般的姽婳\n就这么肃飒地飘落，轻挽一缕波痕的脉脉\n像是懒懒的颦眉，水雾把伊人囡囡的心思紧锁\n\n再次望着那片雪花，映着菁菁林雨下的晚暮\n凋零点点蕊簇的哀伤，却又有那般桂花的馥馥\n当落在流水一般的蟾光之下，婆娑碎影之中\n却又是淡却了浮华，别了一重烟雨，暧昧反而更浓\n\n再次望着那片雪花，她已经在我眼底融去\n怡怡的醉意，融融的慵懒，像是相识的飞絮\n不解邂逅的心悸，也不解鹄望的徘徊\n只是谙熟的故事，再重复一样谙熟的等待\n\n再次望着那片雪花，她已爇在泣露的罗兰眼角\n没有蓝色的双目，而是怯懦的尔雅和浅笑\n当我想把它再轻轻撷下，又不忍她缱绻的目光\n只是悄悄地走开，用彳亍的步子压着心慌\n\n望着雪花飘落又是一种曼妙的感觉，比在夏夜听着雨声更优雅一些，尤其当雪花轻轻沾湿了你的眼角，凉意湿润了你的双颊，让你恨不得把她轻轻啖下，耳朵自然不会停歇，匝匝的碎意再夹着飞飏的玲珑，像是琅玕一般却又是嘤嘤闪动，过了撒盐的的紧凑，而只是飘落的悠然，似乎在寻些什么，寻不见的欷歔，有些淡淡的欢欣，又有些楚楚的怜人……\n像绯红潮海下那莹莹梨蕊一般洒着闲暇\n像静静的寒夜里月华一样无声的洒下\n像珊珊竹林的荫郁一般温柔的无声\n像崦嵫之下杨柳飞絮漫漫袅着春日小城\n\n像落满花瓣的小径洒着馝馞的芬香\n像秋日的幽池里映着揉碎的月光\n像菶菶幽深丛莽中渐渐消逝的影迹\n像寒风飒飒的冬夜里再起了冷雨霫霫\n\n“为什么要这么飘落，这么忧伤地把黛痕紧锁\n你是那么的优雅、纯洁，像繁星一样脉脉——”\n“我也只是静静地纷飞，并不像忧伤的低徊\n静静听着喧嚣的浮华，而等待相知的莞莞欣慰”\n\n“为什么我会把黛痕紧锁，只是因为你的失落\n恹恹的尘沙，也是你自己的黯然与过错——”\n“呵呵，你依旧这么说，哪怕会有一次如果\n只有默默祈求什么，当你只是自己的淡漠”\n\n像青石晚道上蔓着的润润的苔痕\n像鸿爪雪泥的记忆中在洒些烟尘\n像幽幽的兰若中多一层蟾月的薤白\n当你想招徕，当你又想静静地离开……\n都是心底的畏惧或者莫名的欢喜，想去莞尔一笑，又想去轻轻嗟叹一句，难以言明的心思，呵呵，笑完了也嗟叹好了，也该看书了……"
+  },
+  {
+    "objectID": "blogs/peotry/youth/love.html#十二夜下畅思",
+    "href": "blogs/peotry/youth/love.html#十二夜下畅思",
+    "title": "等你想我的一天",
+    "section": "（十二）夜下畅思",
+    "text": "（十二）夜下畅思\n合肥的夜很明亮，昨夜我躺在草地上\n仰望天空，没有月亮，却只有三颗星星\n没有家乡中往日情思的羁绊，只看到几颗星\n往日的多情在合肥变得暗淡，夜色很明\n天空是蓝色的，还有许多云霞\n我很喜欢这几颗星星\n启明星出现后就是它们再出现\n我更喜欢无言地看着它们\n很是优雅，很是圣洁，很是清幽\n但是灯火太明了，在很亮的夜里\n怎么叫人去深情望着爱的星星\n云随风往北飘着，遮去了星星\n我更是懵懂，一切又会因为我的孱弱而结束\n——“好比因为口渴饮下毒鸩”\n偏偏是我那么无力\n没有撷下星星的能力"
+  },
+  {
+    "objectID": "blogs/peotry/youth/love.html#十三游游晚梦",
+    "href": "blogs/peotry/youth/love.html#十三游游晚梦",
+    "title": "等你想我的一天",
+    "section": "（十三）游游晚梦",
+    "text": "（十三）游游晚梦\n别人的故事，你不解，更不屑；自己的人生，你可以收敛，也可以奉送。当然我选择了奉送，送予相送予的人。起初的就写这么一些吧，已经足够。\n我不知道是谁的懵懂，只是淡淡的伤痛\n当我想再看清你的双颊，你只是离开得匆匆\n或是彼此轻轻一步的心悸，轻轻一步的惋惜\n只是泛着心田的涟漪不知该从何说起\n仿佛蜉蝣在这里，找不到荦确的出口\n又仿似明白这般的怅惘，带几许颦眉的僝僽\n我不敢深看你的双眼，那么姽婳的嫣然\n怯懦地抬起木讷的手，又是那般的颤颤\n\n我不知是谁的懵懂，让我在夜里寒悚\n像是晚秋中的冷雨轻轻打着梧桐\n像是梦魇后的凄清，落叶的孤零\n蔓一层尘土，遮一层月下的婆娑碎影\n谁会轻掬一帘霏霏的潮丝\n映在阁楼雨影下的波痕泚泚\n听着紧紧匝匝的哀矜，那寂寂的喧嚣\n绰约的影子？又何来的兰桥\n\n我不知是谁的懵懂，此刻却只想听着水流淙淙\n黯淡在春花的馥然中，随着落英的影踪\n怜怜冉冉的玉萝，撒一层烟云菝葜\n爇爇樱花的绯靥，赧一丝月语晚霞\n为何会有徒徒的忧惄，这般侵袭\n当我只想轻轻如梦，却是暴雨霫霫\n涔涔泻洒的寒意，离开的背后又是留低\n只有再欷歔，深情鹄望会回眸的你\n\n我不知道是谁的懵懂，但却是这般冲动\n当我轻揽住你的臂弯就不想在放松\n恹恹的晚星，零碎的孤单，却也那么轻灵\n不敢心犀你的情愫，只得怯怯的回应\n再嗟叹一句，浅啖一缕这般心绪\n当丝竹珊珊撩一层晚幕的幽幽\n哀愁的遐思？总带着无心的去留……"
+  },
+  {
+    "objectID": "blogs/peotry/youth/love.html#十四总有事儿让人心伤",
+    "href": "blogs/peotry/youth/love.html#十四总有事儿让人心伤",
+    "title": "等你想我的一天",
+    "section": "（十四）总有事儿让人心伤",
+    "text": "（十四）总有事儿让人心伤\n总有事儿让人心伤\n即使是相隔人海茫茫\n长令人彳亍\n长令人鹄望\n\n总有事儿让人心伤\n即使风烟相隔如晃\n但回首时已不是昨天\n只见得湖波滟潋\n\n总有事儿让人心伤\n道不尽丝丝情长\n每每是唏嘘\n每每是相见没胆言语\n\n总有事儿让人心伤\n有泪珠挂在脸庞\n总在风起时才觉到凉\n又怎觉心思颉颃"
+  },
+  {
+    "objectID": "blogs/peotry/youth/love.html#十五最美的人",
+    "href": "blogs/peotry/youth/love.html#十五最美的人",
+    "title": "等你想我的一天",
+    "section": "（十五）最美的人",
+    "text": "（十五）最美的人\n在我心中成为花朵的人\n总是让我开心笑的人\n在我悲伤时便会思念的人\n总是让我难过却更珍惜的人\n\n是那么无所谓总在张望的人\n那么残忍总伤人心的人\n是那么相聚不愿言语的人\n那么离开又很悲戚的人\n\n在快乐时总愿看到的人\n难过时总第一个想起的人\n在相见时总有万语千言的人\n开口时总会不知说什么的人\n\n即使是一瞥也有甘甜的人\n即使是思念也有醇醉的人\n是叹息也有心犀的人\n是那么让人总乐意去想的人"
+  },
+  {
+    "objectID": "blogs/peotry/youth/love.html#十六当月亮升起的时候",
+    "href": "blogs/peotry/youth/love.html#十六当月亮升起的时候",
+    "title": "等你想我的一天",
+    "section": "（十六）当月亮升起的时候",
+    "text": "（十六）当月亮升起的时候\n当月亮升起的时候\n我们在徘徊，我们在等候\n鹄望着伊人的到来\n将那清沁的凉风招徕\n羞答答的花儿赧起花瓣\n怯懦懦的合欢橤下欣然\n湖上弥开了缥缈的水雾\n殷切的荷叶上珊起了露珠\n\n当月亮升起的时候\n我收起了彳亍，收起了僝僽\n水杉的羽叶在安憩\n竹林的玉指拈下了露滴\n绛紫的帷幕遮断了欷歔\n黄昏的美遐起了思绪\n兰若成了丛莽点缀着叆叇\n再细把心思一一数开\n\n当月亮升起的时候\n又宛如新的一天的白昼\n盼望心犀相映的十指交缠\n想着把你轻放在臂弯\n湖水荡漾着月色\n粼波中奏起夜曲的平仄\n杨柳的影子揉碎在水中\n行草更曳得夜色朦胧\n\n当月亮升起的时候\n月色洒去了暧昧的清愁\n追忆着昔日的楼台\n在深林中晨暮爱情的蔼蔼\n她的容颜映在雪泥中被踏碎\n再回首时故里那么倾颓\n因为去爱的谄媚\n反忘了畴日的唏嘘叹悔\n\n当月亮升起的时候\n那蟾镜上似乎映着西畴\n竹林洒下甘醇的露水\n窗棂上开着攀援的紫薇\n有深秋那绛紫的葡萄\n有累累秋实中的红枣\n也有冬日中青青的麦田\n也有湖边的青苔与蕨藓\n\n当月亮升起的时候\n我想望着你乌黑的双眸\n似一潭清澈的秋池\n像雪莱、拜伦笔下的小诗\n一缕月光会照出你的波痕\n多情的——更似你的丹唇\n想贪婪地啜走这蜂蜜\n却又怕这幻想流露在眼里\n\n似颉颃无处觅所的小鸟\n林荫中的光缕令它撩撩\n没有往日的嗟叹\n独自望月更少胆怯和羞赧\n伊那姽婳的身姿————\n伊那多情深邃的眸子————\n让我一直在遐思，一直在守候\n在这月亮升起的时候"
+  },
+  {
+    "objectID": "blogs/peotry/youth/love.html#十七你问",
+    "href": "blogs/peotry/youth/love.html#十七你问",
+    "title": "等你想我的一天",
+    "section": "（十七）你问",
+    "text": "（十七）你问\n你问我：爱我还是爱她\n这叫我如何回答\n我认识她一年却只认识你一天\n但她远在天边而你近在眼前\n\n你问我：爱我还是爱她\n这叫我如何回答\n我吻了她的脸也搂了你的肩\n虽我爱她的眸子此刻却看着你的眼\n\n为何要我做出明确的答案\n要我断了这份羁绊\n但若有一天你我也会分离\n你可会要我把你忘记\n\n你便改问我：爱她还是爱我\n这仍旧让我手足无措\n今日你是旧时她，旧时她是今日你\n旧时她我自欲珍藏，今日你更欲珍惜"
+  },
+  {
+    "objectID": "blogs/peotry/youth/love.html#十八或许",
+    "href": "blogs/peotry/youth/love.html#十八或许",
+    "title": "等你想我的一天",
+    "section": "（十八）或许",
+    "text": "（十八）或许\n或许我未曾爱过你，如果这种感情称为喜欢\n当我站在黄昏的路上望着远处的山峦\n当炊烟掩着晚霞偷偷把心思相伴\n当江中潮水泛起把我扔下的纸船打散\n我每日都极力记起你的容颜却总那么无力\n每当天空阴翳起来我总想冲进涔涔雨里\n听着一层一层的缱绻的云诉出的怨艾\n愈是双眼遮上雨露愈想把你收到眼底\n或许我未曾爱过你，如果这种感情称为爱\n从熹微的黎明到幽暗的黄昏我一直在此等待\n看着朝霞那般绯红的靥色，再到浮云的薤白\n远望着云海娓娓的情愫，再变作暮云的叆叇\n我想着以往的故事，在恍惚的边缘徘徊\n想我埋起我慌乱的心思让你猜了又猜\n也想起当初夏季霫霫夜雨遮出的阴霾\n看着最喜欢的合欢花针在泚泚波色里颓败"
+  },
+  {
+    "objectID": "blogs/peotry/youth/love.html#十九你我本是无缘",
+    "href": "blogs/peotry/youth/love.html#十九你我本是无缘",
+    "title": "等你想我的一天",
+    "section": "（十九）你我本是无缘",
+    "text": "（十九）你我本是无缘\n你我本是无缘，更哪能相见\n只因前世四百又九十九的回眸\n上天岂会对你我这般见怜\n只带着前世的忧愁\n\n你我本是白身，却彼此相欠\n只怨这佛祖的箴言\n我欠你一个回眸\n而你，欠我一个擦肩"
+  },
+  {
+    "objectID": "blogs/peotry/youth/love.html#二十蛆",
+    "href": "blogs/peotry/youth/love.html#二十蛆",
+    "title": "等你想我的一天",
+    "section": "（二十）蛆",
+    "text": "（二十）蛆\n洁白之躯\n却自甘存活于污秽\n只有落得\n满身的乌黑"
+  },
+  {
+    "objectID": "blogs/peotry/youth/love.html#二十一让我怎么再见你",
+    "href": "blogs/peotry/youth/love.html#二十一让我怎么再见你",
+    "title": "等你想我的一天",
+    "section": "（二十一）让我怎么再见你",
+    "text": "（二十一）让我怎么再见你\n让我怎么再见你，你离开时留下一句叹息\n我看着你深深的眼眸却没有什么记忆\n那忐忑的步履，那紧攥着双手的羞涩\n当我想张口说些什么却变得木讷\n\n让我怎么再见你，你跑开时留下一颗泪滴\n我望着你隐约的背影都甚至不敢唏嘘\n只静静地冥想，却在自己的世界迷失方向\n为何这些话儿此刻再也不敢对你讲\n\n让我怎么再见你，你朝我大叫时那么生气\n看你哭红的双眼，闪映着深深的恨意\n只敢傻傻地看着，看着黄昏变成黑夜\n当我再回首时，只有天际有星辰泯灭"
+  },
+  {
+    "objectID": "blogs/peotry/youth/love.html#二十二梦",
+    "href": "blogs/peotry/youth/love.html#二十二梦",
+    "title": "等你想我的一天",
+    "section": "（二十二）梦",
+    "text": "（二十二）梦\n什么是梦？我朦胧中醒来又睡去\n忽而堕入沉思，忽而又踏入霏霏春雨\n油然的雨点打湿了她的面庞\n白皙的面庞瞬间将绯色泛上\n芰荷方萌出浅绛的叶子，似云出海\n又羞涩地蘂入水中被漪澜揉碎漾开\n\n什么是梦，我庸然过了白天又走进黑夜\n芦苇荡匝匝拟着月色又怜然欹斜\n雷声隆隆，带来恹恹又寒悚的双眼\n沉沉的步子走出我的心却进了她的视线\n无味的相望让小径变得更加幽长\n最后我迷失在湖畔她也消失在丛莽\n\n什么是梦，当我第一次踏进春城\n除了一些希冀就是这夜雨的寒冷\n我只听见碎碎的雨声和匆匆的脚步\n在潮湿又冰冷的窗台下彳亍\n终于清醒，这般曾浮华的俗世\n急寻归家的路而不顾被冲去的胭脂"
+  },
+  {
+    "objectID": "blogs/peotry/youth/love.html#二十三我是一个盗贼",
+    "href": "blogs/peotry/youth/love.html#二十三我是一个盗贼",
+    "title": "等你想我的一天",
+    "section": "（二十三）我是一个盗贼",
+    "text": "（二十三）我是一个盗贼\n那天我是个盗贼，偷去了你的香菲\n多了许多罪责的我怕是无可轮回\n那娓娓的籁音，那婉转的黛眉\n怎么全赖那伪装的酒醉\n\n那天我是个盗贼，偷去了你的眼泪\n少了许多人性的我哪会去忏悔\n那斜欹的嫣然，那娇羞的妩媚\n怕也湿不了这死去的烟灰\n\n那天我是个盗贼，反遗失了所有\n是那翩跹的舞袖，还是那缱绻的柔情\n只有那江水匆匆，沧桑依旧\n或许等着黑夜，或许等着光明\n怎么般见这等教三流九\n纵然百转千回亦是这德行"
+  },
+  {
+    "objectID": "blogs/peotry/grid-isles/1-1_2.html",
+    "href": "blogs/peotry/grid-isles/1-1_2.html",
+    "title": "经纬岛 第一章",
+    "section": "",
+    "text": "别了，我的家乡\n我将要去寻找我的黄粱\n这亦是我首次出海\n不知何时才衣锦归来\n\n别了，我的家乡\n我会在远方邂逅我的新娘\n她将会像颗饱满丰润的蚌珠\n有着脉脉温柔的双目\n\n别了，我的家乡\n我或以余生漂泊在海上\n不知是否有契机\n去发现探索深海埋葬的遗迹\n\n再见，我的家乡\n我会在归来时与你娓娓诉讲\n我那迎风飒飒的风衣\n我那英雄般的事迹"
+  },
+  {
+    "objectID": "blogs/peotry/grid-isles/1-1_2.html#第一章一",
+    "href": "blogs/peotry/grid-isles/1-1_2.html#第一章一",
+    "title": "经纬岛 第一章",
+    "section": "",
+    "text": "别了，我的家乡\n我将要去寻找我的黄粱\n这亦是我首次出海\n不知何时才衣锦归来\n\n别了，我的家乡\n我会在远方邂逅我的新娘\n她将会像颗饱满丰润的蚌珠\n有着脉脉温柔的双目\n\n别了，我的家乡\n我或以余生漂泊在海上\n不知是否有契机\n去发现探索深海埋葬的遗迹\n\n再见，我的家乡\n我会在归来时与你娓娓诉讲\n我那迎风飒飒的风衣\n我那英雄般的事迹"
+  },
+  {
+    "objectID": "blogs/peotry/grid-isles/1-1_2.html#第一章二",
+    "href": "blogs/peotry/grid-isles/1-1_2.html#第一章二",
+    "title": "经纬岛 第一章",
+    "section": "第一章（二）",
+    "text": "第一章（二）\n青翠的海岸渐渐悠长\n不知多少探险者曾在此埋葬\n抑或有无名诗人的尸骨\n唏嘘这经年的暮霭、繁星与晨雾\n\n为何我倏尔变得忧伤\n明明我最爱望着大海、听着海浪\n宛若冥冥中迷失在晓雾里\n观花走马间闪回我童年的点滴\n\n再记不起她回眸间的莞尔一笑\n也再也辨不出她言音的袅袅\n只觉得一切都变得模糊且默然\n无论如何尝试都带不离那远逝的海岸\n\n为何海风只吹的面颊生凉\n明明我背对着行驶的方向\n只看得岛屿缓缓被暮霭淹没\n满心的不舍却无从诉说"
   },
   {
     "objectID": "blogs/peotry/grid-isles/1-5_6.html",
@@ -203,53 +392,151 @@
     "text": "第一章（六）\n船长的船保证了远航\n船长的船为你们挡着风浪\n船长的船让你们落脚与下榻\n因此哪怕你奉献生命也要将这恩情报答\n\n“以后就由D大副负责作物种植\n你们要安心在她手下做事”\n不妨将所有种子与土壤一起搅拌\n这种熵增的设计绝对会高产\n\n农夫的脏手并不适用于科学\n下里巴人何德能言鹈鴂\n工人的呼吸会把水汽污染\n流觞曲水哪里容得大蒜\n\n红日依旧起于扶桑、落于归墟\n海风依旧裹着轻言絮语\n但我再也听不清、只恨那船头的嘈杂\n夸那红袖的舞姿、羡那都市的繁华"
   },
   {
-    "objectID": "blogs/peotry/grid-isles/1-7.html",
-    "href": "blogs/peotry/grid-isles/1-7.html",
-    "title": "经纬岛 第一章",
+    "objectID": "blogs/peotry/traditional/jinyu.html",
+    "href": "blogs/peotry/traditional/jinyu.html",
+    "title": "相恋",
     "section": "",
-    "text": "我时常想起那无数次的邂逅\n那假装不经意的回眸\n在寂静的黄昏、在恹恹的午后\n那如瀑的青丝与紧握的纤手\n\n梅雨难湮没青瓦下的喧嚣\n风雪更陪衬这你那粉靥与红潮\n只愿在钟声后忘却门后的纷扰\n痴痴等待你路过时的浅笑\n\n玉兰、菡萏、苜蓿如你羞赧\n在供人折桂树的湖畔\n杨柳、莎草更如你名字一般\n微风下把云影梳理、把涟漪轻泛\n\n可惜我却胆怯与懦弱\n不敢逃离那能西北的角落\n你温柔的身影再不会从窗外掠过\n我又哪里去寻你会心的微笑一抹"
+    "text": "懦懦却论寒寒是\n皎皎月色踏露浓\n双双仄酒韵\n相看泪绯红\n半是苌楚碎色\n俏看蟾桂连虹\n莫看水清浅\n淡了远黄昏\n幽幽扬眉黛\n霞云敛月痕\n初看时道碎影斑驳\n再回眸已露打红唇\n悄然莫问来意\n欷歔荏苒韶疾\n匆匆心悸恨迟\n匝匝青丝连系\n难舍缱绻遒藤\n却怕叶落风起"
   },
   {
-    "objectID": "blogs/peotry/grid-isles/1-7.html#第一章七",
-    "href": "blogs/peotry/grid-isles/1-7.html#第一章七",
-    "title": "经纬岛 第一章",
+    "objectID": "blogs/peotry/traditional/fall.html",
+    "href": "blogs/peotry/traditional/fall.html",
+    "title": "秋日",
     "section": "",
-    "text": "我时常想起那无数次的邂逅\n那假装不经意的回眸\n在寂静的黄昏、在恹恹的午后\n那如瀑的青丝与紧握的纤手\n\n梅雨难湮没青瓦下的喧嚣\n风雪更陪衬这你那粉靥与红潮\n只愿在钟声后忘却门后的纷扰\n痴痴等待你路过时的浅笑\n\n玉兰、菡萏、苜蓿如你羞赧\n在供人折桂树的湖畔\n杨柳、莎草更如你名字一般\n微风下把云影梳理、把涟漪轻泛\n\n可惜我却胆怯与懦弱\n不敢逃离那能西北的角落\n你温柔的身影再不会从窗外掠过\n我又哪里去寻你会心的微笑一抹"
+    "text": "《其一》 沉雁浮湖去\n芰荷落籽莲\n落木风敛语\n红尘云入帘\n烟黄草色碎\n履深足迹浅\n绯绯撩人意\n絮飞新坟前\n\n《其二》 珊珊广玉兰\n叶落水潺潺\n纷纷怜秋意\n婉婉怨青蟾\n洒洒沐云薤\n恹恹眸黛妍\n流露浮生世\n几时复轮还\n\n《其三》 风撩草木黄\n烟黛颦色长\n湮湮潮云涌\n洒洒沧海桑\n琼凉萧雨歇\n霞晓霰露藏\n嶦岩山脚尽\n互饮颂离殇\n\n《其四》 怨莫喜斜阳\n风脚驻篱墙\n野草湮灰芥\n桂华淬馥香\n朽木残枯槁\n浮韵断柱梁\n醺醺洒云影\n岁岁埋古浆"
   },
   {
-    "objectID": "blogs/peotry/grid-isles/1-3_4.html",
-    "href": "blogs/peotry/grid-isles/1-3_4.html",
-    "title": "经纬岛 第一章",
+    "objectID": "blogs/peotry/traditional/noname-3.html",
+    "href": "blogs/peotry/traditional/noname-3.html",
+    "title": "无题",
     "section": "",
-    "text": "睡意裹挟着疲惫\n我擦去了那灰色的汗水\n英雄的呐喊渐渐消失于朦胧\n清晰地却是北邙山下数不尽的无名墓冢\n\n我欲指点江山、也曾踌躇满志\n想世人对我的背影仰止\n却终熬不过年岁那锈钝的锉刀\n只在夜半梦醒时方能逃避这纷扰\n\n我不敢再拆开那些信笺\n也不敢再拨弄那落灰的琴弦\n反却渐渐爱上那熏天的酒糟\n去他妈的诗人的骄傲\n\n煤烟熏坏了世人的双目\n名利充斥着世外的草庐\n我红着脸咒骂着这吃人的世界\n然而醉醒的世界根本不会变得好一些"
+    "text": "远山雾弭古道\n残天云连海潮\n白沙雍绕青渚\n绿椰斜倚碧涛\n若得流觞几许\n结庐不问叨扰"
   },
   {
-    "objectID": "blogs/peotry/grid-isles/1-3_4.html#第一章三",
-    "href": "blogs/peotry/grid-isles/1-3_4.html#第一章三",
-    "title": "经纬岛 第一章",
+    "objectID": "blogs/peotry/traditional/bye.html",
+    "href": "blogs/peotry/traditional/bye.html",
+    "title": "别版纳",
     "section": "",
-    "text": "睡意裹挟着疲惫\n我擦去了那灰色的汗水\n英雄的呐喊渐渐消失于朦胧\n清晰地却是北邙山下数不尽的无名墓冢\n\n我欲指点江山、也曾踌躇满志\n想世人对我的背影仰止\n却终熬不过年岁那锈钝的锉刀\n只在夜半梦醒时方能逃避这纷扰\n\n我不敢再拆开那些信笺\n也不敢再拨弄那落灰的琴弦\n反却渐渐爱上那熏天的酒糟\n去他妈的诗人的骄傲\n\n煤烟熏坏了世人的双目\n名利充斥着世外的草庐\n我红着脸咒骂着这吃人的世界\n然而醉醒的世界根本不会变得好一些"
+    "text": "疏影曼色侵流水\n暇月蟾光点蚕眉\n映阶伴醉畏霜痕\n姗姗珊色弄银杯"
   },
   {
-    "objectID": "blogs/peotry/grid-isles/1-3_4.html#第一章四",
-    "href": "blogs/peotry/grid-isles/1-3_4.html#第一章四",
-    "title": "经纬岛 第一章",
-    "section": "第一章（四）",
-    "text": "第一章（四）\n我紧闭双眼对着潮湿的家书忏悔\n想从那漆黑中找到这世间的轮回\n我穷尽力气跃起欲叩醒神祇\n却怎地无法逾越这三尺禁地\n\n只听闻她走时已骨瘦如柴\n却只记得她微笑时的和蔼\n只听闻她走前一天不断咳血\n哪里知道这一去竟是永别\n\n只听闻她身体不断的溃烂\n而我却已麻木得毫无波澜\n只听闻她早已近乎失聪\n而我却再感受不到半点心痛\n\n只听闻她的新坟紧贴着姑太\n我只能遥遥地在心底祭拜\n以后也只能多烧些黄钱\n将我这不肖孙的忏悔埋掩"
+    "objectID": "blogs/peotry/traditional/bye.html#其一",
+    "href": "blogs/peotry/traditional/bye.html#其一",
+    "title": "别版纳",
+    "section": "",
+    "text": "疏影曼色侵流水\n暇月蟾光点蚕眉\n映阶伴醉畏霜痕\n姗姗珊色弄银杯"
   },
   {
-    "objectID": "blogs/peotry/traditional/moon.html",
-    "href": "blogs/peotry/traditional/moon.html",
-    "title": "月下独酌",
-    "section": "",
-    "text": "明月不邀我\n独上云榭台\n自扫婆娑影\n独酌无人来\n琳琅葱郁郁\n百载少折摘\n莫等长夜残\n方怜谪仙才"
+    "objectID": "blogs/peotry/traditional/bye.html#其二",
+    "href": "blogs/peotry/traditional/bye.html#其二",
+    "title": "别版纳",
+    "section": "其二",
+    "text": "其二\n莫问谁家绣涟漪\n瑟瑟芳菲啖黎曦\n袅袅氤氲霰罗染\n高阁再望雨霫霫"
   },
   {
-    "objectID": "blogs/peotry/english/flower.html",
-    "href": "blogs/peotry/english/flower.html",
-    "title": "Corner flowers",
+    "objectID": "blogs/peotry/traditional/acknowledgment.html",
+    "href": "blogs/peotry/traditional/acknowledgment.html",
+    "title": "致谢",
     "section": "",
-    "text": "I can see the flowers every day\nBinded to a red “STOP ALL WAY”\nSeems to be a unforgettable price to pay\nBut by a wrong jogger off the walkway\n\nSome cry for the bedtime story\nSome lose their amatory\nSome dig the albums for memory\nYet, some claim innocense as victory\n\nFew prunes the trees in December\nBut we all need visuals to remember\nWhile 35 is a default number\nOnly slow traffic would encumber\n\nThe dusts, the stones, and the rocks\nThe grass, the shrubs, and the hemlocks\nThe flies, the parrots, and the peacocks\nThe xings, the streets, and the blocks\n\nPeople barely count to three not to say seven\nFor all STOPs besides Allen\nRules that remembered and then forgortten\nRules that blur lower world and heaven"
+    "text": "庚寅七月，余幸之雨林之滨，然经年之韶华逝斯荏苒，辗转过往。 黄花非而平仄， 嗟叹莫以流泣。 辰罄竹珊珊金碧， 暮小城熠熠华章。 云是万物，落潇潇恨意； 雨乃秋根，润烁烁芳痕。 江水滔滔，不济茳芏苌楚； 红霞漫漫，难韵崦嵫巉岩。 试登高眺望，或佛光耀于云场，或霏霏漫洒藤兰，或菁茂盘虬苍萝； 亦留低倾听，忽燕语盈乎兰若，忽匝匝喧嚣竹林，忽脚蛇婉转草庐。 君子不笑，美人少芳，耽于篝火之侧，窃而潺湲之傍。 附以杯酒，苍穹碧玉湮豪人之躯； 眸而一笑，翩跹羽色覆粉靥之体。 皆皆如是，好客主酒尽腹中； 喃喃而非，赧怯姬语啖舌尖。 临别离之际，不免伤感吾怀； 近策马之时，自当铭记于心。"
+  },
+  {
+    "objectID": "theses.html",
+    "href": "theses.html",
+    "title": "Thesis",
+    "section": "",
+    "text": "PhD Thesis (2020). University of Utah. Carbon gain and risk in modeling leaf gas exchange. Dissertation Defense\nPhD Proposal (2017). University of Utah. Carbon gain and risk in modeling leaf gas exchange. Proposal Defense\nMaster Thesis (2013). University of Science and Technology of China. Theory and Model of Centrifuge Method in Vulnerability Curve (离心机法测枝条脆弱性曲线的理论与模型). Thesis Defense\nMaster Proposal (2012). University of Science and Technology of China. Modeling of Plant Hydraulics (植物水力模型构建). Proposal Defense"
+  },
+  {
+    "objectID": "theses.html#yujie-wang",
+    "href": "theses.html#yujie-wang",
+    "title": "Thesis",
+    "section": "",
+    "text": "PhD Thesis (2020). University of Utah. Carbon gain and risk in modeling leaf gas exchange. Dissertation Defense\nPhD Proposal (2017). University of Utah. Carbon gain and risk in modeling leaf gas exchange. Proposal Defense\nMaster Thesis (2013). University of Science and Technology of China. Theory and Model of Centrifuge Method in Vulnerability Curve (离心机法测枝条脆弱性曲线的理论与模型). Thesis Defense\nMaster Proposal (2012). University of Science and Technology of China. Modeling of Plant Hydraulics (植物水力模型构建). Proposal Defense"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Research Professor\nSchool of Earth and Space Sciences\nUniversity of Science and Technology of China (USTC)\nNo.96, JinZhai Road Baohe District\nHefei, Anhui 230026, China\n\nOffice: 教学行政楼804-806 \n +86 xxx-xxxx-xxxx\n wyujie@ustc.edu.cn"
+  },
+  {
+    "objectID": "about.html#contact-information",
+    "href": "about.html#contact-information",
+    "title": "About",
+    "section": "",
+    "text": "Research Professor\nSchool of Earth and Space Sciences\nUniversity of Science and Technology of China (USTC)\nNo.96, JinZhai Road Baohe District\nHefei, Anhui 230026, China\n\nOffice: 教学行政楼804-806 \n +86 xxx-xxxx-xxxx\n wyujie@ustc.edu.cn"
+  },
+  {
+    "objectID": "about.html#report-issues",
+    "href": "about.html#report-issues",
+    "title": "About",
+    "section": "Report Issues",
+    "text": "Report Issues\nThis website is generated using Quarto. Should you find any issue, please report it to the GitHub Repository!"
+  },
+  {
+    "objectID": "people/current/wyujie.html",
+    "href": "people/current/wyujie.html",
+    "title": "WANG, Yujie",
+    "section": "",
+    "text": "Research Professor\nSchool of Earth and Space Sciences\nUniversity of Science and Technology of China (USTC)\nNo.96, JinZhai Road Baohe District\nHefei, Anhui 230026, China\nOffice: 教学行政楼804-806 \n +86 xxx-xxxx-xxxx\n wyujie@ustc.edu.cn\nYujie is a Research Professor at USTC working on vegetation and land surface modeling, particularly in how plants respond and acclimate to the changing climate. While at the Climate Modeling Alliance (CliMA), he leads the development of a next-generation land surface model (CliMA Land) from scratch. Yujie’s research aims are to improve the Earth system models’ predictive skills in tracking global carbon, water, and energy fluxes using the increasing number of remote sensing data."
+  },
+  {
+    "objectID": "people/current/wyujie.html#professional-experience",
+    "href": "people/current/wyujie.html#professional-experience",
+    "title": "WANG, Yujie",
+    "section": "Professional Experience",
+    "text": "Professional Experience\n\n2025-present: Research Professor, USTC\n2022-2025: Research Scientist, Caltech\n2020-2022: Postdoctoral Fellow, Caltech"
+  },
+  {
+    "objectID": "people/current/wyujie.html#education",
+    "href": "people/current/wyujie.html#education",
+    "title": "WANG, Yujie",
+    "section": "Education",
+    "text": "Education\n\nPhD in Biology | University of Utah, USA | 2015 - 2019\nMS in Biology | University of Science and Technology of China, China | 2011 - 2013\nBS in Biology | University of Science and Technology of China, China | 2007 - 2011"
+  },
+  {
+    "objectID": "people/current/wyujie.html#thesis-dissertation",
+    "href": "people/current/wyujie.html#thesis-dissertation",
+    "title": "WANG, Yujie",
+    "section": "Thesis & Dissertation",
+    "text": "Thesis & Dissertation\n\nPhD. 2020. Carbon gain and risk in leaf gas exchange. University of Utah. Advised by Dr. John S. Sperry.\nPhD Candidate. 2017. Research Proposal. University of Utah. Advised by Dr. John S. Sperry.\nMaster. 2013. Theory and model of centrifuge method in vulnerbility curve. University of Science and Technology of China. Advised by Dr. Kunfang Cao and Dr. Melvin T. Tyree."
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "For the code I wrote for the 1st-authored and some co-authorred publications, please refer to this GitHub repository."
+  },
+  {
+    "objectID": "resources.html#data",
+    "href": "resources.html#data",
+    "title": "Resources",
+    "section": "Data",
+    "text": "Data\n\nY. Wang and R. Braghiere (2024). Global scale leaf broadband optical properties derived from hyperspectral modeling Zenodo. DOI\nCliMA Land Team (2024). CliMA Land global simulations archive. Zenodo. DOI\nCliMA Land Team (2024). CliMA Land code archive. Zenodo. DOI\nY. Wang (2021). Artifacts of GriddingMachine.jl (v0.2) for land modeling. CaltechDATA. DOI\nY. Wang (2021). Test CliMA Land model with flux tower and TROPOMI SIF datasets. Zenodo. DOI"
+  },
+  {
+    "objectID": "resources.html#posters",
+    "href": "resources.html#posters",
+    "title": "Resources",
+    "section": "Posters",
+    "text": "Posters\n\nY. Wang et al. (2024). AGU Fall Meeting: Accounting for canopy structure improves GPP estimation from SIF. PDF\nY. Wang et al. (2019). AGU Fall Meeting: Modeling leaf investment within optimality theory. PDF"
+  },
+  {
+    "objectID": "resources.html#slides",
+    "href": "resources.html#slides",
+    "title": "Resources",
+    "section": "Slides",
+    "text": "Slides\n\nY. Wang (2024). Talk @ AGU 2024 Fall Meeting: From PFT to traits: Improving the canopy radiative transfer in Earth system modeling. PDF\nY. Wang (2024). Talk @ GRC Multiscale Plant Vascular Biology: (Modeling) Hydraulics from rhizosphere to landscape. PDF\nY. Wang, R. K. Braghiere, and C. Frankenberg (2023). Talk @ AGU Fall Meeting: Moving toward hyperspectral canopy radiative transfer in Earth system modeling. PDF\nY. Wang (2023). Faculty Job Talk @ University of Hong Kong: Moving toward the next-generation land surface modeling. PDF\nY. Wang (2023). Seminar @ Peking University: Next generation land surface model and global carbon cycle. PDF\nY. Wang (2023). Seminar @ University of Science and Technology of China: Next generation land surface model and global carbon cycle. PDF\nY. Wang, R. K. Braghiere, A. A. Bloom, and C. Frankenberg (2023). Talk @ EGU General Assembly: Modeling global vegetation processes and hyperspectral canopy radiative transfer using CliMA Land. PDF\nY. Wang (2023). Seminar @ JPL Carbon Club: Modeling global vegetation processes using a next-generation land surface model—CliMA Land. PDF\nY. Wang (2023). Faculty Job Talk @ University of Central Florida: Modeling vegetation processes from organ to global scale. PDF\nY. Wang (2022). Seminar @ 2nd Model Hierarchy Workshop: Modeling canopy fluxes and optical properties using CliMA Land. PDF\nY. Wang (2022). Talk @ RUBISCO SFA: GriddingMachine.jl: A database and software for Earth system modeling. PDF\nY. Wang (2022). Talk @ GeoCarb Science Meeting: Modeling canopy fluxes and optical properties using CliMA Land. PDF\nY. Wang (2020). Seminar @ JPL Carbon Club: Modeling optimal leaf area and photosynthetic capacity from plant traits and climate. PDF\nY. Wang (2020). Seminar @ Huazhong Agriculture University: Plant hydraulics and stomatal control. PDF\nY. Wang (2019). Postdoc Job Talk @ California Institute of Technology: Improve leaf gas exchange modeling with gain vs. risk optimization. PDF\nY. Wang (2019). TGIF Seminar @ University of Utah: How to stack chloroplasts in palisade mesophyll? PDF\nY. Wang (2018). Seminar @ Institute of Applied Ecology: Modeling the stomatal control from plant physiological traits. PDF\nY. Wang (2018). Seminar @ Guangxi University: Modeling the stomatal control from plant physiological traits. PDF\nY. Wang (2018). TGIF Seminar @ University of Utah: Evolutionary drivers of stomatal size and density. PDF\nY. Wang (2017). TGIF Seminar @ University of Utah: Modelling the trade-off between water usage and photosynthesis in trees. PDF"
+  },
+  {
+    "objectID": "resources.html#software",
+    "href": "resources.html#software",
+    "title": "Resources",
+    "section": "Software",
+    "text": "Software\n\nCliMA Land v0.1\nCliMA Land Global Simulation v0.1 (private)\nEmerald\nGriddingMachine.jl\nOrmosia (private)\nPublished Code"
   },
   {
     "objectID": "research.html",
@@ -308,88 +595,11 @@
     "text": "Nature-based Climate Solutions"
   },
   {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "Resources",
-    "section": "",
-    "text": "For the code I wrote for the 1st-authored and some co-authorred publications, please refer to this GitHub repository."
-  },
-  {
-    "objectID": "resources.html#data",
-    "href": "resources.html#data",
-    "title": "Resources",
-    "section": "Data",
-    "text": "Data\n\nY. Wang and R. Braghiere (2024). Global scale leaf broadband optical properties derived from hyperspectral modeling Zenodo. DOI\nCliMA Land Team (2024). CliMA Land global simulations archive. Zenodo. DOI\nCliMA Land Team (2024). CliMA Land code archive. Zenodo. DOI\nY. Wang (2021). Artifacts of GriddingMachine.jl (v0.2) for land modeling. CaltechDATA. DOI\nY. Wang (2021). Test CliMA Land model with flux tower and TROPOMI SIF datasets. Zenodo. DOI"
-  },
-  {
-    "objectID": "resources.html#posters",
-    "href": "resources.html#posters",
-    "title": "Resources",
-    "section": "Posters",
-    "text": "Posters\n\nY. Wang et al. (2024). AGU Fall Meeting: Accounting for canopy structure improves GPP estimation from SIF. PDF\nY. Wang et al. (2019). AGU Fall Meeting: Modeling leaf investment within optimality theory. PDF"
-  },
-  {
-    "objectID": "resources.html#slides",
-    "href": "resources.html#slides",
-    "title": "Resources",
-    "section": "Slides",
-    "text": "Slides\n\nY. Wang (2024). Talk @ AGU 2024 Fall Meeting: From PFT to traits: Improving the canopy radiative transfer in Earth system modeling. PDF\nY. Wang (2024). Talk @ GRC Multiscale Plant Vascular Biology: (Modeling) Hydraulics from rhizosphere to landscape. PDF\nY. Wang, R. K. Braghiere, and C. Frankenberg (2023). Talk @ AGU Fall Meeting: Moving toward hyperspectral canopy radiative transfer in Earth system modeling. PDF\nY. Wang (2023). Faculty Job Talk @ University of Hong Kong: Moving toward the next-generation land surface modeling. PDF\nY. Wang (2023). Seminar @ Peking University: Next generation land surface model and global carbon cycle. PDF\nY. Wang (2023). Seminar @ University of Science and Technology of China: Next generation land surface model and global carbon cycle. PDF\nY. Wang, R. K. Braghiere, A. A. Bloom, and C. Frankenberg (2023). Talk @ EGU General Assembly: Modeling global vegetation processes and hyperspectral canopy radiative transfer using CliMA Land. PDF\nY. Wang (2023). Seminar @ JPL Carbon Club: Modeling global vegetation processes using a next-generation land surface model—CliMA Land. PDF\nY. Wang (2023). Faculty Job Talk @ University of Central Florida: Modeling vegetation processes from organ to global scale. PDF\nY. Wang (2022). Seminar @ 2nd Model Hierarchy Workshop: Modeling canopy fluxes and optical properties using CliMA Land. PDF\nY. Wang (2022). Talk @ RUBISCO SFA: GriddingMachine.jl: A database and software for Earth system modeling. PDF\nY. Wang (2022). Talk @ GeoCarb Science Meeting: Modeling canopy fluxes and optical properties using CliMA Land. PDF\nY. Wang (2020). Seminar @ JPL Carbon Club: Modeling optimal leaf area and photosynthetic capacity from plant traits and climate. PDF\nY. Wang (2020). Seminar @ Huazhong Agriculture University: Plant hydraulics and stomatal control. PDF\nY. Wang (2019). Postdoc Job Talk @ California Institute of Technology: Improve leaf gas exchange modeling with gain vs. risk optimization. PDF\nY. Wang (2019). TGIF Seminar @ University of Utah: How to stack chloroplasts in palisade mesophyll? PDF\nY. Wang (2018). Seminar @ Institute of Applied Ecology: Modeling the stomatal control from plant physiological traits. PDF\nY. Wang (2018). Seminar @ Guangxi University: Modeling the stomatal control from plant physiological traits. PDF\nY. Wang (2018). TGIF Seminar @ University of Utah: Evolutionary drivers of stomatal size and density. PDF\nY. Wang (2017). TGIF Seminar @ University of Utah: Modelling the trade-off between water usage and photosynthesis in trees. PDF"
-  },
-  {
-    "objectID": "resources.html#software",
-    "href": "resources.html#software",
-    "title": "Resources",
-    "section": "Software",
-    "text": "Software\n\nCliMA Land v0.1\nCliMA Land Global Simulation v0.1 (private)\nEmerald\nGriddingMachine.jl\nOrmosia (private)\nPublished Code"
-  },
-  {
-    "objectID": "people.html",
-    "href": "people.html",
-    "title": "People",
-    "section": "",
-    "text": "Research Professor\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "people.html#current-members",
-    "href": "people.html#current-members",
-    "title": "People",
-    "section": "",
-    "text": "Research Professor\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "people.html#alumni",
-    "href": "people.html#alumni",
-    "title": "People",
-    "section": "Alumni",
-    "text": "Alumni\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Name\n        \n         \n          Former Role\n        \n         \n          Started\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nName\n\n\nFormer Role\n\n\nStarted\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
-    "section": "",
-    "text": "For the code I wrote for the 1st-authored and some co-authorred publications, please refer to this GitHub repository"
-  },
-  {
-    "objectID": "publications.html#journal-papers",
-    "href": "publications.html#journal-papers",
-    "title": "Publications",
-    "section": "Journal Papers",
-    "text": "Journal Papers\n\nIn Press\n\n\n2024\n\nY. Yao, P. Ciais, E. Joetzjer, W. Li, L. Zhu, Y. Wang, C. Frankenberg, and N. Viovy (2024). The impacts of elevated CO₂ on forest growth, mortality, and recovery in the Amazon rainforest. Earth System Dynamics 15(3): 763-778. DOI PDF\nY. Wang, R. K. Braghiere, Y. Yin, Y. Yao, D. Hao, and C. Frankenberg (2024). Beyond the visible: Accounting for ultraviolet and far‐red radiation in vegetation productivity and surface energy budgets. Global Change Biology 30(5): e17346. DOI PDF\nY. Wang, and C. Frankenberg (2024). Toward more accurate modeling of canopy radiative transfer and leaf electron transport in land surface modeling. Journal of Advances in Modeling Earth Systems 16(4): e2023MS003992. DOI PDF\nK. Liu, Y. Wang, T. Magney, and C. Frankenberg (2024). Non-steady-state stomatal conductance modeling and its implications: from leaf to ecosystem. Biogeosciences 21(6): 1501–1516. DOI PDF\nY. Yao, V. Humphrey, A. G. Konings, Y. Wang, Y. Yin, N. Holtzman, J. D. Wood, Y. Bar-On, and C. Frankenberg (2024). Investigating diurnal and seasonal cycles of vegetation optical depth retrieved from GNSS signals in a broadleaf forest. Geophysical Research Letters 51(6): e2023GL107121. DOI PDF\n\n\n\n2023\n\nN. Holtzman, Y. Wang, J. D. Wood, C. Frankenberg, and A. G. Konings (2023). Constraining plant hydraulics with microwave radiometry in a land surface model: Impacts of temporal resolution. Water Resources Research 59(11): e2023WR035481. DOI PDF\nY. Wang, and Y. Yin (2023). Agriculture in silico: Perspectives on radiative transfer optimization using vegetation modeling. Crop and Environment 2(4): 175-183. DOI PDF\nR. K. Braghiere, Y. Wang, A. Gagné-Landmann, P. G. Brodrick, A. A. Bloom, A. J. Norton, S. Ma, P. Levine, M. Longo, K. Deck, P. Gentine, J. R. Worden, C. Frankenberg, and T. Schneider (2023). The importance of hyperspectral soil albedo information for improving Earth system model projections. AGU Advances 4(4): e2023AV000910. DOI PDF\nX. Liang, D. Wang, Q. Ye, J. Zhang, M. Liu, H. Liu, K. Yu, Y. Wang, E. Hou, B. Zhong, L. Xu, T. Lv, S. Peng, H. Lu, P. Sicard, A. Anav, and D. S. Ellsworth (2023). Stomatal responses of terrestrial plants to global change. Nature Communications 14(1): 2188. DOI PDF\nY. Wang, R. K. Braghiere, M. Longo, A. J. Norton, P. Köhler, R. Doughty, Y. Yin, A. A. Bloom, and C. Frankenberg (2023). Modeling global vegetation gross primary productivity, transpiration and hyperspectral canopy radiative transfer simultaneously using a next generation land surface model—CliMA Land. Journal of Advances in Modeling Earth Systems 15(3): e2021MS002964. DOI PDF\n\n\n\n2022\n\nY. Wang, and C. Frankenberg (2022). Technical note: Common ambiguities in plant hydraulics. Biogeosciences 19(19): 4705-4714. DOI PDF\nY. Wang, P. Köhler, R. K. Braghiere, M. Longo, R. Doughty, A. A. Bloom, and C. Frankenberg (2022). GriddingMachine, a database and software for Earth system modeling at global and regional scales. Scientific Data 9: 258. DOI PDF\nR. Doughty, T. Kurosu, N. Parazoo, P. Köhler, Y. Wang, Y. Sun, and C. Frankenberg (2022). Global GOSAT, OCO-2 and OCO-3 solar induced chlorophyll fluorescence datasets. Earth System Science Data 14(4): 1513-1529. DOI PDF\nY. Wang, and C. Frankenberg (2022). On the impact of canopy model complexity on simulated carbon, water, and solar-induced chlorophyll fluorescence fluxes. Biogeosciences 19(1): 29-45. DOI PDF\n\n\n\n2021\n\nY. Wang, P. Köhler, L. He, R. K. Braghiere, R. Doughty, J. Wood, and C. Frankenberg (2021). Testing stomatal models at the stand level in deciduous angiosperm and evergreen gymnosperm forests using CliMA Land (v0.1). Geoscientific Model Development 14(11): 6741-6763. DOI PDF\nA. G. Konings, S. S. Saatchi, C. Frankenberg, M. Keller, V. Leshyk, W. R. L. Anderegg, V. Humphrey, A. M. Matheny, A. Trugman, L. Sack, E. Agee, M. L. Barnes, O. Binks, K. Cawse-Nicholson, B. O. Christoffersen, D. Entekhabi, P. Gentine, N. M. Holtzman, G. G. Katul, Y. Liu, M. Longo, J. Martinez-Vilalta, N. McDowell, P. Meir, M. Mencuccini, A. Mrad, K. A. Novick, R. S. Oliveira, P. Siqueira, S. C. Steele-Dunne, D. R. Thompson, Y. Wang, R. Wehr, J. D. Wood, X. Xu, and P. A. Zuidema (2021). Detecting forest response to droughts with global observations of vegetation water content. Global Change Biology 27(23): 6005-6024. DOI PDF\nP. Köhler, W. W. Fischer, G. R. Rossman, J. P. Grotzinger, R. Doughty, Y. Wang, Y. Yin, and C. Frankenberg (2021). Mineral luminescence observed from space. Geophysical Research Letters 48(19): e2021GL095227. DOI PDF\nR. K. Braghiere, Y. Wang, R. Doughty, D. Souza, T. Magney, J. Widlowski, M. Longo, A. Bloom, J. Worden, P. Gentine, and C. Frankenberg (2021). Accounting for canopy structure improves hyperspectral radiative transfer and sun-induced chlorophyll fluorescence representations in a new generation Earth System model. Remote Sensing of Environment 261: 112497. DOI PDF\nA. Potkay, A. T. Trugman, Y. Wang, M. D. Venturas, W. R. L. Anderegg, C. Mattos, and Y. Fan (2021). Coupled whole-tree optimality and xylem-hydraulics explain dynamic biomass partitioning. New Phytologist 230(6): 2226-2245. DOI PDF\nY. Wang, W. R. L. Anderegg, M. D. Venturas, A. T. Trugman, K. Yu, and C. Frankenberg (2021). Optimization theory explains nighttime stomatal responses. New Phytologist 230(4): 1550-1561. DOI PDF\n\n\n\n2020\n\nY. Wang, J. S. Sperry, W. R. L. Anderegg, M. D. Venturas, and A. T. Trugman (2020). Tansley Review: A theoretical and empirical assessment of stomatal optimization modeling. New Phytologist 227(2): 311–325. DOI PDF\n\n\n\n2019\n\nJ. S. Sperry, M. D. Venturas, H. N. Todd, A. T. Trugman, W. R. L. Anderegg, Y. Wang, and X. Tai (2019). The impact of rising CO₂ and acclimation on theresponse of US forests to global warming. Proceedings of the National Academy of Sciences of the United States of America 116(51): 25734–25744. DOI PDF\nA. T. Trugman, L. D. L. Anderegg, J. S. Sperry, Y. Wang, M. D. Venturas, and W. R. L. Anderegg (2019). Leveraging plant hydraulics to yield predictive and dynamic plant leaf allocation in vegetation models with climate change. Global Change Biology 25: 4008–4021. DOI PDF\nY. Wang, J. S. Sperry, M. D. Venturas, A. T. Trugman, D. D. Love, and W. R. L. Anderegg (2019). The stomatal response to rising CO₂ concentration and drought is predicted by a hydraulic trait-based optimization model. Tree Physiology 39(8): 1416–1427. DOI PDF\nK. Yu, G. R. Goldsmith, Y. Wang, and W. R. L. Anderegg (2019). Phylogenetic and biogeographic controls of plant nighttime stomatal conductance. New Phytologist 222(4): 1778–1788. DOI PDF\nG. Du, F. Feng, Y. Wang, and M. T. Tyree (2019). Do nano-particles cause recalcitrant vulnerability curves in Robinia? Testing with a four-cuvette Cochard rotor and with water extraction curves. Tree Physiology 39(1): 156–165. DOI PDF\nD. M. Love, M. D. Venturas, J. S. Sperry, P. D. Brooks, J. L. Pettit, Y. Wang, and W. R. L. Anderegg (2019). Dependence of aspen stands on a subsurface water subsidy: Implications for climate change impacts. Water Resource Research 55(3): 1833–1848. DOI PDF\n\n\n\n2018\n\nM. D. Venturas, J. S. Sperry, D. M. Love, E. H. Frehner, M. G. Allred, Y. Wang, and W. R. L. Anderegg (2018). A stomatal control model based on optimization of carbon gain versus hydraulic risk predicts aspen sapling responses to drought. New Phytologist. 220(3): 836–850. DOI PDF\n\n\n\n2017\n\nJ. S. Sperry, M. D. Venturas, W. R. L. Anderegg, M. Mencuccini, D. S. Mackay, Y. Wang, and D. M. Love (2017). Predicting stomatal responses to the environment from the optimization of photosynthetic gain and hydraulic cost. Plant Cell & Environment 40(6): 816–830. DOI PDF\n\n\n\n2016\n\nJ. S. Sperry, Y. Wang, B. T. Wolfe, D. S. Mackay, W. R. L. Anderegg, N. G. McDowell, and W. T. Pockman (2016). Pragmatic hydraulic theory predicts stomatal responses to climatic water deficits. New Phytologist. 212(3): 577–589. DOI PDF\n\n\n\n2015\n\nY. Wang, J. Liu, and M. T. Tyree (2015). Stem hydraulic conductivity depends on the pressure at which it is measured and how this dependence can be used to assess the tempo of bubble pressurization in recently cavitated vessels. Plant Physiology 169(4): 2597–2607. DOI PDF\nY. Wang, R. Pan, and M. T. Tyree (2015). Studies on the tempo of bubble formation in recently cavitated vessels: A model to predict the pressure of air bubbles. Plant Physiology 168(2): 521–531. DOI PDF\n\n\n\n2014\n\nY. Wang, R. Burlett, F. Feng, and M. T. Tyree (2014). Improved precision of hydraulic conductance measurements using a Cochard rotor in two different centrifuges. Journal of Plant Hydraulics 1: e-0007. DOI PDF\n\n\n\nEarlier\n\nJ. Liu, P. Fu, Y. Wang, and K. Cao (2012). Different drought-adaptation strategies as characterized by hydraulic and water-relations traits of evergreen and deciduous figs in a tropical karst forest. Plant Science Journal 30(5): 484-493. DOI PDF"
-  },
-  {
-    "objectID": "blogs/peotry/english/crow.html",
-    "href": "blogs/peotry/english/crow.html",
-    "title": "Two-legged crow",
-    "section": "",
-    "text": "It is going to be the time to sow\nAlthough the garden is still covered with snow\nYet it does not hurt to pre-mesh the column and row\nAnd may in your greenhouse the seeds grow\n\nWe will need the water and the air\nThe fertilization need rises in pair\nWe can imagine the uncoupled nightmare\nBut at this moment nobody would care\n\nWe prepare the seeds\nWe are also ready to remove the weeds\nWe are waiting for the warm breeze\nYet, after months the liquid water is still freeze\n\nThe plants are stuck in the tight\nGrowing the shoots toward the bright\nDespite the soil there in sight\nThe environment is just not right\n\nDown the heaven falls a two-legged crow\nSo haughty to ask us to bow\n“Without me the soil water won’t flow\nWithout me the wind won’t blow”\n\n“All things are governed by the physical rules\nMass in kilograms and energy in joules\nRegardless the mountains, deserts, plains, or tules\nFor all the solid, liquid, or air molecules”\n\n“Welcome to my new land\nYou have access to silt, clay, loam, and sand\nIt is the mother of humankind\nIt is the time to let your plants expand”\n\n“But hold on, do not move your grown plants\nThat is not what the lord grants\nI do not care about your rants\nThey cannot be individuals, not to say the complicated mutants”\n\n“The nature of beauty is simplicity\nSimple means better scalarity\nSimple means more opacity and capacity\nSimple means readily parallelity”\n\nI am in such a rage\nI have to put the crow in a cage\nTo freedom and love that I engage\nBlessless that I try a new voyage\n\nThe dead seeks entropy increase\nThe live pursues maximal please\nIf the decision making right is to tease\nThat is when evolutions cease\n\nI abhor the dead rules and spat the two-legged crow\nBuild my own garden and manage the flow\nYet, I hear helpless scream inside the window\n“The lord will forbid you from air and punish you with endless snow”"
-  },
-  {
-    "objectID": "blogs/peotry/traditional/misc.html",
-    "href": "blogs/peotry/traditional/misc.html",
-    "title": "无题",
-    "section": "",
-    "text": "远山雾弭古道\n残天云连海潮\n白沙雍绕青渚\n绿椰斜倚碧涛\n若得流觞几许\n结庐不问叨扰"
+    "objectID": "blogs/news/conference/agu-2024/agu-2024.html#yujie-wang",
+    "href": "blogs/news/conference/agu-2024/agu-2024.html#yujie-wang",
+    "title": "AGU 2024 Fall Meeting",
+    "section": "Yujie Wang",
+    "text": "Yujie Wang\n\nTalk\n\n\n\nPoster\n\n\n\nCoauthored"
   },
   {
     "objectID": "blogs/peotry/traditional/way.html",
@@ -413,25 +623,67 @@
     "text": "其二\n云掩红日莎草长\n溪水沉沙掠浮光\n一日阅尽沧桑事\n驻足斜倚陌上桑"
   },
   {
-    "objectID": "blogs/peotry/grid-isles/1-1_2.html",
-    "href": "blogs/peotry/grid-isles/1-1_2.html",
-    "title": "经纬岛 第一章",
+    "objectID": "blogs/peotry/traditional/noname-1.html",
+    "href": "blogs/peotry/traditional/noname-1.html",
+    "title": "无题",
     "section": "",
-    "text": "别了，我的家乡\n我将要去寻找我的黄粱\n这亦是我首次出海\n不知何时才衣锦归来\n\n别了，我的家乡\n我会在远方邂逅我的新娘\n她将会像颗饱满丰润的蚌珠\n有着脉脉温柔的双目\n\n别了，我的家乡\n我或以余生漂泊在海上\n不知是否有契机\n去发现探索深海埋葬的遗迹\n\n再见，我的家乡\n我会在归来时与你娓娓诉讲\n我那迎风飒飒的风衣\n我那英雄般的事迹"
+    "text": "雨寂风声叶碎\n落落点桂玉蕤\n香殒美人履下\n蒙得谁入轮回"
   },
   {
-    "objectID": "blogs/peotry/grid-isles/1-1_2.html#第一章一",
-    "href": "blogs/peotry/grid-isles/1-1_2.html#第一章一",
-    "title": "经纬岛 第一章",
+    "objectID": "blogs/peotry/traditional/noname-1.html#其一",
+    "href": "blogs/peotry/traditional/noname-1.html#其一",
+    "title": "无题",
     "section": "",
-    "text": "别了，我的家乡\n我将要去寻找我的黄粱\n这亦是我首次出海\n不知何时才衣锦归来\n\n别了，我的家乡\n我会在远方邂逅我的新娘\n她将会像颗饱满丰润的蚌珠\n有着脉脉温柔的双目\n\n别了，我的家乡\n我或以余生漂泊在海上\n不知是否有契机\n去发现探索深海埋葬的遗迹\n\n再见，我的家乡\n我会在归来时与你娓娓诉讲\n我那迎风飒飒的风衣\n我那英雄般的事迹"
+    "text": "雨寂风声叶碎\n落落点桂玉蕤\n香殒美人履下\n蒙得谁入轮回"
   },
   {
-    "objectID": "blogs/peotry/grid-isles/1-1_2.html#第一章二",
-    "href": "blogs/peotry/grid-isles/1-1_2.html#第一章二",
-    "title": "经纬岛 第一章",
-    "section": "第一章（二）",
-    "text": "第一章（二）\n青翠的海岸渐渐悠长\n不知多少探险者曾在此埋葬\n抑或有无名诗人的尸骨\n唏嘘这经年的暮霭、繁星与晨雾\n\n为何我倏尔变得忧伤\n明明我最爱望着大海、听着海浪\n宛若冥冥中迷失在晓雾里\n观花走马间闪回我童年的点滴\n\n再记不起她回眸间的莞尔一笑\n也再也辨不出她言音的袅袅\n只觉得一切都变得模糊且默然\n无论如何尝试都带不离那远逝的海岸\n\n为何海风只吹的面颊生凉\n明明我背对着行驶的方向\n只看得岛屿缓缓被暮霭淹没\n满心的不舍却无从诉说"
+    "objectID": "blogs/peotry/traditional/noname-1.html#其二",
+    "href": "blogs/peotry/traditional/noname-1.html#其二",
+    "title": "无题",
+    "section": "其二",
+    "text": "其二\n子规鸣露野\n至晚血方竭\n恹恹寒蹄印\n不见月明夜"
+  },
+  {
+    "objectID": "blogs/peotry/traditional/noname-1.html#其三",
+    "href": "blogs/peotry/traditional/noname-1.html#其三",
+    "title": "无题",
+    "section": "其三",
+    "text": "其三\n江水莹莹翠山凝烟\n溪流潺潺竹石影浅\n马蹄声尽野草伏依\n黛痕婉颦嫣颜缱绻\n行吟且断乌眸深处\n离人何谓雨夜殇弦"
+  },
+  {
+    "objectID": "blogs/peotry/traditional/noname-1.html#其四",
+    "href": "blogs/peotry/traditional/noname-1.html#其四",
+    "title": "无题",
+    "section": "其四",
+    "text": "其四\n黑云撩辰处\n寒烟断小庐\n星落水不湮\n蟾泻难润楚\n彳亍荦斜径\n黛痕岂如初\n血色凝眉下\n莹莹谁人哭"
+  },
+  {
+    "objectID": "blogs/peotry/traditional/noname-1.html#其五",
+    "href": "blogs/peotry/traditional/noname-1.html#其五",
+    "title": "无题",
+    "section": "其五",
+    "text": "其五\n烟云翳翳泛寒城\n秋风飒飒染晓梦\n朝暮浮生难言尽\n好冷"
+  },
+  {
+    "objectID": "blogs/peotry/traditional/noname-1.html#其六",
+    "href": "blogs/peotry/traditional/noname-1.html#其六",
+    "title": "无题",
+    "section": "其六",
+    "text": "其六\n竹恋浮云云恋山\n影尽斑驳系骢鞍\n萧萧槁叶逐流水\n仄仄江涛曳葱兰\n\n雨厌骤风风厌寒\n声落素飒驻朱颜\n洒洒氤氲袅红尘\n恹恹半生盏茗烟\n\n雾锁江阁阁锁婵\n盎去叆叇徕悲欢\n怡怡呢喃幽兰若\n点点珠泪嘶杜鹃\n\n酒醉金樽樽醉仙\n觥错喧嚣卧草庵\n蔼蔼轮回难困厄\n婉娩窸窣声已残"
+  },
+  {
+    "objectID": "blogs/peotry/traditional/noname-2.html",
+    "href": "blogs/peotry/traditional/noname-2.html",
+    "title": "无题",
+    "section": "",
+    "text": "荫荫玉伞荫竹蓬\n飒飒斑红飒鸿萌\n香茗飘远韵浮花\n爇烟袅依人醉风\n纱轻巾湿伤别离\n笔寂墨干叹相逢\n西山东莽难尽目\n南云北海隔荒城\n鸿雁哀鸣诉近冬\n骢马空啼驾远征\n惟得冷月照空阁\n却映雾锁白骨声"
+  },
+  {
+    "objectID": "blogs/peotry/traditional/moon.html",
+    "href": "blogs/peotry/traditional/moon.html",
+    "title": "月下独酌",
+    "section": "",
+    "text": "明月不邀我\n独上云榭台\n自扫婆娑影\n独酌无人来\n琳琅葱郁郁\n百载少折摘\n莫等长夜残\n方怜谪仙才"
   },
   {
     "objectID": "blogs/peotry/grid-isles/1-8_9.html",
@@ -455,39 +707,74 @@
     "text": "第一章（九）\n谁又不会对远方向往\n匆匆地拾掇下便背上了行囊\n我不知何时会再遇见你\n但这旅途必然会给我开口的勇气\n\n我用尽了不恰当的辞藻\n或许只是徒增烦恼\n我开始彳亍与唏嘘\n但这份思念始终挥散不去\n\n我不敢开口去讲、却把诗句写得张扬\n仿佛你真的能读到一样\n但我却忘记了你的笑靥、记不清你的轮廓\n只在笔尖无病呻吟、却又觉不到自己的懦弱\n\n最终鼓起勇气发消息问候你，这让我坐立难安\n你肯定也一直把这一刻期盼\n然而却在几天后，得到了最简单的回答：\n你是谁啊？"
   },
   {
-    "objectID": "blogs/emerald/emerald.html",
-    "href": "blogs/emerald/emerald.html",
-    "title": "CliMA Land Benchmarks",
+    "objectID": "blogs/peotry/grid-isles/1-3_4.html",
+    "href": "blogs/peotry/grid-isles/1-3_4.html",
+    "title": "经纬岛 第一章",
     "section": "",
-    "text": "This blog tracks the performance of the CliMA Land global simulations in terms its spatial patterns in the following aspects:\nPer release, the major improvements are:\nThe RMSE per variable per simulation are"
+    "text": "睡意裹挟着疲惫\n我擦去了那灰色的汗水\n英雄的呐喊渐渐消失于朦胧\n清晰地却是北邙山下数不尽的无名墓冢\n\n我欲指点江山、也曾踌躇满志\n想世人对我的背影仰止\n却终熬不过年岁那锈钝的锉刀\n只在夜半梦醒时方能逃避这纷扰\n\n我不敢再拆开那些信笺\n也不敢再拨弄那落灰的琴弦\n反却渐渐爱上那熏天的酒糟\n去他妈的诗人的骄傲\n\n煤烟熏坏了世人的双目\n名利充斥着世外的草庐\n我红着脸咒骂着这吃人的世界\n然而醉醒的世界根本不会变得好一些"
   },
   {
-    "objectID": "blogs/emerald/emerald.html#model-versions",
-    "href": "blogs/emerald/emerald.html#model-versions",
-    "title": "CliMA Land Benchmarks",
-    "section": "Model Versions",
-    "text": "Model Versions\n\n\n\nVersion Tag\nLinear Change History\n\n\n\n\nA14\nCompute beta using SWC\n\n\n\nAdd option to remove Rd from GPP\n\n\nA13\nFix a bug in PFT fractions\n\n\n\nAdd C4 photosynthesis support\n\n\nA12\nFix a bug in f_sunlit (RT impacted)\n\n\nA11\nNot counting Car absorption in PPAR+SIF\n\n\n\nAdd new SIF spectrum option (V7)\n\n\nA10\nExtend spectra down to 300 nm\n\n\n\nBalance FR and VIS PAR in photosyntheis\n\n\n\nBug fix: account for wind in Gb\n\n\n\nRemove f_PSII option\n\n\n\nAdd option to prescribe leaf refl+trans\n\n\n\nAdd option to use broadband soil albedo\n\n\n\nSet f_PPAR to 1 in broadband RT mode\n\n\nA9\nAdd option for a TD Kd and maxPSII\n\n\n\nAdd function to prescribe Kf\n\n\nA8\nFix a bug in sunlit APAR\n\n\nA7\nAdd quadratic colimitation to C3 J (0.7)\n\n\n\nAdd option to prescribe f_PSII\n\n\n\nAdd option to set SIF excitation WL\n\n\nA6\nFix a bug in Medlyn model (coeff 1.6)\n\n\nNote\nHistory in ClimaLand-0.1\n\n\nA5\nFix SIF yield scaling bug\n\n\n\nAdd ePAR scenario\n\n\n\nAdd prescibed CI option\n\n\nA4\nExtend PAR definition to 400-750 nm\n\n\nA3\nAdd vertical Vcmax profile\n\n\nA2\nUse minimum beta instead of mean beta\n\n\n\nUse moving average optimal T from CLM5\n\n\nA1\nVersion used for initial run"
+    "objectID": "blogs/peotry/grid-isles/1-3_4.html#第一章三",
+    "href": "blogs/peotry/grid-isles/1-3_4.html#第一章三",
+    "title": "经纬岛 第一章",
+    "section": "",
+    "text": "睡意裹挟着疲惫\n我擦去了那灰色的汗水\n英雄的呐喊渐渐消失于朦胧\n清晰地却是北邙山下数不尽的无名墓冢\n\n我欲指点江山、也曾踌躇满志\n想世人对我的背影仰止\n却终熬不过年岁那锈钝的锉刀\n只在夜半梦醒时方能逃避这纷扰\n\n我不敢再拆开那些信笺\n也不敢再拨弄那落灰的琴弦\n反却渐渐爱上那熏天的酒糟\n去他妈的诗人的骄傲\n\n煤烟熏坏了世人的双目\n名利充斥着世外的草庐\n我红着脸咒骂着这吃人的世界\n然而醉醒的世界根本不会变得好一些"
   },
   {
-    "objectID": "blogs/emerald/emerald.html#weather-drivers",
-    "href": "blogs/emerald/emerald.html#weather-drivers",
-    "title": "CliMA Land Benchmarks",
-    "section": "Weather Drivers",
-    "text": "Weather Drivers\n\n\n\nVersion Tag\nDescription\n\n\n\n\nWD1\nERA5 Single Levels"
+    "objectID": "blogs/peotry/grid-isles/1-3_4.html#第一章四",
+    "href": "blogs/peotry/grid-isles/1-3_4.html#第一章四",
+    "title": "经纬岛 第一章",
+    "section": "第一章（四）",
+    "text": "第一章（四）\n我紧闭双眼对着潮湿的家书忏悔\n想从那漆黑中找到这世间的轮回\n我穷尽力气跃起欲叩醒神祇\n却怎地无法逾越这三尺禁地\n\n只听闻她走时已骨瘦如柴\n却只记得她微笑时的和蔼\n只听闻她走前一天不断咳血\n哪里知道这一去竟是永别\n\n只听闻她身体不断的溃烂\n而我却已麻木得毫无波澜\n只听闻她早已近乎失聪\n而我却再感受不到半点心痛\n\n只听闻她的新坟紧贴着姑太\n我只能遥遥地在心底祭拜\n以后也只能多烧些黄钱\n将我这不肖孙的忏悔埋掩"
   },
   {
-    "objectID": "blogs/emerald/emerald.html#griddingmachine-selections",
-    "href": "blogs/emerald/emerald.html#griddingmachine-selections",
-    "title": "CliMA Land Benchmarks",
-    "section": "GriddingMachine Selections",
-    "text": "GriddingMachine Selections\n\nGM4\n\n\n\nVariable\nGriddingMachine Tag\n\n\n\n\ns_cc\nSC_2X_1Y_V1\n\n\ns_α\nSOIL_VGA_12X_1Y_V1\n\n\ns_n\nSOIL_VGN_12X_1Y_V1\n\n\ns_Θr\nSOIL_SWCR_12X_1Y_V1\n\n\ns_Θs\nSOIL_SWCS_12X_1Y_V1\n\n\np_ch\nCH_20X_1Y_V1\n\n\np_chl\nCHL_2X_7D_V1\n\n\np_ci\nCI_2X_1M_V3\n\n\np_lai\nLAI_MODIS_2X_8D_YYYY_V1\n\n\np_sla\nSLA_2X_1Y_V1\n\n\np_vcm\nVCMAX_CESM_1X_1M_V3\n\n\nt_ele\nELEV_4X_1Y_V1\n\n\nt_lm\nLM_4X_1Y_V1\n\n\nt_pft\nPFT_2X_1Y_V1\n\n\n\n\n\n\n\n\n\nGM3\n\n\n\nVariable\nGriddingMachine Tag\n\n\n\n\ns_cc\nSC_2X_1Y_V1\n\n\ns_α\nSOIL_VGA_12X_1Y_V1\n\n\ns_n\nSOIL_VGN_12X_1Y_V1\n\n\ns_Θr\nSOIL_SWCR_12X_1Y_V1\n\n\ns_Θs\nSOIL_SWCS_12X_1Y_V1\n\n\np_ch\nCH_20X_1Y_V1\n\n\np_chl\nCHL_2X_7D_V1\n\n\np_ci\nCI_2X_1M_V3\n\n\np_lai\nLAI_MODIS_2X_8D_YYYY_V1\n\n\np_sla\nSLA_2X_1Y_V1\n\n\np_vcm\nVCMAX_2X_1Y_V2 (60%)\n\n\nt_ele\nELEV_4X_1Y_V1\n\n\nt_lm\nLM_4X_1Y_V1\n\n\nt_pft\nPFT_2X_1Y_V1\n\n\n\n\n\n\n\n\n\nGM2 (default)\n\n\n\nVariable\nGriddingMachine Tag\n\n\n\n\ns_cc\nSC_2X_1Y_V1\n\n\ns_α\nSOIL_VGA_12X_1Y_V1\n\n\ns_n\nSOIL_VGN_12X_1Y_V1\n\n\ns_Θr\nSOIL_SWCR_12X_1Y_V1\n\n\ns_Θs\nSOIL_SWCS_12X_1Y_V1\n\n\np_ch\nCH_20X_1Y_V1\n\n\np_chl\nCHL_2X_7D_V1\n\n\np_ci\nCI_2X_1M_V3\n\n\np_lai\nLAI_MODIS_2X_8D_YYYY_V1\n\n\np_sla\nSLA_2X_1Y_V1\n\n\np_vcm\nVCMAX_2X_1Y_V2\n\n\nt_ele\nELEV_4X_1Y_V1\n\n\nt_lm\nLM_4X_1Y_V1\n\n\nt_pft\nPFT_2X_1Y_V1\n\n\n\n\n\nGM1\n\n\n\nVariable\nGriddingMachine Tag\n\n\n\n\ns_cc\nSC_2X_1Y_V1\n\n\ns_α\nSOIL_VGA_12X_1Y_V1\n\n\ns_n\nSOIL_VGN_12X_1Y_V1\n\n\ns_Θr\nSOIL_SWCR_12X_1Y_V1\n\n\ns_Θs\nSOIL_SWCS_12X_1Y_V1\n\n\np_ch\nCH_20X_1Y_V1\n\n\np_chl\nCHL_2X_7D_V1\n\n\np_ci\nCI_2X_1Y_V1\n\n\np_lai\nLAI_MODIS_2X_8D_YYYY_V1\n\n\np_sla\nSLA_2X_1Y_V1\n\n\np_vcm\nVCMAX_2X_1Y_V2\n\n\nt_ele\nELEV_4X_1Y_V1\n\n\nt_lm\nLM_4X_1Y_V1\n\n\nt_pft\nPFT_2X_1Y_V1"
+    "objectID": "blogs/peotry/grid-isles/1-7.html",
+    "href": "blogs/peotry/grid-isles/1-7.html",
+    "title": "经纬岛 第一章",
+    "section": "",
+    "text": "我时常想起那无数次的邂逅\n那假装不经意的回眸\n在寂静的黄昏、在恹恹的午后\n那如瀑的青丝与紧握的纤手\n\n梅雨难湮没青瓦下的喧嚣\n风雪更陪衬这你那粉靥与红潮\n只愿在钟声后忘却门后的纷扰\n痴痴等待你路过时的浅笑\n\n玉兰、菡萏、苜蓿如你羞赧\n在供人折桂树的湖畔\n杨柳、莎草更如你名字一般\n微风下把云影梳理、把涟漪轻泛\n\n可惜我却胆怯与懦弱\n不敢逃离那能西北的角落\n你温柔的身影再不会从窗外掠过\n我又哪里去寻你会心的微笑一抹"
   },
   {
-    "objectID": "blogs/emerald/emerald.html#simulation-history",
-    "href": "blogs/emerald/emerald.html#simulation-history",
-    "title": "CliMA Land Benchmarks",
-    "section": "Simulation History",
-    "text": "Simulation History\n\na1_gm1_wd1\n\n\n\nSpatial patterns of selected parameters.\n\n\n\n\n\nComparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).\n\n\n\n\na2_gm1_wd1\n\n\n\nSpatial patterns of selected parameters.\n\n\n\n\n\nComparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).\n\n\n\n\na3_gm1_wd1\n\n\n\nSpatial patterns of selected parameters.\n\n\n\n\n\nComparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).\n\n\n\n\na4_gm1_wd1\n\n\n\nSpatial patterns of selected parameters.\n\n\n\n\n\nComparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).\n\n\n\n\na5_gm1_wd1\n\n\n\nSpatial patterns of selected parameters.\n\n\n\n\n\nComparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).\n\n\n\n\na6_gm1_wd1\n\n\n\nSpatial patterns of selected parameters.\n\n\n\n\n\nComparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).\n\n\n\n\na7_gm1_wd1\n\n\n\nSpatial patterns of selected parameters.\n\n\n\n\n\nComparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).\n\n\n\n\na8_gm2_wd1\n\n\n\nSpatial patterns of selected parameters.\n\n\n\n\n\nComparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).\n\n\n\n\na9_gm2_wd1\n\n\n\nSpatial patterns of selected parameters.\n\n\n\n\n\nComparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).\n\n\n\n\na10_gm2_wd1\n\n\n\nSpatial patterns of selected parameters.\n\n\n\n\n\nComparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).\n\n\n\n\na11_gm2_wd1\n\n\n\nSpatial patterns of selected parameters.\n\n\n\n\n\nComparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).\n\n\n\n\na11_gm3_wd1\n\n\n\nSpatial patterns of selected parameters.\n\n\n\n\n\nComparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).\n\n\n\n\na12_gm3_wd1\n\n\n\nSpatial patterns of selected parameters.\n\n\n\n\n\nComparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).\n\n\n\n\na13_gm3_wd1\n\n\n\nSpatial patterns of selected parameters.\n\n\n\n\n\nComparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).\n\n\n\n\na13_gm4_wd1\n\n\n\nSpatial patterns of selected parameters.\n\n\n\n\n\nComparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).\n\n\n\n\na14_gm4_wd1\n\n\n\nSpatial patterns of selected parameters.\n\n\n\n\n\nComparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).\n\n\n\n\na14_gm3_wd1\n\n\n\nSpatial patterns of selected parameters.\n\n\n\n\n\nComparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771).\n\n\n\n\na14_gm2_wd1\n\n\n\nSpatial patterns of selected parameters.\n\n\n\n\n\nComparison to reference datasets (MPI_RS GPP, MODIS NDVI, MODIS EVI, MODIS NIRv, TROPOMI SIF 683, TROPOMI SIF 740, OCO2 SIF 757, OCO2 SIF 771)."
+    "objectID": "blogs/peotry/grid-isles/1-7.html#第一章七",
+    "href": "blogs/peotry/grid-isles/1-7.html#第一章七",
+    "title": "经纬岛 第一章",
+    "section": "",
+    "text": "我时常想起那无数次的邂逅\n那假装不经意的回眸\n在寂静的黄昏、在恹恹的午后\n那如瀑的青丝与紧握的纤手\n\n梅雨难湮没青瓦下的喧嚣\n风雪更陪衬这你那粉靥与红潮\n只愿在钟声后忘却门后的纷扰\n痴痴等待你路过时的浅笑\n\n玉兰、菡萏、苜蓿如你羞赧\n在供人折桂树的湖畔\n杨柳、莎草更如你名字一般\n微风下把云影梳理、把涟漪轻泛\n\n可惜我却胆怯与懦弱\n不敢逃离那能西北的角落\n你温柔的身影再不会从窗外掠过\n我又哪里去寻你会心的微笑一抹"
+  },
+  {
+    "objectID": "blogs/peotry/english/flower.html",
+    "href": "blogs/peotry/english/flower.html",
+    "title": "Corner flowers",
+    "section": "",
+    "text": "I can see the flowers every day\nBinded to a red “STOP ALL WAY”\nSeems to be a unforgettable price to pay\nBut by a wrong jogger off the walkway\n\nSome cry for the bedtime story\nSome lose their amatory\nSome dig the albums for memory\nYet, some claim innocense as victory\n\nFew prunes the trees in December\nBut we all need visuals to remember\nWhile 35 is a default number\nOnly slow traffic would encumber\n\nThe dusts, the stones, and the rocks\nThe grass, the shrubs, and the hemlocks\nThe flies, the parrots, and the peacocks\nThe xings, the streets, and the blocks\n\nPeople barely count to three not to say seven\nFor all STOPs besides Allen\nRules that remembered and then forgortten\nRules that blur lower world and heaven"
+  },
+  {
+    "objectID": "blogs/tutorials/griddingmachine/3-indexer.html",
+    "href": "blogs/tutorials/griddingmachine/3-indexer.html",
+    "title": "GriddingMachine Tutorial 3",
+    "section": "",
+    "text": "The Indexer module of the GriddingMachine.jl is designed to read the entire or partial data from GriddingMachine datasets, which are as netcdf files.\nBy default, each dataset contains a data and std field, meaning the actual data and the standard deviation, respectively. The primary function provided will read the data and std at the same time, and return the two as a tuple, even if the std may be filled with NaNs. There are only three functions in the Indexer module at the moment, but each function could support multiple methods supported by Julia’s multiple dispatch feature. I will cover the functions in the tutorial below."
+  },
+  {
+    "objectID": "blogs/tutorials/griddingmachine/3-indexer.html#lat_ind-and-lon_ind",
+    "href": "blogs/tutorials/griddingmachine/3-indexer.html#lat_ind-and-lon_ind",
+    "title": "GriddingMachine Tutorial 3",
+    "section": "lat_ind and lon_ind",
+    "text": "lat_ind and lon_ind\nAll data points in each GriddingMachine dataset represent the mean or sum of the entire grid (not the value on an edge). Therefore, when we read the data using latitude and longitude, by default, the Indexer will first determine where the target site is located and then return the data and std of that particular grid. So, lat_ind and lon_ind are designed to compute the indices of the grid in latitudinal and longitudinal directions (with latitude from 90S to 90N, and longitude from 180W to 180E). For example, one can use the following command to get the latitudinal index:\njulia&gt; ilat = lat_ind(32.58; res = 0.25)\nhere the 32.58 is the latitude and option res is the spatial resolution (0.25 degree) in the latitudinal direction. Similarly, the longitude index can be computed from\njulia&gt; ilon = lon_ind(115.33, res = 1/12)\nhere 115.33 is the longitude and 1/12 is the spatial resolution (1/12 degree) in the longitudinal direction.\nPlease note here that the lat_ind and lon_ind functions are meant to be used by the read_LUT function below, but users can import these functions for research purposes (simple functions to write, but will save you some time to round up the numbers)."
+  },
+  {
+    "objectID": "blogs/tutorials/griddingmachine/3-indexer.html#read_lut-v0.3",
+    "href": "blogs/tutorials/griddingmachine/3-indexer.html#read_lut-v0.3",
+    "title": "GriddingMachine Tutorial 3",
+    "section": "read_LUT (v0.3)",
+    "text": "read_LUT (v0.3)\nVersion 0.3 differed from v0.2 in the following\n\nFT control removed\nfn can be file path or GriddingMachine tag (only accepts file path in v0.2)\n\nThe read_LUT function means read look-up table, which is a latitude-longitude(-time) table rather than indexed by plant function type. This function supports several methods:\n\nread_LUT(fn::String) to read the entire dataset (2D or 3D dataset)\nread_LUT(fn::String, cyc::Int) to read a slice of data in time for a 3D dataset\nread_LUT(fn::String, lat::Number, lon::Number; interpolation::Bool = false) to read the data at a site (2D dataset) or in a column (3D dataset)\nread_LUT(fn::String, lat::Number, lon::Number, cyc::Int; interpolation::Bool = false) to read the data at a site and time for a 3D dataset\n\nHere,\n\nfn is the file name of the dataset or GriddingMachine tag\ncyc is the index in time\nlat is the latitude\nlon is the longitude\ninterpolation is an optional bool (default is false) to determine whether to interpolate the data based on the latitude and longitude\n\nFor example,\nusing GriddingMachine.Collector: download_artifact!\nusing GriddingMachine.Indexer: read_LUT\njulia&gt; ds, ds_std = read_LUT(download_artifact!(\"VCMAX_2X_1Y_V2\"));\njulia&gt; ds, ds_std = read_LUT(\"VCMAX_2X_1Y_V2\");\njulia&gt; mean_site, std_site = read_LUT(download_artifact!(\"VCMAX_2X_1Y_V2\"), 32.33, 118.03);\njulia&gt; mean_site, std_site = read_LUT(\"VCMAX_2X_1Y_V2\", 32.33, 118.03);\nBecause the methods are pretty straightforward given the input variable names, I will not go through each method. You may go to the CI tests for more examples.\nNote here because these functions are all set to be private functions, users need to import these functions before using them (I designed it this way to avoid repeated function names with other modules). This design logic applies to most of the modules I wrote, such as CliMA Land and Emerald."
+  },
+  {
+    "objectID": "blogs/tutorials/griddingmachine/3-indexer.html#read_lut-v0.2",
+    "href": "blogs/tutorials/griddingmachine/3-indexer.html#read_lut-v0.2",
+    "title": "GriddingMachine Tutorial 3",
+    "section": "read_LUT (v0.2)",
+    "text": "read_LUT (v0.2)\nThe read_LUT function means read look-up table, which is a latitude-longitude(-time) table rather than indexed by plant function type. This function supports several methods:\n\nread_LUT(fn::String, FT::DataType = Float32) to read the entire dataset (2D or 3D dataset)\nread_LUT(fn::String, cyc::Int, FT::DataType = Float32) to read a slice of data in time for a 3D dataset\nread_LUT(fn::String, lat::Number, lon::Number, FT::DataType = Float32; interpolation::Bool = false) to read the data at a site (2D dataset) or in a column (3D dataset)\nread_LUT(fn::String, lat::Number, lon::Number, cyc::Int, FT::DataType = Float32; interpolation::Bool = false) to read the data at a site and time for a 3D dataset\n\nHere,\n\nFT is the output floating number type\n\nFor example,\nusing GriddingMachine.Collector: query_collection, vcmax_collection\nusing GriddingMachine.Indexer: read_LUT\njulia&gt; ds,ds_std = read_LUT(query_collection(vcmax_collection()));\njulia&gt; mean_site, std_site = read_LUT(query_collection(vcmax_collection()), 32.33, 118.03);"
   },
   {
     "objectID": "blogs/tutorials/griddingmachine/5-version-0.3.html",
@@ -516,34 +803,6 @@
     "title": "GriddingMachine Tutorial 1",
     "section": "Install Specific Branches or Version",
     "text": "Install Specific Branches or Version\nBy default, the pkg environment will install the latested version that is compatible with other packages. If you want to install other versions, you need to specify them. If you are familiar with the “Project.toml” file to manage the dependency packages, you can add a line in the [compat] field, such as\nGriddingMachine = \"=0.2.8\"\nThis will constrain the version to exactly v0.2.8. See https://pkgdocs.julialang.org/v1/compatibility/ for more details about how to best utilize “Project.toml” file to manage the Julia environment.\nAlternatively, users can install the specific versions when install the package through REPL:\npkg&gt; add GriddingMachine#v0.2.8\nThis command will use install GriddingMachine v0.2.8 branch as a static dependency. This is different from changing the “Project.toml” file.\nSimilarly, if you want to install a specific branch, such as the main branch and my development branch wyujie, you can do that by adding “#branchname” when installing GriddingMachine through the pkg environment:\npkg&gt; add GriddingMachine#branchname\nNote that you can use “Project.toml” and the specific branch at the same time. However, as the target version is not yet registered, you will need to include “Manifest.toml” file as well to make your project environment a static one."
-  },
-  {
-    "objectID": "blogs/tutorials/griddingmachine/2-collector.html",
-    "href": "blogs/tutorials/griddingmachine/2-collector.html",
-    "title": "GriddingMachine Tutorial 2",
-    "section": "",
-    "text": "The Collector module within GriddingMachine.jl is designed to download the datasets to local drive and manage the downloaded datasets.\nEach of the dataset in GriddingMachine is assigned a unique tag, such as VCMAX_2X_1Y_V1. Please see the documentation for all the supported datasets and their tags. The datasets in GriddingMachine are catergorized to different collections following a generic struct called GriddedCollection. The struct has the following fields\nPlease find the supported data collections at the folder. Note here that this struct is mostly meant for documentation purpose, and is currently hardcoded in the main code; the SUPPORTED_COMBOS field can be modified using the push! function. However, we do recommend users to add the COMBO labels to SUPPORTED_COMBOS when porting new data to GriddingMachine."
-  },
-  {
-    "objectID": "blogs/tutorials/griddingmachine/2-collector.html#query-the-datasets-v0.2",
-    "href": "blogs/tutorials/griddingmachine/2-collector.html#query-the-datasets-v0.2",
-    "title": "GriddingMachine Tutorial 2",
-    "section": "Query the datasets (v0.2)",
-    "text": "Query the datasets (v0.2)\nFunction query_collection is designed to automatically download the dataset if not yet downloaded and then return to the user the path of the downloaded dataset. There are three methods for the query_collection function:\n\nquery_collection(ds::GriddedCollection) queries the default dataset within a collection;\nquery_collection(ds::GriddedCollection, version::String) queries one version from the supported datasets;\nquery_collection(artname::String) queries the dataset using the full tag of a dataset.\n\nIt is recommended to use the last method for research as the combo tag may not be updated in the GriddedCollection struct or the default dataset may change over time:\njulia&gt; using GriddingMachine.Collector: query_collection\njulia&gt; dsfile = query_collection(\"VCMAX_2X_1Y_V1\")"
-  },
-  {
-    "objectID": "blogs/tutorials/griddingmachine/2-collector.html#clean-the-downloaded-datasets-v0.2",
-    "href": "blogs/tutorials/griddingmachine/2-collector.html#clean-the-downloaded-datasets-v0.2",
-    "title": "GriddingMachine Tutorial 2",
-    "section": "Clean the downloaded datasets (v0.2)",
-    "text": "Clean the downloaded datasets (v0.2)\nFunction clean_collections! is designed to clean the downloaded datasets, and there are three methods to use it:\n\nclean_collections!(selection::String=\"old\") to clean only the outdated (default) or all datasets (set selection to “all”);\nclean_collections!(selection::Vector{String}) to clean the datasets using their tags;\nclean_collections!(selection::GriddedCollection) to clean all the datasets within a collection.\n\nTypically, it is only recommended to clean only the outdated datasets\njulia&gt; using GriddingMachine.Collector: clean_collections!\njulia&gt; clean_collections!();"
-  },
-  {
-    "objectID": "blogs/tutorials/griddingmachine/2-collector.html#sync-the-database-v0.2",
-    "href": "blogs/tutorials/griddingmachine/2-collector.html#sync-the-database-v0.2",
-    "title": "GriddingMachine Tutorial 2",
-    "section": "Sync the database (v0.2)",
-    "text": "Sync the database (v0.2)\nSometimes, users may want to download all the datasets, for example, when building a server for the Requester module. In this case, we provide a function sync_collections!, which supoorts two methods:\n\nsync_collections!() to download all the datasets within all collections;\nsync_collections!(gc::GriddedCollection) to download specified collection.\n\nAnd it is simple to perform the synchronization (Note: do not try this code unless you really want to download all the data!):\njulia&gt; using GriddingMachine.Collector: sync_collections!\njulia&gt; sync_collections!();"
   },
   {
     "objectID": "blogs/papers/logs.html",
@@ -602,11 +861,11 @@
     "text": "Climate model predictions of future land carbon sink strength show significant discrepancies. To enhance predictive accuracy and reduce inter-model disagreements, it is crucial to improve the representation of vegetation processes and calibrate the models using more observational data. However, the limitations of computational resources in the past have hindered the integration of new theories and advances into traditional climate models, which often rely on statistical models to parameterize vegetation processes instead of mechanistic and physiological models (such as stomatal control models). Additionally, the preference for faster models has limited the incorporation of complex features (e.g., canopy model complexity), restricting the predictive skills of climate models.\nThe use of simple vegetation parameterization schemes in traditional climate and land surface models has also limited the types of data that could be used for model calibration. For example, existing climate models do not use complex canopy radiative transfer models, thus being limited to use data such as carbon, water, and energy fluxes for calibration, often from flux towers. Despite the high temporal resolution provided by flux towers, the towers’ sparsity in space and time is a major limitation. Remote sensing data from space (such as MODIS, TROPOMI, and OCO 2/3), which provide global coverage, or field data (such as PhotoSpec), which provide high spectral and temporal resolution, cannot be directly harnessed by the traditional models.\nIn CliMA, we are developing a next-generation climate model that learns from data. In pursuit of this goal, the land model component of CliMA seeks to equip the model with improved representations of vegetation processes and the capacity to directly harness remote sensing data, beyond just carbon, water, and energy fluxes. Thanks to the concerted efforts of the land team, we have successfully developed a first version of the next-generation land surface model—CliMA Land.\nCliMA Land is a cutting-edge, highly modular model, entirely written in Julia, with all of its submodules available as standalone packages for use in research from leaf level to regional and global scales (Fig. 1 biophysics module of CliMA Land). The biophysics component of CliMA Land boasts an impressive array of features, including support for two canopy radiative transfer schemes (broadband and hyperspectral), a sophisticated plant hydraulic model (offering both steady and non-steady state options), and nine stomatal models (including both empirical and optimality-based models). Further details, code, examples, and documentation can be found at https://github.com/CliMA/Land.\n\n\n\nFig. 1 Diagram of CliMA Land biophysics module hierarchy.\n\n\nWe are thrilled to announce that we have successfully run a global simulation using CliMA Land for the first time. The model showed very high predictive skills with regard to simulated quantities such as gross primary productivity, solar-induced chlorophyll fluorescence, and canopy reflectance properties (as shown in Fig. 2). Although the model has not yet been calibrated based on field- or space-based data, it demonstrated impressive spatial and temporal predictions (mean R2 = 0.78 for nine simulated flux and remote sensing quantities). This work has recently been published in the Journal of Advances in Modeling Earth Systems (doi:10.1029/2021MS002964).\nWe continue to work on improving the model’s predictive skills through development, configuration, and calibration efforts. Furthermore, we are dedicated to keeping the model open-source and user-friendly, and thus warmly welcome contributions and suggestions from the community.\n\n\n\nFig. 2 Overview of CliMA Land simulations (before model calibration)."
   },
   {
-    "objectID": "blogs/papers/caltech/wang-2023-crop.html",
-    "href": "blogs/papers/caltech/wang-2023-crop.html",
-    "title": "Agriculture in silico",
+    "objectID": "blogs/papers/caltech/wang-2022-griddingmachine.html",
+    "href": "blogs/papers/caltech/wang-2022-griddingmachine.html",
+    "title": "GriddingMachine",
     "section": "",
-    "text": "There are many ways to improve crop yield, and the approaches can be categorized to\n\ntrait enhancement (e.g., breeding)\nwater use (e.g., irrigation, fertilization, and mulching), and\nlight use (e.g., density control and vertical farming).\n\nHowever, these efforts are all very time consuming to find an optimized solution. Thus, there is increasing demand for a uniform tool to evaluate these approaches. One solution is to combine the agricultural practices with vegetation modeling to help explore the possible combinations of approaches to advance the crop yield. Here, we reviewed the trials and practices that aim to improve crop yield through light use at different stages.\n\n\n\nFig. 1 Strategies that can be used to improve crop yield through canopy radiation optimization.\n\n\nFor example, one can\n\noptimize chlorophyll content to improve the light condition in the lower canopy,\nimplement chlorophyll d and f to increase the near infrared light absorption,\noptimize crop density and space to improve light condition in the lower canopy,\nmix crop to maximize light absorption in the lower canopy, and\noptimize the supplemental light spectra and power.\n\nWe used CliMA Land to quantitatively evaluate the potentials of the proposed approaches, and thus that of vegetation modeling. This work has recently been published in the Crop and Environment (doi:10.1016/j.crope.2023.07.003). We believe that future efforts in advancing vegetation modeling and bridging it to agriculture will better guide real-world agricultural practices."
+    "text": "Researchers are spending way too much time in finding, formatting, and reusing public data. The ever increasing amount of data, various forms of data, and different layouts of data make this problem even more serious. While the intention of sharing data within the community is to promote future research, the increasing fragmentation makes it harder and harder for researchers to find and reuse them, particularly for newbies. Taking my personal experience as an example, to collect the global datasets for the CliMA Land Model, we spent weeks and months to identify which datasets to use, download the data from different sources, standardize the datasets, and learn how to read the datasets correctly with different formats (such as NetCDF, GeoTIFF, CSV, and binary) with different programming languages. Unfortunately, researchers may need to repeat this tedious work again and again, even for the same datasets (if one forgot where the data is stored or how it has been processed).\n\n\n\nFig. 1 Pathway to assemble and distribute the GriddingMachine database.\n\n\nAiming towards minimizing the effort involved in the data reuse, we started the GriddingMachine project by\n\nCollecting the data from various sources,\nProcessing the data to a uniform format (NetCDF),\nStoring the reprocessed data on a public server, and\nDistributing the datasets via different programming languages.\n\nEach dataset is labeled with a unique tag that describes\n\nType of the dataset (e.g., leaf area index, biomass, and etc.),\nSpatial resolution (e.g., 5X means 0.2° × 0.2° grid),\nTemporal resolution (e.g., 1Y means 1 year, 1M means 1 month),\nYear of the data, and\nVersion of the data (from different publications).\n\nOne can simply look up the available dataset tags (and suggest new datasets) through our Github repository.\nWith the unique tag, one can query the data directly via function query_collection, for example\nquery_collection(\"LAI_MODIS_2X_8D_2020\")\nfor the global leaf area index of the year 2020, and the dataset will be downloaded automatically. Alternatively, one can query data only for a site using the latitude and longitude without downloading the dataset, for example,\nrequest_LUT(\"LAI_MODIS_2X_8D_2020_V1\", 34.1478, -118.1445)\nfor the leaf area index of the year 2020 at Pasadena, CA, USA. See our published work (Wang et al., 2022) and online documentation for more information about how to use GriddingMachine. It supports Julia, Matlab, Octave, Python, and R.\nGriddingMachine makes it way easier to reuse the community-based datasets, as users are waived from data collection, formatting, and management. Given the aims of GriddingMachine, we welcome the contributions of globally gridded data to our collection."
   },
   {
     "objectID": "blogs/papers/caltech/liu-2024-stomatal.html",
@@ -616,17 +875,24 @@
     "text": "Modeling stomatal conductance (gs) is a key challenge in vegetation models and land surface models, and various approaches have been developed including statistics- and optimality-based models. The stomatal model is typically used along with the canopy radiative model, which provides the former with necessary inputs like photosynthetically active radiation (PAR) and temperature (T) to compute photosynthesis and then gs. In model world practice, gs is typically computed at a steady state, meaning that model parameters (such as photosynthetic rate [A], transpiration rate (E), gs, PAR, and T) agree numerically. This assumption is fine for most models as their canopy models are simple enough and the computation resource required to derive the steady state is low.\nHowever, finding a similar steady state for complicated canopy models as in CliMA Land is overwhelming. For example, any change in gs would lead to changes in A and E, and thus leaf latend heat flux, leaf temperature, longwave radiation, hydraulic profiles, etc.\nMoreover, the steady-state assumption could break the mass and energy conservation. If leaf water content and heat capacity are considered, but the final water and heat flux are all at steady state, then how do we account for the changes in water mass and total energy?\nMost importantly, the soil-plant-air continuum in nature will NEVER be at a steady state, say the sun is moving all the time, wind is randomly changing leaf positions, soil water contents are changing, and plant physiology is responding. For all these reasons, we’d better model the land surface processes prognostically.\nIn the recent research led by Ke Liu (Liu et al., 2024; Biogeosciences), we evaluated the impacts of modeling gs at non-steady state using CliMA Land. We found that, as stomata open “slowly” (compared to immediately at steady state), gs would be lower than steady state models in the morning time in an ideal environment without cloud. Comparatively, as stomata close “slowly”, gs would be higher than the steady-state assumption in the afternoon in the ideal environment. In this case, these differences could cancel out, but it still suggested that modelers had messed up the timing. Notably, the natural environment is never ideal following a sine or cosine function, and plants are experiencing random fluctuations in radiation, dry air, etc. These resulted in elevated differences between steady-state and non-steady-state modeling (Fig. 1).\n\n\n\nFig. 1 Difference between modeled carbon and water fluxes under steady and non-steady states.\n\n\nThere are many benefits for models to take the non-steady state approach, particularly that it is more realistic! There are also more implications from the study, please check out the paper for more details. Yet, there are still a lot of problems to resolve in the future, such as\n\nHow to best represent the prognostic gs (other formulations)?\nDo plants have different time constants when opening and closing the stomata?\nDo sunlit and shaded leaves have different time constants?\n\nI am keen to see follow-up studies that address these problems. Together, we can make the vegetation and land surface models more realistic."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to Yujie’s Website",
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
     "section": "",
-    "text": "WANG, Yujie\nResearch Professor\nSchool of Earth and Space Sciences\nUniversity of Science and Technology of China (USTC)\nNo.96, JinZhai Road Baohe District\nHefei, Anhui 230026, China\n\nOffice: 教学行政楼804-806 \n +86 xxx-xxxx-xxxx\n wyujie@ustc.edu.cn"
+    "text": "For the code I wrote for the 1st-authored and some co-authorred publications, please refer to this GitHub repository"
+  },
+  {
+    "objectID": "publications.html#journal-papers",
+    "href": "publications.html#journal-papers",
+    "title": "Publications",
+    "section": "Journal Papers",
+    "text": "Journal Papers\n\nIn Press\n\n\n2024\n\nY. Yao, P. Ciais, E. Joetzjer, W. Li, L. Zhu, Y. Wang, C. Frankenberg, and N. Viovy (2024). The impacts of elevated CO₂ on forest growth, mortality, and recovery in the Amazon rainforest. Earth System Dynamics 15(3): 763-778. DOI PDF\nY. Wang, R. K. Braghiere, Y. Yin, Y. Yao, D. Hao, and C. Frankenberg (2024). Beyond the visible: Accounting for ultraviolet and far‐red radiation in vegetation productivity and surface energy budgets. Global Change Biology 30(5): e17346. DOI PDF\nY. Wang, and C. Frankenberg (2024). Toward more accurate modeling of canopy radiative transfer and leaf electron transport in land surface modeling. Journal of Advances in Modeling Earth Systems 16(4): e2023MS003992. DOI PDF\nK. Liu, Y. Wang, T. Magney, and C. Frankenberg (2024). Non-steady-state stomatal conductance modeling and its implications: from leaf to ecosystem. Biogeosciences 21(6): 1501–1516. DOI PDF\nY. Yao, V. Humphrey, A. G. Konings, Y. Wang, Y. Yin, N. Holtzman, J. D. Wood, Y. Bar-On, and C. Frankenberg (2024). Investigating diurnal and seasonal cycles of vegetation optical depth retrieved from GNSS signals in a broadleaf forest. Geophysical Research Letters 51(6): e2023GL107121. DOI PDF\n\n\n\n2023\n\nN. Holtzman, Y. Wang, J. D. Wood, C. Frankenberg, and A. G. Konings (2023). Constraining plant hydraulics with microwave radiometry in a land surface model: Impacts of temporal resolution. Water Resources Research 59(11): e2023WR035481. DOI PDF\nY. Wang, and Y. Yin (2023). Agriculture in silico: Perspectives on radiative transfer optimization using vegetation modeling. Crop and Environment 2(4): 175-183. DOI PDF\nR. K. Braghiere, Y. Wang, A. Gagné-Landmann, P. G. Brodrick, A. A. Bloom, A. J. Norton, S. Ma, P. Levine, M. Longo, K. Deck, P. Gentine, J. R. Worden, C. Frankenberg, and T. Schneider (2023). The importance of hyperspectral soil albedo information for improving Earth system model projections. AGU Advances 4(4): e2023AV000910. DOI PDF\nX. Liang, D. Wang, Q. Ye, J. Zhang, M. Liu, H. Liu, K. Yu, Y. Wang, E. Hou, B. Zhong, L. Xu, T. Lv, S. Peng, H. Lu, P. Sicard, A. Anav, and D. S. Ellsworth (2023). Stomatal responses of terrestrial plants to global change. Nature Communications 14(1): 2188. DOI PDF\nY. Wang, R. K. Braghiere, M. Longo, A. J. Norton, P. Köhler, R. Doughty, Y. Yin, A. A. Bloom, and C. Frankenberg (2023). Modeling global vegetation gross primary productivity, transpiration and hyperspectral canopy radiative transfer simultaneously using a next generation land surface model—CliMA Land. Journal of Advances in Modeling Earth Systems 15(3): e2021MS002964. DOI PDF\n\n\n\n2022\n\nY. Wang, and C. Frankenberg (2022). Technical note: Common ambiguities in plant hydraulics. Biogeosciences 19(19): 4705-4714. DOI PDF\nY. Wang, P. Köhler, R. K. Braghiere, M. Longo, R. Doughty, A. A. Bloom, and C. Frankenberg (2022). GriddingMachine, a database and software for Earth system modeling at global and regional scales. Scientific Data 9: 258. DOI PDF\nR. Doughty, T. Kurosu, N. Parazoo, P. Köhler, Y. Wang, Y. Sun, and C. Frankenberg (2022). Global GOSAT, OCO-2 and OCO-3 solar induced chlorophyll fluorescence datasets. Earth System Science Data 14(4): 1513-1529. DOI PDF\nY. Wang, and C. Frankenberg (2022). On the impact of canopy model complexity on simulated carbon, water, and solar-induced chlorophyll fluorescence fluxes. Biogeosciences 19(1): 29-45. DOI PDF\n\n\n\n2021\n\nY. Wang, P. Köhler, L. He, R. K. Braghiere, R. Doughty, J. Wood, and C. Frankenberg (2021). Testing stomatal models at the stand level in deciduous angiosperm and evergreen gymnosperm forests using CliMA Land (v0.1). Geoscientific Model Development 14(11): 6741-6763. DOI PDF\nA. G. Konings, S. S. Saatchi, C. Frankenberg, M. Keller, V. Leshyk, W. R. L. Anderegg, V. Humphrey, A. M. Matheny, A. Trugman, L. Sack, E. Agee, M. L. Barnes, O. Binks, K. Cawse-Nicholson, B. O. Christoffersen, D. Entekhabi, P. Gentine, N. M. Holtzman, G. G. Katul, Y. Liu, M. Longo, J. Martinez-Vilalta, N. McDowell, P. Meir, M. Mencuccini, A. Mrad, K. A. Novick, R. S. Oliveira, P. Siqueira, S. C. Steele-Dunne, D. R. Thompson, Y. Wang, R. Wehr, J. D. Wood, X. Xu, and P. A. Zuidema (2021). Detecting forest response to droughts with global observations of vegetation water content. Global Change Biology 27(23): 6005-6024. DOI PDF\nP. Köhler, W. W. Fischer, G. R. Rossman, J. P. Grotzinger, R. Doughty, Y. Wang, Y. Yin, and C. Frankenberg (2021). Mineral luminescence observed from space. Geophysical Research Letters 48(19): e2021GL095227. DOI PDF\nR. K. Braghiere, Y. Wang, R. Doughty, D. Souza, T. Magney, J. Widlowski, M. Longo, A. Bloom, J. Worden, P. Gentine, and C. Frankenberg (2021). Accounting for canopy structure improves hyperspectral radiative transfer and sun-induced chlorophyll fluorescence representations in a new generation Earth System model. Remote Sensing of Environment 261: 112497. DOI PDF\nA. Potkay, A. T. Trugman, Y. Wang, M. D. Venturas, W. R. L. Anderegg, C. Mattos, and Y. Fan (2021). Coupled whole-tree optimality and xylem-hydraulics explain dynamic biomass partitioning. New Phytologist 230(6): 2226-2245. DOI PDF\nY. Wang, W. R. L. Anderegg, M. D. Venturas, A. T. Trugman, K. Yu, and C. Frankenberg (2021). Optimization theory explains nighttime stomatal responses. New Phytologist 230(4): 1550-1561. DOI PDF\n\n\n\n2020\n\nY. Wang, J. S. Sperry, W. R. L. Anderegg, M. D. Venturas, and A. T. Trugman (2020). Tansley Review: A theoretical and empirical assessment of stomatal optimization modeling. New Phytologist 227(2): 311–325. DOI PDF\n\n\n\n2019\n\nJ. S. Sperry, M. D. Venturas, H. N. Todd, A. T. Trugman, W. R. L. Anderegg, Y. Wang, and X. Tai (2019). The impact of rising CO₂ and acclimation on theresponse of US forests to global warming. Proceedings of the National Academy of Sciences of the United States of America 116(51): 25734–25744. DOI PDF\nA. T. Trugman, L. D. L. Anderegg, J. S. Sperry, Y. Wang, M. D. Venturas, and W. R. L. Anderegg (2019). Leveraging plant hydraulics to yield predictive and dynamic plant leaf allocation in vegetation models with climate change. Global Change Biology 25: 4008–4021. DOI PDF\nY. Wang, J. S. Sperry, M. D. Venturas, A. T. Trugman, D. D. Love, and W. R. L. Anderegg (2019). The stomatal response to rising CO₂ concentration and drought is predicted by a hydraulic trait-based optimization model. Tree Physiology 39(8): 1416–1427. DOI PDF\nK. Yu, G. R. Goldsmith, Y. Wang, and W. R. L. Anderegg (2019). Phylogenetic and biogeographic controls of plant nighttime stomatal conductance. New Phytologist 222(4): 1778–1788. DOI PDF\nG. Du, F. Feng, Y. Wang, and M. T. Tyree (2019). Do nano-particles cause recalcitrant vulnerability curves in Robinia? Testing with a four-cuvette Cochard rotor and with water extraction curves. Tree Physiology 39(1): 156–165. DOI PDF\nD. M. Love, M. D. Venturas, J. S. Sperry, P. D. Brooks, J. L. Pettit, Y. Wang, and W. R. L. Anderegg (2019). Dependence of aspen stands on a subsurface water subsidy: Implications for climate change impacts. Water Resource Research 55(3): 1833–1848. DOI PDF\n\n\n\n2018\n\nM. D. Venturas, J. S. Sperry, D. M. Love, E. H. Frehner, M. G. Allred, Y. Wang, and W. R. L. Anderegg (2018). A stomatal control model based on optimization of carbon gain versus hydraulic risk predicts aspen sapling responses to drought. New Phytologist. 220(3): 836–850. DOI PDF\n\n\n\n2017\n\nJ. S. Sperry, M. D. Venturas, W. R. L. Anderegg, M. Mencuccini, D. S. Mackay, Y. Wang, and D. M. Love (2017). Predicting stomatal responses to the environment from the optimization of photosynthetic gain and hydraulic cost. Plant Cell & Environment 40(6): 816–830. DOI PDF\n\n\n\n2016\n\nJ. S. Sperry, Y. Wang, B. T. Wolfe, D. S. Mackay, W. R. L. Anderegg, N. G. McDowell, and W. T. Pockman (2016). Pragmatic hydraulic theory predicts stomatal responses to climatic water deficits. New Phytologist. 212(3): 577–589. DOI PDF\n\n\n\n2015\n\nY. Wang, J. Liu, and M. T. Tyree (2015). Stem hydraulic conductivity depends on the pressure at which it is measured and how this dependence can be used to assess the tempo of bubble pressurization in recently cavitated vessels. Plant Physiology 169(4): 2597–2607. DOI PDF\nY. Wang, R. Pan, and M. T. Tyree (2015). Studies on the tempo of bubble formation in recently cavitated vessels: A model to predict the pressure of air bubbles. Plant Physiology 168(2): 521–531. DOI PDF\n\n\n\n2014\n\nY. Wang, R. Burlett, F. Feng, and M. T. Tyree (2014). Improved precision of hydraulic conductance measurements using a Cochard rotor in two different centrifuges. Journal of Plant Hydraulics 1: e-0007. DOI PDF\n\n\n\nEarlier\n\nJ. Liu, P. Fu, Y. Wang, and K. Cao (2012). Different drought-adaptation strategies as characterized by hydraulic and water-relations traits of evergreen and deciduous figs in a tropical karst forest. Plant Science Journal 30(5): 484-493. DOI PDF"
   },
   {
     "objectID": "blogs.html",
     "href": "blogs.html",
     "title": "Blogs",
     "section": "",
-    "text": "Logs of Reviews and Reviewing\n\n\n\n\n\n\nLogs\n\n\n\nLogs for the number of reviews we recieve and make. We try to balance the two!\n\n\n\n\n\nNov 27, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nAGU 2024 Fall Meeting\n\n\n\n\n\n\nConference\n\n\n\nsilicormosia @ Washington DC\n\n\n\n\n\nNov 13, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nGriddingMachine Tutorial 6\n\n\n\n\n\n\nTutorial\n\n\n\nHow to use the Collector module of GriddingMachine.jl (v0.3)?\n\n\n\n\n\nOct 30, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nGriddingMachine Tutorial 5\n\n\n\n\n\n\nTutorial\n\n\n\nUpdate to version 0.3.0\n\n\n\n\n\nOct 29, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nGriddingMachine Tutorial 4\n\n\n\n\n\n\nTutorial\n\n\n\nHow to use the Requestor module of GriddingMachine.jl?\n\n\n\n\n\nOct 9, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\n经纬岛 第一章\n\n\n\n\n\n\nPoem\n\n\n经纬岛\n\n\n\n上大学时，在大学生心理学课上学到一个词叫做被爱妄想，老师举的例子也特别生动：某男追求某女未果，得知其新交了男朋友，便有了名场面。曰那男生长的那么丑，根本没我帅，你肯定是在考验我！！！\n\n\n\n\n\nJun 21, 2024\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\n经纬岛 第一章\n\n\n\n\n\n\nPoem\n\n\n经纬岛\n\n\n\n穷困潦倒时的自卑与怯懦，或许会给人埋在心底最纯粹的情感，但或许只是浮想联翩的意淫。。。\n\n\n\n\n\nJun 15, 2024\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\nAccounting for ultraviolet and far-red radiation in land surface modeling\n\n\n\n\n\n\nLSM\n\n\nPaper\n\n\n\nUV is not explicitly accounted for in LSM; FR can boost photosynthesis but LSMs typically treat it as NIR. How can we improve these?\n\n\n\n\n\nMay 27, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\n经纬岛 第一章\n\n\n\n\n\n\nPoem\n\n\n经纬岛\n\n\n\n刚开始开发CliMA Land时我也是踌躇满志的，结果过了这些年依旧没能将我的模型和大气模型耦合。再加上找工作也一直不顺利，心态居然都崩习惯了。。。\n\n\n\n\n\nMay 21, 2024\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\n经纬岛 第一章\n\n\n\n\n\n\nPoem\n\n\n经纬岛\n\n\n\n凌晨时候听二哥说奶奶走了，而我仍在美国。上次回去是去年去香港大学面试，当时奶奶精神也还好，不曾想竟是见奶奶的最后一面。我痛恨自己没有早些回国找工作，也痛恨自己对生活的麻木。\n\n\n\n\n\nMay 17, 2024\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\nCliMA Land Benchmarks\n\n\n\n\n\n\nLogs\n\n\nLSM\n\n\n\nPerformance of CliMA Land global simulations: spatial patterns of annual means\n\n\n\n\n\nMay 7, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\n月下独酌\n\n\n\n\n\n\nPoem\n\n\n\n周二夜驱车归家，见满月悬空，不禁唏嘘。。。\n\n\n\n\n\nApr 25, 2024\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\nImprove canopy radiative transfer and electron transport modeling\n\n\n\n\n\n\nLSM\n\n\nPaper\n\n\n\nLand surface models typically use broadband RT modeling, potentially resulting in biased PPAR and J calculations. How can we improve this?\n\n\n\n\n\nApr 7, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\n道\n\n\n\n\n\n\nPoem\n\n\n\n飞熊临渊叹渔樵，何人解吾直中道。\n\n\n\n\n\nMar 28, 2024\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\nUsing GPS for research\n\n\n\n\n\n\nPaper\n\n\n\nGPP signals can be used to estimate canopy water content in various time scales\n\n\n\n\n\nMar 23, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nNon-steady state modeling\n\n\n\n\n\n\nPaper\n\n\nLSM\n\n\n\nModeling stomatal conductance at non-steady state in CliMA Land\n\n\n\n\n\nMar 22, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nGriddingMachine Tutorial 3\n\n\n\n\n\n\nTutorial\n\n\n\nHow to use the Indexer module of GriddingMachine.jl?\n\n\n\n\n\nJan 30, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nGriddingMachine Tutorial 2\n\n\n\n\n\n\nTutorial\n\n\n\nHow to use the Collector module of GriddingMachine.jl (v0.2)?\n\n\n\n\n\nJan 19, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nGriddingMachine Tutorial 1\n\n\n\n\n\n\nTutorial\n\n\n\nHow to install different versions of GriddingMachine.jl?\n\n\n\n\n\nJan 12, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nAgriculture in silico\n\n\n\n\n\n\nPaper\n\n\n\nAgriculture in silico: Use of vegetation modeling for crop yield advances\n\n\n\n\n\nJan 3, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nCorner flowers\n\n\n\n\n\n\nPoem\n\n\n\nI see the flowers everyday when I drop off my kids\n\n\n\n\n\nMay 30, 2023\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nCliMA Land\n\n\n\n\n\n\nPaper\n\n\nLSM\n\n\n\nCliMA Land: A next-generation land surface model that bridges vegetation processes and remote sensing\n\n\n\n\n\nMay 1, 2023\n\n\nYujie Wang and Renato Braghiere\n\n\n\n\n\n\n\n\n\n\n\n\nTwo-legged crow\n\n\n\n\n\n\nPoem\n\n\n\nI am really pissed off by the two legged crow who thinks she has three\n\n\n\n\n\nApr 18, 2023\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\n经纬岛 第一章\n\n\n\n\n\n\nPoem\n\n\n经纬岛\n\n\n\n打算写成一个长篇叙事诗，不知道写不写的好。。。\n\n\n\n\n\nSep 22, 2022\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\nGriddingMachine\n\n\n\n\n\n\nPaper\n\n\n\nGriddingMachine: A new database and software for sharing global datasets\n\n\n\n\n\nAug 17, 2022\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nCanopy Model Complexity\n\n\n\n\n\n\nLSM\n\n\nPaper\n\n\n\nComparisons of vegetation canopy model complexities\n\n\n\n\n\nSep 30, 2021\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\n无题\n\n\n\n\n\n\nPoem\n\n\n\n找到以前写的一首诗，随便命个名。。。\n\n\n\n\n\nOct 12, 2017\n\n\n王玉杰\n\n\n\n\n\n\nNo matching items"
+    "text": "Logs of Reviews and Reviewing\n\n\n\n\n\n\nLogs\n\n\n\nLogs for the number of reviews we recieve and make. We try to balance the two!\n\n\n\n\n\nNov 27, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nAGU 2024 Fall Meeting\n\n\n\n\n\n\nConference\n\n\n\nsilicormosia @ Washington DC\n\n\n\n\n\nNov 13, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nGriddingMachine Tutorial 6\n\n\n\n\n\n\nTutorial\n\n\n\nHow to use the Collector module of GriddingMachine.jl (v0.3)?\n\n\n\n\n\nOct 30, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nGriddingMachine Tutorial 5\n\n\n\n\n\n\nTutorial\n\n\n\nUpdate to version 0.3.0\n\n\n\n\n\nOct 29, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nGriddingMachine Tutorial 4\n\n\n\n\n\n\nTutorial\n\n\n\nHow to use the Requestor module of GriddingMachine.jl?\n\n\n\n\n\nOct 9, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\n经纬岛 第一章\n\n\n\n\n\n\nPoem\n\n\n经纬岛\n\n\n\n上大学时，在大学生心理学课上学到一个词叫做被爱妄想，老师举的例子也特别生动：某男追求某女未果，得知其新交了男朋友，便有了名场面。曰那男生长的那么丑，根本没我帅，你肯定是在考验我！！！\n\n\n\n\n\nJun 21, 2024\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\n经纬岛 第一章\n\n\n\n\n\n\nPoem\n\n\n经纬岛\n\n\n\n穷困潦倒时的自卑与怯懦，或许会给人埋在心底最纯粹的情感，但或许只是浮想联翩的意淫。。。\n\n\n\n\n\nJun 15, 2024\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\nAccounting for ultraviolet and far-red radiation in land surface modeling\n\n\n\n\n\n\nLSM\n\n\nPaper\n\n\n\nUV is not explicitly accounted for in LSM; FR can boost photosynthesis but LSMs typically treat it as NIR. How can we improve these?\n\n\n\n\n\nMay 27, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\n经纬岛 第一章\n\n\n\n\n\n\nPoem\n\n\n经纬岛\n\n\n\n刚开始开发CliMA Land时我也是踌躇满志的，结果过了这些年依旧没能将我的模型和大气模型耦合。再加上找工作也一直不顺利，心态居然都崩习惯了。。。\n\n\n\n\n\nMay 21, 2024\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\n经纬岛 第一章\n\n\n\n\n\n\nPoem\n\n\n经纬岛\n\n\n\n凌晨时候听二哥说奶奶走了，而我仍在美国。上次回去是去年去香港大学面试，当时奶奶精神也还好，不曾想竟是见奶奶的最后一面。我痛恨自己没有早些回国找工作，也痛恨自己对生活的麻木。\n\n\n\n\n\nMay 17, 2024\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\nCliMA Land Benchmarks\n\n\n\n\n\n\nLogs\n\n\nLSM\n\n\n\nPerformance of CliMA Land global simulations: spatial patterns of annual means\n\n\n\n\n\nMay 7, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\n月下独酌\n\n\n\n\n\n\nPoem\n\n\n\n周二夜驱车归家，见满月悬空，不禁唏嘘。。。\n\n\n\n\n\nApr 25, 2024\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\nImprove canopy radiative transfer and electron transport modeling\n\n\n\n\n\n\nLSM\n\n\nPaper\n\n\n\nLand surface models typically use broadband RT modeling, potentially resulting in biased PPAR and J calculations. How can we improve this?\n\n\n\n\n\nApr 7, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\n道\n\n\n\n\n\n\nPoem\n\n\n\n飞熊临渊叹渔樵，何人解吾直中道。\n\n\n\n\n\nMar 28, 2024\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\nUsing GPS for research\n\n\n\n\n\n\nPaper\n\n\n\nGPP signals can be used to estimate canopy water content in various time scales\n\n\n\n\n\nMar 23, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nNon-steady state modeling\n\n\n\n\n\n\nPaper\n\n\nLSM\n\n\n\nModeling stomatal conductance at non-steady state in CliMA Land\n\n\n\n\n\nMar 22, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nGriddingMachine Tutorial 3\n\n\n\n\n\n\nTutorial\n\n\n\nHow to use the Indexer module of GriddingMachine.jl?\n\n\n\n\n\nJan 30, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nGriddingMachine Tutorial 2\n\n\n\n\n\n\nTutorial\n\n\n\nHow to use the Collector module of GriddingMachine.jl (v0.2)?\n\n\n\n\n\nJan 19, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nGriddingMachine Tutorial 1\n\n\n\n\n\n\nTutorial\n\n\n\nHow to install different versions of GriddingMachine.jl?\n\n\n\n\n\nJan 12, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nAgriculture in silico\n\n\n\n\n\n\nPaper\n\n\n\nAgriculture in silico: Use of vegetation modeling for crop yield advances\n\n\n\n\n\nJan 3, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nCorner flowers\n\n\n\n\n\n\nPoem\n\n\n\nI see the flowers everyday when I drop off my kids\n\n\n\n\n\nMay 30, 2023\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nCliMA Land\n\n\n\n\n\n\nPaper\n\n\nLSM\n\n\n\nCliMA Land: A next-generation land surface model that bridges vegetation processes and remote sensing\n\n\n\n\n\nMay 1, 2023\n\n\nYujie Wang and Renato Braghiere\n\n\n\n\n\n\n\n\n\n\n\n\nTwo-legged crow\n\n\n\n\n\n\nPoem\n\n\n\nI am really pissed off by the two legged crow who thinks she has three\n\n\n\n\n\nApr 18, 2023\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\n经纬岛 第一章\n\n\n\n\n\n\nPoem\n\n\n经纬岛\n\n\n\n打算写成一个长篇叙事诗，不知道写不写的好。。。\n\n\n\n\n\nSep 22, 2022\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\nGriddingMachine\n\n\n\n\n\n\nPaper\n\n\n\nGriddingMachine: A new database and software for sharing global datasets\n\n\n\n\n\nAug 17, 2022\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nCanopy Model Complexity\n\n\n\n\n\n\nLSM\n\n\nPaper\n\n\n\nComparisons of vegetation canopy model complexities\n\n\n\n\n\nSep 30, 2021\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\n无题\n\n\n\n\n\n\nPoem\n\n\n\n找到以前写的一首诗，随便命个名。。。\n\n\n\n\n\nOct 12, 2017\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\n无题\n\n\n\n\n\n\nPoem\n\n\n\n找到以前写的一首诗，随便命个名。。。\n\n\n\n\n\nMar 19, 2013\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\n秋日\n\n\n\n\n\n\nPoem\n\n\n\n又找到以前写的几首诗。。。\n\n\n\n\n\nOct 18, 2011\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\n无题\n\n\n\n\n\n\nPoem\n\n\n\n找到以前写的一首诗，随便命个名。。。\n\n\n\n\n\nOct 1, 2011\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\n别版纳\n\n\n\n\n\n\nPoem\n\n\n\n西双版纳纪行\n\n\n\n\n\nJun 2, 2011\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\n致谢\n\n\n\n\n\n\n骈文\n\n\n\n找到以前的致谢。。。\n\n\n\n\n\nJun 1, 2011\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\n等你想我的一天\n\n\n\n\n\n\nPoem\n\n\n\n大学时候的诗（集合）。。。\n\n\n\n\n\nMay 7, 2011\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\n相恋\n\n\n\n\n\n\nPoem\n\n\n\n昨晚小杰带着小玉出去玩，嘻嘻，好开心呐……\n\n\n\n\n\nOct 23, 2010\n\n\n王玉杰\n\n\n\n\n\n\nNo matching items"
   }
 ]
