@@ -1,11 +1,5 @@
 [
   {
-    "listing": "/people.html",
-    "items": [
-      "/people/current/wyujie.html"
-    ]
-  },
-  {
     "listing": "/blogs.html",
     "items": [
       "/blogs/papers/logs.html",
@@ -42,6 +36,12 @@
       "/blogs/peotry/traditional/acknowledgment.html",
       "/blogs/peotry/youth/love.html",
       "/blogs/peotry/traditional/jinyu.html"
+    ]
+  },
+  {
+    "listing": "/people.html",
+    "items": [
+      "/people/current/wyujie.html"
     ]
   }
 ]
