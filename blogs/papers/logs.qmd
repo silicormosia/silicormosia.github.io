@@ -14,8 +14,12 @@ It should be a responsibility to perform free peer reviews if you receive them f
 
 | **Year** | **Person**  | **Journal**                                      | **Reviews Received** | **Reviews Made** |
 |:---------|:------------|:-------------------------------------------------|:---------------------|:-----------------|
-| 2025     | Yujie Wang  | Nature Communications                            | 2                    |                  |
-|          |             | **Summary**                                      | 2                    | 0                |
+| 2025     | Yujie Wang  | Journal of Advances in Modeling Earth Systems    |                      | 1                |
+|          |             | Nature Communications                            | 2                    |                  |
+|          |             | Plant Physiology                                 |                      | 1                |
+|          |             | Scientific Data                                  |                      | 1                |
+|          |             | Tree Physiology                                  |                      | 1                |
+|          |             | **Summary**                                      | 2                    | 4                |
 
 ## 2024
 
@@ -64,6 +68,7 @@ It should be a responsibility to perform free peer reviews if you receive them f
 | 2019     | Yujie Wang  | Plant, Cell & Environment                        |                      | 1                |
 | 2018     | Yujie Wang  | New Phytologist                                  |                      | 1                |
 | 2017     | Yujie Wang  | Forest Ecology and Management                    |                      | 1                |
+|          |             | **Summary**                                      |                      | 35               |
 
 ## Journal Lists
 1. Agricultural and Forest Meteorology
