@@ -1,6 +1,6 @@
 ---
 title: "Visiting Mel (6)"
-image: ../../images/
+image: melvin-2024.png
 description: "上一次见Mel还是2017年，不想已经时隔7年。。。"
 author: "Yujie Wang"
 date: "12/14/2024"
