@@ -14,12 +14,13 @@ It should be a responsibility to perform free peer reviews if you receive them f
 
 | **Year** | **Person**  | **Journal**                                      | **Reviews Received** | **Reviews Made** |
 |:---------|:------------|:-------------------------------------------------|:---------------------|:-----------------|
-| 2025     | Yujie Wang  | Journal of Advances in Modeling Earth Systems    |                      | 1                |
-|          |             | Nature Communications                            | 2                    |                  |
-|          |             | Plant Physiology                                 |                      | 1                |
-|          |             | Scientific Data                                  |                      | 1                |
-|          |             | Tree Physiology                                  |                      | 1                |
-|          |             | **Summary**                                      | 2                    | 4                |
+| 2025     | Yujie Wang  | Annals of Botany                                 |                      | 1                |
+|          | Yujie Wang  | Journal of Advances in Modeling Earth Systems    |                      | 2                |
+|          | Yujie Wang  | Nature Communications                            | 2                    |                  |
+|          | Yujie Wang  | Plant Physiology                                 |                      | 1                |
+|          | Yujie Wang  | Scientific Data                                  |                      | 1                |
+|          | Yujie Wang  | Tree Physiology                                  |                      | 1                |
+|          |             | **Summary**                                      | 2                    | 6                |
 
 ## 2024
 
@@ -72,6 +73,7 @@ It should be a responsibility to perform free peer reviews if you receive them f
 
 ## Journal Lists
 1. Agricultural and Forest Meteorology
+1. Annals of Botany
 1. Annals of Forest Science
 1. AoB Plants
 1. Biochemical Society Transactions
