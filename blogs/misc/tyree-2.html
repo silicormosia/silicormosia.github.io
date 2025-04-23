@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Yujie Wang">
-<meta name="dcterms.date" content="2024-01-19">
-<meta name="description" content="How to use the Collector module of GriddingMachine.jl (v0.2)?">
+<meta name="dcterms.date" content="2024-12-14">
+<meta name="description" content="上一次见Mel还是2017年，不想已经时隔7年。。。">
 
-<title>GriddingMachine Tutorial 2 – Ormosia</title>
+<title>Visiting Mel (2) – Ormosia</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -26,25 +26,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../">
-<link href="../../../images/cpu-fill.svg" rel="icon" type="image/svg+xml">
-<script src="../../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-4379b0ccadffce622b03caf4c46266b3.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-28cead6e2031930170977d8d93ac783d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../../site_libs/bootstrap/bootstrap-dark-786043cad73d987f2f34c8a488a7cbcc.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/cpu-fill.svg" rel="icon" type="image/svg+xml">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-4379b0ccadffce622b03caf4c46266b3.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-28cead6e2031930170977d8d93ac783d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-786043cad73d987f2f34c8a488a7cbcc.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -83,7 +83,7 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 </script>
 
 
-<link rel="stylesheet" href="../../../styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -93,7 +93,7 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Ormosia</span>
     </a>
   </div>
@@ -104,35 +104,35 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../people.html"> 
+    <a class="nav-link" href="../../people.html"> 
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../research.html"> 
+    <a class="nav-link" href="../../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../blogs.html"> 
+    <a class="nav-link" href="../../blogs.html"> 
 <span class="menu-text">Blogs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../publications.html"> 
+    <a class="nav-link" href="../../publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../theses.html"> 
+    <a class="nav-link" href="../../theses.html"> 
 <span class="menu-text">Thesis</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../resources.html"> 
+    <a class="nav-link" href="../../resources.html"> 
 <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -176,14 +176,14 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">GriddingMachine Tutorial 2</h1>
+      <h1 class="title">Visiting Mel (2)</h1>
                   <div>
         <div class="description">
-          How to use the Collector module of GriddingMachine.jl (v0.2)?
+          上一次见Mel还是2017年，不想已经时隔7年。。。
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">Tutorial</div>
+                <div class="quarto-category">随笔</div>
               </div>
                   </div>
   </div>
@@ -201,7 +201,7 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">January 19, 2024</p>
+        <p class="date">December 14, 2024</p>
       </div>
     </div>
     
@@ -220,51 +220,12 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 
 
 
-<p>The Collector module within <a href="https://github.com/CliMA/GriddingMachine.jl" target="_blank">GriddingMachine.jl</a> is designed to download the datasets to local drive and manage the downloaded datasets.</p>
-<p>Each of the dataset in GriddingMachine is assigned a unique tag, such as <strong>VCMAX_2X_1Y_V1</strong>. Please see the <a href="https://github.com/CliMA/GriddingMachine.jl/issues/62" target="_blank">documentation</a> for all the supported datasets and their tags. The datasets in GriddingMachine are catergorized to different collections following a generic struct called <strong>GriddedCollection</strong>. The struct has the following fields</p>
-<ul>
-<li>LABEL: data type label, such as GPP and LAI</li>
-<li>SUPPORTED_COMBOS: a list of strings indicating supported combos, such as [“2X_1Y_V1”, “2X_1Y_V2”]</li>
-<li>DEFAULT_COMBO: default combo for this collection, one of the SUPPORTED_COMBOS</li>
-</ul>
-<p>Please find the supported data collections at <a href="https://github.com/CliMA/GriddingMachine.jl/tree/main/src/collector" target="_blank">the folder</a>. Note here that this struct is mostly meant for documentation purpose, and is currently hardcoded in the main code; the SUPPORTED_COMBOS field can be modified using the <strong>push!</strong> function. However, we do recommend users to add the COMBO labels to SUPPORTED_COMBOS when porting new data to GriddingMachine.</p>
-<section id="query-the-datasets-v0.2" class="level2">
-<h2 class="anchored" data-anchor-id="query-the-datasets-v0.2">Query the datasets (v0.2)</h2>
-<p>Function <strong>query_collection</strong> is designed to automatically download the dataset if not yet downloaded and then return to the user the path of the downloaded dataset. There are three methods for the <strong>query_collection</strong> function:</p>
-<ul>
-<li><code>query_collection(ds::GriddedCollection)</code> queries the default dataset within a collection;</li>
-<li><code>query_collection(ds::GriddedCollection, version::String)</code> queries one version from the supported datasets;</li>
-<li><code>query_collection(artname::String)</code> queries the dataset using the full tag of a dataset.</li>
-</ul>
-<p>It is recommended to use the last method for research as the combo tag may not be updated in the GriddedCollection struct or the default dataset may change over time:</p>
-<pre><code>julia&gt; using GriddingMachine.Collector: query_collection
-julia&gt; dsfile = query_collection("VCMAX_2X_1Y_V1")</code></pre>
-</section>
-<section id="clean-the-downloaded-datasets-v0.2" class="level2">
-<h2 class="anchored" data-anchor-id="clean-the-downloaded-datasets-v0.2">Clean the downloaded datasets (v0.2)</h2>
-<p>Function <strong>clean_collections!</strong> is designed to clean the downloaded datasets, and there are three methods to use it:</p>
-<ul>
-<li><code>clean_collections!(selection::String="old")</code> to clean only the outdated (default) or all datasets (set selection to “all”);</li>
-<li><code>clean_collections!(selection::Vector{String})</code> to clean the datasets using their tags;</li>
-<li><code>clean_collections!(selection::GriddedCollection)</code> to clean all the datasets within a collection.</li>
-</ul>
-<p>Typically, it is only recommended to clean only the outdated datasets</p>
-<pre><code>julia&gt; using GriddingMachine.Collector: clean_collections!
-julia&gt; clean_collections!();</code></pre>
-</section>
-<section id="sync-the-database-v0.2" class="level2">
-<h2 class="anchored" data-anchor-id="sync-the-database-v0.2">Sync the database (v0.2)</h2>
-<p>Sometimes, users may want to download all the datasets, for example, when building a server for the Requester module. In this case, we provide a function <strong>sync_collections!</strong>, which supoorts two methods:</p>
-<ul>
-<li><code>sync_collections!()</code> to download all the datasets within all collections;</li>
-<li><code>sync_collections!(gc::GriddedCollection)</code> to download specified collection.</li>
-</ul>
-<p>And it is simple to perform the synchronization (<strong>Note: do not try this code unless you really want to download all the data!</strong>):</p>
-<pre><code>julia&gt; using GriddingMachine.Collector: sync_collections!
-julia&gt; sync_collections!();</code></pre>
+<p>彼时，已经接近研二的暑假，在Mel实验室其他人的帮助下，尤其是张玲玲和张晨歌，我也很快把实验设备搭建起来，并向Mel展示了实验结果。Mel自然也提出了不同的验证实验来反驳我的结果，但意外的是我的结果依旧可以重复。也是由于跟Mel住在一起的缘故，我们经常讨论为啥会有这种结果，他也系统地给我解释了植物导管栓塞发生的原理，以及这些发现背后的故事（八卦内容挺有趣的）。其中最重要的一部分就是离心机方法诱导栓塞的原理以及测量的方法，该方法对他千人计划顺利进行功不可没。对这些事情我学的很快，因此Mel还专门写邮件给曹老师问能不能让我转博到他那里，遗憾的是并不能，因为科大和西北农林并不互通。当然，Mel对我依旧是像对待自己的学生一般，我跟他学生们自然也打成一片。</p>
+<p>因为我没法转博（因为老师已经去了广西大学），我只剩下硕士毕业一条路，我也终于下定决心要出国。我不愿考博去Mel那儿，因为我不擅长政治之类的考试课程，Mel也觉得我应该出国留学。其实当时还能赶上GRE和TOFEL考试再申请出国，但我觉得我没有发过文章，觉得发了文章再出国留学会更好申请，Mel也给我提供了一个硕士后的机会，在出国前可以在他实验室工作。此时，在Mel的指导之下，我也对自己的实验结果有了更深刻的认识，并考虑要通过建模的方式来解释我的实验结果（实际上是测量方法问题）。正好赶上了暑假时间，Mel回国看望他夫人Charleen，我也鸠占鹊巢继续在Mel公寓住着。除了我之外，我的同班同学也各有各的坎坷，尤其是雒同学也是老板跳槽不得不考虑毕业再谋出路。也多亏了他我才了解到科大在准备当年毕业的学生名单，一般是三年毕业，但当时改成了两年半也能毕业而且不需要发中文文章，三年毕业的需要发中文文章才行。我也赶紧联系了曹老师，表达了我要提前毕业的诉求。曹老师并没有为难我，同意了我的毕业请求，我也在Mel的公寓花了两三周完成了硕士毕业论文。因为中科大并没有做这方面研究的老师，国内做植物水分运输人不多，因此送审专家要我自己找，于是就找了几个老师送的外审。当然我也自信我做的研究，后来其中的成果后来也顺利发表了。</p>
+<p>Mel对我的倾心指导到这儿也算是告一段落，之后我们之间的探讨成分要大于指导，我很自豪我学到了Mel大部分的知识和技能（除了写作，Mel有太多学生要指导了）。没过多久在2013年11月，我也回科大做了毕业论文答辩顺利毕业了。曹老师并没出席我的答辩，我的毕业论文签字是他授权学院代签的，我当时对此也颇为不悦，但现在想想这只是自己不成熟罢了。相对于他介绍Mel以及长期的支持，我却并没有什么回报。至今让我如鲠在喉的事情是我竟然和硕士导师现有合作文章（唯一的一个文章是金玉的文章），说及此的确是我不识好歹了。毕业之后便开始了“硕士后”工作，Mel开始付我工资，我也从Mel的公寓搬了出去。一是因为Charleen要搬来中国，二是我不再是交流学生而是他组里的人了，即使不是如此而我作为外人长期住在他那儿也不合适，毕竟已经住了半年了而且受益颇多。</p>
+<p>Charleen在2013年12月左右刚去中国时自然和我们都比较陌生，我们的第一感受是她并不喜欢中国，她也的确不喜欢Mel长期在中国工作。Charleen姓Miles，我也是后来得知这是她前夫的姓，她和Mel结婚后并没有改姓（当然一开始也没有改姓的必要）。我一度以为是因为Charleen更强势一些，毕竟她看起来确实比较严肃，但其实她人很好，只是不喜欢社交罢了。Mel也不喜欢社交，只是因为Charleen没去中国时他没人聊天，于是经常和学生一起吃饭，尤其是他的秘书张晨歌。因为晨歌更会社交一些，且他们间没有普通的老师学生间压力的缘故，因此会更容易谈笑风生。我不太会社交，在一开始的话题聊完了自然会陷入尴尬的境地，因此很多时候都是聊科研以及科研八卦，这或许是我跟他学了很多的原因吧。Charleen去中国之后，包括我在内的大家对Mel的感觉是他没有以前那种一名谈笑风生的时候了，去食堂也少了，有些妻管严的态势。也是最近去看望他们Charleen忽然说到自己是i人，Mel也是，Mel也依赖她去找聊天话题，我才忽然把遗忘的点滴联系起来。</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
