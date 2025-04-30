@@ -20,7 +20,7 @@ If you click Desktop (default), for example, you will find
 ```
 Environment: Edit Build Environment... Edit Run Environment...
 ```
-Then change the build and run environments, and add the line 
+Then change the build and run environments, and add the line
 ```
 QT_ASSUME_STDERR_HAS_CONSOLE=1
 ```

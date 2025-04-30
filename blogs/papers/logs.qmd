@@ -18,9 +18,10 @@ It should be a responsibility to perform free peer reviews if you receive them f
 |          | Yujie Wang  | Journal of Advances in Modeling Earth Systems    |                      | 2                |
 |          | Yujie Wang  | Nature Communications                            | 2                    |                  |
 |          | Yujie Wang  | Plant Physiology                                 |                      | 1                |
+|          | Yujie Wang  | Remote Sensing of Environment                    | 3                    |                  |
 |          | Yujie Wang  | Scientific Data                                  |                      | 1                |
 |          | Yujie Wang  | Tree Physiology                                  |                      | 1                |
-|          |             | **Summary**                                      | 2                    | 6                |
+|          |             | **Summary**                                      | 5                    | 6                |
 
 ## 2024
 

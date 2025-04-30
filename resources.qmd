@@ -46,6 +46,31 @@ For the code I wrote for the 1st-authored and some co-authorred publications, pl
 
 ## Slides
 
+- Y. Wang (2025).
+  Seminar @ University of Science and Technology of China:
+  The "unstable" boundary layer of the atmosphere.
+  [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/talks/2025-wang-ustc-intro.pdf){target="_blank"}
+
+- Y. Wang (2025).
+  Seminar @ Institute of Atmospheric Physics:
+  Vegetation modeling for the next-generation Earth system models.
+  [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/talks/2025-wang-iap.pdf){target="_blank"}
+
+- Y. Wang (2025).
+  Talk @ Future Atmospheric Sciences:
+  From PFT to traits: Impacts of plant trait diversity on Earth system modeling.
+  [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/talks/2025-wang-atmosfuture.pdf){target="_blank"}
+
+- Y. Wang (2025).
+  Seminar @ South China National Botanical Garden:
+  Plant ecophysiology to power next-generation land surface modeling.
+  [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/talks/2025-wang-scbg.pdf){target="_blank"}
+
+- Y. Wang (2025).
+  Seminar @ Sun Yat-sen University.
+  Plant ecophysiology for land surface modeling.
+  [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/talks/2025-wang-sysu.pdf){target="_blank"}
+
 - Y. Wang (2024).
   Talk @ AGU 2024 Fall Meeting:
   From PFT to traits: Improving the canopy radiative transfer in Earth system modeling.
