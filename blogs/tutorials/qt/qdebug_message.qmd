@@ -1,0 +1,28 @@
+---
+title: "qDebug() information does not show in Application Output"
+image: ../../../images/Qt-logo.png
+description: "qDebug() information stops showing up in Qt Creator, after I did something I did not know to impact Qt Creator..."
+author: "Yujie Wang"
+date: "4/30/2025"
+categories:
+  - Tutorial
+---
+
+Yesterday, I removed some packages from Linux, or something else happened... The outcome was that I could not see any qDebug() messages any longer in the tab "Application Output" of Qt Creator. I did not know to date what triggered the issue. It might be because of my switching to KDE Plasma from Cinnamon, but I do not bother to install Cinnamon back...
+
+After searching for potential solutions for quite a while, I came across this: [https://bbs.archlinux.org/viewtopic.php?id=259035](https://bbs.archlinux.org/viewtopic.php?id=259035){target="_blank"}. According to d_fajardo, we can change the setting of Qt Creator. Since I am using Qt 6, I adapted the changes to
+```
+Qt Creator > Edit > Preferences... > Kits
+```
+Then in the Kits tab, you will find a few kits, such as Python 3.13.2 in auto detected and Desktop (default) in Manual...
+
+If you click Desktop (default), for example, you will find
+```
+Environment: Edit Build Environment... Edit Run Environment...
+```
+Then change the build and run environments, and add the line 
+```
+QT_ASSUME_STDERR_HAS_CONSOLE=1
+```
+
+Now, you will have the qDebug() information back!
