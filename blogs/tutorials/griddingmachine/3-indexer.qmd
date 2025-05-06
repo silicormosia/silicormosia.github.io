@@ -7,6 +7,7 @@ date: "1/30/2024"
 date-modified: "10/29/2024"
 categories:
   - Tutorial
+  - GriddingMachine
 ---
 
 The Indexer module of the [GriddingMachine.jl](https://github.com/CliMA/GriddingMachine.jl){target="_blank"} is designed to read the entire or partial data from GriddingMachine datasets, which are as netcdf files.

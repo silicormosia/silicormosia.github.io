@@ -7,6 +7,7 @@ date: "1/12/2024"
 date-modified: "10/29/2024"
 categories:
   - Tutorial
+  - GriddingMachine
 ---
 
 [GriddingMachine.jl](https://github.com/CliMA/GriddingMachine.jl){target="_blank"} is a software and database designed to share global scale datasets for Earth system modeling. GriddingMachine is a registered package and currently with a stable version v0.3. It is not recommended to use version v0.1.

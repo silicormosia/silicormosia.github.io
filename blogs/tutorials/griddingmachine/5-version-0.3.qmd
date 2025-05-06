@@ -6,6 +6,7 @@ author: "Yujie Wang"
 date: "10/29/2024"
 categories:
   - Tutorial
+  - GriddingMachine
 ---
 
 The packaging and distribution of GriddingMachine artifacts were following the template of standard Julia artifacts. Though the use of unique artifact name tag and SHA hash values allows for the delivery of packages readily as a product, these facts make the database not as convenient as I expect it to be:

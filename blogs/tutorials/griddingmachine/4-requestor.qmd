@@ -7,6 +7,7 @@ date: "10/9/2024"
 date-modified: "10/29/2024"
 categories:
   - Tutorial
+  - GriddingMachine
 ---
 
 The Requestor module of the [GriddingMachine.jl](https://github.com/CliMA/GriddingMachine.jl){target="_blank"} is designed to request data directly from the server so that users do not need to download the data, which could be time consuming.

@@ -6,6 +6,7 @@ author: "Yujie Wang"
 date: "10/30/2024"
 categories:
   - Tutorial
+  - GriddingMachine
 ---
 
 The Collector module within [GriddingMachine.jl](https://github.com/CliMA/GriddingMachine.jl){target="_blank"} is designed to download the datasets to local drive and manage the downloaded datasets.

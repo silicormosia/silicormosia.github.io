@@ -1,0 +1,26 @@
+---
+title: "SSH without typing the password everytime"
+image: ../../../images/ssh_terminal.jpg
+description: "Using the public and private key pairing"
+author: "Yujie Wang"
+date: "5/6/2025"
+categories:
+  - Tutorial
+---
+
+## Generate the public and private key pairs
+First, generate the ssh keys using the ed25519 algoirthm:
+```bash
+ssh-keygen -t ed25519 -C "your@email.com"
+```
+
+Then, follow the promote and save the key pairs, and the default is id_rsa. Here it is recommended to use the default name; if you really need to specify this, you'd better name it as somthing like "id_rsa_*" so that the system recognize it.
+
+## Copy the public key file to the target machine
+Now, you need to copy the public key file to the target machine. There are a few ways for this:
+
+- You may create a new id_rsa.pub file in the .ssh folder in the home directory of the target machine, and copy and paste the content of you own *.pub file to the new file
+- `ssh-copy-id -i ~/.ssh/id_rsa.pub -p portnumber wyujie@ip.of.target` (here replace the portnumber with actual port number, or ignore it if the port number is default)
+- You may also use the sftp protocal to upload the public key file
+
+Note that the file name needs to start with id_rsa for the system to recognize it automatically.
