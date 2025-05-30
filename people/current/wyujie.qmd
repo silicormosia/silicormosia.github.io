@@ -47,7 +47,8 @@ University of Science and Technology of China (USTC) \
 No.96, JinZhai Road Baohe District \
 Hefei, Anhui 230026, China \
 
-Office: 教学行政楼804-806 [{{< fa map >}}](https://ustc.edu.cn/info/1009/1036.htm){target="_blank"} \
+Office: 教学行政楼820 [{{< fa map >}}](https://ustc.edu.cn/info/1009/1036.htm){target="_blank"} \
+Lab: 地球和空间科学前沿研究中心324-326 [{{< fa map >}}](https://ustc.edu.cn/info/1009/1036.htm){target="_blank"} \
 {{< fa phone >}} +86 xxx-xxxx-xxxx \
 {{< fa envelope >}} [wyujie@ustc.edu.cn](mailto:wyujie@ustc.edu.cn)
 
