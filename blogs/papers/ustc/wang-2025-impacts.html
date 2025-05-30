@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Yujie Wang">
-<meta name="dcterms.date" content="2024-10-09">
-<meta name="description" content="How to use the Requestor module of GriddingMachine.jl?">
+<meta name="dcterms.date" content="2025-05-30">
+<meta name="description" content="地球系统模式常使用植物功能类群对植被分类，忽略陆地植被性状多样性。本研究以叶片光学特征为例，探究引入植物性状多样性对地球系统模式的重要性。">
 
-<title>GriddingMachine Tutorial 4 – Ormosia</title>
+<title>新文速递：植物光学性状多样性对地球系统模拟的影响 – Ormosia</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,41 +22,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -376,15 +341,15 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">GriddingMachine Tutorial 4</h1>
+      <h1 class="title">新文速递：植物光学性状多样性对地球系统模拟的影响</h1>
                   <div>
         <div class="description">
-          How to use the Requestor module of GriddingMachine.jl?
+          地球系统模式常使用植物功能类群对植被分类，忽略陆地植被性状多样性。本研究以叶片光学特征为例，探究引入植物性状多样性对地球系统模式的重要性。
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">Tutorial</div>
-                <div class="quarto-category">GriddingMachine</div>
+                <div class="quarto-category">LSM</div>
+                <div class="quarto-category">Paper</div>
               </div>
                   </div>
   </div>
@@ -402,16 +367,10 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">October 9, 2024</p>
+        <p class="date">May 30, 2025</p>
       </div>
     </div>
     
-      <div>
-      <div class="quarto-title-meta-heading">Modified</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date-modified">October 29, 2024</p>
-      </div>
-    </div>
       
     </div>
     
@@ -428,58 +387,19 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 
 
 
-<p>The Requestor module of the <a href="https://github.com/CliMA/GriddingMachine.jl" target="_blank">GriddingMachine.jl</a> is designed to request data directly from the server so that users do not need to download the data, which could be time consuming.</p>
-<p>Currently, the Requestor module has two key functions that are meant to query data for different purposes:</p>
-<ul>
-<li><code>request_LUT</code> to request data from a particular artifact</li>
-<li><code>request_GMDICT</code> to request a dictionary of data that is used for site level simulations</li>
-</ul>
-<p>For example, one can use <code>request_LUT</code> to query the leaf area index data; or he/she can use <code>request_GMDICT</code> to get all the associated model input parameters including leaf area index and chlorophyll content etc. Note that these two functions are meant to use directly with Julia code. One can also add support to other languages, such as Python and Matlab/Octave, as did in <a href="https://doi.org/10.1038/s41597-022-01346-x" target="_blank">(Wang et al., 2022)</a>.</p>
-<section id="request_lut" class="level2">
-<h2 class="anchored" data-anchor-id="request_lut">request_LUT</h2>
-<p>The <code>request_LUT</code> function takes the following parameters (may up to changes in future versions):</p>
-<ul>
-<li><code>artname</code> Artifact full name such as <code>LAI_MODIS_2X_8D_2017_V1</code></li>
-<li><code>lat</code> Latitude</li>
-<li><code>lon</code> Longitude</li>
-<li><code>cyc</code> Cycle index, default is 0 (read entire time series)</li>
-<li><code>include_std</code> Optional. If true, include the standard deviation</li>
-<li><code>interpolation</code> Optional. If true, interpolate the data linearly</li>
-<li><code>port</code> Optional. Port number for the GriddingMachine server</li>
-<li><code>server</code> Optional. Server address such as <code>http://tropo.gps.caltech.edu</code></li>
-<li><code>user</code> Optional. User name (non-registered users need to wait for 2 seconds before the server processes the request)</li>
-</ul>
-<p>Some examples are</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">request_LUT</span>(<span class="st">"LAI_MODIS_2X_8D_2017_V1"</span>, <span class="fl">30.5</span>, <span class="fl">115.5</span>);</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">request_LUT</span>(<span class="st">"LAI_MODIS_2X_8D_2017_V1"</span>, <span class="fl">30.5</span>, <span class="fl">115.5</span>; interpolation<span class="op">=</span><span class="cn">true</span>);</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">request_LUT</span>(<span class="st">"LAI_MODIS_2X_8D_2017_V1"</span>, <span class="fl">30.5</span>, <span class="fl">115.5</span>, <span class="fl">8</span>);</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">request_LUT</span>(<span class="st">"LAI_MODIS_2X_8D_2017_V1"</span>, <span class="fl">30.5</span>, <span class="fl">115.5</span>, <span class="fl">8</span>; interpolation<span class="op">=</span><span class="cn">true</span>);</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="request_gmdict" class="level2">
-<h2 class="anchored" data-anchor-id="request_gmdict">request_GMDICT</h2>
-<p>The <code>request_GMDICT</code> function can be imagined as a series of <code>request_LUT</code> functions, taking the following parameters (may subject to changes in future versions):</p>
-<ul>
-<li><code>gmversion</code> Emerald version such as <code>gm2</code>. See <a href="../../emerald/emerald.html">Emerald Documentation</a> for more details</li>
-<li><code>year</code> Year</li>
-<li><code>lat</code> Latitude</li>
-<li><code>lon</code> Longitude</li>
-<li><code>port</code> Optional. Port number for the GriddingMachine server</li>
-<li><code>server</code> Optional. Server address such as <code>https://tropo.gps.caltech.edu</code></li>
-<li><code>user</code> Optional. User name (non-registered users need to wait for 5 seconds before the server processes the request)</li>
-</ul>
-<p>An example is</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>gmdict <span class="op">=</span> <span class="fu">request_GMDICT</span>(<span class="st">"gm2"</span>, <span class="fl">2019</span>, <span class="fl">30.5</span>, <span class="fl">115.5</span>);</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="web-interfaces" class="level2">
-<h2 class="anchored" data-anchor-id="web-interfaces">Web Interfaces</h2>
-<p>Given that there are many artifacts for users to choose from, we also provide two web interface for users to request the data mannually (not fancy though):</p>
-<ul>
-<li><a href="http://tropo.gps.caltech.edu:5055/gm_artifact_form" target="_blank">Web Interface for request_LUT</a></li>
-<li><a href="http://tropo.gps.caltech.edu:5055/gm_dict_form" target="_blank">Web Interface for request_GMDICT</a></li>
-</ul>
+<p>陆地植被通过光合作用贡献了几乎全部陆地碳汇，吸收了约1/4的人类碳排放，并通过蒸腾作用返还近40%的降水。因此，准确模拟陆地碳、水、能量平衡是预测未来气候的关键。然而，由于过去计算资源和可用数据的限制，地球系统模式常使用过度简化的植被模型，而植被参数常通过植物功能类群决定，而忽视了物种间的和物种内的差异。在气候与地球系统模拟中，同一种植物类群（如农作物）的植物特征使用均值化处理，和植物所处区域、植物物种等无关，例如模型中小麦、玉米、大豆等作物的生理特征都是一样的。这种基于类别的参数设置方式是非连续性的，虽然一定程度上能描述植物分布，但难以准确表征植物与其性状的时空连续分布，限制了地球系统模拟的准确性。</p>
+<p>中国科学技术大学地球和空间科学学院王玉杰以叶片光学特征为例， 基于数值模拟研究了引入植物光学性状时空格局对地球系统模拟的影响， 并深入探究了地球系统模式考虑植物过程与性状的重要性。结果显示：使用基于植物性状的参数设置方案与传统做法相比，在热带雨林与寒带针叶林地区存在显著差异；前者能更连续地表征植物性状的时空格局，明显改善地球系统模式模拟的地表反射率（尤其是在热带雨林地区）。结果进一步表明，热带雨林地区将吸收更多太阳辐射，传统地球系统模式对此严重低估，年均偏差高达5 W/m²（图1），与常用的未来排放场景对应的辐射强迫接近（2.6-8.5 W/m²）。因此，模型预测热带雨林区域会变得更热因此碳汇能力降低，而寒带针叶林温度变化更小因此碳汇能力升高，区域温度差异达0.5℃以上；能量平衡与水循环上的变化还影响了未来气候的预测（例如云覆盖、降水等）。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="wang-2025-impacts-energy.png" class="img-fluid figure-img"></p>
+<figcaption>图1： 基于植物性状的参数设置方案显著影响地表能量平衡。</figcaption>
+</figure>
+</div>
+<p>研究还指出，除了叶片光学特征之外，地球系统模式中仍存在许多类似的设置方案（如植物光合作用性状），且许多过程参数之间的耦合并不存在（如叶片含水量会影响叶片光学特征、叶片角度、冠层辐射传输等）。因此，地球系统模式的植被模型亟须改进其参数化方案，朝着基于过程与性状的方向发展，改善其模拟与预测能力。</p>
+<p>相关成果以“Impacts of leaf traits on vegetation optical properties in Earth system modeling”为题，5月29日发表于《Nature Communications》。王玉杰为论文通讯作者与共同第一作者。该研究得到了中国科学技术大学人才计划经费资助。</p>
+<p>文章链接：<a href="https://www.nature.com/articles/s41467-025-60149-x" target="_blank">https://www.nature.com/articles/s41467-025-60149-x</a></p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

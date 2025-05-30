@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Yujie Wang">
-<meta name="dcterms.date" content="2024-10-09">
-<meta name="description" content="How to use the Requestor module of GriddingMachine.jl?">
+<meta name="dcterms.date" content="2025-05-06">
+<meta name="description" content="Using the public and private key pairing">
 
-<title>GriddingMachine Tutorial 4 – Ormosia</title>
+<title>SSH without typing the password everytime – Ormosia</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -376,15 +376,14 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">GriddingMachine Tutorial 4</h1>
+      <h1 class="title">SSH without typing the password everytime</h1>
                   <div>
         <div class="description">
-          How to use the Requestor module of GriddingMachine.jl?
+          Using the public and private key pairing
         </div>
       </div>
                           <div class="quarto-categories">
                 <div class="quarto-category">Tutorial</div>
-                <div class="quarto-category">GriddingMachine</div>
               </div>
                   </div>
   </div>
@@ -402,16 +401,10 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">October 9, 2024</p>
+        <p class="date">May 6, 2025</p>
       </div>
     </div>
     
-      <div>
-      <div class="quarto-title-meta-heading">Modified</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date-modified">October 29, 2024</p>
-      </div>
-    </div>
       
     </div>
     
@@ -428,55 +421,21 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 
 
 
-<p>The Requestor module of the <a href="https://github.com/CliMA/GriddingMachine.jl" target="_blank">GriddingMachine.jl</a> is designed to request data directly from the server so that users do not need to download the data, which could be time consuming.</p>
-<p>Currently, the Requestor module has two key functions that are meant to query data for different purposes:</p>
-<ul>
-<li><code>request_LUT</code> to request data from a particular artifact</li>
-<li><code>request_GMDICT</code> to request a dictionary of data that is used for site level simulations</li>
-</ul>
-<p>For example, one can use <code>request_LUT</code> to query the leaf area index data; or he/she can use <code>request_GMDICT</code> to get all the associated model input parameters including leaf area index and chlorophyll content etc. Note that these two functions are meant to use directly with Julia code. One can also add support to other languages, such as Python and Matlab/Octave, as did in <a href="https://doi.org/10.1038/s41597-022-01346-x" target="_blank">(Wang et al., 2022)</a>.</p>
-<section id="request_lut" class="level2">
-<h2 class="anchored" data-anchor-id="request_lut">request_LUT</h2>
-<p>The <code>request_LUT</code> function takes the following parameters (may up to changes in future versions):</p>
-<ul>
-<li><code>artname</code> Artifact full name such as <code>LAI_MODIS_2X_8D_2017_V1</code></li>
-<li><code>lat</code> Latitude</li>
-<li><code>lon</code> Longitude</li>
-<li><code>cyc</code> Cycle index, default is 0 (read entire time series)</li>
-<li><code>include_std</code> Optional. If true, include the standard deviation</li>
-<li><code>interpolation</code> Optional. If true, interpolate the data linearly</li>
-<li><code>port</code> Optional. Port number for the GriddingMachine server</li>
-<li><code>server</code> Optional. Server address such as <code>http://tropo.gps.caltech.edu</code></li>
-<li><code>user</code> Optional. User name (non-registered users need to wait for 2 seconds before the server processes the request)</li>
-</ul>
-<p>Some examples are</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">request_LUT</span>(<span class="st">"LAI_MODIS_2X_8D_2017_V1"</span>, <span class="fl">30.5</span>, <span class="fl">115.5</span>);</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">request_LUT</span>(<span class="st">"LAI_MODIS_2X_8D_2017_V1"</span>, <span class="fl">30.5</span>, <span class="fl">115.5</span>; interpolation<span class="op">=</span><span class="cn">true</span>);</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">request_LUT</span>(<span class="st">"LAI_MODIS_2X_8D_2017_V1"</span>, <span class="fl">30.5</span>, <span class="fl">115.5</span>, <span class="fl">8</span>);</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">request_LUT</span>(<span class="st">"LAI_MODIS_2X_8D_2017_V1"</span>, <span class="fl">30.5</span>, <span class="fl">115.5</span>, <span class="fl">8</span>; interpolation<span class="op">=</span><span class="cn">true</span>);</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="generate-the-public-and-private-key-pairs" class="level2">
+<h2 class="anchored" data-anchor-id="generate-the-public-and-private-key-pairs">Generate the public and private key pairs</h2>
+<p>First, generate the ssh keys using the ed25519 algoirthm:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ssh-keygen</span> <span class="at">-t</span> ed25519 <span class="at">-C</span> <span class="st">"your@email.com"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Then, follow the promote and save the key pairs, and the default is id_rsa. Here it is recommended to use the default name; if you really need to specify this, you’d better name it as somthing like “id_rsa_*” so that the system recognize it.</p>
 </section>
-<section id="request_gmdict" class="level2">
-<h2 class="anchored" data-anchor-id="request_gmdict">request_GMDICT</h2>
-<p>The <code>request_GMDICT</code> function can be imagined as a series of <code>request_LUT</code> functions, taking the following parameters (may subject to changes in future versions):</p>
+<section id="copy-the-public-key-file-to-the-target-machine" class="level2">
+<h2 class="anchored" data-anchor-id="copy-the-public-key-file-to-the-target-machine">Copy the public key file to the target machine</h2>
+<p>Now, you need to copy the public key file to the target machine. There are a few ways for this:</p>
 <ul>
-<li><code>gmversion</code> Emerald version such as <code>gm2</code>. See <a href="../../emerald/emerald.html">Emerald Documentation</a> for more details</li>
-<li><code>year</code> Year</li>
-<li><code>lat</code> Latitude</li>
-<li><code>lon</code> Longitude</li>
-<li><code>port</code> Optional. Port number for the GriddingMachine server</li>
-<li><code>server</code> Optional. Server address such as <code>https://tropo.gps.caltech.edu</code></li>
-<li><code>user</code> Optional. User name (non-registered users need to wait for 5 seconds before the server processes the request)</li>
+<li>You may create a new id_rsa.pub file in the .ssh folder in the home directory of the target machine, and copy and paste the content of you own *.pub file to the new file</li>
+<li><code>ssh-copy-id -i ~/.ssh/id_rsa.pub -p portnumber wyujie@ip.of.target</code> (here replace the portnumber with actual port number, or ignore it if the port number is default)</li>
+<li>You may also use the sftp protocal to upload the public key file</li>
 </ul>
-<p>An example is</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode julia code-with-copy"><code class="sourceCode julia"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>gmdict <span class="op">=</span> <span class="fu">request_GMDICT</span>(<span class="st">"gm2"</span>, <span class="fl">2019</span>, <span class="fl">30.5</span>, <span class="fl">115.5</span>);</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="web-interfaces" class="level2">
-<h2 class="anchored" data-anchor-id="web-interfaces">Web Interfaces</h2>
-<p>Given that there are many artifacts for users to choose from, we also provide two web interface for users to request the data mannually (not fancy though):</p>
-<ul>
-<li><a href="http://tropo.gps.caltech.edu:5055/gm_artifact_form" target="_blank">Web Interface for request_LUT</a></li>
-<li><a href="http://tropo.gps.caltech.edu:5055/gm_dict_form" target="_blank">Web Interface for request_GMDICT</a></li>
-</ul>
+<p>Note that the file name needs to start with id_rsa for the system to recognize it automatically.</p>
 
 
 </section>
