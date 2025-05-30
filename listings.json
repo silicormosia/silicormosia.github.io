@@ -2,6 +2,7 @@
   {
     "listing": "/blogs.html",
     "items": [
+      "/blogs/tutorials/misc/nfs_setup.html",
       "/blogs/papers/ustc/wang-2025-impacts.html",
       "/blogs/tutorials/misc/ssh_ir_rsa.html",
       "/blogs/tutorials/qt/qdebug_message.html",

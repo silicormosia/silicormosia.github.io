@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Yujie Wang">
+<meta name="dcterms.date" content="2025-05-30">
+<meta name="description" content="Set up the network file system">
 
-<title>WANG, Yujie – Ormosia</title>
+<title>NFS server configuration and client setup – Ormosia</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,35 +23,66 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../images/cpu-fill.svg" rel="icon" type="image/svg+xml">
-<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-8ef56b68f8fa1e9d2ba328e99e439f80.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-7d75ee1762de1272fa8710d175305f72.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-c036d21afbb38d3f690052bfdbb7fa99.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/bootstrap/bootstrap-7d75ee1762de1272fa8710d175305f72.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
-<link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
-<link href="../../site_libs/quarto-contrib/academicons-1.9.4/all.css" rel="stylesheet">
-<link href="../../site_libs/quarto-contrib/academicons-1.9.4/size.css" rel="stylesheet">
-<script src="../../site_libs/quarto-contrib/iconify-3.0.0/iconify-icon.min.js"></script>
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../images/cpu-fill.svg" rel="icon" type="image/svg+xml">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-8ef56b68f8fa1e9d2ba328e99e439f80.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-7d75ee1762de1272fa8710d175305f72.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark-c036d21afbb38d3f690052bfdbb7fa99.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/bootstrap/bootstrap-7d75ee1762de1272fa8710d175305f72.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -87,7 +121,7 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
 </script>
 
 
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -255,11 +289,11 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
   </script>
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Ormosia</span>
     </a>
   </div>
@@ -270,35 +304,35 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link" href="../../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../people.html"> 
+    <a class="nav-link" href="../../../people.html"> 
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../research.html"> 
+    <a class="nav-link" href="../../../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../blogs.html"> 
+    <a class="nav-link" href="../../../blogs.html"> 
 <span class="menu-text">Blogs</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../publications.html"> 
+    <a class="nav-link" href="../../../publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../theses.html"> 
+    <a class="nav-link" href="../../../theses.html"> 
 <span class="menu-text">Thesis</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../resources.html"> 
+    <a class="nav-link" href="../../../resources.html"> 
 <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
+    <a class="nav-link" href="../../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -339,103 +373,106 @@ gtag('config', 'G-YNE42XN5HT', { 'anonymize_ip': true});
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">NFS server configuration and client setup</h1>
+                  <div>
+        <div class="description">
+          Set up the network file system
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Tutorial</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Yujie Wang </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">May 30, 2025</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-solana column-body">
-  <div class="about-entity">
-    <div class="entity-contents">
-      <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">WANG, Yujie</h1>
-<p class="subtitle lead">Research Professor</p>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header> <div class="about-links">
-  <a href="https://scholar.google.com/citations?user=jl95bUAAAAAJ" class="about-link" rel="" target="">
-     <span class="about-link-text"><i class="ai  ai-google-scholar" aria-label="google-scholar"></i> Google Scholar</span>
-  </a>
-  <a href="https://github.com/Yujie-W/" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">GitHub</span>
-  </a>
-  <a href="https://www.webofscience.com/wos/author/record/JTV-4266-2023" class="about-link" rel="" target="">
-    <i class="bi bi-mortarboard"></i>
-     <span class="about-link-text">ResearchID</span>
-  </a>
-  <a href="https://orcid.org/0000-0002-3729-2743" class="about-link" rel="" target="">
-     <span class="about-link-text"><iconify-icon role="img" inline="" icon="fa6-brands:orcid" aria-label="Icon orcid from fa6-brands Iconify.design set." title="Icon orcid from fa6-brands Iconify.design set."></iconify-icon> OrcidID</span>
-  </a>
-  <a href="https://twitter.com/wyujie666" class="about-link" rel="" target="">
-    <i class="bi bi-twitter"></i>
-     <span class="about-link-text">Twitter</span>
-  </a>
-</div>
-      <div class="about-contents"><main class="content" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
-<!-- Notes about the
-title :
-    LAST_NAME, First_name
-subtitle :
-    Position
-started :
-    Time joining the team
-sortby:
-    1 : PI
-    2 : Staff
-    3 : Postdoc
-    4 : PhD Student
-    5 : Master Student
-    6 : Undergraduate Student
-    7 : Misc
--->
-<p>Research Professor<br>
-School of Earth and Space Sciences<br>
-University of Science and Technology of China (USTC)<br>
-No.96, JinZhai Road Baohe District<br>
-Hefei, Anhui 230026, China<br>
-</p>
-<p>Office: 教学行政楼820 <a href="https://ustc.edu.cn/info/1009/1036.htm" target="_blank"><i class="fa-solid fa-map" aria-label="map"></i></a><br>
-Lab: 地球和空间科学前沿研究中心324-326 <a href="https://ustc.edu.cn/info/1009/1036.htm" target="_blank"><i class="fa-solid fa-map" aria-label="map"></i></a><br>
-<i class="fa-solid fa-phone" aria-label="phone"></i> +86 xxx-xxxx-xxxx<br>
-<i class="fa-solid fa-envelope" aria-label="envelope"></i> <a href="mailto:wyujie@ustc.edu.cn">wyujie@ustc.edu.cn</a></p>
-<p>Yujie is a Research Professor at USTC working on vegetation and land surface modeling, particularly in how plants respond and acclimate to the changing climate. While at the Climate Modeling Alliance (CliMA), he leads the development of a next-generation land surface model (CliMA Land) from scratch. Yujie’s research aims are to improve the Earth system models’ predictive skills in tracking global carbon, water, and energy fluxes using the increasing number of remote sensing data.</p>
-<section id="professional-experience" class="level2">
-<h2 data-anchor-id="professional-experience">Professional Experience</h2>
-<ul>
-<li><span class="fw-bold">2025-present:</span> Research Professor, USTC</li>
-<li><span class="fw-bold">2022-2025:</span> Research Scientist, Caltech</li>
-<li><span class="fw-bold">2020-2022:</span> Postdoctoral Fellow, Caltech</li>
-</ul>
+
+
+
+
+
+<section id="on-the-server" class="level2">
+<h2 class="anchored" data-anchor-id="on-the-server">On the server</h2>
+<section id="install-nfs-server-on-debian-12" class="level3">
+<h3 class="anchored" data-anchor-id="install-nfs-server-on-debian-12">Install NFS server (on Debian 12)</h3>
+<p>First, install the nfs server package</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> aptitude install nfs-kernel-server</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="education" class="level2">
-<h2 data-anchor-id="education">Education</h2>
-<ul>
-<li><span class="fw-bold">PhD in Biology</span> | University of Utah, USA | 2015 - 2019</li>
-<li><span class="fw-bold">MS in Biology</span> | University of Science and Technology of China, China | 2011 - 2013</li>
-<li><span class="fw-bold">BS in Biology</span> | University of Science and Technology of China, China | 2007 - 2011</li>
-</ul>
+<section id="create-the-folder-to-share" class="level3">
+<h3 class="anchored" data-anchor-id="create-the-folder-to-share">Create the folder to share</h3>
+<p>Second, create the folder you wanna share (mine at <code>/home/nfs</code>), and make sure users have read/write access.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> mkdir <span class="at">-p</span> /home/nfs</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> /home</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> chmod 777 nfs</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Make an symbolic link in folder <code>exports</code> (optional).</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> /exports</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> ln <span class="at">-s</span> /home/nfs</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="thesis-dissertation" class="level2">
-<h2 data-anchor-id="thesis-dissertation">Thesis &amp; Dissertation</h2>
-<ul>
-<li>PhD. 2020. <a href="https://silicormosia.github.io/theses.html#yujie-wang" target="&quot;_blank">Carbon gain and risk in leaf gas exchange.</a> University of Utah. Advised by Dr.&nbsp;John S. Sperry.</li>
-<li>PhD Candidate. 2017. <a href="https://silicormosia.github.io/theses.html#yujie-wang" target="&quot;_blank">Research Proposal.</a> University of Utah. Advised by Dr.&nbsp;John S. Sperry.</li>
-<li>Master. 2013. <a href="https://silicormosia.github.io/theses.html#yujie-wang" target="&quot;_blank">Theory and model of centrifuge method in vulnerbility curve.</a> University of Science and Technology of China. Advised by Dr.&nbsp;Kunfang Cao and Dr.&nbsp;Melvin T. Tyree.</li>
-</ul>
+<section id="edit-etcexports-file" class="level3">
+<h3 class="anchored" data-anchor-id="edit-etcexports-file">Edit <code>/etc/exports</code> file</h3>
+<p>Edit the <code>/etc/exports</code> file, and append the following at the end with XXX.XXX.XXX.XXX of the client IP:</p>
+<pre><code>/exports/nfs XXX.XXX.XXX.XXX(rw,sync)</code></pre>
+</section>
+<section id="apply-the-changes" class="level3">
+<h3 class="anchored" data-anchor-id="apply-the-changes">Apply the changes</h3>
+<p>Run the command below to apply the changes</p>
+<pre><code>sudo systemctl restart nfs-kernel-server</code></pre>
+</section>
+</section>
+<section id="on-the-client" class="level2">
+<h2 class="anchored" data-anchor-id="on-the-client">On the client</h2>
+<section id="create-a-folder-to-mount-the-nfs" class="level3">
+<h3 class="anchored" data-anchor-id="create-a-folder-to-mount-the-nfs">Create a folder to mount the NFS</h3>
+<p>Create a folder to mount the NFS (mine in folder <code>/mnt/net/</code>)</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> <span class="at">-p</span> /mnt/net/nfs1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="mount-the-nfs-onto-the-folder" class="level3">
+<h3 class="anchored" data-anchor-id="mount-the-nfs-onto-the-folder">Mount the NFS onto the folder</h3>
+<p>Now, you may mount the NFS to your local machine</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> mount <span class="at">-t</span> nfs HHH.OOO.SSS.TTT:/exports/nfs /mnt/net/nfs1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>If you wanna to umount the NFS, do</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> umount /mnt/net/nsf1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="mount-the-nfs-on-startup" class="level3">
+<h3 class="anchored" data-anchor-id="mount-the-nfs-on-startup">Mount the NFS on startup</h3>
+<p>Edit the <code>/etc/fstab</code> file to automatically mount the file system, and append the following to the end</p>
+<pre><code>HHH.OOO.SSS.TTT:/exports/nfs    /mnt/net/nfs1    nfs    defaults    0    0</code></pre>
 
 
 </section>
-</main></div>
-    </div>
-    <img src="wyujie.jpg" class="about-image
-  round " style="height: 15em; width: 15em;">
-  </div>
-</div>
- <!-- /main -->
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -451,6 +488,13 @@ Lab: 地球和空间科学前沿研究中心324-326 <a href="https://ustc.edu.cn
       window.document.body.appendChild(a);
     }
     setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
