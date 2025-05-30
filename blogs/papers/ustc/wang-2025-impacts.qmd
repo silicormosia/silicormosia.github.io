@@ -3,7 +3,7 @@ title: "新文速递：植物光学性状多样性对地球系统模拟的影响
 image: wang-2025-impacts.png
 description: "地球系统模式常使用植物功能类群对植被分类，忽略陆地植被性状多样性。本研究以叶片光学特征为例，探究引入植物性状多样性对地球系统模式的重要性。"
 author: "Yujie Wang"
-date: "5/30/2025"
+date: "5/29/2025"
 categories:
  - LSM
  - Paper

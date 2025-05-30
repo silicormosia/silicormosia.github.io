@@ -1,0 +1,67 @@
+---
+title: "NFS server configuration and client setup"
+image: ../../../images/ssh_terminal.jpg
+description: "Set up the network file system"
+author: "Yujie Wang"
+date: "5/30/2025"
+categories:
+  - Tutorial
+---
+
+## On the server
+### Install NFS server (on Debian 12)
+First, install the nfs server package
+```bash
+sudo aptitude install nfs-kernel-server
+```
+
+### Create the folder to share
+Second, create the folder you wanna share (mine at `/home/nfs`), and make sure users have read/write access.
+```bash
+sudo mkdir -p /home/nfs
+cd /home
+sudo chmod 777 nfs
+```
+
+Make an symbolic link in folder `exports` (optional).
+```bash
+cd /exports
+sudo ln -s /home/nfs
+```
+
+### Edit `/etc/exports` file
+Edit the `/etc/exports` file, and append the following at the end with XXX.XXX.XXX.XXX of the client IP:
+```
+/exports/nfs XXX.XXX.XXX.XXX(rw,sync)
+```
+
+### Apply the changes
+Run the command below to apply the changes
+```
+sudo systemctl restart nfs-kernel-server
+```
+
+
+## On the client
+### Create a folder to mount the NFS
+Create a folder to mount the NFS (mine in folder `/mnt/net/`)
+```bash
+mkdir -p /mnt/net/nfs1
+```
+
+### Mount the NFS onto the folder
+Now, you may mount the NFS to your local machine
+```bash
+sudo mount -t nfs HHH.OOO.SSS.TTT:/exports/nfs /mnt/net/nfs1
+```
+
+If you wanna to umount the NFS, do
+```bash
+sudo umount /mnt/net/nsf1
+```
+
+### Mount the NFS on startup
+Edit the `/etc/fstab` file to automatically mount the file system, and append the following to the end
+```
+HHH.OOO.SSS.TTT:/exports/nfs    /mnt/net/nfs1    nfs    defaults    0    0
+```
