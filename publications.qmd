@@ -9,8 +9,15 @@ For the code I wrote for the 1st-authored and some co-authorred publications, pl
 
 ### In Press
 
+### 2025
+- Y. Wang, R. K. Braghiere, W. W. Fischer, Y. Yao, Z. Shen, T. Schneider, A. A. Bloom, D. Schimel, H. Croft, A. J. Winkler, M. Reichstein, and C. Frankenberg (2025).
+  Impacts of leaf traits on vegetation optical properties in Earth system modeling.
+  Nature Communications 16: 4968.
+  [DOI](https://doi.org/10.1038/s41467-025-60149-x){target="_blank"}
+  [PDF](https://github.com/silicormosia/silicormosia.github.io/raw/main/papers/wang2025impacts.pdf){target="_blank"}
+
 ### 2024
--  Y. Yao, P. Ciais, E. Joetzjer, W. Li, L. Zhu, Y. Wang, C. Frankenberg, and N. Viovy (2024).
+- Y. Yao, P. Ciais, E. Joetzjer, W. Li, L. Zhu, Y. Wang, C. Frankenberg, and N. Viovy (2024).
   The impacts of elevated CO₂ on forest growth, mortality, and recovery in the Amazon rainforest.
   Earth System Dynamics 15(3): 763-778.
   [DOI](https://doi.org/10.5194/esd-15-763-2024){target="_blank"}
