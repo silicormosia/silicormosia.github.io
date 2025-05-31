@@ -19,9 +19,9 @@ It should be a responsibility to perform free peer reviews if you receive them f
 |          | Yujie Wang  | Nature Communications                            | 3                    |                  |
 |          | Yujie Wang  | Plant Physiology                                 |                      | 1                |
 |          | Yujie Wang  | Remote Sensing of Environment                    | 3                    |                  |
-|          | Yujie Wang  | Scientific Data                                  |                      | 1                |
+|          | Yujie Wang  | Scientific Data                                  |                      | 2                |
 |          | Yujie Wang  | Tree Physiology                                  |                      | 1                |
-|          |             | **Summary**                                      | 6                    | 9                |
+|          |             | **Summary**                                      | 6                    | 10               |
 
 ## 2024
 
