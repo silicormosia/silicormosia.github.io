@@ -9,13 +9,13 @@
       "/blogs/peotry/english/modeler.html",
       "/blogs/papers/logs.html",
       "/blogs/tutorials/misc/driver_license.html",
+      "/blogs/misc/tyree-4.html",
       "/blogs/misc/tyree-7.html",
       "/blogs/misc/tyree-1.html",
-      "/blogs/misc/tyree-3.html",
-      "/blogs/misc/tyree-4.html",
-      "/blogs/misc/tyree-2.html",
-      "/blogs/misc/tyree-5.html",
       "/blogs/misc/tyree-6.html",
+      "/blogs/misc/tyree-5.html",
+      "/blogs/misc/tyree-3.html",
+      "/blogs/misc/tyree-2.html",
       "/blogs/news/conference/agu-2024/agu-2024.html",
       "/blogs/tutorials/griddingmachine/6-collector.html",
       "/blogs/tutorials/griddingmachine/5-version-0.3.html",
@@ -49,6 +49,14 @@
       "/blogs/peotry/traditional/acknowledgment.html",
       "/blogs/peotry/youth/love.html",
       "/blogs/peotry/traditional/jinyu.html"
+    ]
+  },
+  {
+    "listing": "/plants.html",
+    "items": [
+      "/plants/greenhouse/Epipremnum_aureum.html",
+      "/plants/greenhouse/Chlorophytum_comosum.html",
+      "/plants/greenhouse/Ocimum_basilicum.html"
     ]
   },
   {
