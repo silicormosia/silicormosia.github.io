@@ -1,0 +1,23 @@
+---
+title: "Chlorophytum comosum"
+image: Chlorophytum_comosum.jpg
+subtitle: "金边吊兰"
+sortby: 3 # 1-树 2-藤 3-草 4-蕨 5-苔藓 6-地衣
+about:
+  id: hero-heading
+  template: solana
+  image-shape: round
+  links:
+    - icon: flower1
+      text: 中国植物志
+      href: https://www.iplant.cn/info/Chlorophytum%20comosum
+---
+
+金边吊兰，吊兰下级种 Chlorophytum comosum \
+2025年加入中国科学技术大学/生态与地球系统模拟实验室 \
+生活地：地球和空间科学前沿研究中心3楼温室 [{{< fa map >}}](https://ustc.edu.cn/info/1009/1036.htm){target="_blank"} \
+
+## 科研贡献
+
+
+## 教学贡献

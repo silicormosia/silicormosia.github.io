@@ -1,0 +1,30 @@
+---
+title: "Plants"
+listing:
+  - id: greenhouse
+    contents: plants/greenhouse
+    type: grid
+    image-height: 300px
+    grid-item-align: center
+    sort: [sortby, title]
+    fields: [image, title, subtitle]
+  - id: community
+    contents: plants/university
+    type: table
+    sort: [title]
+    sort-ui: [title, subtitle, belonging]
+    fields: [title, subtitle, belonging]
+    field-display-names:
+      title: "Latin Name"
+      subtitle: "中文名"
+      belonging: "中国植物志"
+page-layout: full
+---
+
+## Greenhouse Plants
+:::{#greenhouse}
+:::
+
+## Community Plants
+:::{#community}
+:::

@@ -13,6 +13,7 @@ website:
       - href: index.qmd
         text: Home
       - people.qmd
+      - plants.qmd
       - research.qmd
       - blogs.qmd
       - publications.qmd
