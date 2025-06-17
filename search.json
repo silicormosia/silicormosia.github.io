@@ -455,123 +455,25 @@
     "text": "教学贡献"
   },
   {
-    "objectID": "blogs.html",
-    "href": "blogs.html",
-    "title": "Blogs",
+    "objectID": "people/current/pwei.html",
+    "href": "people/current/pwei.html",
+    "title": "PAN, Wei",
     "section": "",
-    "text": "NFS server configuration and client setup\n\n\n\nTutorial\n\n\n\nSet up the network file system\n\n\n\n\n\nMay 30, 2025\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\n新文速递：植物光学性状多样性对地球系统模拟的影响\n\n\n\nLSM\n\nPaper\n\n\n\n地球系统模式常使用植物功能类群对植被分类，忽略陆地植被性状多样性。本研究以叶片光学特征为例，探究引入植物性状多样性对地球系统模式的重要性。\n\n\n\n\n\nMay 29, 2025\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nSSH without typing the password everytime\n\n\n\nTutorial\n\n\n\nUsing the public and private key pairing\n\n\n\n\n\nMay 6, 2025\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nqDebug() information does not show in Application Output\n\n\n\nTutorial\n\n\n\nqDebug() information stops showing up in Qt Creator, after I did something I did not know to impact Qt Creator…\n\n\n\n\n\nApr 30, 2025\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nThe real land modelers\n\n\n\nPoem\n\n\n\nThe part lyrics I did in July 2024\n\n\n\n\n\nMar 18, 2025\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nLogs of Reviews and Reviewing\n\n\n\nLogs\n\n\n\nLogs for the number of reviews we recieve and make. We try to balance the two!\n\n\n\n\n\nFeb 19, 2025\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\n国外驾照换中国驾照\n\n\n\nTutorial\n\n\n\n我换的是美国驾照\n\n\n\n\n\nFeb 14, 2025\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nVisiting Mel (4)\n\n\n\n随笔\n\n\n\n上一次见Mel还是2017年，不想已经时隔7年。。。\n\n\n\n\n\nDec 14, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nVisiting Mel (6)\n\n\n\n随笔\n\n\n\n上一次见Mel还是2017年，不想已经时隔7年。。。\n\n\n\n\n\nDec 14, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nVisiting Mel (1)\n\n\n\n随笔\n\n\n\n上一次见Mel还是2017年，不想已经时隔7年。。。\n\n\n\n\n\nDec 14, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nVisiting Mel (6)\n\n\n\n随笔\n\n\n\n上一次见Mel还是2017年，不想已经时隔7年。。。\n\n\n\n\n\nDec 14, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nVisiting Mel (5)\n\n\n\n随笔\n\n\n\n上一次见Mel还是2017年，不想已经时隔7年。。。\n\n\n\n\n\nDec 14, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nVisiting Mel (3)\n\n\n\n随笔\n\n\n\n上一次见Mel还是2017年，不想已经时隔7年。。。\n\n\n\n\n\nDec 14, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nVisiting Mel (2)\n\n\n\n随笔\n\n\n\n上一次见Mel还是2017年，不想已经时隔7年。。。\n\n\n\n\n\nDec 14, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nAGU 2024 Fall Meeting\n\n\n\nConference\n\n\n\nsilicormosia @ Washington DC\n\n\n\n\n\nNov 13, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nGriddingMachine Tutorial 6\n\n\n\nTutorial\n\nGriddingMachine\n\n\n\nHow to use the Collector module of GriddingMachine.jl (v0.3)?\n\n\n\n\n\nOct 30, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nGriddingMachine Tutorial 5\n\n\n\nTutorial\n\nGriddingMachine\n\n\n\nUpdate to version 0.3.0\n\n\n\n\n\nOct 29, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nGriddingMachine Tutorial 4\n\n\n\nTutorial\n\nGriddingMachine\n\n\n\nHow to use the Requestor module of GriddingMachine.jl?\n\n\n\n\n\nOct 9, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\n经纬岛 第一章\n\n\n\n现代诗\n\n经纬岛\n\n\n\n上大学时，在大学生心理学课上学到一个词叫做被爱妄想，老师举的例子也特别生动：某男追求某女未果，得知其新交了男朋友，便有了名场面。曰那男生长的那么丑，根本没我帅，你肯定是在考验我！！！\n\n\n\n\n\nJun 21, 2024\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\n经纬岛 第一章\n\n\n\n现代诗\n\n经纬岛\n\n\n\n穷困潦倒时的自卑与怯懦，或许会给人埋在心底最纯粹的情感，但或许只是浮想联翩的意淫。。。\n\n\n\n\n\nJun 15, 2024\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\nAccounting for ultraviolet and far-red radiation in land surface modeling\n\n\n\nLSM\n\nPaper\n\n\n\nUV is not explicitly accounted for in LSM; FR can boost photosynthesis but LSMs typically treat it as NIR. How can we improve these?\n\n\n\n\n\nMay 27, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\n经纬岛 第一章\n\n\n\n现代诗\n\n经纬岛\n\n\n\n刚开始开发CliMA Land时我也是踌躇满志的，结果过了这些年依旧没能将我的模型和大气模型耦合。再加上找工作也一直不顺利，心态居然都崩习惯了。。。\n\n\n\n\n\nMay 21, 2024\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\n经纬岛 第一章\n\n\n\n现代诗\n\n经纬岛\n\n\n\n凌晨时候听二哥说奶奶走了，而我仍在美国。上次回去是去年去香港大学面试，当时奶奶精神也还好，不曾想竟是见奶奶的最后一面。我痛恨自己没有早些回国找工作，也痛恨自己对生活的麻木。\n\n\n\n\n\nMay 17, 2024\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\nCliMA Land Benchmarks\n\n\n\nLogs\n\nLSM\n\n\n\nPerformance of CliMA Land global simulations: spatial patterns of annual means\n\n\n\n\n\nMay 7, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\n月下独酌\n\n\n\n古体诗\n\n\n\n周二夜驱车归家，见满月悬空，不禁唏嘘。。。\n\n\n\n\n\nApr 25, 2024\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\nImprove canopy radiative transfer and electron transport modeling\n\n\n\nLSM\n\nPaper\n\n\n\nLand surface models typically use broadband RT modeling, potentially resulting in biased PPAR and J calculations. How can we improve this?\n\n\n\n\n\nApr 7, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\n道\n\n\n\n古体诗\n\n\n\n飞熊临渊叹渔樵，何人解吾直中道。\n\n\n\n\n\nMar 28, 2024\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\nUsing GPS for research\n\n\n\nPaper\n\n\n\nGPP signals can be used to estimate canopy water content in various time scales\n\n\n\n\n\nMar 23, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nNon-steady state modeling\n\n\n\nPaper\n\nLSM\n\n\n\nModeling stomatal conductance at non-steady state in CliMA Land\n\n\n\n\n\nMar 22, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nGriddingMachine Tutorial 3\n\n\n\nTutorial\n\nGriddingMachine\n\n\n\nHow to use the Indexer module of GriddingMachine.jl?\n\n\n\n\n\nJan 30, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nGriddingMachine Tutorial 2\n\n\n\nTutorial\n\nGriddingMachine\n\n\n\nHow to use the Collector module of GriddingMachine.jl (v0.2)?\n\n\n\n\n\nJan 19, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nGriddingMachine Tutorial 1\n\n\n\nTutorial\n\nGriddingMachine\n\n\n\nHow to install different versions of GriddingMachine.jl?\n\n\n\n\n\nJan 12, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nAgriculture in silico\n\n\n\nPaper\n\n\n\nAgriculture in silico: Use of vegetation modeling for crop yield advances\n\n\n\n\n\nJan 3, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nCorner flowers\n\n\n\nPoem\n\n\n\nI see the flowers everyday when I drop off my kids\n\n\n\n\n\nMay 30, 2023\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nCliMA Land\n\n\n\nPaper\n\nLSM\n\n\n\nCliMA Land: A next-generation land surface model that bridges vegetation processes and remote sensing\n\n\n\n\n\nMay 1, 2023\n\n\nYujie Wang and Renato Braghiere\n\n\n\n\n\n\n\n\n\n\n\n\nTwo-legged crow\n\n\n\nPoem\n\n\n\nI am really pissed off by the two legged crow who thinks she has three\n\n\n\n\n\nApr 18, 2023\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\n经纬岛 第一章\n\n\n\n现代诗\n\n经纬岛\n\n\n\n打算写成一个长篇叙事诗，不知道写不写的好。。。\n\n\n\n\n\nSep 22, 2022\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\nGriddingMachine\n\n\n\nPaper\n\n\n\nGriddingMachine: A new database and software for sharing global datasets\n\n\n\n\n\nAug 17, 2022\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nCanopy Model Complexity\n\n\n\nLSM\n\nPaper\n\n\n\nComparisons of vegetation canopy model complexities\n\n\n\n\n\nSep 30, 2021\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\n无题\n\n\n\n古体诗\n\n\n\n找到以前写的一首诗，随便命个名。。。\n\n\n\n\n\nOct 12, 2017\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\n无题\n\n\n\n古体诗\n\n\n\n找到以前写的一首诗，随便命个名。。。\n\n\n\n\n\nMar 19, 2013\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\n秋日\n\n\n\n古体诗\n\n\n\n又找到以前写的几首诗。。。\n\n\n\n\n\nOct 18, 2011\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\n无题\n\n\n\n古体诗\n\n\n\n找到以前写的一些诗，随便命个名。。。\n\n\n\n\n\nOct 1, 2011\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\n别版纳\n\n\n\n古体诗\n\n\n\n西双版纳纪行\n\n\n\n\n\nJun 2, 2011\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\n致谢\n\n\n\n骈文\n\n\n\n找到以前的致谢。。。\n\n\n\n\n\nJun 1, 2011\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\n等你想我的一天\n\n\n\n现代诗\n\n\n\n大学时候的诗（合辑）。。。\n\n\n\n\n\nMay 7, 2011\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\n吻\n\n\n\n古体诗\n\n\n\n昨晚小杰带着小玉出去玩，嘻嘻，好开心呐……\n\n\n\n\n\nOct 23, 2010\n\n\n王玉杰\n\n\n\n\n\nNo matching items"
+    "text": "Staff\nSchool of Earth and Space Sciences\nUniversity of Science and Technology of China (USTC)\nNo.96, JinZhai Road Baohe District\nHefei, Anhui 230026, China\n\nOffice: 教学行政楼624 \n +86 (0551) 6360 3515\n weiwei7@ustc.edu.cn\nLab manager. She helps with many department affairs, such as news, seminars, and graduate defenses. She is definitely the primary staff of the Atmosphere Sciences."
   },
   {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
+    "objectID": "theses.html",
+    "href": "theses.html",
+    "title": "Thesis",
     "section": "",
-    "text": "For the code I wrote for the 1st-authored and some co-authorred publications, please refer to this GitHub repository"
+    "text": "PhD Thesis (2020). University of Utah. Carbon gain and risk in modeling leaf gas exchange. Dissertation Defense\nPhD Proposal (2017). University of Utah. Carbon gain and risk in modeling leaf gas exchange. Proposal Defense\nMaster Thesis (2013). University of Science and Technology of China. Theory and Model of Centrifuge Method in Vulnerability Curve (离心机法测枝条脆弱性曲线的理论与模型). Thesis Defense\nMaster Proposal (2012). University of Science and Technology of China. Modeling of Plant Hydraulics (植物水力模型构建). Proposal Defense"
   },
   {
-    "objectID": "publications.html#journal-papers",
-    "href": "publications.html#journal-papers",
-    "title": "Publications",
-    "section": "Journal Papers",
-    "text": "Journal Papers\n\nIn Press\n\n\n2025\n\nY. Wang, R. K. Braghiere, W. W. Fischer, Y. Yao, Z. Shen, T. Schneider, A. A. Bloom, D. Schimel, H. Croft, A. J. Winkler, M. Reichstein, and C. Frankenberg (2025). Impacts of leaf traits on vegetation optical properties in Earth system modeling. Nature Communications 16: 4968. DOI PDF\n\n\n\n2024\n\nY. Yao, P. Ciais, E. Joetzjer, W. Li, L. Zhu, Y. Wang, C. Frankenberg, and N. Viovy (2024). The impacts of elevated CO₂ on forest growth, mortality, and recovery in the Amazon rainforest. Earth System Dynamics 15(3): 763-778. DOI PDF\nY. Wang, R. K. Braghiere, Y. Yin, Y. Yao, D. Hao, and C. Frankenberg (2024). Beyond the visible: Accounting for ultraviolet and far‐red radiation in vegetation productivity and surface energy budgets. Global Change Biology 30(5): e17346. DOI PDF\nY. Wang, and C. Frankenberg (2024). Toward more accurate modeling of canopy radiative transfer and leaf electron transport in land surface modeling. Journal of Advances in Modeling Earth Systems 16(4): e2023MS003992. DOI PDF\nK. Liu, Y. Wang, T. Magney, and C. Frankenberg (2024). Non-steady-state stomatal conductance modeling and its implications: from leaf to ecosystem. Biogeosciences 21(6): 1501–1516. DOI PDF\nY. Yao, V. Humphrey, A. G. Konings, Y. Wang, Y. Yin, N. Holtzman, J. D. Wood, Y. Bar-On, and C. Frankenberg (2024). Investigating diurnal and seasonal cycles of vegetation optical depth retrieved from GNSS signals in a broadleaf forest. Geophysical Research Letters 51(6): e2023GL107121. DOI PDF\n\n\n\n2023\n\nN. Holtzman, Y. Wang, J. D. Wood, C. Frankenberg, and A. G. Konings (2023). Constraining plant hydraulics with microwave radiometry in a land surface model: Impacts of temporal resolution. Water Resources Research 59(11): e2023WR035481. DOI PDF\nY. Wang, and Y. Yin (2023). Agriculture in silico: Perspectives on radiative transfer optimization using vegetation modeling. Crop and Environment 2(4): 175-183. DOI PDF\nR. K. Braghiere, Y. Wang, A. Gagné-Landmann, P. G. Brodrick, A. A. Bloom, A. J. Norton, S. Ma, P. Levine, M. Longo, K. Deck, P. Gentine, J. R. Worden, C. Frankenberg, and T. Schneider (2023). The importance of hyperspectral soil albedo information for improving Earth system model projections. AGU Advances 4(4): e2023AV000910. DOI PDF\nX. Liang, D. Wang, Q. Ye, J. Zhang, M. Liu, H. Liu, K. Yu, Y. Wang, E. Hou, B. Zhong, L. Xu, T. Lv, S. Peng, H. Lu, P. Sicard, A. Anav, and D. S. Ellsworth (2023). Stomatal responses of terrestrial plants to global change. Nature Communications 14(1): 2188. DOI PDF\nY. Wang, R. K. Braghiere, M. Longo, A. J. Norton, P. Köhler, R. Doughty, Y. Yin, A. A. Bloom, and C. Frankenberg (2023). Modeling global vegetation gross primary productivity, transpiration and hyperspectral canopy radiative transfer simultaneously using a next generation land surface model—CliMA Land. Journal of Advances in Modeling Earth Systems 15(3): e2021MS002964. DOI PDF\n\n\n\n2022\n\nY. Wang, and C. Frankenberg (2022). Technical note: Common ambiguities in plant hydraulics. Biogeosciences 19(19): 4705-4714. DOI PDF\nY. Wang, P. Köhler, R. K. Braghiere, M. Longo, R. Doughty, A. A. Bloom, and C. Frankenberg (2022). GriddingMachine, a database and software for Earth system modeling at global and regional scales. Scientific Data 9: 258. DOI PDF\nR. Doughty, T. Kurosu, N. Parazoo, P. Köhler, Y. Wang, Y. Sun, and C. Frankenberg (2022). Global GOSAT, OCO-2 and OCO-3 solar induced chlorophyll fluorescence datasets. Earth System Science Data 14(4): 1513-1529. DOI PDF\nY. Wang, and C. Frankenberg (2022). On the impact of canopy model complexity on simulated carbon, water, and solar-induced chlorophyll fluorescence fluxes. Biogeosciences 19(1): 29-45. DOI PDF\n\n\n\n2021\n\nY. Wang, P. Köhler, L. He, R. K. Braghiere, R. Doughty, J. Wood, and C. Frankenberg (2021). Testing stomatal models at the stand level in deciduous angiosperm and evergreen gymnosperm forests using CliMA Land (v0.1). Geoscientific Model Development 14(11): 6741-6763. DOI PDF\nA. G. Konings, S. S. Saatchi, C. Frankenberg, M. Keller, V. Leshyk, W. R. L. Anderegg, V. Humphrey, A. M. Matheny, A. Trugman, L. Sack, E. Agee, M. L. Barnes, O. Binks, K. Cawse-Nicholson, B. O. Christoffersen, D. Entekhabi, P. Gentine, N. M. Holtzman, G. G. Katul, Y. Liu, M. Longo, J. Martinez-Vilalta, N. McDowell, P. Meir, M. Mencuccini, A. Mrad, K. A. Novick, R. S. Oliveira, P. Siqueira, S. C. Steele-Dunne, D. R. Thompson, Y. Wang, R. Wehr, J. D. Wood, X. Xu, and P. A. Zuidema (2021). Detecting forest response to droughts with global observations of vegetation water content. Global Change Biology 27(23): 6005-6024. DOI PDF\nP. Köhler, W. W. Fischer, G. R. Rossman, J. P. Grotzinger, R. Doughty, Y. Wang, Y. Yin, and C. Frankenberg (2021). Mineral luminescence observed from space. Geophysical Research Letters 48(19): e2021GL095227. DOI PDF\nR. K. Braghiere, Y. Wang, R. Doughty, D. Souza, T. Magney, J. Widlowski, M. Longo, A. Bloom, J. Worden, P. Gentine, and C. Frankenberg (2021). Accounting for canopy structure improves hyperspectral radiative transfer and sun-induced chlorophyll fluorescence representations in a new generation Earth System model. Remote Sensing of Environment 261: 112497. DOI PDF\nA. Potkay, A. T. Trugman, Y. Wang, M. D. Venturas, W. R. L. Anderegg, C. Mattos, and Y. Fan (2021). Coupled whole-tree optimality and xylem-hydraulics explain dynamic biomass partitioning. New Phytologist 230(6): 2226-2245. DOI PDF\nY. Wang, W. R. L. Anderegg, M. D. Venturas, A. T. Trugman, K. Yu, and C. Frankenberg (2021). Optimization theory explains nighttime stomatal responses. New Phytologist 230(4): 1550-1561. DOI PDF\n\n\n\n2020\n\nY. Wang, J. S. Sperry, W. R. L. Anderegg, M. D. Venturas, and A. T. Trugman (2020). Tansley Review: A theoretical and empirical assessment of stomatal optimization modeling. New Phytologist 227(2): 311–325. DOI PDF\n\n\n\n2019\n\nJ. S. Sperry, M. D. Venturas, H. N. Todd, A. T. Trugman, W. R. L. Anderegg, Y. Wang, and X. Tai (2019). The impact of rising CO₂ and acclimation on theresponse of US forests to global warming. Proceedings of the National Academy of Sciences of the United States of America 116(51): 25734–25744. DOI PDF\nA. T. Trugman, L. D. L. Anderegg, J. S. Sperry, Y. Wang, M. D. Venturas, and W. R. L. Anderegg (2019). Leveraging plant hydraulics to yield predictive and dynamic plant leaf allocation in vegetation models with climate change. Global Change Biology 25: 4008–4021. DOI PDF\nY. Wang, J. S. Sperry, M. D. Venturas, A. T. Trugman, D. D. Love, and W. R. L. Anderegg (2019). The stomatal response to rising CO₂ concentration and drought is predicted by a hydraulic trait-based optimization model. Tree Physiology 39(8): 1416–1427. DOI PDF\nK. Yu, G. R. Goldsmith, Y. Wang, and W. R. L. Anderegg (2019). Phylogenetic and biogeographic controls of plant nighttime stomatal conductance. New Phytologist 222(4): 1778–1788. DOI PDF\nG. Du, F. Feng, Y. Wang, and M. T. Tyree (2019). Do nano-particles cause recalcitrant vulnerability curves in Robinia? Testing with a four-cuvette Cochard rotor and with water extraction curves. Tree Physiology 39(1): 156–165. DOI PDF\nD. M. Love, M. D. Venturas, J. S. Sperry, P. D. Brooks, J. L. Pettit, Y. Wang, and W. R. L. Anderegg (2019). Dependence of aspen stands on a subsurface water subsidy: Implications for climate change impacts. Water Resource Research 55(3): 1833–1848. DOI PDF\n\n\n\n2018\n\nM. D. Venturas, J. S. Sperry, D. M. Love, E. H. Frehner, M. G. Allred, Y. Wang, and W. R. L. Anderegg (2018). A stomatal control model based on optimization of carbon gain versus hydraulic risk predicts aspen sapling responses to drought. New Phytologist. 220(3): 836–850. DOI PDF\n\n\n\n2017\n\nJ. S. Sperry, M. D. Venturas, W. R. L. Anderegg, M. Mencuccini, D. S. Mackay, Y. Wang, and D. M. Love (2017). Predicting stomatal responses to the environment from the optimization of photosynthetic gain and hydraulic cost. Plant Cell & Environment 40(6): 816–830. DOI PDF\n\n\n\n2016\n\nJ. S. Sperry, Y. Wang, B. T. Wolfe, D. S. Mackay, W. R. L. Anderegg, N. G. McDowell, and W. T. Pockman (2016). Pragmatic hydraulic theory predicts stomatal responses to climatic water deficits. New Phytologist. 212(3): 577–589. DOI PDF\n\n\n\n2015\n\nY. Wang, J. Liu, and M. T. Tyree (2015). Stem hydraulic conductivity depends on the pressure at which it is measured and how this dependence can be used to assess the tempo of bubble pressurization in recently cavitated vessels. Plant Physiology 169(4): 2597–2607. DOI PDF\nY. Wang, R. Pan, and M. T. Tyree (2015). Studies on the tempo of bubble formation in recently cavitated vessels: A model to predict the pressure of air bubbles. Plant Physiology 168(2): 521–531. DOI PDF\n\n\n\n2014\n\nY. Wang, R. Burlett, F. Feng, and M. T. Tyree (2014). Improved precision of hydraulic conductance measurements using a Cochard rotor in two different centrifuges. Journal of Plant Hydraulics 1: e-0007. DOI PDF\n\n\n\nEarlier\n\nJ. Liu, P. Fu, Y. Wang, and K. Cao (2012). Different drought-adaptation strategies as characterized by hydraulic and water-relations traits of evergreen and deciduous figs in a tropical karst forest. Plant Science Journal 30(5): 484-493. DOI PDF"
-  },
-  {
-    "objectID": "plants.html",
-    "href": "plants.html",
-    "title": "Plants",
+    "objectID": "theses.html#yujie-wang",
+    "href": "theses.html#yujie-wang",
+    "title": "Thesis",
     "section": "",
-    "text": "绿萝\n\n\n\n\n\n\n\n\n\n\n\n\n\n金边吊兰\n\n\n\n\n\n\n\n\n\n\n\n\n\n罗勒/荆芥\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "plants.html#greenhouse-plants",
-    "href": "plants.html#greenhouse-plants",
-    "title": "Plants",
-    "section": "",
-    "text": "绿萝\n\n\n\n\n\n\n\n\n\n\n\n\n\n金边吊兰\n\n\n\n\n\n\n\n\n\n\n\n\n\n罗勒/荆芥\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "plants.html#community-plants",
-    "href": "plants.html#community-plants",
-    "title": "Plants",
-    "section": "Community Plants",
-    "text": "Community Plants\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Latin Name\n      \n      \n        中文名\n      \n      \n        中国植物志\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\nLatin Name\n中文名\n中国植物志\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "Research Professor\nSchool of Earth and Space Sciences\nUniversity of Science and Technology of China (USTC)\nNo.96, JinZhai Road Baohe District\nHefei, Anhui 230026, China\n\nOffice: 教学行政楼820 \nLab: 地球和空间科学前沿研究中心324-326 \n +86 xxx-xxxx-xxxx\n wyujie@ustc.edu.cn"
-  },
-  {
-    "objectID": "about.html#contact-information",
-    "href": "about.html#contact-information",
-    "title": "About",
-    "section": "",
-    "text": "Research Professor\nSchool of Earth and Space Sciences\nUniversity of Science and Technology of China (USTC)\nNo.96, JinZhai Road Baohe District\nHefei, Anhui 230026, China\n\nOffice: 教学行政楼820 \nLab: 地球和空间科学前沿研究中心324-326 \n +86 xxx-xxxx-xxxx\n wyujie@ustc.edu.cn"
-  },
-  {
-    "objectID": "about.html#report-issues",
-    "href": "about.html#report-issues",
-    "title": "About",
-    "section": "Report Issues",
-    "text": "Report Issues\nThis website is generated using Quarto. Should you find any issue, please report it to the GitHub Repository!"
-  },
-  {
-    "objectID": "people.html",
-    "href": "people.html",
-    "title": "People",
-    "section": "",
-    "text": "Research Professor\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "people.html#current-members",
-    "href": "people.html#current-members",
-    "title": "People",
-    "section": "",
-    "text": "Research Professor\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "people.html#alumni",
-    "href": "people.html#alumni",
-    "title": "People",
-    "section": "Alumni",
-    "text": "Alumni\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Name\n      \n      \n        Former Role\n      \n      \n        Started\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\nName\nFormer Role\nStarted\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "Resources",
-    "section": "",
-    "text": "For the code I wrote for the 1st-authored and some co-authorred publications, please refer to this GitHub repository."
-  },
-  {
-    "objectID": "resources.html#data",
-    "href": "resources.html#data",
-    "title": "Resources",
-    "section": "Data",
-    "text": "Data\n\nY. Wang and R. Braghiere (2024). Global scale leaf broadband optical properties derived from hyperspectral modeling Zenodo. DOI\nCliMA Land Team (2024). CliMA Land global simulations archive. Zenodo. DOI\nCliMA Land Team (2024). CliMA Land code archive. Zenodo. DOI\nY. Wang (2021). Artifacts of GriddingMachine.jl (v0.2) for land modeling. CaltechDATA. DOI\nY. Wang (2021). Test CliMA Land model with flux tower and TROPOMI SIF datasets. Zenodo. DOI"
-  },
-  {
-    "objectID": "resources.html#posters",
-    "href": "resources.html#posters",
-    "title": "Resources",
-    "section": "Posters",
-    "text": "Posters\n\nY. Wang et al. (2024). AGU Fall Meeting: Accounting for canopy structure improves GPP estimation from SIF. PDF\nY. Wang et al. (2019). AGU Fall Meeting: Modeling leaf investment within optimality theory. PDF"
-  },
-  {
-    "objectID": "resources.html#slides",
-    "href": "resources.html#slides",
-    "title": "Resources",
-    "section": "Slides",
-    "text": "Slides\n\nY. Wang (2025). Seminar @ University of Science and Technology of China: The “unstable” boundary layer of the atmosphere. PDF\nY. Wang (2025). Seminar @ Institute of Atmospheric Physics: Vegetation modeling for the next-generation Earth system models. PDF\nY. Wang (2025). Talk @ Future Atmospheric Sciences: From PFT to traits: Impacts of plant trait diversity on Earth system modeling. PDF\nY. Wang (2025). Seminar @ South China National Botanical Garden: Plant ecophysiology to power next-generation land surface modeling. PDF\nY. Wang (2025). Seminar @ Sun Yat-sen University. Plant ecophysiology for land surface modeling. PDF\nY. Wang (2024). Talk @ AGU 2024 Fall Meeting: From PFT to traits: Improving the canopy radiative transfer in Earth system modeling. PDF\nY. Wang (2024). Talk @ GRC Multiscale Plant Vascular Biology: (Modeling) Hydraulics from rhizosphere to landscape. PDF\nY. Wang, R. K. Braghiere, and C. Frankenberg (2023). Talk @ AGU Fall Meeting: Moving toward hyperspectral canopy radiative transfer in Earth system modeling. PDF\nY. Wang (2023). Faculty Job Talk @ University of Hong Kong: Moving toward the next-generation land surface modeling. PDF\nY. Wang (2023). Seminar @ Peking University: Next generation land surface model and global carbon cycle. PDF\nY. Wang (2023). Seminar @ University of Science and Technology of China: Next generation land surface model and global carbon cycle. PDF\nY. Wang, R. K. Braghiere, A. A. Bloom, and C. Frankenberg (2023). Talk @ EGU General Assembly: Modeling global vegetation processes and hyperspectral canopy radiative transfer using CliMA Land. PDF\nY. Wang (2023). Seminar @ JPL Carbon Club: Modeling global vegetation processes using a next-generation land surface model—CliMA Land. PDF\nY. Wang (2023). Faculty Job Talk @ University of Central Florida: Modeling vegetation processes from organ to global scale. PDF\nY. Wang (2022). Seminar @ 2nd Model Hierarchy Workshop: Modeling canopy fluxes and optical properties using CliMA Land. PDF\nY. Wang (2022). Talk @ RUBISCO SFA: GriddingMachine.jl: A database and software for Earth system modeling. PDF\nY. Wang (2022). Talk @ GeoCarb Science Meeting: Modeling canopy fluxes and optical properties using CliMA Land. PDF\nY. Wang (2020). Seminar @ JPL Carbon Club: Modeling optimal leaf area and photosynthetic capacity from plant traits and climate. PDF\nY. Wang (2020). Seminar @ Huazhong Agriculture University: Plant hydraulics and stomatal control. PDF\nY. Wang (2019). Postdoc Job Talk @ California Institute of Technology: Improve leaf gas exchange modeling with gain vs. risk optimization. PDF\nY. Wang (2019). TGIF Seminar @ University of Utah: How to stack chloroplasts in palisade mesophyll? PDF\nY. Wang (2018). Seminar @ Institute of Applied Ecology: Modeling the stomatal control from plant physiological traits. PDF\nY. Wang (2018). Seminar @ Guangxi University: Modeling the stomatal control from plant physiological traits. PDF\nY. Wang (2018). TGIF Seminar @ University of Utah: Evolutionary drivers of stomatal size and density. PDF\nY. Wang (2017). TGIF Seminar @ University of Utah: Modelling the trade-off between water usage and photosynthesis in trees. PDF"
-  },
-  {
-    "objectID": "resources.html#software",
-    "href": "resources.html#software",
-    "title": "Resources",
-    "section": "Software",
-    "text": "Software\n\nCliMA Land v0.1\nCliMA Land Global Simulation v0.1 (private)\nEmerald\nGriddingMachine.jl\nOrmosia (private)\nPublished Code"
+    "text": "PhD Thesis (2020). University of Utah. Carbon gain and risk in modeling leaf gas exchange. Dissertation Defense\nPhD Proposal (2017). University of Utah. Carbon gain and risk in modeling leaf gas exchange. Proposal Defense\nMaster Thesis (2013). University of Science and Technology of China. Theory and Model of Centrifuge Method in Vulnerability Curve (离心机法测枝条脆弱性曲线的理论与模型). Thesis Defense\nMaster Proposal (2012). University of Science and Technology of China. Modeling of Plant Hydraulics (植物水力模型构建). Proposal Defense"
   },
   {
     "objectID": "research.html",
@@ -630,18 +532,123 @@
     "text": "Nature-based Climate Solutions"
   },
   {
-    "objectID": "theses.html",
-    "href": "theses.html",
-    "title": "Thesis",
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
     "section": "",
-    "text": "PhD Thesis (2020). University of Utah. Carbon gain and risk in modeling leaf gas exchange. Dissertation Defense\nPhD Proposal (2017). University of Utah. Carbon gain and risk in modeling leaf gas exchange. Proposal Defense\nMaster Thesis (2013). University of Science and Technology of China. Theory and Model of Centrifuge Method in Vulnerability Curve (离心机法测枝条脆弱性曲线的理论与模型). Thesis Defense\nMaster Proposal (2012). University of Science and Technology of China. Modeling of Plant Hydraulics (植物水力模型构建). Proposal Defense"
+    "text": "For the code I wrote for the 1st-authored and some co-authorred publications, please refer to this GitHub repository."
   },
   {
-    "objectID": "theses.html#yujie-wang",
-    "href": "theses.html#yujie-wang",
-    "title": "Thesis",
+    "objectID": "resources.html#data",
+    "href": "resources.html#data",
+    "title": "Resources",
+    "section": "Data",
+    "text": "Data\n\nY. Wang and R. Braghiere (2024). Global scale leaf broadband optical properties derived from hyperspectral modeling Zenodo. DOI\nCliMA Land Team (2024). CliMA Land global simulations archive. Zenodo. DOI\nCliMA Land Team (2024). CliMA Land code archive. Zenodo. DOI\nY. Wang (2021). Artifacts of GriddingMachine.jl (v0.2) for land modeling. CaltechDATA. DOI\nY. Wang (2021). Test CliMA Land model with flux tower and TROPOMI SIF datasets. Zenodo. DOI"
+  },
+  {
+    "objectID": "resources.html#posters",
+    "href": "resources.html#posters",
+    "title": "Resources",
+    "section": "Posters",
+    "text": "Posters\n\nY. Wang et al. (2024). AGU Fall Meeting: Accounting for canopy structure improves GPP estimation from SIF. PDF\nY. Wang et al. (2019). AGU Fall Meeting: Modeling leaf investment within optimality theory. PDF"
+  },
+  {
+    "objectID": "resources.html#slides",
+    "href": "resources.html#slides",
+    "title": "Resources",
+    "section": "Slides",
+    "text": "Slides\n\nY. Wang (2025). Seminar @ University of Science and Technology of China: The “unstable” boundary layer of the atmosphere. PDF\nY. Wang (2025). Seminar @ Institute of Atmospheric Physics: Vegetation modeling for the next-generation Earth system models. PDF\nY. Wang (2025). Talk @ Future Atmospheric Sciences: From PFT to traits: Impacts of plant trait diversity on Earth system modeling. PDF\nY. Wang (2025). Seminar @ South China National Botanical Garden: Plant ecophysiology to power next-generation land surface modeling. PDF\nY. Wang (2025). Seminar @ Sun Yat-sen University. Plant ecophysiology for land surface modeling. PDF\nY. Wang (2024). Talk @ AGU 2024 Fall Meeting: From PFT to traits: Improving the canopy radiative transfer in Earth system modeling. PDF\nY. Wang (2024). Talk @ GRC Multiscale Plant Vascular Biology: (Modeling) Hydraulics from rhizosphere to landscape. PDF\nY. Wang, R. K. Braghiere, and C. Frankenberg (2023). Talk @ AGU Fall Meeting: Moving toward hyperspectral canopy radiative transfer in Earth system modeling. PDF\nY. Wang (2023). Faculty Job Talk @ University of Hong Kong: Moving toward the next-generation land surface modeling. PDF\nY. Wang (2023). Seminar @ Peking University: Next generation land surface model and global carbon cycle. PDF\nY. Wang (2023). Seminar @ University of Science and Technology of China: Next generation land surface model and global carbon cycle. PDF\nY. Wang, R. K. Braghiere, A. A. Bloom, and C. Frankenberg (2023). Talk @ EGU General Assembly: Modeling global vegetation processes and hyperspectral canopy radiative transfer using CliMA Land. PDF\nY. Wang (2023). Seminar @ JPL Carbon Club: Modeling global vegetation processes using a next-generation land surface model—CliMA Land. PDF\nY. Wang (2023). Faculty Job Talk @ University of Central Florida: Modeling vegetation processes from organ to global scale. PDF\nY. Wang (2022). Seminar @ 2nd Model Hierarchy Workshop: Modeling canopy fluxes and optical properties using CliMA Land. PDF\nY. Wang (2022). Talk @ RUBISCO SFA: GriddingMachine.jl: A database and software for Earth system modeling. PDF\nY. Wang (2022). Talk @ GeoCarb Science Meeting: Modeling canopy fluxes and optical properties using CliMA Land. PDF\nY. Wang (2020). Seminar @ JPL Carbon Club: Modeling optimal leaf area and photosynthetic capacity from plant traits and climate. PDF\nY. Wang (2020). Seminar @ Huazhong Agriculture University: Plant hydraulics and stomatal control. PDF\nY. Wang (2019). Postdoc Job Talk @ California Institute of Technology: Improve leaf gas exchange modeling with gain vs. risk optimization. PDF\nY. Wang (2019). TGIF Seminar @ University of Utah: How to stack chloroplasts in palisade mesophyll? PDF\nY. Wang (2018). Seminar @ Institute of Applied Ecology: Modeling the stomatal control from plant physiological traits. PDF\nY. Wang (2018). Seminar @ Guangxi University: Modeling the stomatal control from plant physiological traits. PDF\nY. Wang (2018). TGIF Seminar @ University of Utah: Evolutionary drivers of stomatal size and density. PDF\nY. Wang (2017). TGIF Seminar @ University of Utah: Modelling the trade-off between water usage and photosynthesis in trees. PDF"
+  },
+  {
+    "objectID": "resources.html#software",
+    "href": "resources.html#software",
+    "title": "Resources",
+    "section": "Software",
+    "text": "Software\n\nCliMA Land v0.1\nCliMA Land Global Simulation v0.1 (private)\nEmerald\nGriddingMachine.jl\nOrmosia (private)\nPublished Code"
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
     "section": "",
-    "text": "PhD Thesis (2020). University of Utah. Carbon gain and risk in modeling leaf gas exchange. Dissertation Defense\nPhD Proposal (2017). University of Utah. Carbon gain and risk in modeling leaf gas exchange. Proposal Defense\nMaster Thesis (2013). University of Science and Technology of China. Theory and Model of Centrifuge Method in Vulnerability Curve (离心机法测枝条脆弱性曲线的理论与模型). Thesis Defense\nMaster Proposal (2012). University of Science and Technology of China. Modeling of Plant Hydraulics (植物水力模型构建). Proposal Defense"
+    "text": "Research Professor\n\n\n\n\n\n\n\n\n\n\n\n\n\nStaff\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people.html#current-members",
+    "href": "people.html#current-members",
+    "title": "People",
+    "section": "",
+    "text": "Research Professor\n\n\n\n\n\n\n\n\n\n\n\n\n\nStaff\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people.html#alumni",
+    "href": "people.html#alumni",
+    "title": "People",
+    "section": "Alumni",
+    "text": "Alumni\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Name\n      \n      \n        Former Role\n      \n      \n        Started\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\nName\nFormer Role\nStarted\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Research Professor\nSchool of Earth and Space Sciences\nUniversity of Science and Technology of China (USTC)\nNo.96, JinZhai Road Baohe District\nHefei, Anhui 230026, China\n\nOffice: 教学行政楼820 \nLab: 地球和空间科学前沿研究中心324-326 \n +86 xxx-xxxx-xxxx\n wyujie@ustc.edu.cn"
+  },
+  {
+    "objectID": "about.html#contact-information",
+    "href": "about.html#contact-information",
+    "title": "About",
+    "section": "",
+    "text": "Research Professor\nSchool of Earth and Space Sciences\nUniversity of Science and Technology of China (USTC)\nNo.96, JinZhai Road Baohe District\nHefei, Anhui 230026, China\n\nOffice: 教学行政楼820 \nLab: 地球和空间科学前沿研究中心324-326 \n +86 xxx-xxxx-xxxx\n wyujie@ustc.edu.cn"
+  },
+  {
+    "objectID": "about.html#report-issues",
+    "href": "about.html#report-issues",
+    "title": "About",
+    "section": "Report Issues",
+    "text": "Report Issues\nThis website is generated using Quarto. Should you find any issue, please report it to the GitHub Repository!"
+  },
+  {
+    "objectID": "plants.html",
+    "href": "plants.html",
+    "title": "Plants",
+    "section": "",
+    "text": "绿萝\n\n\n\n\n\n\n\n\n\n\n\n\n\n金边吊兰\n\n\n\n\n\n\n\n\n\n\n\n\n\n罗勒/荆芥\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "plants.html#greenhouse-plants",
+    "href": "plants.html#greenhouse-plants",
+    "title": "Plants",
+    "section": "",
+    "text": "绿萝\n\n\n\n\n\n\n\n\n\n\n\n\n\n金边吊兰\n\n\n\n\n\n\n\n\n\n\n\n\n\n罗勒/荆芥\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "plants.html#community-plants",
+    "href": "plants.html#community-plants",
+    "title": "Plants",
+    "section": "Community Plants",
+    "text": "Community Plants\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Latin Name\n      \n      \n        中文名\n      \n      \n        中国植物志\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\nLatin Name\n中文名\n中国植物志\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "For the code I wrote for the 1st-authored and some co-authorred publications, please refer to this GitHub repository"
+  },
+  {
+    "objectID": "publications.html#journal-papers",
+    "href": "publications.html#journal-papers",
+    "title": "Publications",
+    "section": "Journal Papers",
+    "text": "Journal Papers\n\nIn Press\n\n\n2025\n\nY. Wang, R. K. Braghiere, W. W. Fischer, Y. Yao, Z. Shen, T. Schneider, A. A. Bloom, D. Schimel, H. Croft, A. J. Winkler, M. Reichstein, and C. Frankenberg (2025). Impacts of leaf traits on vegetation optical properties in Earth system modeling. Nature Communications 16: 4968. DOI PDF\n\n\n\n2024\n\nY. Yao, P. Ciais, E. Joetzjer, W. Li, L. Zhu, Y. Wang, C. Frankenberg, and N. Viovy (2024). The impacts of elevated CO₂ on forest growth, mortality, and recovery in the Amazon rainforest. Earth System Dynamics 15(3): 763-778. DOI PDF\nY. Wang, R. K. Braghiere, Y. Yin, Y. Yao, D. Hao, and C. Frankenberg (2024). Beyond the visible: Accounting for ultraviolet and far‐red radiation in vegetation productivity and surface energy budgets. Global Change Biology 30(5): e17346. DOI PDF\nY. Wang, and C. Frankenberg (2024). Toward more accurate modeling of canopy radiative transfer and leaf electron transport in land surface modeling. Journal of Advances in Modeling Earth Systems 16(4): e2023MS003992. DOI PDF\nK. Liu, Y. Wang, T. Magney, and C. Frankenberg (2024). Non-steady-state stomatal conductance modeling and its implications: from leaf to ecosystem. Biogeosciences 21(6): 1501–1516. DOI PDF\nY. Yao, V. Humphrey, A. G. Konings, Y. Wang, Y. Yin, N. Holtzman, J. D. Wood, Y. Bar-On, and C. Frankenberg (2024). Investigating diurnal and seasonal cycles of vegetation optical depth retrieved from GNSS signals in a broadleaf forest. Geophysical Research Letters 51(6): e2023GL107121. DOI PDF\n\n\n\n2023\n\nN. Holtzman, Y. Wang, J. D. Wood, C. Frankenberg, and A. G. Konings (2023). Constraining plant hydraulics with microwave radiometry in a land surface model: Impacts of temporal resolution. Water Resources Research 59(11): e2023WR035481. DOI PDF\nY. Wang, and Y. Yin (2023). Agriculture in silico: Perspectives on radiative transfer optimization using vegetation modeling. Crop and Environment 2(4): 175-183. DOI PDF\nR. K. Braghiere, Y. Wang, A. Gagné-Landmann, P. G. Brodrick, A. A. Bloom, A. J. Norton, S. Ma, P. Levine, M. Longo, K. Deck, P. Gentine, J. R. Worden, C. Frankenberg, and T. Schneider (2023). The importance of hyperspectral soil albedo information for improving Earth system model projections. AGU Advances 4(4): e2023AV000910. DOI PDF\nX. Liang, D. Wang, Q. Ye, J. Zhang, M. Liu, H. Liu, K. Yu, Y. Wang, E. Hou, B. Zhong, L. Xu, T. Lv, S. Peng, H. Lu, P. Sicard, A. Anav, and D. S. Ellsworth (2023). Stomatal responses of terrestrial plants to global change. Nature Communications 14(1): 2188. DOI PDF\nY. Wang, R. K. Braghiere, M. Longo, A. J. Norton, P. Köhler, R. Doughty, Y. Yin, A. A. Bloom, and C. Frankenberg (2023). Modeling global vegetation gross primary productivity, transpiration and hyperspectral canopy radiative transfer simultaneously using a next generation land surface model—CliMA Land. Journal of Advances in Modeling Earth Systems 15(3): e2021MS002964. DOI PDF\n\n\n\n2022\n\nY. Wang, and C. Frankenberg (2022). Technical note: Common ambiguities in plant hydraulics. Biogeosciences 19(19): 4705-4714. DOI PDF\nY. Wang, P. Köhler, R. K. Braghiere, M. Longo, R. Doughty, A. A. Bloom, and C. Frankenberg (2022). GriddingMachine, a database and software for Earth system modeling at global and regional scales. Scientific Data 9: 258. DOI PDF\nR. Doughty, T. Kurosu, N. Parazoo, P. Köhler, Y. Wang, Y. Sun, and C. Frankenberg (2022). Global GOSAT, OCO-2 and OCO-3 solar induced chlorophyll fluorescence datasets. Earth System Science Data 14(4): 1513-1529. DOI PDF\nY. Wang, and C. Frankenberg (2022). On the impact of canopy model complexity on simulated carbon, water, and solar-induced chlorophyll fluorescence fluxes. Biogeosciences 19(1): 29-45. DOI PDF\n\n\n\n2021\n\nY. Wang, P. Köhler, L. He, R. K. Braghiere, R. Doughty, J. Wood, and C. Frankenberg (2021). Testing stomatal models at the stand level in deciduous angiosperm and evergreen gymnosperm forests using CliMA Land (v0.1). Geoscientific Model Development 14(11): 6741-6763. DOI PDF\nA. G. Konings, S. S. Saatchi, C. Frankenberg, M. Keller, V. Leshyk, W. R. L. Anderegg, V. Humphrey, A. M. Matheny, A. Trugman, L. Sack, E. Agee, M. L. Barnes, O. Binks, K. Cawse-Nicholson, B. O. Christoffersen, D. Entekhabi, P. Gentine, N. M. Holtzman, G. G. Katul, Y. Liu, M. Longo, J. Martinez-Vilalta, N. McDowell, P. Meir, M. Mencuccini, A. Mrad, K. A. Novick, R. S. Oliveira, P. Siqueira, S. C. Steele-Dunne, D. R. Thompson, Y. Wang, R. Wehr, J. D. Wood, X. Xu, and P. A. Zuidema (2021). Detecting forest response to droughts with global observations of vegetation water content. Global Change Biology 27(23): 6005-6024. DOI PDF\nP. Köhler, W. W. Fischer, G. R. Rossman, J. P. Grotzinger, R. Doughty, Y. Wang, Y. Yin, and C. Frankenberg (2021). Mineral luminescence observed from space. Geophysical Research Letters 48(19): e2021GL095227. DOI PDF\nR. K. Braghiere, Y. Wang, R. Doughty, D. Souza, T. Magney, J. Widlowski, M. Longo, A. Bloom, J. Worden, P. Gentine, and C. Frankenberg (2021). Accounting for canopy structure improves hyperspectral radiative transfer and sun-induced chlorophyll fluorescence representations in a new generation Earth System model. Remote Sensing of Environment 261: 112497. DOI PDF\nA. Potkay, A. T. Trugman, Y. Wang, M. D. Venturas, W. R. L. Anderegg, C. Mattos, and Y. Fan (2021). Coupled whole-tree optimality and xylem-hydraulics explain dynamic biomass partitioning. New Phytologist 230(6): 2226-2245. DOI PDF\nY. Wang, W. R. L. Anderegg, M. D. Venturas, A. T. Trugman, K. Yu, and C. Frankenberg (2021). Optimization theory explains nighttime stomatal responses. New Phytologist 230(4): 1550-1561. DOI PDF\n\n\n\n2020\n\nY. Wang, J. S. Sperry, W. R. L. Anderegg, M. D. Venturas, and A. T. Trugman (2020). Tansley Review: A theoretical and empirical assessment of stomatal optimization modeling. New Phytologist 227(2): 311–325. DOI PDF\n\n\n\n2019\n\nJ. S. Sperry, M. D. Venturas, H. N. Todd, A. T. Trugman, W. R. L. Anderegg, Y. Wang, and X. Tai (2019). The impact of rising CO₂ and acclimation on theresponse of US forests to global warming. Proceedings of the National Academy of Sciences of the United States of America 116(51): 25734–25744. DOI PDF\nA. T. Trugman, L. D. L. Anderegg, J. S. Sperry, Y. Wang, M. D. Venturas, and W. R. L. Anderegg (2019). Leveraging plant hydraulics to yield predictive and dynamic plant leaf allocation in vegetation models with climate change. Global Change Biology 25: 4008–4021. DOI PDF\nY. Wang, J. S. Sperry, M. D. Venturas, A. T. Trugman, D. D. Love, and W. R. L. Anderegg (2019). The stomatal response to rising CO₂ concentration and drought is predicted by a hydraulic trait-based optimization model. Tree Physiology 39(8): 1416–1427. DOI PDF\nK. Yu, G. R. Goldsmith, Y. Wang, and W. R. L. Anderegg (2019). Phylogenetic and biogeographic controls of plant nighttime stomatal conductance. New Phytologist 222(4): 1778–1788. DOI PDF\nG. Du, F. Feng, Y. Wang, and M. T. Tyree (2019). Do nano-particles cause recalcitrant vulnerability curves in Robinia? Testing with a four-cuvette Cochard rotor and with water extraction curves. Tree Physiology 39(1): 156–165. DOI PDF\nD. M. Love, M. D. Venturas, J. S. Sperry, P. D. Brooks, J. L. Pettit, Y. Wang, and W. R. L. Anderegg (2019). Dependence of aspen stands on a subsurface water subsidy: Implications for climate change impacts. Water Resource Research 55(3): 1833–1848. DOI PDF\n\n\n\n2018\n\nM. D. Venturas, J. S. Sperry, D. M. Love, E. H. Frehner, M. G. Allred, Y. Wang, and W. R. L. Anderegg (2018). A stomatal control model based on optimization of carbon gain versus hydraulic risk predicts aspen sapling responses to drought. New Phytologist. 220(3): 836–850. DOI PDF\n\n\n\n2017\n\nJ. S. Sperry, M. D. Venturas, W. R. L. Anderegg, M. Mencuccini, D. S. Mackay, Y. Wang, and D. M. Love (2017). Predicting stomatal responses to the environment from the optimization of photosynthetic gain and hydraulic cost. Plant Cell & Environment 40(6): 816–830. DOI PDF\n\n\n\n2016\n\nJ. S. Sperry, Y. Wang, B. T. Wolfe, D. S. Mackay, W. R. L. Anderegg, N. G. McDowell, and W. T. Pockman (2016). Pragmatic hydraulic theory predicts stomatal responses to climatic water deficits. New Phytologist. 212(3): 577–589. DOI PDF\n\n\n\n2015\n\nY. Wang, J. Liu, and M. T. Tyree (2015). Stem hydraulic conductivity depends on the pressure at which it is measured and how this dependence can be used to assess the tempo of bubble pressurization in recently cavitated vessels. Plant Physiology 169(4): 2597–2607. DOI PDF\nY. Wang, R. Pan, and M. T. Tyree (2015). Studies on the tempo of bubble formation in recently cavitated vessels: A model to predict the pressure of air bubbles. Plant Physiology 168(2): 521–531. DOI PDF\n\n\n\n2014\n\nY. Wang, R. Burlett, F. Feng, and M. T. Tyree (2014). Improved precision of hydraulic conductance measurements using a Cochard rotor in two different centrifuges. Journal of Plant Hydraulics 1: e-0007. DOI PDF\n\n\n\nEarlier\n\nJ. Liu, P. Fu, Y. Wang, and K. Cao (2012). Different drought-adaptation strategies as characterized by hydraulic and water-relations traits of evergreen and deciduous figs in a tropical karst forest. Plant Science Journal 30(5): 484-493. DOI PDF"
+  },
+  {
+    "objectID": "blogs.html",
+    "href": "blogs.html",
+    "title": "Blogs",
+    "section": "",
+    "text": "NFS server configuration and client setup\n\n\n\nTutorial\n\n\n\nSet up the network file system\n\n\n\n\n\nMay 30, 2025\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\n新文速递：植物光学性状多样性对地球系统模拟的影响\n\n\n\nLSM\n\nPaper\n\n\n\n地球系统模式常使用植物功能类群对植被分类，忽略陆地植被性状多样性。本研究以叶片光学特征为例，探究引入植物性状多样性对地球系统模式的重要性。\n\n\n\n\n\nMay 29, 2025\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nSSH without typing the password everytime\n\n\n\nTutorial\n\n\n\nUsing the public and private key pairing\n\n\n\n\n\nMay 6, 2025\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nqDebug() information does not show in Application Output\n\n\n\nTutorial\n\n\n\nqDebug() information stops showing up in Qt Creator, after I did something I did not know to impact Qt Creator…\n\n\n\n\n\nApr 30, 2025\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nThe real land modelers\n\n\n\nPoem\n\n\n\nThe part lyrics I did in July 2024\n\n\n\n\n\nMar 18, 2025\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nLogs of Reviews and Reviewing\n\n\n\nLogs\n\n\n\nLogs for the number of reviews we recieve and make. We try to balance the two!\n\n\n\n\n\nFeb 19, 2025\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\n国外驾照换中国驾照\n\n\n\nTutorial\n\n\n\n我换的是美国驾照\n\n\n\n\n\nFeb 14, 2025\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nVisiting Mel (4)\n\n\n\n随笔\n\n\n\n上一次见Mel还是2017年，不想已经时隔7年。。。\n\n\n\n\n\nDec 14, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nVisiting Mel (6)\n\n\n\n随笔\n\n\n\n上一次见Mel还是2017年，不想已经时隔7年。。。\n\n\n\n\n\nDec 14, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nVisiting Mel (1)\n\n\n\n随笔\n\n\n\n上一次见Mel还是2017年，不想已经时隔7年。。。\n\n\n\n\n\nDec 14, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nVisiting Mel (6)\n\n\n\n随笔\n\n\n\n上一次见Mel还是2017年，不想已经时隔7年。。。\n\n\n\n\n\nDec 14, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nVisiting Mel (5)\n\n\n\n随笔\n\n\n\n上一次见Mel还是2017年，不想已经时隔7年。。。\n\n\n\n\n\nDec 14, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nVisiting Mel (3)\n\n\n\n随笔\n\n\n\n上一次见Mel还是2017年，不想已经时隔7年。。。\n\n\n\n\n\nDec 14, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nVisiting Mel (2)\n\n\n\n随笔\n\n\n\n上一次见Mel还是2017年，不想已经时隔7年。。。\n\n\n\n\n\nDec 14, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nAGU 2024 Fall Meeting\n\n\n\nConference\n\n\n\nsilicormosia @ Washington DC\n\n\n\n\n\nNov 13, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nGriddingMachine Tutorial 6\n\n\n\nTutorial\n\nGriddingMachine\n\n\n\nHow to use the Collector module of GriddingMachine.jl (v0.3)?\n\n\n\n\n\nOct 30, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nGriddingMachine Tutorial 5\n\n\n\nTutorial\n\nGriddingMachine\n\n\n\nUpdate to version 0.3.0\n\n\n\n\n\nOct 29, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nGriddingMachine Tutorial 4\n\n\n\nTutorial\n\nGriddingMachine\n\n\n\nHow to use the Requestor module of GriddingMachine.jl?\n\n\n\n\n\nOct 9, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\n经纬岛 第一章\n\n\n\n现代诗\n\n经纬岛\n\n\n\n上大学时，在大学生心理学课上学到一个词叫做被爱妄想，老师举的例子也特别生动：某男追求某女未果，得知其新交了男朋友，便有了名场面。曰那男生长的那么丑，根本没我帅，你肯定是在考验我！！！\n\n\n\n\n\nJun 21, 2024\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\n经纬岛 第一章\n\n\n\n现代诗\n\n经纬岛\n\n\n\n穷困潦倒时的自卑与怯懦，或许会给人埋在心底最纯粹的情感，但或许只是浮想联翩的意淫。。。\n\n\n\n\n\nJun 15, 2024\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\nAccounting for ultraviolet and far-red radiation in land surface modeling\n\n\n\nLSM\n\nPaper\n\n\n\nUV is not explicitly accounted for in LSM; FR can boost photosynthesis but LSMs typically treat it as NIR. How can we improve these?\n\n\n\n\n\nMay 27, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\n经纬岛 第一章\n\n\n\n现代诗\n\n经纬岛\n\n\n\n刚开始开发CliMA Land时我也是踌躇满志的，结果过了这些年依旧没能将我的模型和大气模型耦合。再加上找工作也一直不顺利，心态居然都崩习惯了。。。\n\n\n\n\n\nMay 21, 2024\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\n经纬岛 第一章\n\n\n\n现代诗\n\n经纬岛\n\n\n\n凌晨时候听二哥说奶奶走了，而我仍在美国。上次回去是去年去香港大学面试，当时奶奶精神也还好，不曾想竟是见奶奶的最后一面。我痛恨自己没有早些回国找工作，也痛恨自己对生活的麻木。\n\n\n\n\n\nMay 17, 2024\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\nCliMA Land Benchmarks\n\n\n\nLogs\n\nLSM\n\n\n\nPerformance of CliMA Land global simulations: spatial patterns of annual means\n\n\n\n\n\nMay 7, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\n月下独酌\n\n\n\n古体诗\n\n\n\n周二夜驱车归家，见满月悬空，不禁唏嘘。。。\n\n\n\n\n\nApr 25, 2024\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\nImprove canopy radiative transfer and electron transport modeling\n\n\n\nLSM\n\nPaper\n\n\n\nLand surface models typically use broadband RT modeling, potentially resulting in biased PPAR and J calculations. How can we improve this?\n\n\n\n\n\nApr 7, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\n道\n\n\n\n古体诗\n\n\n\n飞熊临渊叹渔樵，何人解吾直中道。\n\n\n\n\n\nMar 28, 2024\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\nUsing GPS for research\n\n\n\nPaper\n\n\n\nGPP signals can be used to estimate canopy water content in various time scales\n\n\n\n\n\nMar 23, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nNon-steady state modeling\n\n\n\nPaper\n\nLSM\n\n\n\nModeling stomatal conductance at non-steady state in CliMA Land\n\n\n\n\n\nMar 22, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nGriddingMachine Tutorial 3\n\n\n\nTutorial\n\nGriddingMachine\n\n\n\nHow to use the Indexer module of GriddingMachine.jl?\n\n\n\n\n\nJan 30, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nGriddingMachine Tutorial 2\n\n\n\nTutorial\n\nGriddingMachine\n\n\n\nHow to use the Collector module of GriddingMachine.jl (v0.2)?\n\n\n\n\n\nJan 19, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nGriddingMachine Tutorial 1\n\n\n\nTutorial\n\nGriddingMachine\n\n\n\nHow to install different versions of GriddingMachine.jl?\n\n\n\n\n\nJan 12, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nAgriculture in silico\n\n\n\nPaper\n\n\n\nAgriculture in silico: Use of vegetation modeling for crop yield advances\n\n\n\n\n\nJan 3, 2024\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nCorner flowers\n\n\n\nPoem\n\n\n\nI see the flowers everyday when I drop off my kids\n\n\n\n\n\nMay 30, 2023\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nCliMA Land\n\n\n\nPaper\n\nLSM\n\n\n\nCliMA Land: A next-generation land surface model that bridges vegetation processes and remote sensing\n\n\n\n\n\nMay 1, 2023\n\n\nYujie Wang and Renato Braghiere\n\n\n\n\n\n\n\n\n\n\n\n\nTwo-legged crow\n\n\n\nPoem\n\n\n\nI am really pissed off by the two legged crow who thinks she has three\n\n\n\n\n\nApr 18, 2023\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\n经纬岛 第一章\n\n\n\n现代诗\n\n经纬岛\n\n\n\n打算写成一个长篇叙事诗，不知道写不写的好。。。\n\n\n\n\n\nSep 22, 2022\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\nGriddingMachine\n\n\n\nPaper\n\n\n\nGriddingMachine: A new database and software for sharing global datasets\n\n\n\n\n\nAug 17, 2022\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\nCanopy Model Complexity\n\n\n\nLSM\n\nPaper\n\n\n\nComparisons of vegetation canopy model complexities\n\n\n\n\n\nSep 30, 2021\n\n\nYujie Wang\n\n\n\n\n\n\n\n\n\n\n\n\n无题\n\n\n\n古体诗\n\n\n\n找到以前写的一首诗，随便命个名。。。\n\n\n\n\n\nOct 12, 2017\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\n无题\n\n\n\n古体诗\n\n\n\n找到以前写的一首诗，随便命个名。。。\n\n\n\n\n\nMar 19, 2013\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\n秋日\n\n\n\n古体诗\n\n\n\n又找到以前写的几首诗。。。\n\n\n\n\n\nOct 18, 2011\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\n无题\n\n\n\n古体诗\n\n\n\n找到以前写的一些诗，随便命个名。。。\n\n\n\n\n\nOct 1, 2011\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\n别版纳\n\n\n\n古体诗\n\n\n\n西双版纳纪行\n\n\n\n\n\nJun 2, 2011\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\n致谢\n\n\n\n骈文\n\n\n\n找到以前的致谢。。。\n\n\n\n\n\nJun 1, 2011\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\n等你想我的一天\n\n\n\n现代诗\n\n\n\n大学时候的诗（合辑）。。。\n\n\n\n\n\nMay 7, 2011\n\n\n王玉杰\n\n\n\n\n\n\n\n\n\n\n\n\n吻\n\n\n\n古体诗\n\n\n\n昨晚小杰带着小玉出去玩，嘻嘻，好开心呐……\n\n\n\n\n\nOct 23, 2010\n\n\n王玉杰\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "people/current/wyujie.html",
