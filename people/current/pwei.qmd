@@ -1,0 +1,24 @@
+---
+title: "PAN, Wei"
+image: pwei-people.jpg
+subtitle: "Staff"
+started: "2025"
+sortby: 2
+about:
+  id: hero-heading
+  image: pwei.jpg
+  template: solana
+  image-shape: round
+---
+
+Staff \
+School of Earth and Space Sciences \
+University of Science and Technology of China (USTC) \
+No.96, JinZhai Road Baohe District \
+Hefei, Anhui 230026, China \
+
+Office: 教学行政楼624 [{{< fa map >}}](https://ustc.edu.cn/info/1009/1036.htm){target="_blank"} \
+{{< fa phone >}} +86 (0551) 6360 3515 \
+{{< fa envelope >}} [weiwei7@ustc.edu.cn](mailto:weiwei7@ustc.edu.cn)
+
+Lab manager. She helps with many department affairs, such as news, seminars, and graduate defenses. She is definitely the primary staff of the Atmosphere Sciences.

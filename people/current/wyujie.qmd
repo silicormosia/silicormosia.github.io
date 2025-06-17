@@ -1,12 +1,13 @@
 ---
 title: "WANG, Yujie"
-image: wyujie.jpg
+image: wyujie-people.jpg
 subtitle: "Research Professor"
 started: "2025"
 sortby: 1
 about:
   id: hero-heading
   template: solana
+  image: wyujie.jpg
   image-shape: round
   links:
     - text: "{{< ai google-scholar >}} Google Scholar"

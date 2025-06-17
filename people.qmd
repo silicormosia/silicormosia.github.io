@@ -5,6 +5,7 @@ listing:
     contents: people/current
     type: grid
     image-height: 300px
+    grid-columns: 4
     grid-item-align: center
     sort: [sortby, title]
     fields: [image, title, subtitle]

@@ -5,6 +5,7 @@ listing:
     contents: plants/greenhouse
     type: grid
     image-height: 300px
+    grid-columns: 5
     grid-item-align: center
     sort: [sortby, title]
     fields: [image, title, subtitle]
