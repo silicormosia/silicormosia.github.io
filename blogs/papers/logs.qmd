@@ -16,12 +16,13 @@ It should be a responsibility to perform free peer reviews if you receive them f
 |:---------|:------------|:-------------------------------------------------|:---------------------|:-----------------|
 | 2025     | Yujie Wang  | Annals of Botany                                 |                      | 1                |
 |          | Yujie Wang  | Journal of Advances in Modeling Earth Systems    |                      | 5                |
-|          | Yujie Wang  | Nature Communications                            | 3                    |                  |
+|          | Yujie Wang  | Nature Communications                            | 3                    | 1                |
+|          | Yujie Wang  | New Phytologist                                  | 2                    |                  |
 |          | Yujie Wang  | Plant Physiology                                 |                      | 1                |
 |          | Yujie Wang  | Remote Sensing of Environment                    | 3                    |                  |
 |          | Yujie Wang  | Scientific Data                                  |                      | 2                |
 |          | Yujie Wang  | Tree Physiology                                  |                      | 1                |
-|          |             | **Summary**                                      | 6                    | 10               |
+|          |             | **Summary**                                      | 8                    | 11               |
 
 ## 2024
 
