@@ -60,6 +60,7 @@ Yujie is a Research Professor at USTC working on vegetation and land surface mod
 - [2025-present:]{.fw-bold} Research Professor, USTC
 - [2022-2025:]{.fw-bold} Research Scientist, Caltech
 - [2020-2022:]{.fw-bold} Postdoctoral Fellow, Caltech
+- [2013-2015:]{.fw-bold} Research Assistant, NWAFU
 
 ## Education
 
